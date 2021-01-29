@@ -1,0 +1,207 @@
+.promo {
+  padding-bottom: 100px;
+  background: linear-gradient(
+      178.94deg,
+      rgba(255, 253, 250, 0) 0.23%,
+      #fffdfa 98.42%
+    ),
+    linear-gradient(145.29deg, rgba(253, 244, 232, 0) 41.41%, #fffdfa 78.73%);
+  background-color: #f2e8dc;
+  @include r(1300) {
+    padding-bottom: 80px;
+  }
+
+  @include r(1024) {
+    padding-bottom: 80px;
+  }
+
+  @include r(640) {
+    padding-bottom: 60px;
+  }
+
+  @include r(480) {
+    padding-bottom: 50px;
+  }
+
+  &__container {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    @include r(1300) {
+      padding-top: 70px;
+    }
+    @include r(1024) {
+      padding-top: 70px;
+    }
+    @include r(768) {
+      flex-direction: column;
+      padding-top: 70px;
+    }
+    @include r(640) {
+      padding-top: 50px;
+    }
+    @include r(480) {
+      padding-top: 36px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 40px;
+
+    &-mob {
+      display: none;
+    }
+
+    @include r(1024) {
+      margin-bottom: 36px;
+    }
+
+    @include r(768) {
+      display: none;
+    }
+
+    &-mob {
+      @include r(768) {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+
+  &__descr {
+    max-width: 510px;
+    position: relative;
+    line-height: 1.8;
+    color: #777777;
+    &:after {
+      content: "";
+      background-image: url(../img/svg/promo-waves.svg);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 279px;
+      height: 127px;
+      position: absolute;
+      top: 0px;
+      right: -425px;
+      z-index: 1;
+
+      @include r(1300) {
+        content: none;
+        background-image: none;
+      }
+    }
+
+    @include r(1300) {
+      max-width: 100%;
+    }
+    @include r(640) {
+      line-height: 1.6;
+    }
+  }
+
+  &__image {
+    display: block;
+    position: relative;
+    z-index: 2;
+    width: 550px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+    @include r(1440) {
+      width: 500px;
+    }
+
+    @include r(1300) {
+      width: 450px;
+    }
+
+    @include r(1140) {
+      width: 400px;
+    }
+
+    @include r(1024) {
+      width: 340px;
+    }
+
+    &-wrap {
+      position: relative;
+      flex-shrink: 0;
+      margin-right: 110px;
+
+      @include r(1440) {
+        margin-right: 100px;
+      }
+
+      @include r(1300) {
+        margin-right: 90px;
+      }
+
+      @include r(1140) {
+        margin-right: 80px;
+      }
+
+      @include r(1024) {
+        margin-right: 50px;
+      }
+
+      @include r(768) {
+        margin-right: 0;
+        margin-bottom: 30px;
+      }
+
+      &:before {
+        content: "";
+        background-image: url(../img/promo__leaves.png);
+        background-size: contain;
+        background-position: top left;
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 485px;
+        position: absolute;
+        top: 16px;
+        left: -150px;
+        z-index: 1;
+
+        @include r(1300) {
+          width: 350px;
+          height: 350px;
+          left: -120px;
+        }
+
+        @include r(1024) {
+          width: 295px;
+          height: 302px;
+          top: 12px;
+          left: -90px;
+        }
+      }
+
+      &:after {
+        content: "";
+        background-image: url(../img/svg/promo-waves.svg);
+        background-size: contain;
+        background-position: top left;
+        background-repeat: no-repeat;
+        width: 279px;
+        height: 127px;
+        position: absolute;
+        top: 89px;
+        right: -59px;
+        z-index: 1;
+
+        @include r(1300) {
+          width: 250px;
+          height: 115px;
+        }
+
+        @include r(1024) {
+          width: 171px;
+          height: 87px;
+          top: 55px;
+          right: -36px;
+        }
+      }
+    }
+  }
+}

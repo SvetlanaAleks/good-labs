@@ -1,0 +1,13 @@
+- var HEADER_PROMO = LANG.about.header;
+
+section.promo
+	include ../banner-top
+	include ../mixins/menu.pug
+	+menu("about")
+	.promo__container.container
+		h2.promo__title.promo__title-mob.title.title--main!= HEADER_PROMO.title
+		.promo__image-wrap
+			img.promo__image(src="img/promo__pic.png", alt="")
+		.promo__info
+			h2.promo__title.title.title--main!= HEADER_PROMO.title
+			p.promo__descr.text--med!= HEADER_PROMO.desc
