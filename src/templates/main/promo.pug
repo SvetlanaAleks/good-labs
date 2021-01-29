@@ -1,0 +1,41 @@
+- var HEADER_MAIN = LANG.main.header;
+
+
+section.promo-prod
+	.promo-prod__wrapper.js-promo-banner
+		include banner-top
+		include ../mixins/menu.pug
+		+menu("index")
+		.container.promo-prod__container
+			h1.promo-prod__title.title.title--main!= HEADER_MAIN.title
+					span.promo-prod__base-wrap
+						span.promo-prod__base#typed 
+						svg(class='promo-circle promo-circle-animation promo-circle-hidden' width='194' height='89' viewBox='0 0 194 89' fill='none' xmlns='http://www.w3.org/2000/svg')
+							path(fill-rule='evenodd' clip-rule='evenodd' d='M160 11.5C132.878 10.7977 117.248 11.5433 90.392 15.7969C73.3579 18.4948 1.03851 32.5457 5.12507 58.3472C9.21163 84.1487 83.7117 76.5191 100.746 73.8212C117.78 71.1233 198.25 58.5982 188.248 29.6197C182.343 12.5138 152.408 14.3448 141.41 14.7953' stroke='#202124' stroke-width='2px')
+					#typed-strings(style="display:none;")
+						p!= HEADER_MAIN.animate_letter_1
+						p!= HEADER_MAIN.animate_letter_2
+						p!= HEADER_MAIN.animate_letter_3
+			.promo-prod__info
+				p.promo-prod__info--1!= HEADER_MAIN.text1
+				p.promo-prod__info--2!= HEADER_MAIN.text2
+			a.promo-prod__btn(href="")!= HEADER_MAIN.btn
+	.promo-prod__bottom
+		.container
+			.promo-prod__list
+				.item-adv0
+					.item-adv0__wrap-ico
+						img.item-adv0__ico(src="img/svg/item_adv_1.svg", alt="ico")
+					p.item-adv0__text!= HEADER_MAIN.item_text_1
+				.item-adv0
+					.item-adv0__wrap-ico
+						img.item-adv0__ico(src="img/svg/item_adv_2.svg", alt="ico")
+					p.item-adv0__text!= HEADER_MAIN.item_text_2
+				.item-adv0
+					.item-adv0__wrap-ico
+						img.item-adv0__ico(src="img/svg/item_adv_3.svg", alt="ico")
+					p.item-adv0__text!= HEADER_MAIN.item_text_3
+				.item-adv0
+					.item-adv0__wrap-ico
+						img.item-adv0__ico(src="img/svg/item_adv_4.svg", alt="ico")
+					p.item-adv0__text!= HEADER_MAIN.item_text_4

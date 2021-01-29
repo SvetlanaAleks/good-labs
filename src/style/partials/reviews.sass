@@ -1,0 +1,156 @@
+.reviews
+	padding-top: 127px
+	padding-bottom: 115px
+	position: relative
+	.container
+		position: relative
+	&--main
+		&::before
+			background: #FFF1E7
+	&::before
+		content: ''
+		display: block
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 50px
+		right: 0
+		z-index: -1
+		pointer-events: none
+		border-bottom-left-radius: 100px
+	+r(1300)
+		padding: 110px 0
+		&::before
+			left: 25px
+	+r(1140)
+		padding: 90px 0
+	+r(1024)
+		padding: 80px 0
+		&::before
+			left: 20px
+		.container
+			padding-left: 60px
+	+r(640)
+		padding-top: 50px
+		padding-bottom: 70px
+		.container
+			padding-left: 40px
+	+r(480)
+		padding-top: 37px
+		padding-bottom: 67px
+		&::before
+			border-bottom-left-radius: 50px
+	+r(374)
+		padding: 37px 0
+	&__title
+		margin-bottom: 48px
+		+r(480)
+			margin-bottom: 25px
+	&__slider
+		+r(768)
+			margin-bottom: 40px
+	&__btn
+		width: auto
+		position: absolute
+		bottom: 0
+		left: 0
+		transform: translateY(50%)
+		+r(1024)
+			left: 60px
+		+r(768)
+			position: static
+			margin: auto
+			transform: none
+	.slick-list
+		margin: 0 -20px
+		+r(1440)
+			margin: 0 -15px
+		+r(1140)
+			margin: 0 -10px
+		+r(640)
+			margin: 0 -20px 0 0
+	.slick-slide
+		margin: 0 20px
+		+r(1440)
+			margin: 0 15px
+		+r(1140)
+			margin: 0 10px
+	.slick-dots
+		margin-top: 122px
+		+r(1300)
+			margin-top: 100px
+		+r(890)
+			margin-top: 60px
+		+r(768)
+			margin-top: 0
+			position: absolute
+			bottom: -130px
+			justify-content: center
+			left: 50%
+			transform: translateX(-50%)
+		+r(480)
+			bottom: -120px
+		+r(374)
+			display: none !important
+	.slick-arrow
+		background: none
+		cursor: pointer
+		background: none
+		position: absolute
+		top: -86px
+		padding: 0
+		right: 0
+		z-index: 100
+		border: none
+		svg
+			transition: all .3s
+		&:hover
+			svg
+				opacity: 1
+		&.prev
+			right: 60px
+		+r(1024)
+			top: -81px
+		+r(480)
+			top: -51px
+			svg
+				width: 30px
+				height: 25px
+			&.prev
+				right: 41px
+
+.review
+	+r(640)
+		width: 280px !important
+	&__product
+		margin-bottom: 15px
+		+r(1024)
+			margin-bottom: 9px
+	&__desc
+		color: $garkgrey
+		line-height: 160%
+		padding-bottom: 37px
+		margin-bottom: 30px
+		border-bottom: 1px solid transparentize($garkgrey, .8)
+		+r(1140)
+			padding-bottom: 30px
+			margin-bottom: 23px
+		+r(480)
+			padding-bottom: 20px
+			margin-bottom: 18px
+	&__stars
+		margin-bottom: 20px
+		+r(480)
+			margin-bottom: 10px
+	&__info
+		display: flex
+		align-items: center
+	&__text
+		color: $garkgrey
+		line-height: 160%
+		&:not(:last-of-type)
+			margin-right: 14px
+			padding-right: 14px
+			border-right: 1px solid $garkgrey
+		+r(480)
+			font-size: 14px

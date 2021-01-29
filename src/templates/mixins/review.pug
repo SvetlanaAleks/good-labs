@@ -1,0 +1,8 @@
+mixin review(product, text, stars, name, date)
+	.review
+		h3.review__product.title.title--very-small!= product
+		p.review__desc.text--med!= text
+		img.review__stars(src=stars, alt="raiting")
+		.review__info
+			p.review__text.text--small!= name
+			p.review__text.text--small!= date

@@ -1,0 +1,34 @@
+- var PRODUCTS = LANG.main.products;
+
+include ../mixins/product
+
+-
+	const productsInfo = [
+		{
+			href: '#',
+			img: 'img/product_1.png',
+			stars: 'img/svg/raiting_review_1.svg',
+		},
+		{
+			href: '#',
+			img: 'img/product_2.png',
+			stars: 'img/svg/raiting_review_2.svg',
+		},
+		{
+			href: '#',
+			img: 'img/product_3.png',
+			stars: 'img/svg/raiting_review_1.svg',
+		}
+	];
+
+section.products
+	.products__info
+		.container.products__info-container
+			h2.products__title.title.title--med!= PRODUCTS.title
+			p.products__descr.text--med!= PRODUCTS.desc
+	.products__list
+		.container.products__list-container
+			.products__list-slider.slider-products
+				each product, key in PRODUCTS.productsArray
+					+product(productsInfo[key].href, productsInfo[key].img, product.name, product.text, productsInfo[key].stars, product.reviews, product.price, product.link)
+	

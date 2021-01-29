@@ -1,0 +1,271 @@
+.products-menu {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 90;
+  box-shadow: 0px 90px 110px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  transform: translateY(-500px);
+  transition: 0.3s;
+  background-color: #fffdfa;
+  &--mobile {
+    @include r(890) {
+      margin-top: 20px;
+    }
+  }
+  &:hover {
+    text-decoration: none;
+  }
+  &.active-product-menu {
+    z-index: 90;
+    transform: translateY(0px);
+    box-shadow: 0px 90px 110px rgba(0, 0, 0, 0.1);
+  }
+
+  &__close {
+    position: absolute;
+    top: 31px;
+    right: 34px;
+    cursor: pointer;
+    z-index: 10;
+
+    @include r(1024) {
+      top: 10px;
+      right: 10px;
+    }
+  }
+
+  @include r(890) {
+    position: static;
+    transform: none;
+    background-color: rgba(0, 0, 0, 0);
+    max-height: 0px;
+    overflow: visible;
+    display: none;
+  }
+
+  &.active-product-menu {
+    @include r(890) {
+      z-index: 90;
+      transform: none;
+      box-shadow: 0px 0 0 rgba(0, 0, 0, 0);
+      max-height: 1000px;
+      display: block;
+    }
+  }
+
+  &--desktop {
+    @include r(890) {
+      display: none !important;
+    }
+  }
+
+  &__container {
+    display: flex;
+    position: relative;
+
+    @include r(890) {
+      padding: 0 !important;
+    }
+
+    &:after {
+      content: "";
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: -35px;
+      left: 0;
+      z-index: 1;
+      background-image: url(../img/svg/promo-waves.svg);
+      background-position: center;
+      width: 279px;
+      height: 127px;
+
+      @include r(1300) {
+        width: 180px;
+      }
+
+      @include r(1140) {
+        display: none;
+        content: none;
+      }
+    }
+  }
+
+  &__title {
+    max-width: 265px;
+    padding-top: 90px;
+    margin-bottom: 130px;
+    margin-right: 70px;
+    flex-shrink: 0;
+
+    @include r(1440) {
+      padding-top: 60px;
+      margin-bottom: 100px;
+      margin-right: 50px;
+    }
+
+    @include r(1300) {
+      font-size: 18px;
+      padding-top: 40px;
+      margin-bottom: 70px;
+      margin-right: 40px;
+      max-width: 180px;
+    }
+
+    @include r(1140) {
+      display: none;
+    }
+  }
+
+  &__list {
+    display: flex;
+
+    @include r(1140) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @include r(890) {
+      flex-direction: column;
+      max-width: 295px;
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}
+
+.product_item {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  max-width: 38%;
+
+  @include r(1440) {
+    padding: 25px;
+  }
+
+  @include r(1024) {
+    padding: 17px;
+  }
+
+  @include r(890) {
+    padding: 0;
+    max-width: 100%;
+    &:not(:last-of-type) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+
+  &:not(:last-child) {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+
+    @include r(890) {
+      border-right: 0px solid rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  &--not-active {
+    opacity: 0.5;
+    user-select: none;
+    cursor: default;
+
+    * {
+      user-select: none;
+    }
+  }
+
+  &__img {
+    width: 92px;
+    margin-right: 27px;
+
+    @include r(374) {
+      width: 70px;
+      margin-right: 20px;
+    }
+  }
+
+  &__name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
+    line-height: 1.3;
+  }
+
+  &__descr {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: $garkgrey;
+    display: block;
+    line-height: 1.6;
+  }
+
+  &__stars {
+    padding-bottom: 17px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $garkgrey;
+  }
+
+  &__price {
+    font-size: 20px;
+    line-height: 1.1;
+    display: block;
+  }
+
+  &__info {
+    @include r(890) {
+      width: calc(100% - 119px);
+    }
+  }
+}
+
+.js-product-nav {
+  position: relative;
+
+  &::before {
+    content: "";
+    opacity: 0;
+    transition: 0.3s;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 2px;
+
+    @include r(890) {
+      opacity: 1;
+      width: 13px;
+      height: 7px;
+      transform: rotate(180deg);
+      border-top-left-radius: 0px;
+      right: -30px;
+      left: auto;
+      top: calc(50% - 3.5px);
+      background-image: url(../img/svg/nav-arrow.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  &.active-product-nav {
+    &::before {
+      opacity: 1;
+
+      @include r(890) {
+        transform: rotate(0deg);
+      }
+    }
+  }
+}

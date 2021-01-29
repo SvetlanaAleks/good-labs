@@ -1,0 +1,177 @@
+{
+  "locale": "en",
+  "title_index": "GoodLabs - Home",
+  "menu": {
+    "item1": "Home",
+    "item2": "Products",
+    "item3": "About",
+    "item4": "Ingredients",
+    "item5": "Knowledge",
+    "item6": "Contacts",
+    "item7": "Our Mission",
+    "item8": "News",
+    "item9": "Privacy Policy",
+    "item10": "Cookie Policy",
+    "item11": "Terms",
+    "item12": "Consumer rights protection",
+    "item13": "Сonsumers EU",
+    "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania"
+  },
+  "submenu": {
+    "title": "Умные формулы составов для вашего здоровья",
+    "productItemArray": [
+      {
+        "product": "Immunal",
+        "descr": "With Beta-Glucan",
+        "price": "€25.99",
+        "isNotActive": ""
+      },
+      {
+        "product": "Multi Vitamin",
+        "descr": "Vitamins & Minerals",
+        "price": "€20.99",
+        "isNotActive": ""
+      },
+      {
+        "product": "Anti Stress",
+        "descr": "With Maqui Berries",
+        "price": "€24.99",
+        "isNotActive": "product_item--not-active"
+      }
+    ]
+  },
+  "banner_bottom": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+  "main": {
+    "header": {
+      "title": "GoodLabs – <span class=\"nowrap\">good </span>",
+      "text1": "Vitamins for a strong foundation for your health",
+      "text2": "Everything has its foundation. The foundation of human health is a sufficient amount of vitamins and minerals in the body. GoodLabs products are designed to strengthen this foundation and help you live a full life.",
+      "btn": "About products",
+      "item_text_1": "Formulations <br />that work",
+      "item_text_2": "Smart product <br />line",
+      "item_text_3": "Niche <br />expertise",
+      "item_text_4": "Best <br />productions",
+      "animate_letter_1": "base!",
+      "animate_letter_2": "health!",
+      "animate_letter_3": "life!"
+    },
+    "formula": {
+      "title": "GoodLabs is German quality formulations and&nbsp;production",
+      "desc": "We are proud of the formulations of our products and modern production sites in Germany. Each of our products is crafted by professionals with years of experience, based on cutting-edge research from nutritional scientists. Goodlabs product formulations meet human health needs as effectively as possible."
+    },
+    "products": {
+      "title": "Why GoodLabs products were created",
+      "desc": " We know how hard it is to find a good health product. Many people have to try, make mistakes, and try again. GoodLabs vitamins and minerals are created to make sure you don't make mistakes. With our clever product formulations and assortments, most basic health needs can be met",
+      "productsArray": [
+        {
+          "name": "Immunal",
+          "text": "With Beta-Glucan",
+          "reviews": "280 Reviews",
+          "price": "€25.99",
+          "link": "<svg width='26' height='23' viewBox='0 0 26 23' fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 11.6351H25M25 11.6351C25 11.6351 21.071 8.55025 19 6.5C16.929 4.44975 14.3939 1.13513 14.3939 1.13513M25 11.6351C25 11.6351 21.1308 14.3647 19 16.5C16.9924 18.5119 14.3939 22.1351 14.3939 22.1351\" stroke=\"#202124\"/></svg>"
+        },
+        {
+          "name": "Multi Vitamin",
+          "text": "Vitamins & Minerals",
+          "reviews": "165 Reviews",
+          "price": "€20.99",
+          "link": "<svg width='26' height='23' viewBox='0 0 26 23' fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 11.6351H25M25 11.6351C25 11.6351 21.071 8.55025 19 6.5C16.929 4.44975 14.3939 1.13513 14.3939 1.13513M25 11.6351C25 11.6351 21.1308 14.3647 19 16.5C16.9924 18.5119 14.3939 22.1351 14.3939 22.1351\" stroke=\"#202124\"/></svg>"
+        },
+        {
+          "name": "Anti Stress",
+          "text": "With Maqui Berries",
+          "reviews": "0 Reviews",
+          "price": "€24.99",
+          "link": "Coming soon"
+        }
+      ]
+    },
+    "reviews": {
+      "title": "Reviews",
+      "btn": "Submit your review",
+      "reviewArray": [
+        {
+          "product": "Multi Vitamin",
+          "text": "Well, finally, vitamin complexes with a truly balanced composition appeared on sale! GoodLabs Multivitamin has a good dosage and is well absorbed by the body.",
+          "name": "Maria Bart",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "I have been looking for a complex remedy with balanced ingredients for a long time. Immunal was my discovery in this regard. Good prophylactic dosages and excellent bioavailability.",
+          "name": "Stephan Collins",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Multi Vitamin",
+          "text": "For me personally, the GoodLabs Multivitamin is the best I have tried. There is a good composition, each component has scientific confirmation of its effectiveness.",
+          "name": "Luca Fischer",
+          "date": "Jan 12, 2019"
+        },
+        {
+          "product": "Multi Vitamin",
+          "text": "I`ve started taking Multivitamin `cause I felt a lack of energy. For now it`s fine.",
+          "name": "Hans Hoffmann",
+          "date": "Jan 09, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "I discovered for myself another way to improve immunity by taking the Immunal complex. It contains beta-glucan, which increases the body's resistance during high season of acute respiratory viral infections.",
+          "name": "Michael Stolz",
+          "date": "Jan 12, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "I take Immunal , as well as my elderly parents do. I am worried about their life and health, so I try to support their immunity with fruits and the Immunal complex.",
+          "name": "Hans Schulz",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "I used to get sick often, but now not a single flu can knock me off my feet. That's what good immunity means!",
+          "name": "Christian Bart",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "It is a wonderful combination of vitamins, natural extracts and micro-elements that keeps you on your feet at the first sign of a cold.",
+          "name": "Petra Hoffman",
+          "date": "Jan 09, 2019"
+        },
+        {
+          "product": "Multi Vitamin",
+          "text": "Good dosage. I have been looking for a complex remedy for a long time, in which all components will be balanced. Goodlabs was my discovery in this regard. Good prophylactic dosages.",
+          "name": "David Barter",
+          "date": "Jan 09, 2019"
+        },
+        {
+          "product": "Multi Vitamin",
+          "text": "Well, finally, vitamin complexes with a truly balanced composition appeared on sale! GoodLabs Multivitamin has a good dosage and is well absorbed by the body.",
+          "name": "Maria Bart",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "I used to get sick often, but now not a single flu can knock me off my feet. Thats what good immunity means!",
+          "name": "Christian Bart",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "For me personally, the Immunal complex is optimal in terms of price and quality. But unlike synthetic products, the composition here is natural and balanced, each component has a scientific support of its effectiveness.",
+          "name": "Donnie Cowart",
+          "date": "Jan 09, 2019"
+        }
+      ]
+    },
+    "about": {
+      "title": "GoodLabs Community",
+      "text": "Join Us in Instagram @goodlabs.com"
+    },
+    "action": {
+      "title": "Multivitamins are maximum benefit in one package",
+      "desc": "GoodLabs multicomplex vitamins is the easiest way to support the body during intense mental and physical exertion and to compensate for the missing vitamins and minerals in the body.",
+      "btn": "Shop Now"
+    }
+  }
+}

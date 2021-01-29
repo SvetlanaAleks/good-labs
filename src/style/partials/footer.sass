@@ -1,0 +1,221 @@
+.footer
+	padding-top: 99px
+	padding-bottom: 100px
+	overflow: hidden
+	+r(1300)
+		padding: 80px 0
+	+r(1024)
+		padding: 60px 0
+	+r(480)
+		padding: 42px 0
+	&__wrapper
+		display: flex
+		align-items: flex-start
+		position: relative
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			width: 1px
+			top: 0
+			right: 370px
+			bottom: -100px
+			background: transparentize($garkgrey, .8)
+		+r(1440)
+			&::after
+				right: 350px
+		+r(1300)
+			&::after
+				right: 310px
+		+r(1140)
+			&::after
+				right: 280px
+		+r(1024)
+			&::after
+				right: calc(50% - 180px)
+		+r(890)
+			margin-bottom: 30px
+			&::after
+				bottom: 0
+				right: calc(50% - 120px)
+		+r(768)
+			flex-wrap: wrap
+			margin-bottom: 12px
+			&::after
+				display: none
+	&__col
+		max-width: 180px
+		width: 100%
+		margin-right: 40px
+		flex-shrink: 0
+		+r(1440)
+			max-width: 170px
+			margin-right: 30px
+		+r(1300)
+			max-width: 150px
+		+r(1140)
+			max-width: 140px
+			margin-right: 20px
+		+r(1024)
+			max-width: 100%
+			width: auto
+	&__copy
+		color: $grey
+		line-height: 160%
+		&--mob
+			display: none
+		+r(1024)
+			width: 13%
+		+r(890)
+			br
+				display: none
+			&--desc
+				display: none
+			&--mob
+				display: block
+				width: 100%
+				text-align: center
+		+r(480)
+			font-size: 14px
+
+	&__links
+		display: flex
+		align-items: flex-start
+		margin-right: 40px
+		max-width: 400px
+		width: 100%
+		+r(1440)
+			max-width: 370px
+			margin-right: 30px
+		+r(1300)
+			max-width: 330px
+		+r(1140)
+			max-width: 300px
+			margin-right: 20px
+		+r(1024)
+			max-width: 33%
+			.menu-footer
+				width: 50%
+		+r(890)
+			max-width: 40%
+		+r(768)
+			max-width: 64%
+		+r(480)
+			max-width: 375px
+			width: 100%
+			margin: 0 auto
+	&__link
+		color: $garkgrey
+		display: block
+		text-decoration: none
+		+nlt
+			margin-bottom: 15px
+		&:hover
+			text-decoration: underline
+	&__privacy
+		+r(1024)
+			max-width: 17%
+		+r(768)
+			max-width: 28%
+			&.footer__col
+				margin-right: 0
+		+r(480)
+			text-align: center
+			max-width: 100%
+			width: 100%
+			padding-top: 35px
+			margin-top: 40px
+			margin-bottom: 36px
+			border-top: 1px solid transparentize($garkgrey, .8)
+	&__right
+		max-width: 290px
+		width: 100%
+		margin-left: auto
+		+r(1440)
+			max-width: 270px
+		+r(1300)
+			max-width: 240px
+		+r(1140)
+			max-width: 220px
+		+r(1024)
+			max-width: 24%
+		+r(890)
+			max-width: 29%
+		+r(768)
+			max-width: 100%
+			text-align: center
+			padding-top: 20px
+			margin-top: 20px
+			border-top: 1px solid transparentize($garkgrey, .8)
+		+r(480)
+			padding-top: 0
+			margin-top: 0
+			border-top: none
+	&__address
+		color: $grey
+		line-height: 160%
+		margin-bottom: 51px
+		+r(1140)
+			margin-bottom: 40px
+		+r(1024)
+			margin-bottom: 30px
+		+r(768)
+			br
+				display: none
+	&__social
+		margin-bottom: 46px
+		+r(1140)
+			margin-bottom: 36px
+		+r(1024)
+			margin-bottom: 26px
+		+r(768)
+			margin-bottom: 30px
+	&__email-link
+		color: $garkgrey
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+
+.menu-footer
+	&__item
+		font-family: 'Tenor Sans', Arial, Helvetica, sans-serif
+		font-size: 20px
+		+nlt
+			margin-bottom: 20px
+		+r(1140)
+			font-size: 19px
+			+nlt
+				margin-bottom: 18px
+		+r(1024)
+			font-size: 18px
+			+nlt
+				margin-bottom: 18px
+		+r(768)
+			font-size: 20px
+			+nlt
+				margin-bottom: 20px
+	&__link
+		color: $garkgrey
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+
+.social
+	display: flex
+	font-size: 0
+	align-items: flex-end
+	+r(768)
+		justify-content: center
+	&__link
+		text-decoration: none
+		+nlt
+			margin-right: 40px
+		+r(1140)
+			+nlt
+				margin-right: 30px
+		+r(480)
+			+nlt
+				margin-right: 40px
+	.fico
+		color: #9DA8B2
+		font-size: 20px

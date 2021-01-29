@@ -1,0 +1,27 @@
+- var REVIEWS = LANG.main.reviews;
+
+include ../mixins/review
+
+-
+	const reviewStars = [
+		'img/svg/raiting_review_2.svg',
+		'img/svg/raiting_review_2.svg',
+		'img/svg/raiting_review_1.svg',
+		'img/svg/raiting_review_2.svg',
+		'img/svg/raiting_review_1.svg',
+		'img/svg/raiting_review_2.svg',
+		'img/svg/raiting_review_2.svg',
+		'img/svg/raiting_review_2.svg',
+		'img/svg/raiting_review_1.svg',
+		'img/svg/raiting_review_2.svg',
+		'img/svg/raiting_review_1.svg',
+		'img/svg/raiting_review_2.svg'
+	];
+
+section.reviews.reviews--main
+	.container
+		h2.reviews__title.title.title--med!= REVIEWS.title
+		.reviews__slider.slider-review.js-reviews-slider
+			each review, key in REVIEWS.reviewArray
+				+review(review.product, review.text, reviewStars[key], review.name, review.date)
+		a.reviews__btn.btn-empty(href="#")!= REVIEWS.btn

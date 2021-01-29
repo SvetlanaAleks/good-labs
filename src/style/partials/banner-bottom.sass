@@ -1,0 +1,39 @@
+.info-block
+	padding: 29px 0
+	&--orange
+		background: #FDF1DE
+		.info-block__text
+			span
+				color: $orange
+	&--green
+		background: #E4F4D3
+		.info-block__text
+			span
+				color: $green
+	+r(640)
+		padding: 20px 0
+	+r(480)
+		padding-top: 7px
+		padding-bottom: 22px
+	&__text
+		display: flex
+		align-items: flex-start
+		color: #494a50
+		line-height: 160%
+		span
+			font-size: 34px
+			margin-right: 17px
+			display: inline-block
+		+r(640)
+			display: block
+			span
+				display: block
+				margin-right: 0
+				margin-bottom: 10px
+				font-size: 30px
+		+r(480)
+			font-size: 12px
+			span
+				font-size: 24px
+				position: static
+				margin-bottom: 5px

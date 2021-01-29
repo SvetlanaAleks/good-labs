@@ -1,0 +1,11 @@
+mixin product(href, img, name, text, stars, reviews, price, link)
+	a.product(href=href)
+		img.product__img(src=img, alt="")
+		p.product__name.title.title--small!= name
+		p.product__desc.text--med!= text
+		span.product__raiting
+			img.product__stars(src=stars, alt="raiting")
+			span.product__reviews.text--med!=reviews
+		span.product__info
+			p.product__price.title.title--small!= price
+			span.product__link.text--med!= link

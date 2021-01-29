@@ -1,0 +1,29 @@
+include products-menu.pug
+
+- var SUBMENU = LANG.submenu;
+
+-
+	const productsInfo = [
+		{
+			link: '#',
+			img: 'img/product_1.png',
+			raiting: 'img/svg/raiting_review_1.svg',
+		},
+		{
+			link: '#',
+			img: 'img/product_2.png',
+			raiting: 'img/svg/raiting_review_2.svg',
+		},
+		{
+			link: '#',
+			img: 'img/product_3.png',
+			raiting: 'img/svg/raiting_review_1.svg',
+		}
+	];
+
+img.products-menu__close.js-close-products(src='img/svg/close.svg' alt='close')
+.products-menu__container.container
+	h2.products-menu__title.title.title--very-small!= SUBMENU.title
+	.products-menu__list
+		each product_item, key in SUBMENU.productItemArray
+			+product_item(productsInfo[key].link, product_item.isNotActive, productsInfo[key].img, product_item.product, product_item.descr, productsInfo[key].raiting, product_item.price)

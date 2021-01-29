@@ -1,0 +1,31 @@
+.banner-top
+	text-align: center
+	padding: 16px 35px
+	position: relative
+	&--orange
+		background: #FFF1CE
+	&--green
+		background: #E4F4D3
+	&--color
+		background: linear-gradient(90deg, #BF5394 0%, #6551B6 100%), #AC7897
+		.banner-top__text
+			color: white
+
+	+r(1024)
+		padding: 13px 30px
+	+r(640)
+		padding: 13px 20px
+	&__text
+		color: $garkgrey
+	&__close
+		position: absolute
+		right: 35px
+		cursor: pointer
+		top: 50%
+		transform: translateY(-50%)
+		+r(1024)
+			right: 30px
+			width: 20px
+		+r(640)
+			width: 16px
+			right: 20px

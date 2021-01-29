@@ -1,0 +1,177 @@
+{
+  "locale": "de",
+  "title_index": "GoodLabs - Hauptseite",
+  "menu": {
+    "item1": "Hauptseite",
+    "item2": "Produkte",
+    "item3": "Über uns",
+    "item4": "Komponenten",
+    "item5": "Wissen",
+    "item6": "Kontakte",
+    "item7": "Unsere Mission",
+    "item8": "Nachrichten",
+    "item9": "Datenschutzerklärung",
+    "item10": "Cookie-Richtlinie",
+    "item11": "Bedingungen",
+    "item12": "Verbraucherschutz",
+    "item13": "EU-Käufer",
+    "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania"
+  },
+  "submenu": {
+    "title": "Умные формулы составов для вашего здоровья",
+    "productItemArray": [
+      {
+        "product": "Immunal",
+        "descr": "Mit Beta-Glucan",
+        "price": "€25.99",
+        "isNotActive": ""
+      },
+      {
+        "product": "Multi Vitamin",
+        "descr": "Vitamine & Mineralien",
+        "price": "€20.99",
+        "isNotActive": ""
+      },
+      {
+        "product": "Anti Stress",
+        "descr": "With Maqui Berries",
+        "price": "€24.99",
+        "isNotActive": "product_item--not-active"
+      }
+    ]
+  },
+  "banner_bottom": "Diese Aussagen wurden von dem Bundesinstitut für Arzneimittel und Medizinprodukte nicht bewertet. Dieses Produkt ist nicht zur Diagnose, Behandlung, Heilung oder Vorbeugung von Krankheiten bestimmt.",
+  "main": {
+    "header": {
+      "title": "GoodLabs – <span class=\"nowrap\">gute </span>",
+      "text1": "Vitamine für eine zuverlässige Grundlage Ihrer Gesundheit",
+      "text2": "Alles hat seine Grundlage. Die Grundlage für die menschliche Gesundheit ist eine ausreichende Menge an Vitaminen und Mineralstoffen im Körper. GoodLabs Produkte wurden hergestellt, um diese Grundlage zu stärken und Ihnen zu helfen, ein erfülltes Leben zu führen",
+      "btn": "Über Produkte",
+      "item_text_1": "Zusammensetzungen, <br />die funktionieren",
+      "item_text_2": "Intelligente <br />Produktlinie",
+      "item_text_3": "Nischenkompetenz",
+      "item_text_4": "Beste <br />Produktionen",
+      "animate_letter_1": "Basis!",
+      "animate_letter_2": "Gesundheit!",
+      "animate_letter_3": "Leben!"
+    },
+    "formula": {
+      "title": "GoodLabs - Deutsche Qualität der Zusammensetzung und Produktion",
+      "desc": "Wir sind stolz auf die Formeln unserer Produkte und modernen Produktionsstätten in Deutschland. Jedes unserer Produkte wird von Fachleuten mit langjähriger Erfahrung auf der Grundlage der fortgeschrittenen Forschung von Wissenschaftlern im Bereich der Nutriziologie erstellt. Die Produktformeln von Goodlabs erfüllen die Bedürfnisse der menschlichen Gesundheit so effektiv wie möglich."
+    },
+    "products": {
+      "title": "Wofür wurden Produkte GoodLabs hergestellt",
+      "desc": "Wir wissen, wie schwer es ist, ein gutes Produkt für Gesundheit zu finden. Viele müssen es ausprobieren, machen Fehler und probieren etwas erneut aus. Die Vitamine und Mineralien von GoodLabs sind hergestellt, damit Sie sich nicht mehr irren. Dank unserer intelligenten Formeln und Produktsortimente ist es möglich, die meisten Grundbedürfnisse in Gesundheitsfragen zu lösen.",
+      "productsArray": [
+        {
+          "name": "Immunal",
+          "text": "Mit Beta-Glucan",
+          "reviews": "280 Kommentare",
+          "price": "€25.99",
+          "link": "<svg width='26' height='23' viewBox='0 0 26 23' fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 11.6351H25M25 11.6351C25 11.6351 21.071 8.55025 19 6.5C16.929 4.44975 14.3939 1.13513 14.3939 1.13513M25 11.6351C25 11.6351 21.1308 14.3647 19 16.5C16.9924 18.5119 14.3939 22.1351 14.3939 22.1351\" stroke=\"#202124\"/></svg>"
+        },
+        {
+          "name": "Multi Vitamin",
+          "text": "Vitamine & Mineralien",
+          "reviews": "165 Kommentare",
+          "price": "€20.99",
+          "link": "<svg width='26' height='23' viewBox='0 0 26 23' fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 11.6351H25M25 11.6351C25 11.6351 21.071 8.55025 19 6.5C16.929 4.44975 14.3939 1.13513 14.3939 1.13513M25 11.6351C25 11.6351 21.1308 14.3647 19 16.5C16.9924 18.5119 14.3939 22.1351 14.3939 22.1351\" stroke=\"#202124\"/></svg>"
+        },
+        {
+          "name": "Anti Stress",
+          "text": "With Maqui Berries",
+          "reviews": "0 Kommentare",
+          "price": "€24.99",
+          "link": "Coming soon"
+        }
+      ]
+    },
+    "reviews": {
+      "title": "Kommentare",
+      "btn": "Lassen Sie Ihre Bewertung",
+      "reviewArray": [
+        {
+          "product": "Multi Vitamin",
+          "text": "Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung! GoodLabs Multivitamin hat eine gute Dosierung und wird vom Körper gut aufgenommen.",
+          "name": "Maria Bart",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgewogen sind. Immunal wurde meine Entdeckung in dieser Hinsicht. Gute prophylaktische Dosierungen und ausgezeichnete Bioverdaubarkeit.",
+          "name": "Stephan Collins",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Multi Vitamin",
+          "text": "Für mich persönlich war der GoodLabs Multivitamin Komplex das beste, was ich ausprobiert habe. Hier ist eine gute Zusammensetzung, jede Komponente hat eine wissenschaftliche Bestätigung der Wirksamkeit.",
+          "name": "Luca Fischer",
+          "date": "Jan 12, 2019"
+        },
+        {
+          "product": "Multi Vitamin",
+          "text": "Begann mit der Einnahme von Multivitamin, fühlte aber einen Mangel an Energie. Bis jetzt ist alles gut.",
+          "name": "Hans Hoffmann",
+          "date": "Jan 09, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "Für mich entdeckte ich einen anderen Weg, um die Immunität zu verbessern — es ist die Einnahme von Immunal. Es enthält Beta-Glucan, das den Widerstand des Körpers bei akuten Virusinfektionen der Atemwege erhöht.",
+          "name": "Michael Stolz",
+          "date": "Jan 12, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "Immunal wird nicht nur von mir, sondern auch von meinen Eltern eingenommen. Ich mache mir Sorgen um ihr Leben und ihre Gesundheit, also versuche ich, ihre Immunität mit Obst und dem Immunal-Komplex aufrechtzuerhalten.",
+          "name": "Hans Schulz",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "Früher war ich oft krank, aber jetzt bin ich immer gesund. Das ist, was gute Immunität bedeutet!",
+          "name": "Christian Bart",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "Eine wunderbare Kombination von Vitaminen, natürlichen Extrakten und Spurenelementen, die hilft, bei den ersten Anzeichen von Grippe und Erkältung auf den Beinen zu bleiben.",
+          "name": "Petra Hoffman",
+          "date": "Jan 09, 2019"
+        },
+        {
+          "product": "Multi Vitamin",
+          "text": "Gute Dosierung. Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgeglichen sind. Goodlabs wurde in dieser Hinsicht zu meiner Entdeckung. Gute präventive Dosierungen.",
+          "name": "David Barter",
+          "date": "Jan 09, 2019"
+        },
+        {
+          "product": "Multi Vitamin",
+          "text": "Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung! GoodLabs Multivitamin hat eine gute Dosierung und wird vom Körper gut aufgenommen.",
+          "name": "Maria Bart",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "Früher war ich oft krank, aber jetzt bin ich immer gesund. Das ist, was gute Immunität bedeutet!",
+          "name": "Christian Bart",
+          "date": "Jan 16, 2019"
+        },
+        {
+          "product": "Immunal",
+          "text": "Persönlich für mich ist der Komplex Immunal in Preis und Qualität optimal. Nur im Gegensatz zu Synthetik ist die Zusammensetzung hier natürlich und ausgewogen, jede Komponente hat eine wissenschaftliche Bestätigung der Wirksamkeit.",
+          "name": "Donnie Cowart",
+          "date": "Jan 09, 2019"
+        }
+      ]
+    },
+    "about": {
+      "title": "GoodLabs Community",
+      "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
+    },
+    "action": {
+      "title": "Multivitamine - maximaler Nutzen in einer Packung",
+      "desc": "GoodLabs Multi-Komplex von Vitaminen ist der einfachste Weg, um den Körper bei großer geistiger und körperlicher Anstrengung zu unterstützen und die fehlenden Vitamine und Mineralien im Körper zu kompensieren.",
+      "btn": "Shop Now"
+    }
+  }
+}

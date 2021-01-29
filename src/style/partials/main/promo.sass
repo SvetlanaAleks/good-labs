@@ -1,0 +1,218 @@
+.promo-prod
+	margin-left: 50px
+	+r(1440)
+		margin-left: 35px
+	+r(1300)
+		margin-left: 25px
+	+r(1024)
+		margin-left: 0
+	&__wrapper
+		padding-bottom: 220px
+		position: relative
+		background-image: url(../img/promo__img.png)
+		background-repeat: no-repeat
+		background-position: bottom -160px right calc(50% - 165px)
+		background-size: 1439px auto
+		.container
+			position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+			z-index: -1
+			pointer-events: none
+			border-bottom-left-radius: 100px
+			background: radial-gradient(30.68% 98.73% at 32.65% 48.72%, rgba(245, 231, 216, 0.8) 0%, rgba(242, 221, 198, 0) 100%), radial-gradient(20.78% 47.22% at 85.98% 103.83%, #CCA785 0%, rgba(249, 224, 200, 0) 100%), linear-gradient(293.02deg, rgba(255, 234, 213, 0) 42.18%, rgba(250, 234, 216, 0.8) 85.29%), linear-gradient(0deg, #EACDAF, #EACDAF)
+		+r(1680)
+			background-size: 70%
+			background-position: bottom -50px right -50px
+			padding-bottom: 120px
+		+r(1300)
+			padding-bottom: 110px
+		+r(1140)
+			padding-bottom: 90px
+		+r(1024)
+			padding-bottom: 80px
+			&::before
+				border-bottom-left-radius: 0px
+		+r(768)
+			background-position: bottom -20px right -20px
+		+r(640)
+			padding-bottom: 50px
+		+r(480)
+			background-size: 570px
+			background-position: right -40px bottom
+			padding-bottom: 20px
+		+r(374)
+			background-size: 550px
+			background-position: right -50px bottom
+	&__container
+		padding-top: 118px
+		+r(1140)
+			padding-top: 100px
+		+r(1024)
+			padding-top: 90px
+		+r(768)
+			padding-top: 80px
+		+r(640)
+			padding-top: 60px
+		+r(480)
+			padding-top: 50px
+	&__title
+		margin-bottom: 90px
+		+r(890)
+			margin-bottom: 40px
+		+r(480)
+			margin-bottom: 25px
+		+r(374)
+			font-size: 33px
+	&__base
+		position: relative
+	&__base-wrap
+		position: relative
+		min-width: 160px
+	&__info
+		position: relative
+		display: flex
+		margin-bottom: 45px
+		+r(890)
+			flex-direction: column
+			max-width: 500px
+			margin-bottom: 30px
+		+r(480)
+			margin-bottom: 0
+			padding-bottom: 270px
+		&::before
+			content: ''
+			position: absolute
+			top: -45px
+			left: 0
+			width: 68px
+			height: 1px
+			background-color: $garkgrey
+			+r(890)
+				top: -20px
+			+r(480)
+				content: none
+		&--1
+			max-width: 290px
+			font-family: 'Tenor Sans', sans-serif
+			font-size: 30px
+			line-height: 1.2
+			color: $garkgrey
+			margin-right: 40px
+			+r(1024)
+				font-size: 25px
+				max-width: 240px
+			+r(890)
+				margin-bottom: 20px
+				max-width: 310px
+			+r(768)
+				margin: 0
+		&--2
+			max-width: 310px
+			font-size: 16px
+			line-height: 1.6
+			color: $garkgrey
+			position: relative
+			+r(890)
+				max-width: 100%
+			+r(768)
+				display: none
+			&:after
+				content: '‘‘'
+				position: absolute
+				top: -50px
+				left: 0
+				font-family: 'Tenor Sans', sans-serif
+				font-size: 60px
+				line-height: 0.5
+				letter-spacing: -0.03em
+				color: $garkgrey
+				+r(890)
+					content: none
+	&__btn
+		display: block
+		max-width: 250px
+		font-family: 'Tenor Sans', sans-serif
+		font-size: 20px
+		line-height: 1.20
+		text-align: center
+		color: #FFFFFF
+		background-color: $orange
+		padding: 18px
+		border-top-left-radius: 20px
+		border-bottom-right-radius: 20px
+		+r(1024)
+			font-size: 17px
+			padding: 13px
+			max-width: 230px
+		+r(480)
+			font-size: 20px
+			max-width: 100%
+	&__bottom
+		padding: 45px 10px
+		border-bottom: 1px solid transparentize($garkgrey, .8)
+		+r(1024)
+			overflow-x: scroll
+			padding: 30px 0px
+	&__list
+		display: flex
+		justify-content: space-between
+		+r(1024)
+			width: 1000px
+		+r(480)
+			width: 830px
+
+
+.item-adv0
+	width: 23%
+	display: flex
+	align-items: center
+	+r(1024)
+		width: 254%
+	&__wrap-ico
+		flex-shrink: 0
+		margin-right: 25px
+		+r(1300)
+			margin-right: 20px
+		+r(1140)
+			margin-right: 15px
+		+r(1024)
+			width: 33px
+	&__text
+		font-family: 'Tenor Sans', sans-serif
+		font-size: 20px
+		line-height: 1.1
+		color: $garkgrey
+		+r(1300)
+			font-size: 16px
+
+.promo-circle-animation path
+	stroke-dasharray: 1000
+	stroke-dashoffset: 1000
+	animation: dash 1s 1 linear forwards
+
+@keyframes dash 
+	to 
+		stroke-dashoffset: 0
+
+.promo-circle
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translateX(-50%) translateY(-50%)
+	opacity: 1
+	transition: 0.3s
+	&.promo-circle-hidden
+		opacity: 0
+
+.promo-prod__base
+	opacity: 1
+	transition: 0.3s
+	&.promo-circle-hidden
+		opacity: 0

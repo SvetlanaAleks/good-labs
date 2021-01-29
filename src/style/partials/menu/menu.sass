@@ -1,0 +1,173 @@
+.menu
+	padding: 30px 35px 0
+	z-index: 9
+	+r(1024)
+		padding: 25px 30px 0
+	+r(768)
+		padding-top: 20px
+	+r(640)
+		padding: 15px 20px 0
+	&__wrap
+		display: flex
+		align-items: center
+		justify-content: space-between
+		max-width: 1610px
+		width: 100%
+		margin: auto
+		padding-bottom: 25px
+		border-bottom: 1px solid transparentize($garkgrey, .8)
+		+r(1024)
+			padding-bottom: 20px
+		+r(768)
+			padding-bottom: 15px
+		+r(640)
+			padding-bottom: 8px
+	&__logo
+		flex-shrink: 0
+		width: 233px
+		+r(1140)
+			width: 190px
+		+r(1024)
+			width: 180px
+		+r(640)
+			width: 150px
+		+r(480)
+			width: 124px
+	&__list
+		display: flex
+		+r(890)
+			display: none
+	&__right
+		display: flex
+		align-items: center
+		font-size: 0
+		+r(1024)
+			margin-left: 0
+	&__lang
+		cursor: pointer
+		+r(1140)
+		+r(890)
+			display: none
+
+.nav
+	&__item
+		cursor: pointer
+		&:hover
+			text-decoration: underline
+		&:not(:last-of-type)
+			margin-right: 43px
+		+r(1300)
+			&:not(:last-of-type)
+				margin-right: 30px
+		+r(1140)
+			&:not(:last-of-type)
+				margin-right: 20px
+		+r(1024)
+			&:not(:last-of-type)
+				margin-right: 15px
+	&__link
+		font-family: 'Tenor Sans', Arial, Helvetica, sans-serif
+		color: $garkgrey
+		font-size: 20px
+		line-height: 120%
+		text-decoration: none
+		transition: all .3s
+		+r(1300)
+			font-size: 19px
+		+r(1140)
+			font-size: 17px
+		+r(1024)
+			font-size: 16px
+
+
+.lang
+	position: relative
+	&:hover
+		.lang__list-wrap
+			display: block
+	.fico
+		color: $garkgrey
+		font-size: 19px
+	&__list-wrap
+		padding-top: 37px
+		position: absolute
+		top: 0
+		left: 50%
+		transform: translateX(-50%)
+		width: 53px
+		border-radius: 10px
+		display: none
+	&__list
+		border-radius: 10px
+		background: white
+		box-shadow: 0px 40px 60px rgba(22, 21, 44, 0.2)
+.lang-item
+	display: flex
+	align-items: center
+	text-decoration: none
+	padding: 12px 15px 12px 15px
+	transition: all .3s
+	&:nth-of-type(1)
+		position: relative
+		border-top-left-radius: 10px
+		border-top-right-radius: 10px
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			top: -8px
+			left: 50%
+			transform: translateX(-50%) rotate(45deg)
+			width: 23px
+			height: 19px
+			background: white
+			border-top-left-radius: 5px
+			transition: all .3s
+		&:hover
+			&::before
+				background: #E4F7FF
+	&:last-of-type
+		border-bottom-left-radius: 10px
+		border-bottom-right-radius: 10px
+	&:hover
+		background: #E4F7FF
+
+
+
+//mobile menu - burger
+.burger
+	display: none
+	+r(890)
+		display: flex
+		flex-direction: column
+		align-items: flex-end
+		justify-content: center
+		cursor: pointer
+		width: 29px
+		height: 16px
+	&__line
+		height: 1px
+		display: block
+		background-color: $garkgrey
+		position: relative
+		transition: all .4s
+		&:nth-child(1)
+			width: 100%
+			top: -6px
+		&:nth-child(2)
+			width: 19px
+		&:nth-child(3)
+			width: 25px
+			bottom: -6px
+	&--active
+		.burger__line
+			width: 30px
+			background-color: $garkgrey
+			&:nth-child(1)
+				transform: rotate(45deg)
+				top: 1px
+			&:nth-child(2)
+				display: none
+			&:nth-child(3)
+				transform: rotate(-45deg)
+				bottom: 0

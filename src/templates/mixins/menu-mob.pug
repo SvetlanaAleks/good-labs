@@ -1,0 +1,70 @@
+- var MENU = LANG.menu;
+
+include products-menu.pug
+
+-
+	const productItemArrayMob = [
+		{
+				link: '',
+				img: 'img/product_1.png',
+				product: 'Immunal',
+				descr: 'With Beta-Glucan',
+				raiting: 'img/svg/raiting_review_2.svg',
+				price: '€25.99',
+				isNotActive: ''
+		},
+		{
+				link: '',
+				img: 'img/product_2.png',
+				product: 'Multi Vitamin',
+				descr: 'Vitamins & Minerals',
+				raiting: 'img/svg/raiting_review_1.svg',
+				price: '€20.99',
+				isNotActive: ''
+		},
+		{
+				link: '',
+				img: 'img/product_3.png',
+				product: 'Anti Stress',
+				descr: 'With Maqui Berries',
+				raiting: 'img/svg/raiting_review_0.svg',
+				price: '€24.99',
+				isNotActive: 'product_item--not-active'
+		}
+	];
+
+mixin menu-mob(page)
+	.menu-mobile#js-mobile-menu
+		.menu-mobile__wrap
+			.menu-mobile__top
+				a.logo.menu-mobile__logo(href="index.html")
+					img.logo__img(src="img/svg/logo.svg", alt="goodlabs")
+				.burger.js-burger(data-target="#js-mobile-menu")
+					span.burger__line
+					span.burger__line
+					span.burger__line
+			ul.menu-mobile__nav.nav
+				li.nav__item
+					a.nav__link(href="index.html")!= MENU.item1
+				li.nav__item.nav__item--prod
+					a.nav__link.js-btn-submenu(href="")!= MENU.item2
+					.products-menu.products-menu--mobile.js-submenu
+						include submenu-mob.pug
+				li.nav__item
+					a.nav__link(href="")!= MENU.item3
+				li.nav__item
+					a.nav__link(href="")!= MENU.item4
+				li.nav__item
+					a.nav__link(href="")!= MENU.item5
+				li.nav__item
+					a.nav__link(href="")!= MENU.item6
+			.menu-mobile__bottom
+				.menu-mobile__lang.lang
+					i.fico.fico-world
+					.lang__list-wrap
+						.lang__list
+							a.lang-item(href=`${page}.html`)
+								img.lang-item__ico(src="img/svg/langEN.svg", alt="langEN")
+							a.lang-item(href=`/de/${page}.html`)
+								img.lang-item__ico(src="img/svg/langDE.svg", alt="langDE")
+				a.menu-mobile__link(href="mailto:support@goodlabs.com") support@goodlabs.com

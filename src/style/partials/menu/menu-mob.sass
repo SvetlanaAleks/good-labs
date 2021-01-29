@@ -1,0 +1,135 @@
+.menu-mobile
+	display: none
+	text-align: center
+	position: relative
+	padding-bottom: 35px
+	padding-top: 30px
+	background-size: 653px
+	position: relative
+	overflow: hidden
+	background: #FFFDFA
+	+r(890)
+		font-size: 20px
+		width: 375px
+		bottom: 0
+		display: block
+		position: fixed
+		right: 0
+		top: 0
+		z-index: 210
+		transform: translateX(100%)
+		transition: all 1s
+		&--active
+			transform: translateX(0)
+	+r(480)
+		width: 100%
+		padding-top: 14px
+
+	&__wrap
+		display: flex
+		flex-direction: column
+		align-items: center
+		height: 100%
+		overflow-y: auto
+		justify-content: space-between
+		padding: 0 20px
+	&__top
+		display: flex
+		align-items: center
+		width: 100%
+		justify-content: space-between
+		padding-bottom: 17px
+		border-bottom: 1px solid transparentize(#3D4859, .8)
+		+r(480)
+			padding-bottom: 11px
+	&__logo
+		width: 140px
+		+r(480)
+			width: 124px
+		.logo__img
+			max-width: 100%
+	&__nav
+		margin: auto
+		display: flex
+		flex-direction: column
+		text-align: center
+		padding-top: 30px
+		// min-height: 330px
+		text-align: left
+		width: 100%
+		margin-left: 20px
+		.nav
+			&__item
+				&--prod
+					.nav__link
+						position: relative
+						padding-right: 30px
+						display: inline-block
+						&::after
+							content: ''
+							display: block
+							position: absolute
+							opacity: 1
+							width: 13px
+							height: 7px
+							transform: rotate(180deg)
+							top: calc(50% - 3.5px)
+							right: 0
+							background-image: url(../img/svg/nav-arrow.svg)
+							background-size: contain
+							background-repeat: no-repeat
+							background-position: center
+				&:hover
+					text-decoration: none
+				&:not(:last-of-type)
+					margin-right: 0
+					margin-bottom: 19px
+			&__link
+				font-size: 30px
+	&__bottom
+		margin-top: 30px
+		width: 100%
+		margin-left: 20px
+		text-align: left
+	&__lang
+		margin-bottom: 25px
+		display: flex
+		width: 20px
+		.lang__list-wrap
+			top: auto
+			bottom: 0
+			left: -18px
+			transform: translate(0%,0)
+			padding-top: 0
+			padding-bottom: 37px
+			z-index: 11
+		.lang-item
+			&:nth-of-type(1)
+				position: static
+				&::before
+					display: none
+			&:nth-of-type(2)
+				position: relative
+				&::before
+					content: ''
+					display: block
+					position: absolute
+					bottom: -8px
+					left: 48%
+					transform: translateX(-50%) rotate(225deg)
+					width: 23px
+					height: 19px
+					background: white
+					border-top-left-radius: 5px
+					transition: all .3s
+				&:hover
+					&::before
+						background: #E4F7FF
+			&__ico
+				z-index: 1
+	&__link
+		color: $garkgrey
+		font-size: 14px
+		text-decoration: none
+		&:hover
+			text-decoration: underline
