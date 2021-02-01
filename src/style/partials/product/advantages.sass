@@ -1,0 +1,180 @@
+.advantages
+	padding-top: 60px
+	padding-bottom: 144px
+	+r(1440)
+		padding-bottom: 130px
+	+r(1140)
+		padding-bottom: 100px
+	+r(890)
+		padding-top: 20px
+	+r(768)
+		padding-bottom: 80px
+	+r(480)
+		padding-bottom: 42px
+	&__top
+		display: flex
+		align-items: flex-start
+		+r(890)
+			display: block
+			margin-bottom: 30px
+	&__title
+		line-height: 130%
+		max-width: 880px
+		width: 100%
+		margin-right: 70px
+		flex-shrink: 0
+		+r(1440)
+			max-width: 800px
+		+r(1300)
+			max-width: 720px
+			margin-right: 60px
+			line-height: 120%
+		+r(1140)
+			max-width: 640px
+		+r(1024)
+			max-width: 62%
+		+r(890)
+			max-width: 100%
+			margin-right: 0
+			margin-bottom: 15px
+		+r(480)
+			margin-bottom: 37px
+	&__desc
+		color: $grey2
+		line-height: 160%
+	&__photos
+		display: flex
+		justify-content: space-between
+		align-items: flex-end
+		margin-bottom: 180px
+		margin-top: -27px
+		+r(1440)
+			margin-bottom: 160px
+		+r(1300)
+			margin-bottom: 130px
+		+r(1140)
+			margin-bottom: 100px
+			margin-top: -70px
+		+r(890)
+			margin-top: 0
+			margin-bottom: 80px
+		+r(480)
+			justify-content: space-between
+			margin-bottom: 50px
+		&--multi-vitamin
+			margin-bottom: 0
+	&__photo
+		max-width: 400px
+		width: 100%
+		overflow: hidden
+		font-size: 0
+		display: flex
+		align-items: flex-end
+		&--mob
+			display: none
+		&--1
+			border-top-left-radius: 50%
+			border-top-right-radius: 50%
+		&--2
+			border-radius: 500px
+		&--3
+			border-radius: 500px
+		&--4
+			border-bottom-left-radius: 50%
+			border-bottom-right-radius: 50%
+		+r(1440)
+			max-width: 370px
+		+r(1300)
+			max-width: 330px
+		+r(1140)
+			max-width: 300px
+		+r(1024)
+			max-width: 31.2%
+		+r(480)
+			max-width: calc(100%/2 - 10px)
+			&--mob
+				display: block
+				margin-bottom: 37px
+				max-width: 100%
+			&--desc
+				display: none
+	&__bottom
+		display: flex
+		align-items: flex-end
+		+r(1024)
+			justify-content: space-between
+	&__left
+		max-width: 550px
+		width: 100%
+		margin-right: 81px
+		+r(1440)
+			max-width: 520px
+			margin-right: 55px
+		+r(1300)
+			max-width: 460px
+		+r(1140)
+			max-width: 430px
+			margin-right: 30px
+		+r(1024)
+			margin-right: 20px
+			max-width: 47%
+		+r(890)
+			max-width: 100%
+			margin-right: 0
+	&__ttl
+		line-height: 120%
+		margin-bottom: 32px
+		+r(1300)
+			margin-bottom: 20px
+		+r(480)
+			margin-bottom: 40px
+	&__text
+		color: $grey
+		margin-bottom: 44px
+		line-height: 160%
+		max-width: 88%
+		+r(1300)
+			margin-bottom: 30px
+		+r(1024)
+			max-width: 97%
+		+r(890)
+			margin-bottom: 20px
+		+r(480)
+			margin-bottom: 21px
+	&__link
+		color: $garkgrey
+		display: flex
+		align-items: center
+		span
+			margin-right: 20px
+		img
+			transition: all .3s
+		&:hover
+			img
+				transform: translateX(5px)
+		+r(480)
+			img
+				width: 24px
+	&__chart
+		flex-shrink: 0
+		max-width: 590px
+		width: 100%
+		&--mob
+			display: none
+		+r(1440)
+			max-width: 550px
+		+r(1300)
+			max-width: 500px
+		+r(1140)
+			max-width: 450px
+		+r(1024)
+			max-width: 47%
+		+r(890)
+			max-width: 450px
+			margin-bottom: 20px
+			&--desc
+				display: none
+			&--mob
+				display: block
+		+r(480)
+			margin-bottom: 30px
