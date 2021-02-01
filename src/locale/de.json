@@ -251,6 +251,18 @@
             "text": "Selen ist ein wichtiges Element des antioxidativen Schutzes. Es ist diese mineralische Substanz, die den Körper vor schädlichen Oxidationsmitteln schützt, Zellschäden und Infektionen verhindert."
           }
         ]
+      },
+      "advantages": {
+        "title": "GoodLabs Immunal - ist eine zuverlässige Unterstützung für Ihre Immunität",
+        "desc": "In der modernen Welt ist es für eine Person sehr schwierig, die Ernährung zu überwachen und einen gesunden Lebensstil zu führen, um eine starke Immunität zu erhalten. Aber es gibt eine Lösung. GoodLabs Immunal mit Beta-Glucan ist ein Vitamin-Mineral-Komplex mit wissenschaftlich bestätigten Wirkungen von Komponenten, um die Stärke der Immunität aufrechtzuerhalten.",
+        "ttl": "Beta-Glucan - ist ein wirksamer Immunmodulator",
+        "text": "β-Glucan ist ein starker Induktor für die epigenetische und funktionelle Neuprogrammierung von Zellen der angeborenen Immunität, einem Prozess namens «trainierte Immunität», der zu einer erhöhten Reaktion auf sekundäre Infektionen führt.",
+        "btn": "Mehr erfahren"
+      },
+      "feedback": {
+        "color": "orange",
+        "text": "Immunität ist ein wichtiges System des menschlichen Körpers, das Ihre Unterstützung benötigt. GoodLabs Immunal ist ein zuverlässiges Mittel für starke Immunität mit Dosierungen, die den Körper nicht schädigen.",
+        "info": "Experte <span>Dr. Gleaton</span> sagt"
       }
     }
   }
