@@ -187,5 +187,30 @@
       "item_2": "Специалистов <br />и когото",
       "item_3": "Страны <br />производителя"
     }
+  },
+  "products": {
+    "btn": "Want to Buy",
+    "text": "Package Quantity: ",
+    "item_1": "NO YEAST",
+    "item_2": "NO WHEAT",
+    "item_3": "FREE SOY <br>PROTEIN",
+    "item_4": "NO DAIRY <br> PRODUCTS",
+    "item_5": "NO CORN",
+    "item_6": "SUGAR FREE",
+    "item_7": "NO STARCH",
+    "count": "Count",
+    "weight": "Mg",
+    "immunal": {
+      "promo": {
+        "title": "Immunal",
+        "desc": "With Beta-Glucan",
+        "comment": "280 Reviews",
+        "item_1": "Supports and strengthens the immunity",
+        "item_2": "Strengthens the body's defenses against viruses and bacteria",
+        "item_3": "Has an antioxidant effect",
+        "item_4": "Contains powerful natural immunomodulators beta-glucan and elderberry extract and a complex of vital vitamins and minerals",
+        "item_5": "Sugar, Salt and Starch Free"
+      }
+    }
   }
 }

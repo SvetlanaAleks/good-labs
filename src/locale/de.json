@@ -187,5 +187,30 @@
       "item_2": "Специалистов <br />и когото",
       "item_3": "Страны <br />производителя"
     }
+  },
+  "products": {
+    "btn": "Bestellen",
+    "text": "Anzahl der Produkte: ",
+    "item_1": "ENTHÄLT KEINE HEFE",
+    "item_2": "ENTHÄLT KEIN MEHL",
+    "item_3": "SOJAFREI PROTEIN",
+    "item_4": "ENTHÄLT KEINE MOLKEREI PRODUKTE",
+    "item_5": "ENTHÄLT KEINE KÖRNER",
+    "item_6": "ZUCKERFREI",
+    "item_7": "ENTHÄLT KEIN STÄRKEMEHL",
+    "count": "Stück",
+    "weight": "mg",
+    "immunal": {
+      "promo": {
+        "title": "Immunal",
+        "desc": "Mit Beta-Glucan",
+        "comment": "280 Kommentare",
+        "item_1": "Unterstützt und stärkt das Immunsystem",
+        "item_2": "Stärkt die Schutzfunktionen des Körpers gegen Viren und Bakterien",
+        "item_3": "Hat eine antioxidative Wirkung",
+        "item_4": "Enthält leistungsstarke natürliche Immunmodulatoren wie Beta-Glucan und Holunder-Extrakt sowie einen Komplex aus lebenswichtigen Vitaminen und Mineralstoffen",
+        "item_5": "Ohne Zucker, Salz und Stärkemehl"
+      }
+    }
   }
 }

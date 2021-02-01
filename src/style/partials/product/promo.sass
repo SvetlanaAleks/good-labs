@@ -1,0 +1,375 @@
+.promo-product
+	padding-top: 81px
+	padding-bottom: 70px
+	+r(1140)
+		padding-top: 70px
+	+r(1024)
+		padding-top: 50px
+		padding-bottom: 60px
+	+r(480)
+		padding-bottom: 42px
+		padding-top: 40px
+	&__wrapper
+		display: flex
+		margin-bottom: 100px
+		+r(1300)
+			margin-bottom: 80px
+		+r(768)
+			display: block
+			margin-bottom: 30px
+	&__slider
+		flex-shrink: 0
+		max-width: 730px
+		width: 100%
+		margin-right: 40px
+		+r(1440)
+			max-width: 670px
+			margin-right: 30px
+		+r(1300)
+			max-width: 600px
+		+r(1140)
+			max-width: 540px
+			margin-right: 20px
+		+r(1024)
+			max-width: 54%
+		+r(768)
+			margin: auto
+			max-width: 380px
+		+r(640)
+			max-width: 100%
+	&__info
+		padding-top: 20px
+	&__bottom
+		padding: 17px 10px
+		border-top: 1px solid transparentize($garkgrey, .8)
+		border-bottom: 1px solid transparentize($garkgrey, .8)
+		+r(1300)
+			padding: 17px 0
+		+r(1024)
+			overflow-x: scroll
+	&__list
+		display: flex
+		justify-content: space-between
+		+r(1024)
+			width: 1000px
+		+r(480)
+			width: 830px
+
+
+.item-adv
+	display: flex
+	align-items: center
+	width: calc(100%/7 - 5px)
+	&__wrap-ico
+		flex-shrink: 0
+		margin-right: 20px
+		+r(1300)
+			margin-right: 10px
+	&__text
+		text-transform: uppercase
+		color: $grey
+		line-height: 110%
+		+r(1300)
+			font-size: 12px
+		+r(1140)
+			&.text--small
+				font-size: 11px
+
+.info-prod
+	&__title
+		margin-bottom: 22px
+		+r(1300)
+			margin-bottom: 17px
+		+r(1140)
+			margin-bottom: 15px
+		+r(480)
+			margin-bottom: 6px
+	&__desc
+		color: $garkgrey
+		margin-bottom: 23px
+		+r(1300)
+			margin-bottom: 17px
+		+r(1140)
+			margin-bottom: 15px
+	&__raiting
+		padding-bottom: 26px
+		margin-bottom: 30px
+		border-bottom: 1px solid transparentize($garkgrey, .8)
+		+r(1300)
+			padding-bottom: 22px
+			margin-bottom: 26px
+		+r(1140)
+			padding-bottom: 18px
+			margin-bottom: 22px
+		+r(1024)
+			margin-bottom: 24px
+		+r(480)
+			padding-bottom: 24px
+	&__list
+		max-width: 90%
+		margin-bottom: 46px
+		+r(1440)
+			max-width: 93%
+		+r(1300)
+			margin-bottom: 35px
+		+r(1140)
+			margin-bottom: 28px
+		+r(1024)
+			max-width: 100%
+	&__bottom
+		+r(768)
+			display: flex
+			flex-direction: column-reverse
+			padding-top: 27px
+			border-top: 1px solid transparentize($garkgrey, .8)
+	&__order
+		display: flex
+		align-items: center
+		padding-bottom: 50px
+		margin-bottom: 33px
+		border-bottom: 1px solid transparentize($garkgrey, .8)
+		+r(1300)
+			padding-bottom: 40px
+			margin-bottom: 30px
+		+r(1140)
+			padding-bottom: 35px
+			margin-bottom: 25px
+		+r(1024)
+			padding-bottom: 30px
+			margin-bottom: 20px
+		+r(768)
+			padding-bottom: 0
+			margin-bottom: 0
+			border-bottom: none
+		+r(480)
+			justify-content: space-between
+	&__price
+		margin-right: 40px
+		+r(1140)
+			margin-right: 30px
+		+r(1024)
+			margin-right: 20px
+	&__btn
+		width: 220px
+		+r(1140)
+			width: 200px
+		+r(1024)
+			width: 190px
+		+r(480)
+			width: 180px
+	&__detals
+		display: flex
+		align-items: center
+		+r(768)
+			margin-bottom: 22px
+	&__text
+		color: $grey
+		line-height: 120%
+		&:first-of-type
+			margin-right: 25px
+			padding-right: 25px
+			border-right: 1px solid $garkgrey
+		span
+			color: $garkgrey
+		+r(1140)
+			&:first-of-type
+				margin-right: 20px
+				padding-right: 20px
+		+r(1024)
+			&:first-of-type
+				margin-right: 10px
+				padding-right: 10px
+
+.raiting-prod
+	display: flex
+	align-items: center
+	&__img
+		margin-right: 20px
+		+r(480)
+			max-width: 108px
+	&__text
+		color: $garkgrey
+
+.list
+	color: $grey
+	&--orange
+		.list__item
+			&::before
+				background: $orange
+	&--green
+		.list__item
+			&::before
+				background: $green
+	&__item
+		position: relative
+		padding-left: 30px
+		line-height: 160%
+		&:not(:last-of-type)
+			margin-bottom: 11px
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			left: 0
+			top: 10px
+			width: 6px
+			height: 6px
+			border-radius: 50%
+		+r(1024)
+			&:not(:last-of-type)
+				margin-bottom: 10px
+
+.slider-prod
+	position: relative
+	&::before
+		content: ''
+		display: block
+		position: absolute
+	&--multi-vitamin
+		&::before
+			top: 100px
+			left: -46px
+			width: 297px
+			height: 249px
+			background: url('../img/prod_multi-vitamin_decor.svg') no-repeat center
+			transform: rotate(-8deg)
+	&--immunal
+		&::before
+			top: 7px
+			left: -76px
+			width: 365px
+			height: 347px
+			background: url('../img/svg/prod_immunal_decor.svg') no-repeat center
+	+r(1024)
+		&::before
+			width: 325px
+			height: 307px
+	+r(768)
+		&::before
+			left: -176px
+	+r(640)
+		&::before
+			left: -70px
+	+r(480)
+		&::before
+			width: 165px
+			height: 137px
+			background-size: 100%
+			top: 12px
+			left: calc(50% - 210px)
+	&__img
+		object-fit: contain
+		font-family: 'object-fit: contain;'
+		margin: auto
+	&__nav
+		.slick-slide
+			width: 80px !important
+			height: 80px
+			border: 1px solid $lightgrey
+			padding: 12px
+			cursor: pointer
+			margin-right: 10px
+			transition: all .3s
+			&.slick-current
+				border: 1px solid $orange
+			.slider-prod__img
+				width: 60px
+				height: 52px
+			+r(1024)
+				width: 65px !important
+				height: 65px
+				padding: 10px
+				.slider-prod__img
+					width: 55px
+			+r(480)
+				width: 50px !important
+				height: 50px
+				padding: 8px
+				margin-right: 5px
+	&__for
+		padding-left: 30px
+		+r(768)
+			padding-left: 0
+		.slick-slide
+			padding-bottom: 47px
+			+r(768)
+				padding-bottom: 30px
+		.slider-prod__wrap-img
+			+r(1140)
+				padding-top: 40px
+			+r(768)
+				padding-top: 0
+			&--border
+				padding-top: 60px
+				+r(1140)
+					padding-top: 40px
+				.slider-prod__img
+					box-shadow: -20px 24px 54px -20px rgba(0, 0, 0, 0.25)
+					border-radius: 10px
+					border: 1px solid $lightgrey
+					width: auto
+					height: auto
+					+r(1300)
+						max-width: 350px
+					+r(1140)
+						max-width: 330px
+					+r(1024)
+						min-width: 300px
+						max-width: 65%
+						box-shadow: -20px 24px 24px -20px rgba(0, 0, 0, 0.25)
+					+r(480)
+						min-width: 260px
+						box-shadow: -15px 20px 10px -20px rgba(0, 0, 0, 0.25)
+		.slider-prod__img
+			width: 520px
+			height: 570px
+			+r(1440)
+				width: 500px
+				height: 550px
+			+r(1300)
+				width: 480px
+				height: 530px
+			+r(1140)
+				width: 400px
+				height: 440px
+			+r(768)
+				height: auto
+			+r(480)
+				width: 241px
+
+
+	.slick-track
+		transform: none !important
+	.slick-arrow
+		cursor: pointer
+		background: none
+		position: absolute
+		bottom: -62px
+		z-index: 100
+		svg
+			transition: all .3s
+			max-width: 100%
+		&:hover
+			svg
+				opacity: 1
+		&.prev
+			left: 373px
+			+r(1024)
+				left: 303px
+			+r(480)
+				left: auto
+				right: 31px
+		&.next
+			left: 402px
+			+r(1024)
+				left: 332px
+			+r(480)
+				left: auto
+				right: 0
+		+r(1024)
+			bottom: -54px
+		+r(480)
+			padding: 0
+			bottom: -45px
+			svg
+				width: 11px

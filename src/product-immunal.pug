@@ -1,0 +1,8 @@
+extends templates/layout/layout.pug
+block head
+	title GoodLabs - Product Immunal
+block content
+	include templates/product/immunal/banner-top
+	include templates/mixins/menu.pug
+	+menu("product-immunal")
+	include templates/product/immunal/promo

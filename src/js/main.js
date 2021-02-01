@@ -6,6 +6,7 @@ import Controls from "./modules/Controls";
 import Sliders from "./modules/Sliders";
 
 $(function () {
+  objectFitImages();
   Controls.init();
   Menu.init();
   Sliders.init();
