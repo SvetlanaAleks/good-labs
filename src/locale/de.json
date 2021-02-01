@@ -263,6 +263,78 @@
         "color": "orange",
         "text": "Immunität ist ein wichtiges System des menschlichen Körpers, das Ihre Unterstützung benötigt. GoodLabs Immunal ist ein zuverlässiges Mittel für starke Immunität mit Dosierungen, die den Körper nicht schädigen.",
         "info": "Experte <span>Dr. Gleaton</span> sagt"
+      },
+      "technical": {
+        "title": "Technische Details",
+        "ttl": "Faserverbrauch",
+        "text_1": "1 Kapsel mit Wasser täglich während / nach der Mahzeit einnehmen.",
+        "text_2": "Überschreiten Sie nicht die empfohlene Tagesdosis. Das Nahrungsergänzungsmittel soll keine gesunde Ernährung ersetzen. Nehmen Sie das Produkt nicht bei individueller Unverträglichkeit der Inhaltsstoffe ein.",
+        "text_3": "In der Originalverpackung an einem dunklen, trockenen Ort aufbewahren. Nicht bei Temperaturen über 25°C lagern.",
+        "technicalInfoArray": {
+          "title": "2 vegetarische Kapseln enthalten:",
+          "list": [
+            {
+              "text1": "Vitamin C",
+              "text2": "200 mg (250%)"
+            },
+            {
+              "text1": "Vitamin B1",
+              "text2": "1,7 mg (150%)"
+            },
+            {
+              "text1": "Vitamin B2",
+              "text2": "2,1 mg (150%)"
+            },
+            {
+              "text1": "Vitamin B12",
+              "text2": "6,0 mg (240%)"
+            },
+            {
+              "text1": "Vitamin B6",
+              "text2": "2,1 mg (150%)"
+            },
+            {
+              "text1": "Biotin",
+              "text2": "750 ug (1500%)"
+            },
+            {
+              "text1": "Folsäure",
+              "text2": "400 ug (200%)"
+            },
+            {
+              "text1": "Vitamin D",
+              "text2": "20,0 ug (400%)"
+            },
+            {
+              "text1": "Vitamin A",
+              "text2": "333 ug (42%)"
+            },
+            {
+              "text1": "Zinc",
+              "text2": "10,0 mg (100%)"
+            },
+            {
+              "text1": "Kupfer",
+              "text2": "0,20 mg (20%)"
+            },
+            {
+              "text1": "Selen",
+              "text2": "100 ug (182%)"
+            },
+            {
+              "text1": "Histidin",
+              "text2": "50,0 mg"
+            },
+            {
+              "text1": "Holunderbeerextrakt 4:1",
+              "text2": "100 mg"
+            },
+            {
+              "text1": "Beta glucan",
+              "text2": "5,0 mg"
+            }
+          ]
+        }
       }
     }
   }

@@ -263,6 +263,78 @@
         "color": "orange",
         "text": "Immunity is an important system of the human body that needs your support. GoodLabs Immunal is a reliable remedy for strong immunity with dosages that will not harm the body.",
         "info": "Fertility expert <span>Dr. Gleaton</span> says"
+      },
+      "technical": {
+        "title": "Technical Information",
+        "ttl": "Fiber Usage",
+        "text_1": "Take 1 capsule daily with water with or after food. ",
+        "text_2": "Do not exceed the recommended daily dose. A food supplement is not intended to substitute for a healthy diet. Do not use the product in case o individual intolerance to the ingredients.",
+        "text_3": "Store in the original packaging in a dark dry place. Do not store above 25 °C.",
+        "technicalInfoArray": {
+          "title": "2 Vegetarian Capsules Contain:",
+          "list": [
+            {
+              "text1": "Vitamin C",
+              "text2": "200 mg (250%)"
+            },
+            {
+              "text1": "Vitamin B1",
+              "text2": "1,7 mg (150%)"
+            },
+            {
+              "text1": "Vitamin B2",
+              "text2": "2,1 mg (150%)"
+            },
+            {
+              "text1": "Vitamin B12",
+              "text2": "6,0 mg (240%)"
+            },
+            {
+              "text1": "Vitamin B6",
+              "text2": "2,1 mg (150%)"
+            },
+            {
+              "text1": "Biotin",
+              "text2": "750 ug (1500%)"
+            },
+            {
+              "text1": "Folic acid",
+              "text2": "400 ug (200%)"
+            },
+            {
+              "text1": "Vitamin D",
+              "text2": "20,0 ug (400%)"
+            },
+            {
+              "text1": "Vitamin A",
+              "text2": "333 ug (42%)"
+            },
+            {
+              "text1": "Zinc",
+              "text2": "10,0 mg (100%)"
+            },
+            {
+              "text1": "Copper",
+              "text2": "0,20 mg (20%)"
+            },
+            {
+              "text1": "Selenium",
+              "text2": "100 ug (182%)"
+            },
+            {
+              "text1": "Histidine",
+              "text2": "50,0 mg"
+            },
+            {
+              "text1": "Elderberry extract 4:1",
+              "text2": "100 mg"
+            },
+            {
+              "text1": "Beta glucan",
+              "text2": "5,0 mg"
+            }
+          ]
+        }
       }
     }
   }

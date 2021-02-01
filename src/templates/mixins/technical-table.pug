@@ -1,0 +1,8 @@
+mixin technical-table(table)
+	.technical-table
+		p.technical-table__title.text--big.js-btn-accordeon!= table.title
+		ul.technical-table__list.list-tech.js-info-accordeon
+			each item in table.list
+				li.list-tech__item
+					p.list-tech__text.text--med!=item.text1
+					p.list-tech__text.text--med!=item.text2

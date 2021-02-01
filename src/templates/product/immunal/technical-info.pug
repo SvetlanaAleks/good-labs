@@ -1,0 +1,18 @@
+- var TECHNICAL_IMMUNAL = LANG.products.immunal.technical;
+
+
+include ../../mixins/technical-table
+
+
+section.technical-info
+	.container
+		.technical-info__wrapper.technical-info__wrapper--immunal
+			.technical-info__left
+				h2.technical-info__title.title.title--med!= TECHNICAL_IMMUNAL.title
+				p.technical-info__ttl.text--big!= TECHNICAL_IMMUNAL.ttl
+				.technical-info__desc
+					p.technical-info__text.text--med!= TECHNICAL_IMMUNAL.text_1
+					p.technical-info__text.text--med!= TECHNICAL_IMMUNAL.text_2
+					p.technical-info__text.text--med!= TECHNICAL_IMMUNAL.text_3
+			.technical-info__right
+				+technical-table(TECHNICAL_IMMUNAL.technicalInfoArray)
