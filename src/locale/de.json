@@ -390,6 +390,44 @@
             "date": "Jan 16, 2019"
           }
         ]
+      },
+      "faq": {
+        "title": "Gut zu wissen",
+        "desc": "Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, schreiben Sie uns",
+        "questionArray": [
+          {
+            "ttl": "Was ist die Einzigartigkeit des IMMUNAL TM GoodLabs Komplexes?",
+            "text": "Der Komplex Immunal TM GoodLabs wurde entwickelt, um alle Nährstoffbedürfnisse des Immunsystems einer Person zu berücksichtigen, die in der modernen Welt lebt. Das Produkt stimuliert auf natürliche Weise das Immunsystem und dient zur Vorbeugung vieler Krankheiten."
+          },
+          {
+            "ttl": "Ist die Einnahme von IMMUNAL ohne ärztliche Verschreibung sicher?",
+            "text": "Die Verschreibung eines Arztes ist optional, es lohnt sich jedoch, sich von einem Spezialisten beraten zu lassen, wenn Sie andere Nahrungsergänzungsmittel oder Arzneimittel einnehmen."
+          },
+          {
+            "ttl": "Gibt es Kontraindikationen für die Einnahme?",
+            "text": "Kontraindikation ist eine individuelle Unverträglichkeit gegenüber Komponenten."
+          },
+          {
+            "ttl": "Wie nimmt man den Komplex ein?",
+            "text": "Nehmen Sie einmal täglich mit Wasser oder während/nach einer Mahlzeit."
+          },
+          {
+            "ttl": "Wie ist die Kurdauer?",
+            "text": "Die Dauer der Einnahme wird nach den individuellen Bedürfnissen Ihres Körpers bestimmt."
+          },
+          {
+            "ttl": "Wie kann ich verstehen, ob der GoodLabs für mich geeignet ist?",
+            "text": "Wenn Ihr Ziel ist es, das Immunsystem zu stärken, wird Immunal TM GoodLabs der perfekte Helfer auf diesem Weg sein."
+          },
+          {
+            "ttl": "Gibt es kleine Dosierungen in den Produkten?",
+            "text": "Für die Regulierung verbrauchter Substanzen gibt es Normen physiologischer Bedürfnisse. Auf dem Territorium der verschiedenen Länder sind sie individuell vorgeschrieben. Es gibt jedoch grundlegende Verbrauchsnormen, an denen sich alle Länder orientieren."
+          },
+          {
+            "ttl": "Kann ich den Immunal TM GoodLabs zur Vorbeugung bei Krankheiten einnehmen?",
+            "text": "Natürlich ist der Vitaminkomplex IMMUNAL TM GoodLabs für die ständige Unterstützung der menschlichen Immunität, einschließlich während der Revitalisierung von saisonalen Erkältungen."
+          }
+        ]
       }
     }
   }

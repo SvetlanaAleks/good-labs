@@ -1,0 +1,125 @@
+.faq
+	padding-top: 137px
+	padding-bottom: 137px
+	+r(1300)
+		padding-top: 120px
+		padding-bottom: 120px
+	+r(1140)
+		padding-top: 100px
+		padding-bottom: 100px
+	+r(480)
+		padding-top: 57px
+		padding-bottom: 57px
+	&__title
+		margin-bottom: 80px
+		text-align: center
+		+r(1300)
+			margin-bottom: 60px
+		+r(768)
+			margin-bottom: 50px
+		+r(480)
+			margin-bottom: 32px
+	&__list
+		max-width: 840px
+		width: 100%
+		margin: auto
+		margin-bottom: 66px
+		+r(1440)
+			max-width: 770px
+		+r(1300)
+			max-width: 690px
+		+r(1140)
+			max-width: 620px
+			margin-bottom: 50px
+		+r(1024)
+			max-width: 70%
+		+r(768)
+			max-width: 100%
+		+r(480)
+			margin-bottom: 34px
+	&__info
+		text-align: center
+		+r(480)
+			max-width: 87%
+			width: 100%
+			margin: auto
+	&__text
+		color: $grey
+		margin-bottom: 12px
+		+r(1024)
+			margin-bottom: 8px
+		+r(480)
+			line-height: 180%
+	&__link-email
+		text-decoration: none
+		color: $garkgrey
+		&:hover
+			text-decoration: underline
+
+.question
+	&:not(:last-of-type)
+		margin-bottom: 29px
+		padding-bottom: 30px
+		border-bottom: 1px solid #CFD8E0
+	+r(1300)
+		&:not(:last-of-type)
+			margin-bottom: 20px
+			padding-bottom: 20px
+	+r(1140)
+		&:not(:last-of-type)
+			margin-bottom: 17px
+			padding-bottom: 17px
+	+r(640)
+		&:not(:last-of-type)
+			margin-bottom: 16px
+			padding-bottom: 16px
+	&__top
+		display: flex
+		align-items: center
+		justify-content: space-between
+		cursor: pointer
+		&.active
+			.question__plus
+				&::before
+					transform: translateX(-50%) rotate(90deg)
+		&:hover
+			.question__ttl
+				text-decoration: underline
+
+	&__ttl
+		font-size: 23px
+		line-height: 30px
+		margin-right: 10px
+		+r(1140)
+			font-size: 20px
+			line-height: 120%
+		+r(480)
+			font-size: 18px
+	&__plus
+		position: relative
+		width: 19px
+		height: 19px
+		flex-shrink: 0
+		&::before, 	&::after
+			content: ''
+			display: block
+			position: absolute
+			background: $orange
+			transition: all .3s
+		&::before
+			width: 1.5px
+			height: 100%
+			left: 50%
+			transform: translateX(-50%)
+		&::after
+			height: 1.5px
+			width: 100%
+			top: 50%
+			transform: translateY(-50%)
+	&__text
+		color: $grey
+		display: none
+		max-width: 90%
+		margin-top: 20px
+		margin-bottom: 18px
+		line-height: 160%

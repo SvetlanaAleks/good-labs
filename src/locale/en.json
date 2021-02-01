@@ -390,6 +390,44 @@
             "date": "Jan 16, 2019"
           }
         ]
+      },
+      "faq": {
+        "title": "Good to know",
+        "desc": "If you didn't find the answer to your question, feel free to write to us",
+        "questionArray": [
+          {
+            "ttl": "What is the uniqueness of the IMMUNAL TM GoodLabs complex?",
+            "text": "The IMMUNAL TM GoodLabs complex is created considering all the nutritional needs of the immune system of a human living in the modern world. The product naturally stimulates the immune system and serves as the prevention of many diseases."
+          },
+          {
+            "ttl": "Is IMMUNAL safe to take without a doctor's prescription?",
+            "text": "A doctor's prescription is optional, but it is worth consulting with a specialist when taking other supplements or medications."
+          },
+          {
+            "ttl": "Are there any contraindications for administration?",
+            "text": "A contraindication is individual intolerance to the components."
+          },
+          {
+            "ttl": "How to take the complex?",
+            "text": "Take once a day with water or during / after meals."
+          },
+          {
+            "ttl": "What is the course of administration?",
+            "text": "The course of administration is determined in accordance with the individual needs of your body."
+          },
+          {
+            "ttl": "How to know if “Immune complex” TM GoodLabs is right for me?",
+            "text": "If your goal is to strengthen your immune system, then IMMUNAL TM GoodLabs will be the ideal assistant on the way to it."
+          },
+          {
+            "ttl": "Aren`t dosages of the product too large?",
+            "text": "For the regulation of consumed substances, there are norms of physiological needs. They are individual for different countries. However, there are basic consumption levels that all countries are guided by."
+          },
+          {
+            "ttl": "Can IMMUNAL TM GoodLabs complex be taken for prophylaxis during illnesses high season?",
+            "text": "Of course, the vitamin complex IMMUNAL TM GoodLabs is designed to constantly support human immunity, including during the high season of colds."
+          }
+        ]
       }
     }
   }

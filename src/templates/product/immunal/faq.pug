@@ -1,0 +1,13 @@
+- var FAQ_IMMUNAL = LANG.products.immunal.faq;
+
+include ../../mixins/question
+
+section.faq
+	.container
+		h2.faq__title.title.title--med!= FAQ_IMMUNAL.title
+		.faq__list.js-accordeon
+			each question in FAQ_IMMUNAL.questionArray
+				+question(question)
+		.faq__info 
+			p.faq__text.text--med!= FAQ_IMMUNAL.desc
+			a.faq__link-email.text--med(href="mailto:support@goodlabs.com") support@goodlabs.com
