@@ -165,7 +165,7 @@
       ]
     },
     "about": {
-      "title": "GoodLabs Community",
+      "title": "Über GoodLabs",
       "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
     },
     "action": {
@@ -335,6 +335,10 @@
             }
           ]
         }
+      },
+      "about": {
+        "title": "Über Immunal",
+        "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
       }
     }
   }
