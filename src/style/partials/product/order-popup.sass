@@ -1,0 +1,230 @@
+.order-popup
+	overflow-x: hidden
+	overflow-y: auto
+	top: 0
+	bottom: 0
+	left: 0
+	right: 0
+	position: fixed
+	z-index: 100
+	display: none
+	&.active
+		display: flex
+	&__close
+		position: absolute
+		top: 40px
+		right: 40px
+		width: 20px
+		height: 20px
+		cursor: pointer
+		z-index: 1
+		+r(890)
+			right: 20px
+			top: 20px
+	&__wrap
+		position: relative
+		width: 910px
+		max-width: 90vw
+		margin: auto
+		+r(1024)
+			width: 600px
+		+r(640)
+			max-width: 90%
+			width: 480px
+		+r(480)
+			max-width: 100%
+	&__content
+		border-top-left-radius: 50px
+		border-bottom-right-radius: 50px
+		background: #FFFDFA
+		padding: 40px 40px 40px 360px
+		box-shadow: 0px 30px 90px rgba(0, 0, 0, 0.1)
+		position: relative
+		overflow: hidden
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			background: url('../img/svg/prod_immunal_decor.svg') no-repeat center
+			width: 365px
+			height: 347px
+			bottom: -55px
+			left: -135px
+			transform: scaleX(-1)
+		+r(1024)
+			padding: 30px
+			&::before
+				background: none
+				display: none
+		+r(640)
+			padding: 30px 20px
+		+r(480)
+			border-top-left-radius: 0px
+			border-bottom-right-radius: 0px
+	&__btn
+		max-width: 200px
+		margin: 15px auto auto
+	&__title
+		margin-bottom: 10px
+		+r(374)
+			font-size: 24px
+	&__text
+		line-height: 1.8
+		color: #777
+		+r(640)
+			line-height: 1.6
+			font-size: 14px
+	&__descr
+		margin-bottom: 30px
+		+r(640)
+			margin-bottom: 15px
+	&__info
+		margin-bottom: 44px
+		max-width: 84%
+		+r(1024)
+			max-width: 100%
+			padding-left: 240px
+			min-height: 245px
+			margin-bottom: 30px
+		+r(640)
+			padding-left: 155px
+			min-height: 160px
+			margin-bottom: 25px
+		+r(374)
+			padding-left: 120px
+	&__price-wrap
+		margin-left: -360px
+		padding-left: 360px
+		margin-bottom: 35px
+		display: flex
+		+r(1024)
+			margin-left: 0
+			padding-left: 0
+			border-top-left-radius: 20px
+			border-bottom-right-radius: 20px
+		+r(640)
+			flex-wrap: wrap
+	&__radio
+		width: 0
+		height: 0
+		opacity: 0
+		margin: 0
+		padding: 0
+
+.order-price
+	width: calc(100% / 3)
+	padding: 12px 30px
+	border: 2px solid rgba(0,0,0,0)
+	position: relative
+	z-index: 3
+	cursor: pointer
+	+r(640)
+		padding: 14px 18px
+		display: flex
+		align-items: center
+	&:before
+		content: ''
+		display: block
+		position: absolute
+		left: -5px
+		top: 50%
+		transform: translateY(-50%)
+		background-color: rgba(0,0,0,0.2)
+		height: 70px
+		width: 2px
+		+r(640)
+			content: none
+	&:nth-child(1)
+		&:before
+			content: none
+	+r(640)
+		width: 100%
+	&.price-active
+		z-index: 5
+		border-top-left-radius: 20px
+		border-bottom-right-radius: 20px
+		&:before
+			content: none
+	&__comment
+		display: block
+		color: #777777
+		+r(640)
+			display: inline-block
+	&__count
+		display: block
+		margin-bottom: 5px
+		+r(640)
+			margin-bottom: 0
+			width: 25%
+			font-size: 14px
+	&__value
+		display: block
+		margin-bottom: 5px
+		+r(640)
+			margin-bottom: 0
+			font-size: 20px
+			margin-right: auto
+
+.order-form
+	&__input
+		width: 100%
+		margin-bottom: 25px
+	&__checkbox
+		margin-bottom: 40px
+
+
+.order-popup__content:after
+	content: ''
+	width: 240px
+	height: 500px
+	background-size: contain
+	background-position: left top
+	background-repeat: no-repeat
+	position: absolute
+	top: 40px
+	left: 60px
+	+r(1024)
+		left: 40px
+		top: 30px
+		width: 190px
+		height: 300px
+	+r(640)
+		top: 30px
+		left: 25px
+		width: 125px
+	+r(374)
+		width: 90px
+
+.order-popup--immunal.order-pack-bundle0
+	.order-popup__content:after
+		background-image: url(../img/bundles/immuten/bundle0.png)
+.order-popup--immunal.order-pack-bundle1
+	.order-popup__content:after
+		background-image: url(../img/bundles/immuten/bundle1.png)
+.order-popup--immunal.order-pack-bundle2
+	.order-popup__content:after
+		background-image: url(../img/bundles/immuten/bundle2.png)
+
+.order-popup--multivitamin.order-pack-bundle0
+	.order-popup__content:after
+		background-image: url(../img/bundles/multivitamin/bundle0.png)
+.order-popup--multivitamin.order-pack-bundle1
+	.order-popup__content:after
+		background-image: url(../img/bundles/multivitamin/bundle1.png)
+.order-popup--multivitamin.order-pack-bundle2
+	.order-popup__content:after
+		background-image: url(../img/bundles/multivitamin/bundle2.png)
+
+.order-popup--immunal
+	.order-popup__price-wrap
+		background-color: #FFF8E4
+	.order-price.price-active
+		background-color: #FFEECD
+		border: 2px solid #FF9900
+
+.order-popup--multivitamin
+	.order-popup__price-wrap
+		background-color: #e7f1dd
+	.order-price.price-active
+		background-color: #eafcd7
+		border: 2px solid #d1e7b9

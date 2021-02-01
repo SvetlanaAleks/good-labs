@@ -5,6 +5,7 @@ import Menu from "./modules/Menu";
 import Typed from "./modules/Typed";
 import Controls from "./modules/Controls";
 import Sliders from "./modules/Sliders";
+import Popup from "./modules/Popup";
 
 $(function () {
   Datee;
@@ -12,5 +13,6 @@ $(function () {
   Controls.init();
   Menu.init();
   Sliders.init();
+  Popup.init();
   Typed;
 });
