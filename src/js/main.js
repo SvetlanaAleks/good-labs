@@ -1,13 +1,15 @@
 import layout from "./global/layout";
 import objectFitImages from "object-fit-images";
+import Datee from "./modules/Datee";
 import Menu from "./modules/Menu";
-import Bubble from "./modules/Bubble";
+import Typed from "./modules/Typed";
 import Controls from "./modules/Controls";
 import Sliders from "./modules/Sliders";
 
 $(function () {
+  Datee;
   Controls.init();
   Menu.init();
   Sliders.init();
-  Bubble;
+  Typed;
 });

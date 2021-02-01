@@ -145,6 +145,22 @@ a
 	&--dark
 		li
 			background: transparentize($garkgrey, .8)
+			position: relative
+			&::before
+				content: ''
+				display: block
+				position: absolute
+				top: -15px
+				bottom: -15px
+				left: -15px
+				right: -15px
+				border-radius: 50%
+				border: 1px solid rgba(0,0,0,0)
+				+r(640)
+					top: -9px
+					bottom: -9px
+					left: -9px
+					right: -9px
 			&.slick-active
 				background: $garkgrey
 				position: relative

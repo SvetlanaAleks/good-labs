@@ -1,4 +1,4 @@
-const Bubble = (function () {
+const Typed = (function () {
   !(function (t) {
     "use strict";
     var s = function (s, e) {
@@ -198,31 +198,43 @@ const Bubble = (function () {
   })(window.jQuery);
 
   $(function () {
-    $("#typed").typed({
-      stringsElement: $("#typed-strings"),
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 5000,
-      loop: true,
-      contentType: "html",
-      loopCount: false,
-      onStringTyped: function () {
-        setTimeout(function () {
-          $(".promo-circle").removeClass("promo-circle-hidden");
-          var el = $(".promo-circle-animation"),
-            newone = el.clone(true);
-          el.before(newone);
-          $(".promo-circle-animation" + ":last").remove();
-        }, 1000);
-        setTimeout(function () {
-          $(".promo-circle").addClass("promo-circle-hidden");
-          $(".promo-prod__base").addClass("promo-circle-hidden");
-        }, 5000);
-      },
-      preStringTyped: function () {
-        $(".promo-prod__base").removeClass("promo-circle-hidden");
-      },
+    function typedFunction() {
+      if (document.documentElement.clientWidth > 768) {
+        $("#typed").typed({
+          stringsElement: $("#typed-strings"),
+          typeSpeed: 100,
+          backSpeed: 100,
+          backDelay: 5000,
+          loop: true,
+          contentType: "html",
+          loopCount: false,
+          onStringTyped: function () {
+            setTimeout(function () {
+              $(".promo-circle").removeClass("promo-circle-hidden");
+              var el = $(".promo-circle-animation"),
+                newone = el.clone(true);
+              el.before(newone);
+              $(".promo-circle-animation" + ":last").remove();
+            }, 1000);
+            setTimeout(function () {
+              $(".promo-circle").addClass("promo-circle-hidden");
+              $(".promo-prod__base").addClass("promo-circle-hidden");
+            }, 5000);
+          },
+          preStringTyped: function () {
+            $(".promo-prod__base").removeClass("promo-circle-hidden");
+          },
+        });
+      } else {
+        $('#typed').html($('#typed-strings p:nth-child(1)').html());
+      };
+    }
+    $(document).ready(function () {
+      typedFunction();
+    });
+    $(window).on('resize', function () {
+      typedFunction();
     });
   });
 })();
-export default Bubble;
+export default Typed;
