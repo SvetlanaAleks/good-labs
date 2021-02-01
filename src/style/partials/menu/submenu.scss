@@ -228,7 +228,7 @@
   }
 }
 
-.js-product-nav {
+.js-btn-submenu {
   position: relative;
 
   &::before {
@@ -242,6 +242,8 @@
     width: 30px;
     height: 30px;
     border-top-left-radius: 2px;
+    background-color: #FFFDFA;
+    bottom: -55px;
 
     @include r(890) {
       opacity: 1;

@@ -32,6 +32,33 @@ const Sliders = (function () {
           },
         ],
       });
+      $(".slider-products2").slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots: true,
+        arrows: true,
+        prevArrow:
+          '<button class="prev"><svg width="42" height="36" opacity="0.1" viewBox="0 0 42 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.262 0.293457L0.587044 17.9999L18.262 35.7064L19.6774 34.2935L4.41117 18.9999H42V16.9999H4.41117L19.6774 1.70641L18.262 0.293457Z" fill="#202124"/></svg></button>',
+        nextArrow:
+          '<button class="next"><svg width="42" height="36" opacity="0.1"  viewBox="0 0 42 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.738 0.293457L41.413 17.9999L23.738 35.7064L22.3226 34.2935L37.5888 18.9999H0V16.9999H37.5888L22.3226 1.70641L23.738 0.293457Z" fill="#202124"/></svg></button>',
+        dotsClass: "slick-dots slick-dots--dark",
+        responsive: [
+          {
+            breakpoint: 891,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 481,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            },
+          },
+        ],
+      });
     },
     initProsuctsSlider: function () {
       $(".slider-prod__for").slick({
