@@ -1,0 +1,157 @@
+.feedback
+	padding: 106px 0
+	position: relative
+	&::before
+		content: ''
+		display: block
+		position: absolute
+		top: 0
+		bottom: 0
+		left: 0px
+		right: calc(50% - 760px)
+		z-index: -1
+		pointer-events: none
+		border-bottom-right-radius: 100px
+	&--orange
+		&::before
+			background: #FDF1DE
+	&--green
+		&::before
+			background: #E9F2E1
+	+r(1440)
+		padding: 90px 0
+	+r(1024)
+		&::before
+			right: 30px
+	+r(768)
+		padding: 70px 0
+	+r(640)
+		padding: 50px 0
+		&::before
+			right: 20px
+	+r(480)
+		padding: 30px 0
+		&::before
+			border-bottom-right-radius: 50px
+	.container
+		display: flex
+		align-items: center
+		justify-content: flex-end
+		+r(1440)
+			align-items: center
+		+r(890)
+			justify-content: flex-start
+			align-items: flex-start
+		+r(768)
+			display: block
+			position: relative
+	&__wrap-img
+		flex-shrink: 0
+		max-width: 500px
+		width: 100%
+		margin-right: 100px
+		border-radius: 50%
+		overflow: hidden
+		font-size: 0
+		+r(1440)
+			max-width: 440px
+			margin-right: 95px
+		+r(1300)
+			max-width: 420px
+			margin-right: 75px
+		+r(1140)
+			max-width: 360px
+		+r(890)
+			max-width: 40%
+			min-width: 300px
+			margin-right: 30px
+		+r(768)
+			margin-right: 0
+			margin-bottom: 27px
+		+r(640)
+			min-width: 250px
+		+r(480)
+			min-width: 190px
+	&__desc
+		max-width: 620px
+		width: 100%
+		+r(1440)
+			max-width: 570px
+		+r(1300)
+			max-width: 510px
+		+r(1140)
+			max-width: 460px
+			flex-shrink: 0
+		+r(1024)
+			max-width: 47%
+		+r(890)
+			max-width: 100%
+			flex: 1
+	&__text
+		line-height: 150%
+		padding-bottom: 30px
+		margin-bottom: 24px
+		position: relative
+		padding-top: 60px
+		&::after
+			content: '‘‘'
+			display: block
+			position: absolute
+			top: 0
+			left: -7px
+			font-size: 126px
+			letter-spacing: -0.03em
+			font-family: "Tenor Sans", Arial, Helvetica, sans-serif
+			color: $garkgrey
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 70px
+			height: 1px
+			background: $garkgrey
+		+r(1440)
+			padding-top: 50px
+		+r(1140)
+			padding-top: 30px
+			padding-bottom: 20px
+		+r(1024)
+			max-width: 98%
+		+r(890)
+			max-width: 96%
+		+r(768)
+			padding-bottom: 0
+			padding-top: 0
+			position: static
+			&::after
+				left: 330px
+				transform: translateY(100%)
+			&::before
+				display: none
+		+r(640)
+			&::after
+				left: 290px
+		+r(480)
+			&::after
+				left: auto
+				right: 40px
+	&__info
+		color: transparentize($garkgrey, .3)
+		span
+			color: $garkgrey
+		+r(768)
+			position: relative
+			padding-top: 24px
+			&::before
+				content: ''
+				display: block
+				position: absolute
+				top: 0
+				left: 0
+				width: 70px
+				height: 1px
+				background: $garkgrey
+		+r(480)
+		font-size: 14px

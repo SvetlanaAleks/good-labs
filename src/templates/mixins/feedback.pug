@@ -1,0 +1,10 @@
+mixin feedback(color, src, text, info)
+	.feedback(class="feedback--" + color)
+		.container
+			.feedback__wrap-img
+				picture
+					source(srcset="img/" + src + ".webp", type="image/webp")
+					img(src="img/" + src + ".jpg", alt="photo")
+			.feedback__desc
+				p.feedback__text.title.title--small!= text
+				p.feedback__info.text--big!= info

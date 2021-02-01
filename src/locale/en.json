@@ -251,6 +251,145 @@
             "text": "Selenium is an essential element in antioxidant protection. It is this mineral that protects the body from harmful oxidants, <span>prevents cell damage and infections</span>."
           }
         ]
+      },
+      "advantages": {
+        "title": "GoodLabs Immunal is a proven support for&nbsp;your immunity",
+        "desc": "In the modern world, it is very difficult for a person to monitor nutrition and lead a healthy lifestyle in order to maintain strong immunity. But there is a solution. GoodLabs Immunal with beta-glucan is a vitamin and mineral complex with scientifically proven action of components to maintain the strength of the immunity.",
+        "ttl": "Beta-glucan is an effective immunomodulator",
+        "text": "β-glucan is a potent inducer of epigenetic and functional reprogramming of cells of innate immunity, a process called \"trained immunity\", which leads to an increased response to secondary infections.",
+        "btn": "Learn more about"
+      },
+      "feedback": {
+        "color": "orange",
+        "text": "Immunity is an important system of the human body that needs your support. GoodLabs Immunal is a reliable remedy for strong immunity with dosages that will not harm the body.",
+        "info": "Fertility expert <span>Dr. Gleaton</span> says"
+      },
+      "technical": {
+        "title": "Technical Information",
+        "ttl": "Fiber Usage",
+        "text_1": "Take 1 capsule daily with water with or after food. ",
+        "text_2": "Do not exceed the recommended daily dose. A food supplement is not intended to substitute for a healthy diet. Do not use the product in case o individual intolerance to the ingredients.",
+        "text_3": "Store in the original packaging in a dark dry place. Do not store above 25 °C.",
+        "technicalInfoArray": {
+          "title": "2 Vegetarian Capsules Contain:",
+          "list": [
+            {
+              "text1": "Vitamin C",
+              "text2": "200 mg (250%)"
+            },
+            {
+              "text1": "Vitamin B1",
+              "text2": "1,7 mg (150%)"
+            },
+            {
+              "text1": "Vitamin B2",
+              "text2": "2,1 mg (150%)"
+            },
+            {
+              "text1": "Vitamin B12",
+              "text2": "6,0 mg (240%)"
+            },
+            {
+              "text1": "Vitamin B6",
+              "text2": "2,1 mg (150%)"
+            },
+            {
+              "text1": "Biotin",
+              "text2": "750 ug (1500%)"
+            },
+            {
+              "text1": "Folic acid",
+              "text2": "400 ug (200%)"
+            },
+            {
+              "text1": "Vitamin D",
+              "text2": "20,0 ug (400%)"
+            },
+            {
+              "text1": "Vitamin A",
+              "text2": "333 ug (42%)"
+            },
+            {
+              "text1": "Zinc",
+              "text2": "10,0 mg (100%)"
+            },
+            {
+              "text1": "Copper",
+              "text2": "0,20 mg (20%)"
+            },
+            {
+              "text1": "Selenium",
+              "text2": "100 ug (182%)"
+            },
+            {
+              "text1": "Histidine",
+              "text2": "50,0 mg"
+            },
+            {
+              "text1": "Elderberry extract 4:1",
+              "text2": "100 mg"
+            },
+            {
+              "text1": "Beta glucan",
+              "text2": "5,0 mg"
+            }
+          ]
+        }
+      },
+      "about": {
+        "title": "Immunal Community",
+        "text": "Join Us in Instagram @goodlabs.com"
+      },
+      "reviews": {
+        "title": "Reviews",
+        "btn": "Submit your review",
+        "reviewArray": [
+          {
+            "text": "It is a wonderful combination of vitamins, natural extracts and micro-elements that keeps you on your feet at the first sign of a cold.",
+            "name": "Petra Hoffman",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "These capsules are a source of vitamin C, zinc and nutrients, the composition speaks for itself. The product is all you need during the period of illness for the prevention of colds and flu. Immunal always works flawlessly for me.",
+            "name": "Anna Fischer",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I discovered for myself another way to improve immunity by taking the Immunal complex. It contains beta-glucan, which increases the body's resistance during high season of acute respiratory viral infections.",
+            "name": "Michael Stolz",
+            "date": "Jan 12, 2019"
+          },
+          {
+            "text": "For me personally, the Immunal complex is optimal in terms of price and quality. But unlike synthetic products, the composition here is natural and balanced, each component has a scientific support of its effectiveness.",
+            "name": "Donnie Cowart",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "I have been looking for a complex remedy with balanced ingredients for a long time. Immunal was my discovery in this regard. Good prophylactic dosages and excellent bioavailability.",
+            "name": "Stephan Collins",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I used to get sick often, but now not a single flu can knock me off my feet. That's what good immunity means!",
+            "name": "Christian Bart",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I bought the Immunal vitamin complex a month ago. I just started taking it, but I haven`t yet understood the effect. I don't like that there are only 30 capsules in a jar. I constantly need to reorder.",
+            "name": "Anna Braun",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I  take Immunal every time before cold season starts. During this time, I never had a fever, cough, or other unpleasant symptoms.",
+            "name": "Sofia Kocher",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I take Immunal , as well as my elderly parents do. I am worried about their life and health, so I try to support their immunity with fruits and the Immunal complex.",
+            "name": "Hans Schulz",
+            "date": "Jan 16, 2019"
+          }
+        ]
       }
     }
   }

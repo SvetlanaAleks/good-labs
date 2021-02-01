@@ -1,0 +1,71 @@
+.about
+	padding-top: 57px
+	padding-bottom: 122px
+	+r(1300)
+		padding-bottom: 100px
+	+r(1140)
+		padding-top: 20px
+		padding-bottom: 80px
+	+r(640)
+		padding-bottom: 65px
+	+r(480)
+		padding-top: 0
+		padding-bottom: 54px
+	&__top
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin-bottom: 70px
+		+r(1140)
+			margin-bottom: 60px
+		+r(768)
+			margin-bottom: 45px
+		+r(1024)
+			display: block
+			margin-bottom: 35px
+		+r(480)
+			margin-bottom: 25px
+	&__title
+		+r(1024)
+			margin-bottom: 15px
+		+r(480)
+			margin-bottom: 10px
+	&__right
+		display: flex
+		align-items: center
+	&__text
+		margin-right: 20px
+		color: $garkgrey
+		+r(374)
+			margin-right: 10px
+	&__link
+		font-size: 0
+
+
+.slider-about
+	.slick-list
+		margin: 0 -10px
+		+r(640)
+			margin: 0 -5px
+		+r(480)
+			margin: 0 -20px 0 0
+	.slick-slide
+		margin: 0 10px
+		+r(640)
+			margin: 0 5px
+	.slick-dots
+		margin-top: 77px
+		+r(1140)
+			margin-top: 65px
+		+r(640)
+			margin-top: 50px
+		+r(480)
+			margin-top: 30px
+	&__wrap
+		font-size: 0
+	&__photo
+		object-fit: contain
+		font-family: 'object-fit: contain;'
+		+r(480)
+			width: 180px
+			height: 180px
