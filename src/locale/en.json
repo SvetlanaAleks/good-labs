@@ -339,6 +339,57 @@
       "about": {
         "title": "Immunal Community",
         "text": "Join Us in Instagram @goodlabs.com"
+      },
+      "reviews": {
+        "title": "Reviews",
+        "btn": "Submit your review",
+        "reviewArray": [
+          {
+            "text": "It is a wonderful combination of vitamins, natural extracts and micro-elements that keeps you on your feet at the first sign of a cold.",
+            "name": "Petra Hoffman",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "These capsules are a source of vitamin C, zinc and nutrients, the composition speaks for itself. The product is all you need during the period of illness for the prevention of colds and flu. Immunal always works flawlessly for me.",
+            "name": "Anna Fischer",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I discovered for myself another way to improve immunity by taking the Immunal complex. It contains beta-glucan, which increases the body's resistance during high season of acute respiratory viral infections.",
+            "name": "Michael Stolz",
+            "date": "Jan 12, 2019"
+          },
+          {
+            "text": "For me personally, the Immunal complex is optimal in terms of price and quality. But unlike synthetic products, the composition here is natural and balanced, each component has a scientific support of its effectiveness.",
+            "name": "Donnie Cowart",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "I have been looking for a complex remedy with balanced ingredients for a long time. Immunal was my discovery in this regard. Good prophylactic dosages and excellent bioavailability.",
+            "name": "Stephan Collins",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I used to get sick often, but now not a single flu can knock me off my feet. That's what good immunity means!",
+            "name": "Christian Bart",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I bought the Immunal vitamin complex a month ago. I just started taking it, but I haven`t yet understood the effect. I don't like that there are only 30 capsules in a jar. I constantly need to reorder.",
+            "name": "Anna Braun",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I  take Immunal every time before cold season starts. During this time, I never had a fever, cough, or other unpleasant symptoms.",
+            "name": "Sofia Kocher",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I take Immunal , as well as my elderly parents do. I am worried about their life and health, so I try to support their immunity with fruits and the Immunal complex.",
+            "name": "Hans Schulz",
+            "date": "Jan 16, 2019"
+          }
+        ]
       }
     }
   }

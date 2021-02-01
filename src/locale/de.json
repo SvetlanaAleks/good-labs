@@ -339,6 +339,57 @@
       "about": {
         "title": "Über Immunal",
         "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
+      },
+      "reviews": {
+        "title": "Kommentare",
+        "btn": "Lassen Sie Ihre Bewertung",
+        "reviewArray": [
+          {
+            "text": "Eine wunderbare Kombination von Vitaminen, natürlichen Extrakten und Spurenelementen, die hilft, bei den ersten Anzeichen von Grippe und Erkältung auf den Beinen zu bleiben.",
+            "name": "Petra Hoffman",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "Diese Kapseln sind eine Quelle von Vitamin C, Zink und nützlichen Substanzen, die Zusammensetzung spricht für sich. Alles, was während der Krankheit zur Vorbeugung von Erkältungen und Grippe benötigt wird. Bei mir funktioniert Immunal immer einwandfrei.",
+            "name": "Anna Fischer",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Für mich entdeckte ich einen anderen Weg, um die Immunität zu verbessern — es ist die Einnahme von Immunal. Es enthält Beta-Glucan, das den Widerstand des Körpers bei akuten Virusinfektionen der Atemwege erhöht.",
+            "name": "Michael Stolz",
+            "date": "Jan 12, 2019"
+          },
+          {
+            "text": "Persönlich für mich ist der Komplex Immunal in Preis und Qualität optimal. Nur im Gegensatz zu Synthetik ist die Zusammensetzung hier natürlich und ausgewogen, jede Komponente hat eine wissenschaftliche Bestätigung der Wirksamkeit.",
+            "name": "Donnie Cowart",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgewogen sind. Immunal wurde meine Entdeckung in dieser Hinsicht. Gute prophylaktische Dosierungen und ausgezeichnete Bioverdaubarkeit.",
+            "name": "Stephan Collins",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Früher war ich oft krank, aber jetzt bin ich immer gesund. Das ist, was gute Immunität bedeutet!",
+            "name": "Christian Bart",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Ich habe den immunalen Vitaminkomplex vor einem Monat gekauft, ich habe gerade mit der Einnahme begonnen, aber die Wirkung ist noch nicht bekannt. Ich mag es nicht, dass es nur 30 Kapseln in einer Dose gibt. Man muss nachbestellen.",
+            "name": "Anna Braun",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Ich beginne jedes Mal mit der Einnahme von Immunal, bevor die kalte Jahreszeit kommt. Während dieser Zeit gab es nie Fieber, Husten oder andere unangenehme Symptome.",
+            "name": "Sofia Kocher",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Immunal wird nicht nur von mir, sondern auch von meinen Eltern eingenommen. Ich mache mir Sorgen um ihr Leben und ihre Gesundheit, also versuche ich, ihre Immunität mit Obst und dem Immunal-Komplex aufrechtzuerhalten.",
+            "name": "Hans Schulz",
+            "date": "Jan 16, 2019"
+          }
+        ]
       }
     }
   }
