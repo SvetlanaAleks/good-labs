@@ -1,0 +1,7 @@
+mixin ingredient(src, ttl, text)
+	.ingredient
+		.ingredient__wrap-img
+			img(src=src, alt=ttl)
+		.ingredient__info
+			p.ingredient__ttl.title.title--small!= ttl
+			p.ingredient__text.text--med!= text

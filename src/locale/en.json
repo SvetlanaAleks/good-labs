@@ -210,6 +210,47 @@
         "item_3": "Has an antioxidant effect",
         "item_4": "Contains powerful natural immunomodulators beta-glucan and elderberry extract and a complex of vital vitamins and minerals",
         "item_5": "Sugar, Salt and Starch Free"
+      },
+      "ingredients": {
+        "title": "High quality ingredients for your immunity needs",
+        "tab1": "IMMUNE SYSTEM",
+        "tab2": "OTHER SYSTEMS",
+        "ingredientArray1": [
+          {
+            "ttl": "Elderberry extract",
+            "text": "One of the most valuable medicinal plants in the world due to the content of phenolic acids. These compounds are powerful antioxidants that <span>can help reduce damage to the body from oxidative stress</span> by stimulating the immune system."
+          },
+          {
+            "ttl": "Vitamin C and Zinc",
+            "text": "Promote healthy immune function and reduce oxidative stress. <span>They are effective in the fight</span> against colds and viral diseases, inhibit the growth and reproduction of pathogenic microorganisms, relieve inflammation."
+          },
+          {
+            "ttl": "Beta-glucan",
+            "text": "<span>Stimulates the functions of the immune system:</span> helps to reduce the risk of infectious diseases (viral, bacterial and parasitic origin). And as an antioxidant, it stimulates cells to bind oxygen radicals, which can prevent autoimmune diseases."
+          },
+          {
+            "ttl": "Histidine",
+            "text": "Histidine is an essential amino acid that is also a precursor to several hormones as well as a precursor to a compound known as histamine. <span>It activates immune responses</span>, increases the rate of maturation of immune cells, increases their activity and significantly increases their lifespan."
+          }
+        ],
+        "ingredientArray2": [
+          {
+            "ttl": "B vitamins",
+            "text": "One of the main reasons for the lowering of immunity is excessive stress. B vitamins <span>support the nervous system and take care of the health and beauty of the skin and hair</span>."
+          },
+          {
+            "ttl": "Vitamin D",
+            "text": "Vitamin D <span>directly affects the immune system, increasing its protective functions</span>, in addition, without this substance, it is impossible to assimilate calcium in the body. It is especially important to get adequate amounts of vitamin D during cloudy seasons, as sun exposure is the main source of vitamin D."
+          },
+          {
+            "ttl": "Vitamin A",
+            "text": "Vitamin A <span>takes care of vision by supporting the normal functioning of the retina</span>. Vitamin A also promotes cell growth, playing an important role in the normal functioning of the heart, lungs, kidneys and other organs."
+          },
+          {
+            "ttl": "Selenium",
+            "text": "Selenium is an essential element in antioxidant protection. It is this mineral that protects the body from harmful oxidants, <span>prevents cell damage and infections</span>."
+          }
+        ]
       }
     }
   }
