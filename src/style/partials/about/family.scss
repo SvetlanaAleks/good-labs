@@ -51,7 +51,7 @@
     }
 
     @include r(768) {
-      max-width: 205px;
+      max-width: 219px;
       font-size: 30px !important;
     }
   }
@@ -279,6 +279,9 @@
       padding-top: 18px;
       padding-bottom: 18px;
     }
+    @include r(374) {
+      display: block;
+    }
   }
 
   &__adv {
@@ -291,6 +294,10 @@
 
     @include r(768) {
       flex-direction: column;
+    }
+    @include r(374) {
+      flex-direction: row;
+      width: 100%;
     }
   }
 
@@ -322,6 +329,11 @@
 
     @include r(480) {
       font-size: 50px;
+    }
+    @include r(374) {
+      margin-bottom: 0;
+      margin-right: 10px;
+      width: 55px;
     }
   }
 
