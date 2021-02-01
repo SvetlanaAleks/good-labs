@@ -178,6 +178,80 @@
     "header": {
       "title": "Vitamine für eine zuverlässige Grundlage Ihrer Gesundheit",
       "desc": "Unsere Mission ist es, jedem Menschen die Möglichkeit zu geben, qualitativ ein Leben zu führen. Wir wissen, dass es dank der richtigen Nahrungsergänzungsmittel möglich ist, viele gesundheitliche Probleme zu verhindern, ein erfülltes glückliches Leben zu führen und Ihren Körper zum Haupthelfer bei der Erreichung von Zielen zu machen."
+    },
+    "family": {
+      "title": "GoodLabs genießen die Familie unserer Mitarbeiter",
+      "text_1": "Wir haben diese Produktlinie für unsere Familie gemacht. Dazu wurden die Erfahrung der besten Spezialisten, die modernen wissenschaftlichen Entwicklungen und die fortgeschrittenen Produktionsstandorte kombiniert. Wir haben es geschafft, eine Produktlinie zu machen, die den Anforderungen der modernen Familie in Gesundheitsfragen am besten entspricht.",
+      "text_2": "Die Vitamine und Mineralstoffe von GoodLabs gehören zur Ernährung der Familien unserer Mitarbeiter.",
+      "item_1": "Лет на рынке <br />витаминов",
+      "item_2": "Специалистов <br />и когото",
+      "item_3": "Страны <br />производителя"
+    }
+  },
+  "products": {
+    "btn": "Bestellen",
+    "text": "Anzahl der Produkte: ",
+    "item_1": "ENTHÄLT KEINE HEFE",
+    "item_2": "ENTHÄLT KEIN MEHL",
+    "item_3": "SOJAFREI PROTEIN",
+    "item_4": "ENTHÄLT KEINE MOLKEREI PRODUKTE",
+    "item_5": "ENTHÄLT KEINE KÖRNER",
+    "item_6": "ZUCKERFREI",
+    "item_7": "ENTHÄLT KEIN STÄRKEMEHL",
+    "count": "Stück",
+    "weight": "mg",
+    "immunal": {
+      "promo": {
+        "title": "Immunal",
+        "desc": "Mit Beta-Glucan",
+        "comment": "280 Kommentare",
+        "item_1": "Unterstützt und stärkt das Immunsystem",
+        "item_2": "Stärkt die Schutzfunktionen des Körpers gegen Viren und Bakterien",
+        "item_3": "Hat eine antioxidative Wirkung",
+        "item_4": "Enthält leistungsstarke natürliche Immunmodulatoren wie Beta-Glucan und Holunder-Extrakt sowie einen Komplex aus lebenswichtigen Vitaminen und Mineralstoffen",
+        "item_5": "Ohne Zucker, Salz und Stärkemehl"
+      },
+      "ingredients": {
+        "title": "Hochwertige Zutaten für die Bedürfnisse Ihrer Immunität",
+        "tab1": "IMMUNSYSTEM",
+        "tab2": "ANDERE SYSTEME",
+        "ingredientArray1": [
+          {
+            "ttl": "Holunderbeerextrakt",
+            "text": "Es ist aufgrund des Gehalts an Phenolsäuren eine der wertvollsten Heilpflanzen der Welt. Diese Verbindungen sind starke Antioxidantien, die durch Stimulierung des Immunsystems dazu beitragen können, die Schädigung des Körpers durch oxidativen Stress zu verringern."
+          },
+          {
+            "ttl": "Vitamin C und Zink",
+            "text": "Sie fördern ein gesundes Funktionieren des Immunsystems und reduzieren oxidativen Stress. Sie sind wirksam im Kampf gegen Erkältungen und Viruserkrankungen, verhindern das Wachstum und die Vermehrung pathogener Mikroorganismen und lindern Entzündungen."
+          },
+          {
+            "ttl": "Beta Glucan",
+            "text": "Beta-Glucan stimuliert die Funktion des Immunsystems: Reduziert das Risiko von Infektionskrankheiten (viraler, bakterieller und parasitärer Herkunft). Und als Antioxidans stimuliert es die Zellen, Bindungen zwischen Sauerstoffradikalen zu bilden, die das Auftreten von Autoimmunerkrankungen verhindern können."
+          },
+          {
+            "ttl": "Histidin",
+            "text": "Histidin ist eine essentielle Aminosäure, die auch Vorläufer mehrerer Hormone sowie Vorläufer einer als Histamin bekannten Verbindung ist. Es aktiviert Immunreaktionen, erhöht die Reifungsrate von Immunzellen, erhöht deren Aktivität und verlängert deren Lebensdauer erheblich."
+          }
+        ],
+        "ingredientArray2": [
+          {
+            "ttl": "Vitamine der Gruppe&nbsp;B",
+            "text": "Eine der Hauptursachen für die Senkung der körpereigenen Immunität ist übermäßiger Stress. B-Vitamine unterstützen das Nervensystem und sorgen für die Gesundheit und Schönheit der Haut und Haare."
+          },
+          {
+            "ttl": "Vitamin D",
+            "text": "Vitamin D wirkt sich direkt auf das Immunsystem aus und erhöht seine Schutzfunktionen, außerdem ist es ohne diese Substanz unmöglich, Kalzium im Körper zu absorbieren. Es ist besonders wichtig, während der bewölkten Jahreszeit eine ausreichende Menge an Vitamin D zu erhalten, da die Exposition gegenüber der Sonne die Hauptquelle für Ihren Erhalt ist."
+          },
+          {
+            "ttl": "Vitamin A",
+            "text": "Vitamin A kümmert sich um die Sehkraft und unterstützt die normale Funktion der Netzhaut des Auges. Vitamin A fördert auch das Zellwachstum und spielt eine wichtige Rolle bei der normalen Arbeit des Herzens, der Lunge, der Nieren und anderer Organe."
+          },
+          {
+            "ttl": "Selen",
+            "text": "Selen ist ein wichtiges Element des antioxidativen Schutzes. Es ist diese mineralische Substanz, die den Körper vor schädlichen Oxidationsmitteln schützt, Zellschäden und Infektionen verhindert."
+          }
+        ]
+      }
     }
   }
 }

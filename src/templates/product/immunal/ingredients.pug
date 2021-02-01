@@ -1,0 +1,34 @@
+- var INGREDIENTS_IMMUNAL = LANG.products.immunal.ingredients;
+
+include ../../mixins/ingredient
+
+-
+	const ingredientArrayImages1 = [
+		'img/svg/ingredient_elderberry.svg',
+		'img/svg/ingredient_vit_c_zinc.svg',
+		'img/svg/ingredient_glucan.svg',
+		'img/svg/ingredient_histidine.svg',
+	];
+	const ingredientArrayImages2 = [
+		'img/svg/ingredient_vit_b.svg',
+		'img/svg/ingredient_vit_d.svg',
+		'img/svg/ingredient_vit_a.svg',
+		'img/svg/ingredient_selenium.svg',
+	];
+
+section.ingredients
+	.container
+		h2.ingredients__title.title.title--big!= INGREDIENTS_IMMUNAL.title
+		.ingredients__wrap
+			.ingredients__tabs.tabs
+				.tab.active.js-tab(data-tab="#list1")
+					p.tab__text.text--med!= INGREDIENTS_IMMUNAL.tab1
+				.tab.js-tab(data-tab="#list2")
+					p.tab__text.text--med!= INGREDIENTS_IMMUNAL.tab2
+		.ingredients__info.ingredients__info--immunal
+			.ingredients__content.active.js-content-tab#list1
+				each ingredient1, key in INGREDIENTS_IMMUNAL.ingredientArray1
+					+ingredient(ingredientArrayImages1[key], ingredient1.ttl, ingredient1.text)
+			.ingredients__content.js-content-tab#list2
+				each ingredient2, key in INGREDIENTS_IMMUNAL.ingredientArray2
+					+ingredient(ingredientArrayImages2[key], ingredient2.ttl, ingredient2.text)

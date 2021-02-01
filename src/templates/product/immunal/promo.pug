@@ -1,0 +1,55 @@
+- var HEADER_PROD = LANG.products.immunal.promo;
+- var HEADER_PROD_MAIN = LANG.products;
+
+section.promo-product
+	.container
+		.promo-product__wrapper
+			.promo-product__slider.slider-prod.slider-prod--immunal
+				.slider-prod__for
+					.slider-prod__wrap-img
+						picture
+							source(srcset="img/immunal_1.webp" type="image/webp")
+							img.slider-prod__img(src="img/immunal_1.png", alt="immunal")
+					.slider-prod__wrap-img
+						picture
+							source(srcset="img/immunal_2.webp" type="image/webp")
+							img.slider-prod__img(src="img/immunal_2.png", alt="immunal")
+					.slider-prod__wrap-img.slider-prod__wrap-img--border
+						picture
+							source(srcset="img/immunal_3.webp" type="image/webp")
+							img.slider-prod__img(src="img/immunal_3.jpg", alt="immunal")
+					.slider-prod__wrap-img.slider-prod__wrap-img--border
+						picture
+							source(srcset="img/immunal_4.webp" type="image/webp")
+							img.slider-prod__img(src="img/immunal_4.jpg", alt="immunal")
+				.slider-prod__nav
+					img.slider-prod__img(src="img/immunal_1_small.png", alt="immunal")
+					img.slider-prod__img(src="img/immunal_2_small.png", alt="immunal")
+					img.slider-prod__img(src="img/immunal_3_small.png", alt="immunal")
+					img.slider-prod__img(src="img/immunal_4_small.png", alt="immunal")
+			.promo-product__info.info-prod
+				h1.info-prod__title.title.title--main!= HEADER_PROD.title
+				p.info-prod__desc.text--med!= HEADER_PROD.desc
+				.info-prod__raiting.raiting-prod
+					img.raiting-prod__img(src="img/svg/raiting_review_1.svg", alt="stars")
+					.raiting-prod__text.text--med!= HEADER_PROD.comment
+				ul.info-prod__list.list.list--orange.text--med
+					li.list__item!= HEADER_PROD.item_1
+					li.list__item!= HEADER_PROD.item_2
+					li.list__item!= HEADER_PROD.item_3
+					li.list__item!= HEADER_PROD.item_4
+					li.list__item!= HEADER_PROD.item_5
+				.info-prod__bottom
+					.info-prod__order
+						p.info-prod__price.title.title--med €25.99
+						button.info-prod__btn.btn.btn--orange.js-show-popup(data-target="#order-popup")!= HEADER_PROD_MAIN.btn
+					.info-prod__detals
+						p.info-prod__text.text--med!= HEADER_PROD_MAIN.text
+							span 30 
+								| #{HEADER_PROD_MAIN.count}
+						p.info-prod__text.text--med
+							span 250 
+								| #{HEADER_PROD_MAIN.weight}
+		.promo-product__bottom
+			.promo-product__list
+				include ../list-adv

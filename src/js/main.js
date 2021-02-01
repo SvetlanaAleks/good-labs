@@ -8,6 +8,7 @@ import Sliders from "./modules/Sliders";
 
 $(function () {
   Datee;
+  objectFitImages();
   Controls.init();
   Menu.init();
   Sliders.init();
