@@ -12,7 +12,7 @@
 		display: flex
 	&__close
 		position: absolute
-		top: 40px
+		top: 60px
 		right: 40px
 		width: 20px
 		height: 20px
@@ -20,12 +20,15 @@
 		z-index: 1
 		+r(890)
 			right: 20px
+			top: 40px
+		+r(480)
 			top: 20px
 	&__wrap
 		position: relative
 		width: 910px
 		max-width: 90vw
 		margin: auto
+		padding: 20px 0
 		+r(1024)
 			width: 600px
 		+r(640)
@@ -33,6 +36,7 @@
 			width: 480px
 		+r(480)
 			max-width: 100%
+			padding: 0
 	&__content
 		border-top-left-radius: 50px
 		border-bottom-right-radius: 50px
@@ -177,9 +181,9 @@
 	content: ''
 	width: 240px
 	height: 500px
-	background-size: contain
-	background-position: left top
-	background-repeat: no-repeat
+	background-size: contain, 1px 1px, 1px 1px
+	background-position: left top, center, center
+	background-repeat: no-repeat, no-repeat, no-repeat
 	position: absolute
 	top: 40px
 	left: 60px
@@ -197,23 +201,23 @@
 
 .order-popup--immunal.order-pack-bundle0
 	.order-popup__content:after
-		background-image: url(../img/bundles/immuten/bundle0.png)
+		background-image: url(../img/bundles/immuten/bundle0.png), url(../img/bundles/immuten/bundle1.png), url(../img/bundles/immuten/bundle2.png)
 .order-popup--immunal.order-pack-bundle1
 	.order-popup__content:after
-		background-image: url(../img/bundles/immuten/bundle1.png)
+		background-image: url(../img/bundles/immuten/bundle1.png), url(../img/bundles/immuten/bundle0.png), url(../img/bundles/immuten/bundle2.png)
 .order-popup--immunal.order-pack-bundle2
 	.order-popup__content:after
-		background-image: url(../img/bundles/immuten/bundle2.png)
+		background-image: url(../img/bundles/immuten/bundle2.png), url(../img/bundles/immuten/bundle0.png), url(../img/bundles/immuten/bundle2.png)
 
 .order-popup--multivitamin.order-pack-bundle0
 	.order-popup__content:after
-		background-image: url(../img/bundles/multivitamin/bundle0.png)
+		background-image: url(../img/bundles/multivitamin/bundle0.png), url(../img/bundles/multivitamin/bundle1.png), url(../img/bundles/multivitamin/bundle2.png)
 .order-popup--multivitamin.order-pack-bundle1
 	.order-popup__content:after
-		background-image: url(../img/bundles/multivitamin/bundle1.png)
+		background-image: url(../img/bundles/multivitamin/bundle1.png), url(../img/bundles/multivitamin/bundle0.png), url(../img/bundles/multivitamin/bundle2.png)
 .order-popup--multivitamin.order-pack-bundle2
 	.order-popup__content:after
-		background-image: url(../img/bundles/multivitamin/bundle2.png)
+		background-image: url(../img/bundles/multivitamin/bundle2.png), url(../img/bundles/multivitamin/bundle1.png), url(../img/bundles/multivitamin/bundle0.png)
 
 .order-popup--immunal
 	.order-popup__price-wrap

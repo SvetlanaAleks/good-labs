@@ -1,0 +1,20 @@
+extends settings/layout-en
+
+prepend html
+  - const lang = "en";
+
+prepend head
+  - const pageTitle = "GoodLabs - Contacts";
+  - const themeColor = "#FF9900";
+
+append head
+
+append content
+  include components/en/contacts/banner-top
+  include components/en/contacts/menu/menu.pug
+  .products-menu.products-menu--desktop.products-menu--imm.js-products-menu
+    include components/en/contacts/menu/products-menu
+  include components/en/contacts/content
+  include components/en/contacts/banner-bottom
+  .overlay.js-overlay
+append scripts

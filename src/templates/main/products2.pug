@@ -1,0 +1,33 @@
+- var PRODUCTS = LANG.main.products;
+
+include ../mixins/product2
+
+-
+	const productsInfo2 = [
+		{
+			href: 'product-immunal.html',
+			img: 'img/product_1.png',
+			stars: 'img/svg/raiting_review_1.svg',
+		},
+		{
+			href: 'product-multivitamin.html',
+			img: 'img/product_2.png',
+			stars: 'img/svg/raiting_review_2.svg',
+		},
+		{
+			href: '#',
+			img: 'img/product_3.png',
+			stars: 'img/svg/raiting_review_1.svg',
+		}
+	];
+
+section.products.products2
+	.products__info
+		.container.products__info-container
+			h2.products__title.title.title--med Другой вариант слайдера:
+	.products__list
+		.container.products__list-container
+			.products__list-slider2.slider-products2
+				each product, key in PRODUCTS.productsArray
+					+product(productsInfo2[key].href, productsInfo2[key].img, product.name, product.text, productsInfo2[key].stars, product.reviews, product.price, product.link)
+	

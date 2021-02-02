@@ -26,6 +26,7 @@ const Menu = (function () {
     showSubmenu: function () {
       btnShowSubmenu.click(function (e) {
         e.preventDefault();
+        btnShowSubmenu.toggleClass("active-product-nav");
         submenu.toggleClass("active-product-menu");
       });
     },

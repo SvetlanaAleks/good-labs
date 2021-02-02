@@ -563,5 +563,22 @@
         "desc": "Eine ausreichende Menge an Vitaminen und Mineralstoffen im Körper ist die Grundlage für die Gesundheit und das Wohlbefinden einer Person. GoodLabs Multivitamin ist ein Vitamin- und Mineralstoffkomplex mit den wichtigsten Elementen für ein aktives Leben."
       }
     }
+  },
+  "contacts": {
+    "title": "Kostenlose Beratung bekommen",
+    "descr": "Senden Sie Ihre Anfrage - und wir wählen eine individuelle Lösung, die Ihren Anforderungen am besten entspricht",
+    "placeholder": {
+      "name": "Ihr Name",
+      "phone": "Ihr Telefon",
+      "email": "Email",
+      "message": "Nachricht"
+    },
+    "checkmark": "Ich bin damit einverstanden, personenbezogene Daten zu verarbeiten und Informationen über Sonderangebote zu erhalten",
+    "btn": "Senden",
+    "address": "050912, Sector 5, Calea Rahovei Str. 266-268",
+    "city": "Bucharest, Romania",
+    "select1": {
+      "variant1": "Beratung"
+    }
   }
 }

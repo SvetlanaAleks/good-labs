@@ -1,0 +1,304 @@
+.contacts-content
+	padding-top: 120px
+	padding-bottom: 116px
+	+r(1300)
+		padding: 100px 0
+	+r(1024)
+		padding: 90px 0
+	+r(768)
+		padding: 70px 0
+	+r(640)
+		padding: 50px 0
+	+r(480)
+		padding: 30px 0
+	&__wrapper
+		display: flex
+		align-items: flex-start
+		justify-content: space-between
+		+r(640)
+			display: block
+	&__left
+		max-width: 510px
+		width: 100%
+		flex-shrink: 0
+		+r(1440)
+			max-width: 470px
+		+r(1300)
+			max-width: 420px
+		+r(1140)
+			max-width: 380px
+		+r(1024)
+			max-width: 40%
+			margin-right: 40px
+		+r(890)
+			max-width: 48%
+			margin-right: 30px
+		+r(640)
+			max-width: 100%
+			margin-right: 0
+			margin-bottom: 26px
+			text-align: center
+	&__wrap-map
+		margin-bottom: 32px
+		position: relative
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			top: 200px
+			left: -139px
+			width: 279px
+			height: 147px
+			background: url('../img/svg/formula-waves.svg') no-repeat center
+			background-size: 100%
+			z-index: -1
+		+r(1440)
+			&::after
+				top: 170px
+				left: -119px
+		+r(640)
+			max-width: 350px
+			width: 100%
+			margin: auto
+			margin-bottom: 19px
+	&__map
+		border-top-left-radius: 500px
+		border-top-right-radius: 500px
+	&__text
+		line-height: 160%
+		margin-bottom: 20px
+		font-size: 30px
+		+r(480)
+			font-size: 25px
+			margin-bottom: 12px
+	&__desc
+		display: flex
+		align-items: flex-start
+		justify-content: space-between
+		+r(1024)
+			display: block
+	&__address
+		max-width: 290px
+		width: 100%
+		margin-right: 40px
+		line-height: 160%
+		color: $grey
+		+r(1024)
+			margin-right: 0
+			margin-bottom: 18px
+		+r(640)
+			max-width: 100%
+	&__link
+		color: $garkgrey
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+	&__right
+		max-width: 620px
+		width: 100%
+		+r(1440)
+			max-width: 570px
+		+r(1300)
+			max-width: 510px
+		+r(1140)
+			max-width: 460px
+		+r(1024)
+			max-width: 100%
+			flex: 1
+	&__title
+		margin-bottom: 28px
+		line-height: 120%
+		&--mob
+			display: none
+		+r(1300)
+			margin-bottom: 20px
+		+r(1024)
+			margin-bottom: 15px
+		+r(640)
+			font-size: 40px
+			&--mob
+				display: block
+			&--desc
+				display: none
+	&__text-form
+		line-height: 180%
+		color: $grey
+		margin-bottom: 51px
+		&--mob
+			display: none
+		+r(1300)
+			margin-bottom: 40px
+		+r(1024)
+			margin-bottom: 30px
+		+r(640)
+			&--mob
+				display: block
+			&--desc
+				display: none
+.contacts-form
+	&__wrap
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		margin-bottom: 45px
+		+r(1024)
+			margin-bottom: 35px
+		+r(480)
+			margin-bottom: 20px
+	&__input
+		&:not(:last-of-type)
+			margin-bottom: 39px
+		&:last-of-type
+			margin-top: 39px
+		&--max
+			max-width: 100%
+			width: 100%
+		&--med
+			width: calc(50% - 20px)
+		+r(1440)
+			&--med
+				width: 270px
+		+r(1300)
+			&--med
+				width: 240px
+		+r(1140)
+			&--med
+				width: 220px
+		+r(1024)
+			&--med
+				width: calc(50% - 10px)
+			&:not(:last-of-type)
+				margin-bottom: 30px
+			&:last-of-type
+				margin-top: 30px
+		+r(890)
+			&:not(:last-of-type)
+				margin-bottom: 20px
+			&:last-of-type
+				margin-top: 0
+			&--med
+				width: 100%
+		+r(480)
+			&:not(:last-of-type)
+				margin-bottom: 10px
+	&__select
+		width: 290px
+		+r(1440)
+			width: 270px
+		+r(1300)
+			width: 240px
+		+r(1140)
+			width: 220px
+		+r(1024)
+			width: calc(50% - 10px)
+		+r(890)
+			width: 100%
+	&__select, .select2-container .select2-selection--single
+		border-bottom: 1px solid transparentize($garkgrey, .8)
+		+r(890)
+			margin-bottom: 20px
+		+r(480)
+			margin-bottom: 10px
+		&:hover, &:focus
+			border-bottom: 1px solid $orange
+	&__checkbox
+		margin-bottom: 44px
+		+r(1024)
+			margin-bottom: 35px
+		+r(480)
+			margin-bottom: 20px
+	&__btn
+		max-width: 250px
+		+r(480)
+			max-width: 100%
+
+//Стилі для інпатів і селекту
+.select2-container .select2-selection--single
+	padding: 10px 10px 10px 0
+	box-sizing: border-box
+	background: none
+	font-size: 16px
+	color: $garkgrey
+	outline: none
+	border: none
+	height: 40px
+	border-radius: 0
+	border-bottom: 1px solid transparentize($garkgrey, .8)
+	transition: all .3s
+	&::placeholder
+		font-family: 'Inter', sans-serif
+		font-size: 16px
+		color: $garkgrey
+	&:hover, &:focus
+		border-bottom: 1px solid $orange
+	+r(480)
+		font-size: 14px
+		&::placeholder
+			font-size: 14px
+
+.select2
+	box-sizing: border-box
+	&-dropdown
+		background: #FFFDFA
+		box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1)
+		border: none
+		overflow: hidden
+	&-container
+		.select2-selection--single
+			.select2-selection__rendered
+				padding: 0
+				line-height: 20px
+		&--default
+			.select2-selection--single
+				.select2-selection__rendered
+					color: $garkgrey
+		.select2-selection
+			&--single
+				background-color: none
+				border: none
+				.select2-selection__placeholder
+					color: $garkgrey
+					font-size: 16px
+					+r(480)
+						font-size: 14px
+				.select2-selection__rendered
+					padding: 0
+				.select2-selection__arrow
+					width: 12px
+					height: 7px
+					background: url('../img/svg/arrow-select.svg') no-repeat center
+					background-size: 100%
+					top: 50%
+					transform: translateY(-50%)
+					right: 15px
+					transition: all .3s
+					b
+						display: none
+					+r(890)
+						top: 38%
+		&--open
+			.select2-dropdown--below
+				margin-top: 5px
+				border-bottom-right-radius: 20px
+				border-top-left-radius: 20px
+			.select2-selection__arrow
+				transform: translateY(-50%) rotate(180deg) !important
+			.select2-results__option
+				font-size: 16px
+				padding: 15px 0 15px 20px
+				&:not(:last-of-type)
+					border-bottom: 1px solid transparentize(#000000, .9)
+				+r(480)
+					font-size: 14px
+			.select2-results__option--highlighted[aria-selected]
+				background: #FFF4E4
+				color: $garkgrey
+			.select2-results__option[aria-selected=true]
+				background: #FFF4E4
+				p
+					font-size: 20px
+					line-height: 130%
+				span
+					display: block
+					font-size: 14px
+					color: $grey
