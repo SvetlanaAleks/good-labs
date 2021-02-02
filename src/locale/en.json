@@ -201,6 +201,10 @@
     "item_7": "NO STARCH",
     "count": "Count",
     "weight": "Mg",
+    "about": {
+      "title": "Immunal Community",
+      "text": "Join Us in Instagram @goodlabs.com"
+    },
     "immunal": {
       "promo": {
         "title": "Immunal",
@@ -337,10 +341,6 @@
           ]
         }
       },
-      "about": {
-        "title": "Immunal Community",
-        "text": "Join Us in Instagram @goodlabs.com"
-      },
       "reviews": {
         "title": "Reviews",
         "btn": "Submit your review",
@@ -427,6 +427,316 @@
           {
             "ttl": "Can IMMUNAL TM GoodLabs complex be taken for prophylaxis during illnesses high season?",
             "text": "Of course, the vitamin complex IMMUNAL TM GoodLabs is designed to constantly support human immunity, including during the high season of colds."
+          }
+        ]
+      }
+    },
+    "multi": {
+      "promo": {
+        "title": "Multi Vitamin",
+        "desc": "Vitamins&Minerals",
+        "comment": "280 Reviews",
+        "item_1": "Contains over 20 vital vitamins and minerals",
+        "item_2": "The optimal amount of active ingredients for daily use",
+        "item_3": "Fortified with antioxidant vitamins (such as C, A and E)",
+        "item_4": "Helps maintain high physical and mental activity"
+      },
+      "ingredients": {
+        "title": "High quality ingredients for your immunity needs",
+        "tab1": "Energy",
+        "tab2": "Immunity",
+        "tab3": "Mental Activity",
+        "tab4": "Stress-relieving",
+        "tab5": "Healthy Sleep",
+        "tab6": "Beauty",
+        "ingredientArray1": [
+          {
+            "ttl": "Vitamin B3",
+            "text": "Vitamin B3 is involved in the synthesis of hormones, and they in turn affect our well-being and vitality. It also stimulates enzymes and gastric juice involved in digestion, which results in the saturation of the body with energy and nutrients."
+          },
+          {
+            "ttl": "Vitamin B12",
+            "text": "Along with other B vitamins, vitamin B12 helps convert food into energy. It also helps prevent a type of anemia that can make you weak and tired."
+          },
+          {
+            "ttl": "Magnesium",
+            "text": "Promotes rapid recovery in case of strength loss, protects against increased fatigability. This element participates in the transmission of nerve impulses and in the contraction and relaxation of muscles, which is important for the cardiovascular system functioning."
+          },
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C is most often used to strengthen immunity, but it also has a positive effect on our well-being and energy levels. It is required for the synthesis of L-Carnitine, which helps the body burn fat for energy."
+          }
+        ],
+        "ingredientArray2": [
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C helps stimulate the production of white blood cells, known as lymphocytes and phagocytes, which help protect the body from infection."
+          },
+          {
+            "ttl": "Vitamin D",
+            "text": "Vitamin D enhances the anti-pathogens effect of monocytes and macrophages, white blood cells that are an important part of the immune defense, and reduces inflammation, which improves an immune response."
+          },
+          {
+            "ttl": "Zinc",
+            "text": "Zinc is essential for the development and communication of immune cells and plays an important role in the inflammatory response. A deficiency in this nutrient leads to an increased risk of infections and diseases, including pneumonia."
+          },
+          {
+            "ttl": "B vitamins",
+            "text": "B vitamins, including B12 and B6, have anti-inflammatory effect and influence the production of melatonin, which in turn improves the immune response."
+          }
+        ],
+        "ingredientArray3": [
+          {
+            "ttl": "Magnesium",
+            "text": "Magnesium helps regulate neurotransmitters that send signals throughout the brain and nervous system. It plays a critical role in brain function and mood, and low levels are associated with an increased risk of depression."
+          },
+          {
+            "ttl": "Manganese",
+            "text": "Manganese is essential for healthy brain function and is often used to treat certain nervous disorders. It speeds up the conduction of electrical impulses through the body, which in turn affects the speed of the brain's reaction."
+          },
+          {
+            "ttl": "Vitamin B12",
+            "text": "Getting enough vitamin B12 can improve memory and make learning easier. It has also been shown to help improve mood and reduce symptoms of depression and low mood."
+          },
+          {
+            "ttl": "Zinc",
+            "text": "Zinc is important for the areas of the brain responsible for concentration and memory. With a lack of zinc, the cerebral cortex begins to malfunction, which can be expressed in hallucinations, epileptic seizures, impaired sense of smell and loss of taste."
+          }
+        ],
+        "ingredientArray4": [
+          {
+            "ttl": "Inositol",
+            "text": "Inositol can help balance important brain chemicals, including those thought to affect mood, such as serotonin and dopamine."
+          },
+          {
+            "ttl": "Folic acid",
+            "text": "Folic acid, or vitamin B9, is also involved in the synthesis of serotonin. It also regulates the fission and growth of all cells in the body, including nerve cells, which, as we now know, are able to restore."
+          },
+          {
+            "ttl": "Vitamin B6",
+            "text": "Vitamin B6 is necessary for the synthesis of gamma-aminobutyric acid, the most important \"calming\" substance in the central nervous system, as well as serotonin, the \"hormone of happiness\"."
+          },
+          {
+            "ttl": "Magnesium",
+            "text": "Magnesium is especially important among the microelements for the central nervous system. It regulates the process of conducting a nerve impulse, and therefore, is necessary for adequate sleep and maintaining a stable psycho-emotional state."
+          }
+        ],
+        "ingredientArray5": [
+          {
+            "ttl": "Vitamin D3",
+            "text": "Lack of vitamin D3 affects the body's ability to regulate cyclic rhythms. When the body's clock is not working properly, it is unable to transmit signals to sleep hormones that are involved in falling asleep."
+          },
+          {
+            "ttl": "Vitamin E",
+            "text": "Vitamin E deficiency has been linked to restless legs syndrome, which can greatly affect sleep quality. Vitamin E helps you fall asleep faster and prevents sleep interruption during the night."
+          },
+          {
+            "ttl": "B vitamins",
+            "text": "B vitamins are essential for the proper functioning of the adrenal glands and thus help prevent the release of adrenaline at night when not needed."
+          },
+          {
+            "ttl": "Iron",
+            "text": "Iron deficiency is also thought to be the main cause of restless legs symptom, which in turn causes insomnia and anxiety disorders that make it difficult to fall asleep."
+          }
+        ],
+        "ingredientArray6": [
+          {
+            "ttl": "Biotin",
+            "text": "Biotin promotes good skin health and is essential for the production of keratin, a protein that helps strengthen nails and hair. It is biotin that is one of the main elements that promotes the growth of healthy and thick hair."
+          },
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C acts as an antioxidant in the body, helping to protect cells from damage caused by free radicals, thereby slowing down aging."
+          },
+          {
+            "ttl": "Vitamin E",
+            "text": "It is responsible for the firmness, elasticity and hydration of the skin and hair. This natural antioxidant, as well as vitamin C, helps the body to prolong youth and has a positive effect on the endocrine profile, which directly affects the condition of our skin."
+          },
+          {
+            "ttl": "Vitamin A",
+            "text": "Vitamin A plays a very important role in the process of skin cell renewal, and also stimulates the functioning of fibroblasts, cells associated with the production of collagen and elastin."
+          }
+        ]
+      },
+      "advantages": {
+        "title": "GoodLabs Multivitamin is a strong foundation for your health",
+        "desc": "Adequate amounts of vitamins and minerals in the body are foundation for human health and wellness. GoodLabs Multivitamin is a vitamin and mineral complex with the most essential elements for active life."
+      },
+      "feedback": {
+        "color": "green",
+        "text": "The vitamin complex GoodLabs Multivitamin has a professionally selected composition and amount of active ingredients, so it maintains the balance of essential vitamins and minerals in the body.",
+        "info": "Fertility expert <span>Dr. Gleaton</span> says"
+      },
+      "technical": {
+        "title": "Technical Information",
+        "ttl": "Fiber Usage",
+        "text_1": "Take 1 capsule daily with water with or after food. ",
+        "text_2": "Do not exceed the recommended daily dose. A food supplement is not intended to substitute for a healthy diet. Do not use the product in case o individual intolerance to the ingredients.",
+        "text_3": "Store in the original packaging in a dark dry place. Do not store above 25 °C.",
+        "technicalInfoArray": {
+          "title": "2 Vegetarian Capsules Contain:",
+          "list": [
+            {
+              "text1": "Vitamin A",
+              "text2": "80 ug-Re (100%)"
+            },
+            {
+              "text1": "Vitamin B1",
+              "text2": "1,1 mg (100%)"
+            },
+            {
+              "text1": "Vitamin B2",
+              "text2": "1,4 mg (100%)"
+            },
+            {
+              "text1": "Vitamin B3",
+              "text2": "16,0 mg (100%)"
+            },
+            {
+              "text1": "Pantothenic acid",
+              "text2": "6,0 mg (100%)"
+            },
+            {
+              "text1": "Vitamin B6",
+              "text2": "4,0 mg (100%)"
+            },
+            {
+              "text1": "Biotin",
+              "text2": "50 ug (100%)"
+            },
+            {
+              "text1": "Folic acid",
+              "text2": "200 ug (100%)"
+            },
+            {
+              "text1": "Vitamin B12",
+              "text2": "2.5 ug (100%)"
+            },
+            {
+              "text1": "Vitamic C",
+              "text2": "80,0 mg (100%)"
+            },
+            {
+              "text1": "Vitamin D3",
+              "text2": "5 ug (100%)"
+            },
+            {
+              "text1": "Vitamin E",
+              "text2": "12 mg (100%)"
+            },
+            {
+              "text1": "Magnesium",
+              "text2": "100,0 mg (27%)"
+            },
+            {
+              "text1": "Iron",
+              "text2": "10 mg (100%)"
+            },
+            {
+              "text1": "Mangan",
+              "text2": "2,0 mg (100%)"
+            },
+            {
+              "text1": "Copper",
+              "text2": "1,0 mg (100%)"
+            },
+            {
+              "text1": "Lodine",
+              "text2": "150 ug (100%)"
+            },
+            {
+              "text1": "Molydbenum",
+              "text2": "50 ug (100%)"
+            },
+            {
+              "text1": "Selenium",
+              "text2": "55 ug (100%)"
+            },
+            {
+              "text1": "Inositol",
+              "text2": "50 mg"
+            }
+          ]
+        }
+      },
+      "reviews": {
+        "title": "Reviews",
+        "btn": "Submit your review",
+        "reviewArray": [
+          {
+            "text": "For me personally, the GoodLabs Multivitamin is the best I have tried. There is a good composition, each component has scientific confirmation of its effectiveness.",
+            "name": "Luca Fischer",
+            "date": "Jan 12, 2019"
+          },
+          {
+            "text": "Good dosage. I have been looking for a complex remedy for a long time, in which all components will be balanced. Goodlabs was my discovery in this regard. Good prophylactic dosages.",
+            "name": "David Barter",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "I`ve been taking Multivitamin for several months now. I used to get sick often, but now not a single flu can knock me off my feet. That's what good multicomplex means!",
+            "name": "Anna Wagner",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "I bought the vitamin complex a month ago. I just started taking it, but I haven`t yet understood the effect. I don't like that there are only 30 capsules in a jar.",
+            "name": "Helga Müller",
+            "date": "Jan 12, 2019"
+          },
+          {
+            "text": "I`ve started taking Multivitamin `cause I felt a lack of energy. For now it`s fine.",
+            "name": "Hans Hoffmann",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "I take Multivitamin, as well as my elderly parents do. I am worried about their life and health, so I try to support their immunity with good multivitamin complexes.",
+            "name": "Alexander Bertz",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Well, finally, vitamin complexes with a truly balanced composition appeared on sale! GoodLabs Multivitamin has a good dosage and is well absorbed by the body.",
+            "name": "Maria Bart",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "This product will appeal to those who do not like to buy a million jars, but prefer combined complexes with all-in-one. Multivitamin is just like that.",
+            "name": "Hannah Weber",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "We have been taking Multivitamin for only a week, but drowse and weakness have already disappeared. In general, an excellent composition, in addition, you don`t need to take anything else. We`ll order more for the future.",
+            "name": "Maria Hoff",
+            "date": "Jan 16, 2019"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Good to know",
+        "desc": "If you didn't find the answer to your question, feel free to write to us",
+        "questionArray": [
+          {
+            "ttl": "Why multivitamin complex TM GoodLab?",
+            "text": "This complex contains all the necessary vitamins and minerals in a well-chosen dosage to cover the body's daily need for the necessary substances. As a result, you feel energized and in a good mood."
+          },
+          {
+            "ttl": "Is administration safe to take without a doctor's prescription?",
+            "text": "A doctor's prescription is optional, but it is worth consulting with a specialist when taking other supplements or medications."
+          },
+          {
+            "ttl": "Are there any contraindications for administration?",
+            "text": "Individual intolerance to the components."
+          },
+          {
+            "ttl": "How to take the complex?",
+            "text": "Take once a day with water or during/after meals."
+          },
+          {
+            "ttl": "What is the course of administration?",
+            "text": "The course of administration is determined in accordance with the individual needs."
+          },
+          {
+            "ttl": "How to know if the TM GoodLab multivitamin complex is right for me?",
+            "text": "If you feel a lack of energy, want to increase the overall tone of the body and resistance to aggressive environmental factors, then the TM GoodLab multivitamin complex will be the ideal solution for you."
           }
         ]
       }

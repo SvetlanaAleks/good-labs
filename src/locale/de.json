@@ -201,6 +201,10 @@
     "item_7": "ENTHÄLT KEIN STÄRKEMEHL",
     "count": "Stück",
     "weight": "mg",
+    "about": {
+      "title": "Über Immunal",
+      "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
+    },
     "immunal": {
       "promo": {
         "title": "Immunal",
@@ -337,10 +341,6 @@
           ]
         }
       },
-      "about": {
-        "title": "Über Immunal",
-        "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
-      },
       "reviews": {
         "title": "Kommentare",
         "btn": "Lassen Sie Ihre Bewertung",
@@ -427,6 +427,316 @@
           {
             "ttl": "Kann ich den Immunal TM GoodLabs zur Vorbeugung bei Krankheiten einnehmen?",
             "text": "Natürlich ist der Vitaminkomplex IMMUNAL TM GoodLabs für die ständige Unterstützung der menschlichen Immunität, einschließlich während der Revitalisierung von saisonalen Erkältungen."
+          }
+        ]
+      }
+    },
+    "multi": {
+      "promo": {
+        "title": "Multi Vitamin",
+        "desc": "Vitamins & Minerals",
+        "comment": "280 Kommentare",
+        "item_1": "Enthält mehr als 20 lebenswichtige Vitamine und Mineralstoffe",
+        "item_2": "Optimale Menge an Wirkstoffen für die tägliche Einnahme",
+        "item_3": "Angereichert mit Vitaminen (wie C, A und E) mit antioxidativer Wirkung",
+        "item_4": "Fördert die Aufrechterhaltung einer aktiven körperlichen und geistigen Aktivität"
+      },
+      "ingredients": {
+        "title": "Hochwertige Zutaten für die Bedürfnisse Ihrer Immunität",
+        "tab1": "ENERGIE",
+        "tab2": "IMMUNITÄT",
+        "tab3": "GEISTIGE AKTIVITÄT",
+        "tab4": "ANTI-STRESS",
+        "tab5": "GESUNDEN SCHLAF",
+        "tab6": "SCHÖNHEIT",
+        "ingredientArray1": [
+          {
+            "ttl": "Vitamin B3",
+            "text": "Vitamin B3 ist an der Hormonsynthese beteiligt und wirkt sich wiederum auf unser Wohlbefinden und unsere Vitalität aus. Es stimuliert auch Enzyme und Magensaft, die an der Verdauung beteiligt sind, deren Ergebnis die Sättigung des Körpers mit Energie und Nährstoffen ist. "
+          },
+          {
+            "ttl": "Vitamin B12",
+            "text": "Zusammen mit anderen B-Vitaminen hilft Vitamin B12, Nahrung in Energie umzuwandeln. Es hilft auch, die Art der Anämie zu verhindern, die Sie Schwäche und Müdigkeit verursachen kann."
+          },
+          {
+            "ttl": "Magnesium",
+            "text": "Es fördert eine schnelle Erholung bei Kraftverlust und schützt vor erhöhter Ermüdung. Es beteiligt sich an der Übertragung von Nervenimpulsen und an der Kontraktion und Entspannung der Muskeln, die für die Arbeit des Herz-Kreislauf-Systems wichtig ist."
+          },
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C wird am häufigsten eingenommen, um die Immunität zu stärken, aber darüber hinaus wirkt es sich positiv auf unser Wohlbefinden und unser Energieniveau aus. Es ist notwendig für die Synthese von L-Carnitin, das hilft, Fett für die Energiegewinnung durch den Körper zu verbrennen. "
+          }
+        ],
+        "ingredientArray2": [
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C hilft, die Produktion von weißen Blutkörperchen, bekannt als Lymphozyten und Phagozyten, zu stimulieren, die den Körper vor Infektionen schützen. "
+          },
+          {
+            "ttl": "Vitamin D",
+            "text": "Vitamin D verstärkt die Anti-Pathogen-Wirkung von Monozyten und Makrophagen - weißen Blutkörperchen, die ein wichtiger Bestandteil der Immunabwehr sind - und reduziert Entzündungen, die eine Immunantwort fördern. "
+          },
+          {
+            "ttl": "Zinc",
+            "text": "Zink ist wichtig für die Entwicklung und Kommunikation von Immunzellen und spielt eine wichtige Rolle bei der Entzündungsreaktion. Ein Mangel an diesem Nährstoff führt zu einem erhöhten Risiko für Infektionen und Krankheiten, einschließlich Lungenentzündung."
+          },
+          {
+            "ttl": "Vitamine der Gruppe&nbsp;B",
+            "text": "Vitamine der Gruppe B, einschließlich B12 und B6, haben entzündungshemmende Aktivität und beeinflussen die Produktion von Melatonin, die wiederum die Immunantwort verstärken."
+          }
+        ],
+        "ingredientArray3": [
+          {
+            "ttl": "Magnesium",
+            "text": "Magnesium hilft, Neurotransmitter zu regulieren, die Nachrichten im Gehirn und Nervensystem senden. Es spielt eine entscheidende Rolle bei der Gehirnfunktion und Stimmung, und niedrige Werte sind mit einem erhöhten Risiko für Depressionen verbunden."
+          },
+          {
+            "ttl": "Mangan",
+            "text": "Mangan ist wichtig für eine gesunde Gehirnfunktion und wird häufig zur Behandlung bestimmter Nervenstörungen eingesetzt. Es beschleunigt die Bewegung elektrischer Impulse durch den Körper, was wiederum die Reaktionsgeschwindigkeit des Gehirns beeinflusst."
+          },
+          {
+            "ttl": "Vitamin B12",
+            "text": "Wenn Sie genug Vitamin B12 erhalten, kann dies das Gedächtnis verbessern und das Lernen erleichtern. Es hat sich auch gezeigt, dass es hilft, die Stimmung zu verbessern und die Symptome von Depressionen und depressiven Stimmungen zu reduzieren. "
+          },
+          {
+            "ttl": "Zinc",
+            "text": "Zink ist wichtig für die Gehirnabteilungen, die für Konzentration und Gedächtnis verantwortlich sind. Mit einem Mangel an Zink beginnt die Großhirnrinde zu versagen, was sich in Halluzinationen, epileptischen Anfällen, beeinträchtigtem Geruchssinn und Geschmacksverlust äußern kann."
+          }
+        ],
+        "ingredientArray4": [
+          {
+            "ttl": "Inositol",
+            "text": "Inositol kann helfen, wichtige Chemikalien im Gehirn auszugleichen, einschließlich solcher, von denen angenommen wird, dass sie die Stimmung beeinflussen, wie Serotonin und Dopamin."
+          },
+          {
+            "ttl": "Folsäure",
+            "text": "Folsäure oder Vitamin B9 ist auch an der Synthese von Serotonin beteiligt. Es reguliert auch die Teilung und das Wachstum aller Zellen des Körpers, einschließlich der Nervenzellen, die, wie jetzt bekannt ist, immer noch wiederhergestellt werden."
+          },
+          {
+            "ttl": "Vitamin B6",
+            "text": "Vitamin B6 ist notwendig für die Synthese von Gamma-Aminobuttersäure — die wichtigste «beruhigende» Substanz im zentralen Nervensystem, sowie Serotonin — das «Glückshormon». "
+          },
+          {
+            "ttl": "Magnesium",
+            "text": "Von den Spurenelementen für das zentrale Nervensystem ist Magnesium besonders wichtig. Es reguliert den Prozess der Durchführung eines Nervenimpulses und ist daher für einen vollen Schlaf und die Aufrechterhaltung eines stabilen psychoemotionalen Zustands notwendig."
+          }
+        ],
+        "ingredientArray5": [
+          {
+            "ttl": "Vitamin D3",
+            "text": "Ein Mangel an Vitamin D3 beeinträchtigt die Fähigkeit des Körpers, zyklische Rhythmen zu regulieren. Wenn die Uhr des Körpers nicht richtig funktioniert, sind Sie nicht in der Lage, Signale an die Schlafhormone zu senden, die am Einschlafen beteiligt sind."
+          },
+          {
+            "ttl": "Vitamin E",
+            "text": "Vitamin E-Mangel wurde mit dem \"Syndrom der ruhelosen Beine\" in Verbindung gebracht, das die Schlafqualität stark beeinträchtigen kann. Vitamin E hilft, schneller einzuschlafen und verhindert, dass der Schlaf während der Nacht unterbrochen wird."
+          },
+          {
+            "ttl": "Vitamine der Gruppe&nbsp;B",
+            "text": "B-Vitamine sind ein wichtiges Element der ordnungsgemäßen Funktion der Nebennieren und helfen somit, die Freisetzung von Adrenalin in den Nachtstunden zu verhindern, wenn es nicht benötigt wird."
+          },
+          {
+            "ttl": "Eisen",
+            "text": "Eisenmangel gilt auch als Hauptursache für das Auftreten des Syndroms der ruhelosen Beine, das wiederum Schlaflosigkeit und Angststörungen verursacht, die das einschlafen beeinträchtigen. "
+          }
+        ],
+        "ingredientArray6": [
+          {
+            "ttl": "Biotin",
+            "text": "Biotin fördert die Gesundheit der Haut und ist wichtig für die Produktion von Keratin - ein Protein, das zur Stärkung von Nägeln und Haaren beiträgt. Es ist Biotin eines der Hauptelemente, das das Wachstum von gesundem und dickem Haar fördert. "
+          },
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C im Körper wirkt als Antioxidans und schützt die Zellen vor Schäden durch freie Radikale und verlangsamt dadurch das Altern."
+          },
+          {
+            "ttl": "Vitamin E",
+            "text": "Es ist verantwortlich für die Festigkeit, Elastizität und Feuchtigkeit von Haut und Haaren. Dieses natürliche Antioxidans sowie Vitamin C hilft dem Körper, die Jugend zu verlängern und wirkt sich positiv auf den hormonellen Hintergrund aus, von dem der Zustand unserer Haut direkt abhängt."
+          },
+          {
+            "ttl": "Vitamin A",
+            "text": "Vitamin A spielt eine sehr wichtige Rolle bei der Erneuerung der Hautzellen und stimuliert auch die Funktion von Fibroblasten — Zellen, die mit der Produktion von Kollagen und Elastin verbunden sind."
+          }
+        ]
+      },
+      "advantages": {
+        "title": "GoodLabs Multivitamin - eine zuverlässige Grundlage Ihrer Gesundheit",
+        "desc": "Eine ausreichende Menge an Vitaminen und Mineralstoffen im Körper ist die Grundlage für die Gesundheit und das Wohlbefinden einer Person. GoodLabs Multivitamin ist ein Vitamin- und Mineralstoffkomplex mit den wichtigsten Elementen für ein aktives Leben."
+      },
+      "feedback": {
+        "color": "green",
+        "text": "Vitaminkomplex GoodLabs Multivitamin hat eine professionell ausgewählte Zusammensetzung und Menge an Wirkstoffen, sodass das Gleichgewicht der essentiellen Vitamine und Mineralien im menschlichen Körper erhalten bleibt.",
+        "info": "Experte <span>Dr. Gleaton</span> sagt"
+      },
+      "technical": {
+        "title": "Technische Details",
+        "ttl": "Faserverbrauch",
+        "text_1": "1 Kapsel mit Wasser täglich während / nach der Mahzeit einnehmen.",
+        "text_2": "Überschreiten Sie nicht die empfohlene Tagesdosis. Das Nahrungsergänzungsmittel soll keine gesunde Ernährung ersetzen. Nehmen Sie das Produkt nicht bei individueller Unverträglichkeit der Inhaltsstoffe ein.",
+        "text_3": "In der Originalverpackung an einem dunklen, trockenen Ort aufbewahren. Nicht bei Temperaturen über 25°C lagern.",
+        "technicalInfoArray": {
+          "title": "2 vegetarische Kapseln enthalten:",
+          "list": [
+            {
+              "text1": "Vitamin A",
+              "text2": "80 ug-Re (100%)"
+            },
+            {
+              "text1": "Vitamin B1",
+              "text2": "1,1 mg (100%)"
+            },
+            {
+              "text1": "Vitamin B2",
+              "text2": "1,4 mg (100%)"
+            },
+            {
+              "text1": "Vitamin B3",
+              "text2": "16,0 mg (100%)"
+            },
+            {
+              "text1": "Pantothensäure",
+              "text2": "6,0 mg (100%)"
+            },
+            {
+              "text1": "Vitamin B6",
+              "text2": "4,0 mg (100%)"
+            },
+            {
+              "text1": "Biotin",
+              "text2": "50 ug (100%)"
+            },
+            {
+              "text1": "Folsäure",
+              "text2": "200 ug (100%)"
+            },
+            {
+              "text1": "Vitamin B12",
+              "text2": "2.5 ug (100%)"
+            },
+            {
+              "text1": "Vitamic C",
+              "text2": "80,0 mg (100%)"
+            },
+            {
+              "text1": "Vitamin D3",
+              "text2": "5 ug (100%)"
+            },
+            {
+              "text1": "Vitamin E",
+              "text2": "12 mg (100%)"
+            },
+            {
+              "text1": "Magnesium",
+              "text2": "100,0 mg (27%)"
+            },
+            {
+              "text1": "Eisen",
+              "text2": "10 mg (100%)"
+            },
+            {
+              "text1": "Mangan",
+              "text2": "2,0 mg (100%)"
+            },
+            {
+              "text1": "Kupfer",
+              "text2": "1,0 mg (100%)"
+            },
+            {
+              "text1": "Lodine",
+              "text2": "150 ug (100%)"
+            },
+            {
+              "text1": "Molybdän",
+              "text2": "50 ug (100%)"
+            },
+            {
+              "text1": "Selen",
+              "text2": "55 ug (100%)"
+            },
+            {
+              "text1": "Inosit",
+              "text2": "50 mg"
+            }
+          ]
+        }
+      },
+      "reviews": {
+        "title": "Kommentare",
+        "btn": "Lassen Sie Ihre Bewertung",
+        "reviewArray": [
+          {
+            "text": "Für mich persönlich war der GoodLabs Multivitamin Komplex das beste, was ich ausprobiert habe. Hier ist eine gute Zusammensetzung, jede Komponente hat eine wissenschaftliche Bestätigung der Wirksamkeit.",
+            "name": "Luca Fischer",
+            "date": "Jan 12, 2019"
+          },
+          {
+            "text": "Gute Dosierung. Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgeglichen sind. Goodlabs wurde in dieser Hinsicht zu meiner Entdeckung. Gute präventive Dosierungen.",
+            "name": "David Barter",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "Ich nehme jetzt seit mehreren Monaten Multivitamin ein. Früher war ich oft krank, aber jetzt bin ich immer gesund. Das ist, was ein guter Multikomplex bedeutet!",
+            "name": "Anna Wagner",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Ich habe den Vitaminkomplex vor einem Monat gekauft und gerade mit der Einnahme begonnen, aber die Wirkung ist noch nicht bekannt. Ich mag es nicht, dass es nur 30 Kapseln in einer Dose gibt.",
+            "name": "Helga Müller",
+            "date": "Jan 12, 2019"
+          },
+          {
+            "text": "Begann mit der Einnahme von Multivitamin, fühlte aber einen Mangel an Energie. Bis jetzt ist alles gut. ",
+            "name": "Hans Hoffmann",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "Immunal wird nicht nur von mir, sondern auch von meinen Eltern eingenommen. Ich mache mir Sorgen um ihr Leben und ihre Gesundheit und versuche, sie mit guten Multivitaminkomplexen zu unterstützen.",
+            "name": "Alexander Bertz",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung! GoodLabs Multivitamin hat eine gute Dosierung und wird vom Körper gut aufgenommen.",
+            "name": "Maria Bart",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Dieses Mittel wird für diejenigen ansprechen, die nicht gerne eine Million Dosen kaufen, sondern kombinierte Komplexe bevorzugen, in denen alles auf einmal ist. Multivitamin ist genau das.",
+            "name": "Hannah Weber",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Wir nehmen Multivitamin erst seit einer Woche ein, aber Schläfrigkeit und Schwäche sind bereits verschwunden. Im Allgemeinen eine ausgezeichnete Zusammensetzung, zusätzlich können Sie nichts mehr nehmen. Wir werden mehr für die Zukunft bestellen.",
+            "name": "Maria Hoff",
+            "date": "Jan 16, 2019"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Gut zu wissen",
+        "desc": "Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, schreiben Sie uns",
+        "questionArray": [
+          {
+            "ttl": "Warum sollten Sie sich für den TM GoodLab Multivitamin-Komplex entscheiden?",
+            "text": "Dieser Komplex enthält alle notwendigen Vitamine und Mineralien in einer gut ausgewählten Dosierung, um den täglichen Bedarf des Körpers an den notwendigen Substanzen zu decken. Infolgedessen fühlen Sie sich energetisiert und gut gelaunt. "
+          },
+          {
+            "ttl": " Ist die Einnahme ohne einen Arzttermin sicher?",
+            "text": "Die Verschreibung eines Arztes ist optional, es lohnt sich jedoch, sich von einem Spezialisten beraten zu lassen, wenn Sie andere Nahrungsergänzungsmittel oder Arzneimittel einnehmen."
+          },
+          {
+            "ttl": "Gibt es Kontraindikationen für die Einnahme?",
+            "text": "Individuelle Intoleranz der Inhaltsstoffe."
+          },
+          {
+            "ttl": "Wie nimmt man den Komplex ein?",
+            "text": "Nehmen Sie einmal täglich mit Wasser während/nach einer Mahlzeit."
+          },
+          {
+            "ttl": "Wie ist die Kurdauer?",
+            "text": "Die Kur der Einnahme wird nach dem individuellen Bedarf bestimmt."
+          },
+          {
+            "ttl": "Wie kann ich verstehen, ob der Multivitaminkomplex TM GoodLab für mich geeignet ist?",
+            "text": "Wenn Sie einen Energiemangel verspüren, den Gesamttonus des Körpers und die Widerstandsfähigkeit gegen aggressive Umweltfaktoren verbessern möchten, ist der TM GoodLab Multivitamin-Komplex die ideale Lösung für Sie. "
           }
         ]
       }
