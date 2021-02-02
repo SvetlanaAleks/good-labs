@@ -1,0 +1,78 @@
+- var INGREDIENTS_MULTI= LANG.products.multi.ingredients;
+
+include ../../mixins/ingredient
+
+-
+	const ingredientArrayImages1 = [
+		'img/svg/ingredient_vit-b3.svg',
+		'img/svg/ingredient_vit-b12.svg',
+		'img/svg/ingredient_mg.svg',
+		'img/svg/ingredient_vit-c.svg',
+	];
+	const ingredientArrayImages2 = [
+		'img/svg/ingredient_vit-c.svg',
+		'img/svg/ingredient_vit-d.svg',
+		'img/svg/ingredient_cink.svg',
+		'img/svg/ingredient_vit-b6.svg',
+	];
+	const ingredientArrayImages3 = [
+		'img/svg/ingredient_mg.svg',
+		'img/svg/ingredient_marganets.svg',
+		'img/svg/ingredient_vit-b12.svg',
+		'img/svg/ingredient_cink.svg',
+	];
+	const ingredientArrayImages4 = [
+		'img/svg/ingredient_inozitol.svg',
+		'img/svg/ingredient_folieva.svg',
+		'img/svg/ingredient_vit-b6.svg',
+		'img/svg/ingredient_mg.svg',
+	];
+	const ingredientArrayImages5 = [
+		'img/svg/ingredient_vit-d3.svg',
+		'img/svg/ingredient_vit-e.svg',
+		'img/svg/ingredient_vit-b3.svg',
+		'img/svg/ingredient_zhelezo.svg',
+	];
+	const ingredientArrayImages6 = [
+		'img/svg/ingredient_biotin.svg',
+		'img/svg/ingredient_vit-c.svg',
+		'img/svg/ingredient_vit-e.svg',
+		'img/svg/ingredient_vit-a.svg',
+	];
+
+section.ingredients
+	.container
+		h2.ingredients__title.title.title--big!= INGREDIENTS_MULTI.title
+		.ingredients__wrap.ingredients__wrap--scroll
+			.ingredients__tabs.tabs
+				.tab.active.js-tab(data-tab="#list1")
+					p.tab__text.text--med!= INGREDIENTS_MULTI.tab1
+				.tab.js-tab(data-tab="#list2")
+					p.tab__text.text--med!= INGREDIENTS_MULTI.tab2
+				.tab.js-tab(data-tab="#list3")
+					p.tab__text.text--med!= INGREDIENTS_MULTI.tab3
+				.tab.js-tab(data-tab="#list4")
+					p.tab__text.text--med!= INGREDIENTS_MULTI.tab4
+				.tab.js-tab(data-tab="#list5")
+					p.tab__text.text--med!= INGREDIENTS_MULTI.tab5
+				.tab.js-tab(data-tab="#list6")
+					p.tab__text.text--med!= INGREDIENTS_MULTI.tab6
+		.ingredients__info.ingredients__info--multi-vitamin
+			.ingredients__content.active.js-content-tab#list1
+				each ingredient1, key in INGREDIENTS_MULTI.ingredientArray1
+					+ingredient(ingredientArrayImages1[key], ingredient1.ttl, ingredient1.text)
+			.ingredients__content.js-content-tab#list2
+				each ingredient2, key in INGREDIENTS_MULTI.ingredientArray2
+					+ingredient(ingredientArrayImages2[key], ingredient2.ttl, ingredient2.text)
+			.ingredients__content.js-content-tab#list3
+				each ingredient3, key in INGREDIENTS_MULTI.ingredientArray3
+					+ingredient(ingredientArrayImages3[key], ingredient3.ttl, ingredient3.text)
+			.ingredients__content.js-content-tab#list4
+				each ingredient4, key in INGREDIENTS_MULTI.ingredientArray4
+					+ingredient(ingredientArrayImages4[key], ingredient4.ttl, ingredient4.text)
+			.ingredients__content.js-content-tab#list5
+				each ingredient5, key in INGREDIENTS_MULTI.ingredientArray5
+					+ingredient(ingredientArrayImages5[key], ingredient5.ttl, ingredient5.text)
+			.ingredients__content.js-content-tab#list6
+				each ingredient6, key in INGREDIENTS_MULTI.ingredientArray6
+					+ingredient(ingredientArrayImages6[key], ingredient6.ttl, ingredient6.text)

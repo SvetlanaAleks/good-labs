@@ -430,6 +430,138 @@
           }
         ]
       }
+    },
+    "multi": {
+      "promo": {
+        "title": "Multi Vitamin",
+        "desc": "Vitamins & Minerals",
+        "comment": "280 Kommentare",
+        "item_1": "Enthält mehr als 20 lebenswichtige Vitamine und Mineralstoffe",
+        "item_2": "Optimale Menge an Wirkstoffen für die tägliche Einnahme",
+        "item_3": "Angereichert mit Vitaminen (wie C, A und E) mit antioxidativer Wirkung",
+        "item_4": "Fördert die Aufrechterhaltung einer aktiven körperlichen und geistigen Aktivität"
+      },
+      "ingredients": {
+        "title": "Hochwertige Zutaten für die Bedürfnisse Ihrer Immunität",
+        "tab1": "ENERGIE",
+        "tab2": "IMMUNITÄT",
+        "tab3": "GEISTIGE AKTIVITÄT",
+        "tab4": "ANTI-STRESS",
+        "tab5": "GESUNDEN SCHLAF",
+        "tab6": "SCHÖNHEIT",
+        "ingredientArray1": [
+          {
+            "ttl": "Vitamin B3",
+            "text": "Vitamin B3 ist an der Hormonsynthese beteiligt und wirkt sich wiederum auf unser Wohlbefinden und unsere Vitalität aus. Es stimuliert auch Enzyme und Magensaft, die an der Verdauung beteiligt sind, deren Ergebnis die Sättigung des Körpers mit Energie und Nährstoffen ist. "
+          },
+          {
+            "ttl": "Vitamin B12",
+            "text": "Zusammen mit anderen B-Vitaminen hilft Vitamin B12, Nahrung in Energie umzuwandeln. Es hilft auch, die Art der Anämie zu verhindern, die Sie Schwäche und Müdigkeit verursachen kann."
+          },
+          {
+            "ttl": "Magnesium",
+            "text": "Es fördert eine schnelle Erholung bei Kraftverlust und schützt vor erhöhter Ermüdung. Es beteiligt sich an der Übertragung von Nervenimpulsen und an der Kontraktion und Entspannung der Muskeln, die für die Arbeit des Herz-Kreislauf-Systems wichtig ist."
+          },
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C wird am häufigsten eingenommen, um die Immunität zu stärken, aber darüber hinaus wirkt es sich positiv auf unser Wohlbefinden und unser Energieniveau aus. Es ist notwendig für die Synthese von L-Carnitin, das hilft, Fett für die Energiegewinnung durch den Körper zu verbrennen. "
+          }
+        ],
+        "ingredientArray2": [
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C hilft, die Produktion von weißen Blutkörperchen, bekannt als Lymphozyten und Phagozyten, zu stimulieren, die den Körper vor Infektionen schützen. "
+          },
+          {
+            "ttl": "Vitamin D",
+            "text": "Vitamin D verstärkt die Anti-Pathogen-Wirkung von Monozyten und Makrophagen - weißen Blutkörperchen, die ein wichtiger Bestandteil der Immunabwehr sind - und reduziert Entzündungen, die eine Immunantwort fördern. "
+          },
+          {
+            "ttl": "Zinc",
+            "text": "Zink ist wichtig für die Entwicklung und Kommunikation von Immunzellen und spielt eine wichtige Rolle bei der Entzündungsreaktion. Ein Mangel an diesem Nährstoff führt zu einem erhöhten Risiko für Infektionen und Krankheiten, einschließlich Lungenentzündung."
+          },
+          {
+            "ttl": "Vitamine der Gruppe&nbsp;B",
+            "text": "Vitamine der Gruppe B, einschließlich B12 und B6, haben entzündungshemmende Aktivität und beeinflussen die Produktion von Melatonin, die wiederum die Immunantwort verstärken."
+          }
+        ],
+        "ingredientArray3": [
+          {
+            "ttl": "Magnesium",
+            "text": "Magnesium hilft, Neurotransmitter zu regulieren, die Nachrichten im Gehirn und Nervensystem senden. Es spielt eine entscheidende Rolle bei der Gehirnfunktion und Stimmung, und niedrige Werte sind mit einem erhöhten Risiko für Depressionen verbunden."
+          },
+          {
+            "ttl": "Mangan",
+            "text": "Mangan ist wichtig für eine gesunde Gehirnfunktion und wird häufig zur Behandlung bestimmter Nervenstörungen eingesetzt. Es beschleunigt die Bewegung elektrischer Impulse durch den Körper, was wiederum die Reaktionsgeschwindigkeit des Gehirns beeinflusst."
+          },
+          {
+            "ttl": "Vitamin B12",
+            "text": "Wenn Sie genug Vitamin B12 erhalten, kann dies das Gedächtnis verbessern und das Lernen erleichtern. Es hat sich auch gezeigt, dass es hilft, die Stimmung zu verbessern und die Symptome von Depressionen und depressiven Stimmungen zu reduzieren. "
+          },
+          {
+            "ttl": "Zinc",
+            "text": "Zink ist wichtig für die Gehirnabteilungen, die für Konzentration und Gedächtnis verantwortlich sind. Mit einem Mangel an Zink beginnt die Großhirnrinde zu versagen, was sich in Halluzinationen, epileptischen Anfällen, beeinträchtigtem Geruchssinn und Geschmacksverlust äußern kann."
+          }
+        ],
+        "ingredientArray4": [
+          {
+            "ttl": "Inositol",
+            "text": "Inositol kann helfen, wichtige Chemikalien im Gehirn auszugleichen, einschließlich solcher, von denen angenommen wird, dass sie die Stimmung beeinflussen, wie Serotonin und Dopamin."
+          },
+          {
+            "ttl": "Folsäure",
+            "text": "Folsäure oder Vitamin B9 ist auch an der Synthese von Serotonin beteiligt. Es reguliert auch die Teilung und das Wachstum aller Zellen des Körpers, einschließlich der Nervenzellen, die, wie jetzt bekannt ist, immer noch wiederhergestellt werden."
+          },
+          {
+            "ttl": "Vitamin B6",
+            "text": "Vitamin B6 ist notwendig für die Synthese von Gamma-Aminobuttersäure — die wichtigste «beruhigende» Substanz im zentralen Nervensystem, sowie Serotonin — das «Glückshormon». "
+          },
+          {
+            "ttl": "Magnesium",
+            "text": "Von den Spurenelementen für das zentrale Nervensystem ist Magnesium besonders wichtig. Es reguliert den Prozess der Durchführung eines Nervenimpulses und ist daher für einen vollen Schlaf und die Aufrechterhaltung eines stabilen psychoemotionalen Zustands notwendig."
+          }
+        ],
+        "ingredientArray5": [
+          {
+            "ttl": "Vitamin D3",
+            "text": "Ein Mangel an Vitamin D3 beeinträchtigt die Fähigkeit des Körpers, zyklische Rhythmen zu regulieren. Wenn die Uhr des Körpers nicht richtig funktioniert, sind Sie nicht in der Lage, Signale an die Schlafhormone zu senden, die am Einschlafen beteiligt sind."
+          },
+          {
+            "ttl": "Vitamin E",
+            "text": "Vitamin E-Mangel wurde mit dem \"Syndrom der ruhelosen Beine\" in Verbindung gebracht, das die Schlafqualität stark beeinträchtigen kann. Vitamin E hilft, schneller einzuschlafen und verhindert, dass der Schlaf während der Nacht unterbrochen wird."
+          },
+          {
+            "ttl": "Vitamine der Gruppe&nbsp;B",
+            "text": "B-Vitamine sind ein wichtiges Element der ordnungsgemäßen Funktion der Nebennieren und helfen somit, die Freisetzung von Adrenalin in den Nachtstunden zu verhindern, wenn es nicht benötigt wird."
+          },
+          {
+            "ttl": "Eisen",
+            "text": "Eisenmangel gilt auch als Hauptursache für das Auftreten des Syndroms der ruhelosen Beine, das wiederum Schlaflosigkeit und Angststörungen verursacht, die das einschlafen beeinträchtigen. "
+          }
+        ],
+        "ingredientArray6": [
+          {
+            "ttl": "Biotin",
+            "text": "Biotin fördert die Gesundheit der Haut und ist wichtig für die Produktion von Keratin - ein Protein, das zur Stärkung von Nägeln und Haaren beiträgt. Es ist Biotin eines der Hauptelemente, das das Wachstum von gesundem und dickem Haar fördert. "
+          },
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C im Körper wirkt als Antioxidans und schützt die Zellen vor Schäden durch freie Radikale und verlangsamt dadurch das Altern."
+          },
+          {
+            "ttl": "Vitamin E",
+            "text": "Es ist verantwortlich für die Festigkeit, Elastizität und Feuchtigkeit von Haut und Haaren. Dieses natürliche Antioxidans sowie Vitamin C hilft dem Körper, die Jugend zu verlängern und wirkt sich positiv auf den hormonellen Hintergrund aus, von dem der Zustand unserer Haut direkt abhängt."
+          },
+          {
+            "ttl": "Vitamin A",
+            "text": "Vitamin A spielt eine sehr wichtige Rolle bei der Erneuerung der Hautzellen und stimuliert auch die Funktion von Fibroblasten — Zellen, die mit der Produktion von Kollagen und Elastin verbunden sind."
+          }
+        ]
+      },
+      "advantages": {
+        "title": "GoodLabs Multivitamin - eine zuverlässige Grundlage Ihrer Gesundheit",
+        "desc": "Eine ausreichende Menge an Vitaminen und Mineralstoffen im Körper ist die Grundlage für die Gesundheit und das Wohlbefinden einer Person. GoodLabs Multivitamin ist ein Vitamin- und Mineralstoffkomplex mit den wichtigsten Elementen für ein aktives Leben."
+      }
     }
   }
 }

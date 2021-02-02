@@ -430,6 +430,138 @@
           }
         ]
       }
+    },
+    "multi": {
+      "promo": {
+        "title": "Multi Vitamin",
+        "desc": "Vitamins&Minerals",
+        "comment": "280 Reviews",
+        "item_1": "Contains over 20 vital vitamins and minerals",
+        "item_2": "The optimal amount of active ingredients for daily use",
+        "item_3": "Fortified with antioxidant vitamins (such as C, A and E)",
+        "item_4": "Helps maintain high physical and mental activity"
+      },
+      "ingredients": {
+        "title": "High quality ingredients for your immunity needs",
+        "tab1": "Energy",
+        "tab2": "Immunity",
+        "tab3": "Mental Activity",
+        "tab4": "Stress-relieving",
+        "tab5": "Healthy Sleep",
+        "tab6": "Beauty",
+        "ingredientArray1": [
+          {
+            "ttl": "Vitamin B3",
+            "text": "Vitamin B3 is involved in the synthesis of hormones, and they in turn affect our well-being and vitality. It also stimulates enzymes and gastric juice involved in digestion, which results in the saturation of the body with energy and nutrients."
+          },
+          {
+            "ttl": "Vitamin B12",
+            "text": "Along with other B vitamins, vitamin B12 helps convert food into energy. It also helps prevent a type of anemia that can make you weak and tired."
+          },
+          {
+            "ttl": "Magnesium",
+            "text": "Promotes rapid recovery in case of strength loss, protects against increased fatigability. This element participates in the transmission of nerve impulses and in the contraction and relaxation of muscles, which is important for the cardiovascular system functioning."
+          },
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C is most often used to strengthen immunity, but it also has a positive effect on our well-being and energy levels. It is required for the synthesis of L-Carnitine, which helps the body burn fat for energy."
+          }
+        ],
+        "ingredientArray2": [
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C helps stimulate the production of white blood cells, known as lymphocytes and phagocytes, which help protect the body from infection."
+          },
+          {
+            "ttl": "Vitamin D",
+            "text": "Vitamin D enhances the anti-pathogens effect of monocytes and macrophages, white blood cells that are an important part of the immune defense, and reduces inflammation, which improves an immune response."
+          },
+          {
+            "ttl": "Zinc",
+            "text": "Zinc is essential for the development and communication of immune cells and plays an important role in the inflammatory response. A deficiency in this nutrient leads to an increased risk of infections and diseases, including pneumonia."
+          },
+          {
+            "ttl": "B vitamins",
+            "text": "B vitamins, including B12 and B6, have anti-inflammatory effect and influence the production of melatonin, which in turn improves the immune response."
+          }
+        ],
+        "ingredientArray3": [
+          {
+            "ttl": "Magnesium",
+            "text": "Magnesium helps regulate neurotransmitters that send signals throughout the brain and nervous system. It plays a critical role in brain function and mood, and low levels are associated with an increased risk of depression."
+          },
+          {
+            "ttl": "Manganese",
+            "text": "Manganese is essential for healthy brain function and is often used to treat certain nervous disorders. It speeds up the conduction of electrical impulses through the body, which in turn affects the speed of the brain's reaction."
+          },
+          {
+            "ttl": "Vitamin B12",
+            "text": "Getting enough vitamin B12 can improve memory and make learning easier. It has also been shown to help improve mood and reduce symptoms of depression and low mood."
+          },
+          {
+            "ttl": "Zinc",
+            "text": "Zinc is important for the areas of the brain responsible for concentration and memory. With a lack of zinc, the cerebral cortex begins to malfunction, which can be expressed in hallucinations, epileptic seizures, impaired sense of smell and loss of taste."
+          }
+        ],
+        "ingredientArray4": [
+          {
+            "ttl": "Inositol",
+            "text": "Inositol can help balance important brain chemicals, including those thought to affect mood, such as serotonin and dopamine."
+          },
+          {
+            "ttl": "Folic acid",
+            "text": "Folic acid, or vitamin B9, is also involved in the synthesis of serotonin. It also regulates the fission and growth of all cells in the body, including nerve cells, which, as we now know, are able to restore."
+          },
+          {
+            "ttl": "Vitamin B6",
+            "text": "Vitamin B6 is necessary for the synthesis of gamma-aminobutyric acid, the most important \"calming\" substance in the central nervous system, as well as serotonin, the \"hormone of happiness\"."
+          },
+          {
+            "ttl": "Magnesium",
+            "text": "Magnesium is especially important among the microelements for the central nervous system. It regulates the process of conducting a nerve impulse, and therefore, is necessary for adequate sleep and maintaining a stable psycho-emotional state."
+          }
+        ],
+        "ingredientArray5": [
+          {
+            "ttl": "Vitamin D3",
+            "text": "Lack of vitamin D3 affects the body's ability to regulate cyclic rhythms. When the body's clock is not working properly, it is unable to transmit signals to sleep hormones that are involved in falling asleep."
+          },
+          {
+            "ttl": "Vitamin E",
+            "text": "Vitamin E deficiency has been linked to restless legs syndrome, which can greatly affect sleep quality. Vitamin E helps you fall asleep faster and prevents sleep interruption during the night."
+          },
+          {
+            "ttl": "B vitamins",
+            "text": "B vitamins are essential for the proper functioning of the adrenal glands and thus help prevent the release of adrenaline at night when not needed."
+          },
+          {
+            "ttl": "Iron",
+            "text": "Iron deficiency is also thought to be the main cause of restless legs symptom, which in turn causes insomnia and anxiety disorders that make it difficult to fall asleep."
+          }
+        ],
+        "ingredientArray6": [
+          {
+            "ttl": "Biotin",
+            "text": "Biotin promotes good skin health and is essential for the production of keratin, a protein that helps strengthen nails and hair. It is biotin that is one of the main elements that promotes the growth of healthy and thick hair."
+          },
+          {
+            "ttl": "Vitamin C",
+            "text": "Vitamin C acts as an antioxidant in the body, helping to protect cells from damage caused by free radicals, thereby slowing down aging."
+          },
+          {
+            "ttl": "Vitamin E",
+            "text": "It is responsible for the firmness, elasticity and hydration of the skin and hair. This natural antioxidant, as well as vitamin C, helps the body to prolong youth and has a positive effect on the endocrine profile, which directly affects the condition of our skin."
+          },
+          {
+            "ttl": "Vitamin A",
+            "text": "Vitamin A plays a very important role in the process of skin cell renewal, and also stimulates the functioning of fibroblasts, cells associated with the production of collagen and elastin."
+          }
+        ]
+      },
+      "advantages": {
+        "title": "GoodLabs Multivitamin is a strong foundation for your health",
+        "desc": "Adequate amounts of vitamins and minerals in the body are foundation for human health and wellness. GoodLabs Multivitamin is a vitamin and mineral complex with the most essential elements for active life."
+      }
     }
   }
 }
