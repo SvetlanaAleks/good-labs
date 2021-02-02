@@ -257,24 +257,13 @@
 
     }
 
-    &.prev {
-      right: 60px;
-
-      @include r(1024) {
-        top: -81px;
-      }
-
-      @include r(480) {
-        top: -51px;
-      }
-    }
     svg {
       width: 30px;
       height: 25px;
     }
 
     &.prev {
-      right: 41px;
+      left: 0;
     }
   }
 }
