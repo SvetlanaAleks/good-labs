@@ -51,7 +51,7 @@ const Sliders = (function () {
             },
           },
           {
-            breakpoint: 481,
+            breakpoint: 641,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1
