@@ -201,6 +201,10 @@
     "item_7": "ENTHÄLT KEIN STÄRKEMEHL",
     "count": "Stück",
     "weight": "mg",
+    "about": {
+      "title": "Über Immunal",
+      "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
+    },
     "immunal": {
       "promo": {
         "title": "Immunal",
@@ -336,10 +340,6 @@
             }
           ]
         }
-      },
-      "about": {
-        "title": "Über Immunal",
-        "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
       },
       "reviews": {
         "title": "Kommentare",
@@ -561,6 +561,184 @@
       "advantages": {
         "title": "GoodLabs Multivitamin - eine zuverlässige Grundlage Ihrer Gesundheit",
         "desc": "Eine ausreichende Menge an Vitaminen und Mineralstoffen im Körper ist die Grundlage für die Gesundheit und das Wohlbefinden einer Person. GoodLabs Multivitamin ist ein Vitamin- und Mineralstoffkomplex mit den wichtigsten Elementen für ein aktives Leben."
+      },
+      "feedback": {
+        "color": "green",
+        "text": "Vitaminkomplex GoodLabs Multivitamin hat eine professionell ausgewählte Zusammensetzung und Menge an Wirkstoffen, sodass das Gleichgewicht der essentiellen Vitamine und Mineralien im menschlichen Körper erhalten bleibt.",
+        "info": "Experte <span>Dr. Gleaton</span> sagt"
+      },
+      "technical": {
+        "title": "Technische Details",
+        "ttl": "Faserverbrauch",
+        "text_1": "1 Kapsel mit Wasser täglich während / nach der Mahzeit einnehmen.",
+        "text_2": "Überschreiten Sie nicht die empfohlene Tagesdosis. Das Nahrungsergänzungsmittel soll keine gesunde Ernährung ersetzen. Nehmen Sie das Produkt nicht bei individueller Unverträglichkeit der Inhaltsstoffe ein.",
+        "text_3": "In der Originalverpackung an einem dunklen, trockenen Ort aufbewahren. Nicht bei Temperaturen über 25°C lagern.",
+        "technicalInfoArray": {
+          "title": "2 vegetarische Kapseln enthalten:",
+          "list": [
+            {
+              "text1": "Vitamin A",
+              "text2": "80 ug-Re (100%)"
+            },
+            {
+              "text1": "Vitamin B1",
+              "text2": "1,1 mg (100%)"
+            },
+            {
+              "text1": "Vitamin B2",
+              "text2": "1,4 mg (100%)"
+            },
+            {
+              "text1": "Vitamin B3",
+              "text2": "16,0 mg (100%)"
+            },
+            {
+              "text1": "Pantothensäure",
+              "text2": "6,0 mg (100%)"
+            },
+            {
+              "text1": "Vitamin B6",
+              "text2": "4,0 mg (100%)"
+            },
+            {
+              "text1": "Biotin",
+              "text2": "50 ug (100%)"
+            },
+            {
+              "text1": "Folsäure",
+              "text2": "200 ug (100%)"
+            },
+            {
+              "text1": "Vitamin B12",
+              "text2": "2.5 ug (100%)"
+            },
+            {
+              "text1": "Vitamic C",
+              "text2": "80,0 mg (100%)"
+            },
+            {
+              "text1": "Vitamin D3",
+              "text2": "5 ug (100%)"
+            },
+            {
+              "text1": "Vitamin E",
+              "text2": "12 mg (100%)"
+            },
+            {
+              "text1": "Magnesium",
+              "text2": "100,0 mg (27%)"
+            },
+            {
+              "text1": "Eisen",
+              "text2": "10 mg (100%)"
+            },
+            {
+              "text1": "Mangan",
+              "text2": "2,0 mg (100%)"
+            },
+            {
+              "text1": "Kupfer",
+              "text2": "1,0 mg (100%)"
+            },
+            {
+              "text1": "Lodine",
+              "text2": "150 ug (100%)"
+            },
+            {
+              "text1": "Molybdän",
+              "text2": "50 ug (100%)"
+            },
+            {
+              "text1": "Selen",
+              "text2": "55 ug (100%)"
+            },
+            {
+              "text1": "Inosit",
+              "text2": "50 mg"
+            }
+          ]
+        }
+      },
+      "reviews": {
+        "title": "Kommentare",
+        "btn": "Lassen Sie Ihre Bewertung",
+        "reviewArray": [
+          {
+            "text": "Für mich persönlich war der GoodLabs Multivitamin Komplex das beste, was ich ausprobiert habe. Hier ist eine gute Zusammensetzung, jede Komponente hat eine wissenschaftliche Bestätigung der Wirksamkeit.",
+            "name": "Luca Fischer",
+            "date": "Jan 12, 2019"
+          },
+          {
+            "text": "Gute Dosierung. Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgeglichen sind. Goodlabs wurde in dieser Hinsicht zu meiner Entdeckung. Gute präventive Dosierungen.",
+            "name": "David Barter",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "Ich nehme jetzt seit mehreren Monaten Multivitamin ein. Früher war ich oft krank, aber jetzt bin ich immer gesund. Das ist, was ein guter Multikomplex bedeutet!",
+            "name": "Anna Wagner",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Ich habe den Vitaminkomplex vor einem Monat gekauft und gerade mit der Einnahme begonnen, aber die Wirkung ist noch nicht bekannt. Ich mag es nicht, dass es nur 30 Kapseln in einer Dose gibt.",
+            "name": "Helga Müller",
+            "date": "Jan 12, 2019"
+          },
+          {
+            "text": "Begann mit der Einnahme von Multivitamin, fühlte aber einen Mangel an Energie. Bis jetzt ist alles gut. ",
+            "name": "Hans Hoffmann",
+            "date": "Jan 09, 2019"
+          },
+          {
+            "text": "Immunal wird nicht nur von mir, sondern auch von meinen Eltern eingenommen. Ich mache mir Sorgen um ihr Leben und ihre Gesundheit und versuche, sie mit guten Multivitaminkomplexen zu unterstützen.",
+            "name": "Alexander Bertz",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung! GoodLabs Multivitamin hat eine gute Dosierung und wird vom Körper gut aufgenommen.",
+            "name": "Maria Bart",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Dieses Mittel wird für diejenigen ansprechen, die nicht gerne eine Million Dosen kaufen, sondern kombinierte Komplexe bevorzugen, in denen alles auf einmal ist. Multivitamin ist genau das.",
+            "name": "Hannah Weber",
+            "date": "Jan 16, 2019"
+          },
+          {
+            "text": "Wir nehmen Multivitamin erst seit einer Woche ein, aber Schläfrigkeit und Schwäche sind bereits verschwunden. Im Allgemeinen eine ausgezeichnete Zusammensetzung, zusätzlich können Sie nichts mehr nehmen. Wir werden mehr für die Zukunft bestellen.",
+            "name": "Maria Hoff",
+            "date": "Jan 16, 2019"
+          }
+        ]
+      },
+      "faq": {
+        "title": "Gut zu wissen",
+        "desc": "Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, schreiben Sie uns",
+        "questionArray": [
+          {
+            "ttl": "Warum sollten Sie sich für den TM GoodLab Multivitamin-Komplex entscheiden?",
+            "text": "Dieser Komplex enthält alle notwendigen Vitamine und Mineralien in einer gut ausgewählten Dosierung, um den täglichen Bedarf des Körpers an den notwendigen Substanzen zu decken. Infolgedessen fühlen Sie sich energetisiert und gut gelaunt. "
+          },
+          {
+            "ttl": " Ist die Einnahme ohne einen Arzttermin sicher?",
+            "text": "Die Verschreibung eines Arztes ist optional, es lohnt sich jedoch, sich von einem Spezialisten beraten zu lassen, wenn Sie andere Nahrungsergänzungsmittel oder Arzneimittel einnehmen."
+          },
+          {
+            "ttl": "Gibt es Kontraindikationen für die Einnahme?",
+            "text": "Individuelle Intoleranz der Inhaltsstoffe."
+          },
+          {
+            "ttl": "Wie nimmt man den Komplex ein?",
+            "text": "Nehmen Sie einmal täglich mit Wasser während/nach einer Mahlzeit."
+          },
+          {
+            "ttl": "Wie ist die Kurdauer?",
+            "text": "Die Kur der Einnahme wird nach dem individuellen Bedarf bestimmt."
+          },
+          {
+            "ttl": "Wie kann ich verstehen, ob der Multivitaminkomplex TM GoodLab für mich geeignet ist?",
+            "text": "Wenn Sie einen Energiemangel verspüren, den Gesamttonus des Körpers und die Widerstandsfähigkeit gegen aggressive Umweltfaktoren verbessern möchten, ist der TM GoodLab Multivitamin-Komplex die ideale Lösung für Sie. "
+          }
+        ]
       }
     }
   },
