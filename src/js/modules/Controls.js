@@ -30,7 +30,7 @@ const Controls = (function () {
 
         const parent = _this.parents(".js-accordeon");
         if (!_this.hasClass("active")) {
-          parent.find(contentAccordeon).slideUp(700);
+          parent.find(contentAccordeon).slideUp();
           parent.find(btnAccordeon).removeClass("active");
         }
         _this.toggleClass("active");

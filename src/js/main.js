@@ -27,6 +27,19 @@ $(function () {
         minimumResultsForSearch: Infinity,
         placeholder: "Your question",
       });
+      if (layout.WIN_WIDTH >= 641) {
+        $(".technical-table__list").css("display", "block");
+        $(".technical-table .js-btn-accordeon").removeClass("active");
+
+        $(".ingredient__info").css("display", "block");
+        $(".ingredient__ttl .js-btn-accordeon").removeClass("active");
+      } else {
+        $(".technical-table__list").css("display", "none");
+        $(".technical-table .js-btn-accordeon").addClass("active");
+
+        $(".ingredient__info").css("display", "none");
+        $(".ingredient__ttl .js-btn-accordeon").addClass("active");
+      }
     },
   });
   $(".js-select").select2({

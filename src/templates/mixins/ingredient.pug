@@ -1,7 +1,11 @@
 mixin ingredient(src, ttl, text)
 	.ingredient
-		.ingredient__wrap-img
+		.ingredient__wrap-img.ingredient__wrap-img--desc
 			img(src=src, alt=ttl)
-		.ingredient__info
-			p.ingredient__ttl.title.title--small!= ttl
-			p.ingredient__text.text--med!= text
+		p.ingredient__ttl.ingredient__ttl--mob.title.title--small.js-btn-accordeon!= ttl
+		.ingredient__info.js-info-accordeon
+			.ingredient__wrap
+				.ingredient__wrap-img.ingredient__wrap-img--mob
+					img(src=src, alt=ttl)
+				p.ingredient__ttl.ingredient__ttl--desc.title.title--small!= ttl
+				p.ingredient__text.text--med!= text

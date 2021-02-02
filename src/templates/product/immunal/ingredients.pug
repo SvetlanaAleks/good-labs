@@ -21,14 +21,14 @@ section.ingredients
 		h2.ingredients__title.title.title--big!= INGREDIENTS_IMMUNAL.title
 		.ingredients__wrap
 			.ingredients__tabs.tabs
-				.tab.active.js-tab(data-tab="#list1")
+				.tab.tab--orange.active.js-tab(data-tab="#list1")
 					p.tab__text.text--med!= INGREDIENTS_IMMUNAL.tab1
-				.tab.js-tab(data-tab="#list2")
+				.tab.tab--orange.js-tab(data-tab="#list2")
 					p.tab__text.text--med!= INGREDIENTS_IMMUNAL.tab2
 		.ingredients__info.ingredients__info--immunal
-			.ingredients__content.active.js-content-tab#list1
+			.ingredients__content.active.js-content-tab.js-accordeon#list1
 				each ingredient1, key in INGREDIENTS_IMMUNAL.ingredientArray1
 					+ingredient(ingredientArrayImages1[key], ingredient1.ttl, ingredient1.text)
-			.ingredients__content.js-content-tab#list2
+			.ingredients__content.js-content-tab.js-accordeon#list2
 				each ingredient2, key in INGREDIENTS_IMMUNAL.ingredientArray2
 					+ingredient(ingredientArrayImages2[key], ingredient2.ttl, ingredient2.text)
