@@ -82,28 +82,40 @@
 		width: 20px
 		.lang__list-wrap
 			top: auto
-			bottom: 0
-			left: -18px
+			bottom: -2px
+			left: 0
 			transform: translate(0%,0)
 			padding-top: 0
-			padding-bottom: 37px
+			padding-bottom: 0
+			padding-left: 37px
 			z-index: 11
+			width: 140px
+		.lang__list
+			display: flex
+			align-items: center
+			flex-direction: row-reverse
+			box-shadow: 0 20px 40px rgba(22,21,44,.2)
 		.lang-item
+			padding: 6px 15px 6px 15px
 			&:nth-of-type(1)
 				position: static
+				border-top-left-radius: 0
+				border-bottom-right-radius: 10px
 				&::before
 					display: none
 			&:nth-of-type(2)
 				position: relative
+				border-bottom-right-radius: 0
+				border-top-left-radius: 10px
 				&::before
 					content: ''
 					display: block
 					position: absolute
-					bottom: -8px
-					left: 48%
-					transform: translateX(-50%) rotate(225deg)
-					width: 23px
-					height: 19px
+					bottom: 7px
+					left: 4%
+					transform: translateX(-50%) rotate(308deg)
+					width: 15px
+					height: 16px
 					background: white
 					border-top-left-radius: 5px
 					transition: all .3s
