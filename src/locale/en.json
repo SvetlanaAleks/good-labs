@@ -749,7 +749,9 @@
       "name": "Your name",
       "phone": "Phone number",
       "email": "Email",
-      "message": "Message"
+      "message": "Message",
+      "question": "Your question",
+      "prod": "Product"
     },
     "checkmark": "I consent to the processing of personal data and to receive information about special offers ",
     "btn": "Send",

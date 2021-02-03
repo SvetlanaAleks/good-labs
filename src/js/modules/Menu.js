@@ -34,6 +34,7 @@ const Menu = (function () {
       $(".js-close-products").click(function (e) {
         e.preventDefault();
         submenu.removeClass("active-product-menu");
+        btnShowSubmenu.removeClass("active-product-nav");
       });
     },
     positionSubmenu: function () {

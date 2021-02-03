@@ -20,10 +20,10 @@ section.contacts-content
 						input.contacts-form__input.contacts-form__input--max.input(type="text", name="name" placeholder=CONTACTS.placeholder.name required)
 						input.contacts-form__input.contacts-form__input--med.input(type="tel", name="phone" placeholder=CONTACTS.placeholder.phone required)
 						input.contacts-form__input.contacts-form__input--med.input(type="email", name="email" placeholder=CONTACTS.placeholder.email required)
-						select.select.contacts-form__select.js-select--type
+						select.select.contacts-form__select.js-select--type(data-placeholder=CONTACTS.placeholder.question)
 							option(value="") &nbsp;
 							option(value=CONTACTS.select1.variant1)!=CONTACTS.select1.variant1
-						select.select.contacts-form__select.js-select--product
+						select.select.contacts-form__select.js-select--product(data-placeholder=CONTACTS.placeholder.prod)
 							option(value="") &nbsp;
 							option(value="Immunal") Immunal
 							option(value="Multi-Vitamin") Multi Vitamin

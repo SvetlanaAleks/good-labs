@@ -160,20 +160,22 @@
 			border-bottom: 0px solid transparentize($garkgrey, .8)
 			overflow-x: scroll
 			padding: 30px 0px
-			scrollbar-color: #FF9900 #F4E2D0 !important
+			// scrollbar-color: #FF9900 #F4E2D0 !important
+			scrollbar-color: rgba(255, 153, 0, 0.7) rgba(244, 226, 208, 0.7) !important
 			scrollbar-width: thin !important
 			&::-webkit-scrollbar
-				width: 7px
-				height: 7px
+				width: 5px
+				height: 5px
 			&::-webkit-scrollbar-track
-				background: #F4E2D0
+				background: rgba(244, 226, 208, 0.7)
 				position: relative
 			&::-webkit-scrollbar-thumb
-				background: url(../img/scroll.png), linear-gradient(to right, #FF9900, #ffbe5d, #FF9900)
-				border-radius: 7px
+				// background: url(../img/scroll.png), linear-gradient(to right, #FF9900, #ffbe5d, #FF9900)
+				background: url(../img/scroll.png), linear-gradient(to right, rgba(255, 153, 0, 0.7), rgba(255, 190, 93, 0.7), rgba(255, 153, 0, 0.7))
+				border-radius: 5px
 				background-repeat: no-repeat, repeat
 				background-position: center, center
-				background-size: 7px 3px, auto
+				background-size: 7px 1.5px, auto
 	&__list
 		display: flex
 		justify-content: space-between
@@ -188,7 +190,7 @@
 	display: flex
 	align-items: center
 	+r(1024)
-		width: 254%
+		width: 25%
 	&__wrap-ico
 		flex-shrink: 0
 		margin-right: 25px
