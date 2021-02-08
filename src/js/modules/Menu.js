@@ -39,17 +39,28 @@ const Menu = (function () {
     },
     positionSubmenu: function () {
       $(document).on('click', function () {
-        submenu.css('top', ($('.js-banner')[0].offsetHeight + $('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+        if ($('.js-banner').length != 0) {
+          submenu.css('top', ($('.js-banner')[0].offsetHeight + $('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+        } else {
+          submenu.css('top', ($('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+        }
       });
     
       $(window).on('resize', function () {
-        submenu.css('top', ($('.js-banner')[0].offsetHeight + $('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+        if ($('.js-banner').length != 0) {
+          submenu.css('top', ($('.js-banner')[0].offsetHeight + $('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+        } else {
+          submenu.css('top', ($('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+        }
       });
       
       // $(document).on('click', function (e) {
-      //   if (prodMenu.has(e.target).length === 0 && e.target != $('.js-fixed-menu .js-product-nav')[0] && document.documentElement.clientWidth < 891) {
-      //     prodNavLink.removeClass(prodNavLinkClass);
-      //     prodMenu.removeClass(prodMenuClass);
+      //   console.log(e.target);
+      //   console.log(btnShowSubmenu[0]);
+      //   if (submenu.has(e.target).length === 0 && e.target != btnShowSubmenu[0] && document.documentElement.clientWidth > 890) {
+      //     console.log(e.target);
+      //     btnShowSubmenu.removeClass("active-product-nav");
+      //     submenu.removeClass("active-product-menu");
       //   };
       // });
     },
