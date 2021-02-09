@@ -1,0 +1,9 @@
+extends templates/layout/layout.pug
+block head
+	title GoodLabs - Ingredients
+block content
+	include templates/banner-top
+	include templates/mixins/menu.pug
+	+menu("ingredients")
+	include templates/ingredients/ingredients-list
+	include templates/banner-bottom
