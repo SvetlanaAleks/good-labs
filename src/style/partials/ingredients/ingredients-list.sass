@@ -1,10 +1,37 @@
 .ingredients-list
 	padding-top: 111px
 	padding-bottom: 185px
+	+r(1140)
+		padding-top: 90px
+		padding-bottom: 150px
+	+r(1024)
+		padding-top: 60px
+		padding-bottom: 100px
+	+r(640)
+		padding-top: 50px
+		padding-bottom: 80px
+	+r(480)
+		padding-top: 40px
+		padding-bottom: 50px
 	&__title
 		font-size: 68px
 		text-align: center
 		margin-bottom: 85px
+		+r(1440)
+			font-size: 64px
+		+r(1140)
+			font-size: 60px
+			margin-bottom: 70px
+		+r(1024)
+			font-size: 54px
+		+r(890)
+			font-size: 50px
+		+r(768)
+			font-size: 44px
+			margin-bottom: 50px
+		+r(640)
+			font-size: 40px
+			margin-bottom: 40px
 	&__wrapper
 		display: flex
 		align-items: flex-start
@@ -14,91 +41,177 @@
 			max-width: 131px
 			position: relative
 			left: 15px
+			+r(1024)
+				max-width: 115px
+			+r(640)
+				max-width: 95px
+	#vit-b1
+		.component__image
+			+r(1024)
+				max-width: 85px
+			+r(640)
+				max-width: 75px
 	#vit-b2
 		.component__image
 			position: relative
 			top: 30px
+			+r(1024)
+				max-width: 115px
+			+r(640)
+				max-width: 95px
 	#vit-b3
 		.component__image
 			max-width: 123px
 			position: relative
 			top: 20px
+			+r(1024)
+				max-width: 108px
+			+r(640)
+				max-width: 88px
 	#vit-b6
 		.component__image
 			max-width: 163px
 			position: relative
 			top: 11px
 			left: 20px
+			+r(1024)
+				max-width: 148px
+			+r(640)
+				max-width: 118px
 	#vit-b12
 		.component__image
 			max-width: 133px
 			position: relative
 			top: 26px
+			+r(1024)
+				max-width: 118px
+			+r(640)
+				max-width: 98px
 	#vit-c
 		.component__image
 			max-width: 153px
 			position: relative
 			top: 24px
+			+r(1024)
+				max-width: 138px
+			+r(640)
+				max-width: 118px
 	#vit-d3
 		.component__image
 			max-width: 126px
 			position: relative
 			top: 23px
+			+r(1024)
+				max-width: 111px
+			+r(640)
+				max-width: 91px
 	#vit-e
 		.component__image
 			max-width: 134px
 			position: relative
 			top: 20px
+			+r(1024)
+				max-width: 119px
+			+r(640)
+				max-width: 99px
 	#biotin
 		.component__image
 			max-width: 148px
 			position: relative
 			top: 23px
+			+r(1024)
+				max-width: 133px
+			+r(640)
+				max-width: 113px
 	#folic
 		.component__image
 			max-width: 152px
 			position: relative
 			top: 17px
+			+r(1024)
+				max-width: 137px
+			+r(640)
+				max-width: 110px
 	#pantothenic-acid
 		.component__image
 			max-width: 128px
+			+r(1024)
+				max-width: 113px
+			+r(640)
+				max-width: 93px
 	#magnesium
 		.component__image
 			max-width: 112px
+			+r(1024)
+				max-width: 97px
+			+r(640)
+				max-width: 77px
 	#iron
 		.component__image
 			max-width: 106px
 			position: relative
 			top: 32px
+			+r(1024)
+				max-width: 91px
+			+r(640)
+				max-width: 71px
 	#zinc
 		.component__image
 			max-width: 73px
+			+r(1024)
+				max-width: 58px
+			+r(640)
+				max-width: 48px
 	#manganese
 		.component__image
 			max-width: 150px
 			position: relative
 			top: 20px
+			+r(1024)
+				max-width: 135px
+			+r(640)
+				max-width: 110px
 	#copper
 		.component__image
 			max-width: 150px
 			position: relative
 			top: 10px
+			+r(1024)
+				max-width: 135px
+			+r(640)
+				max-width: 115px
 	#iodine
 		.component__image
 			max-width: 74px
+			+r(1024)
+				max-width: 59px
+			+r(640)
+				max-width: 49px
 	#molybdenum
 		.component__image
 			max-width: 159px
 			position: relative
 			top: 16px
+			+r(1024)
+				max-width: 144px
+			+r(640)
+				max-width: 115px
 	#selenium
 		.component__image
 			max-width: 145px
 			position: relative
 			top: 40px
+			+r(1024)
+				max-width: 120px
+			+r(640)
+				max-width: 100px
 	#inositol
 		.component__image
 			max-width: 139px
+			+r(1024)
+				max-width: 124px
+			+r(640)
+				max-width: 104px
 
 
 
@@ -120,6 +233,8 @@
 		opacity: 0
 		border: 1px solid $garkgrey
 		transition: all .3s
+		+r(640)
+			display: none
 	&:hover
 		&::before
 			opacity: 1
@@ -127,13 +242,74 @@
 		border-bottom: 1px solid transparentize($garkgrey, .9)
 	&:not(:nth-child(4n))
 		border-right: 1px solid transparentize($garkgrey, .9)
+	+r(1300)
+		padding: 20px
+		min-height: 450px
+	+r(1140)
+		min-height: 440px
+	+r(1024)
+		padding: 20px 15px
+	+r(890)
+		width: calc(100%/3)
+		+nlt
+			border-bottom: none
+		&:not(:nth-child(4n))
+			border-right: none
+		&:not(:nth-child(3n))
+			border-right: 1px solid transparentize($garkgrey, .9)
+		&:nth-last-child(n+4)
+			border-bottom: 1px solid transparentize($garkgrey, .9)
+	+r(768)
+		min-height: 450px
+	+r(640)
+		border-bottom: none
+		width: calc(100%/2)
+		min-height: 400px
+		&:not(:nth-child(3n))
+			border-right: none
+		&:not(:nth-child(2n))
+			border-right: 1px solid transparentize($garkgrey, .9)
+		&:nth-last-child(n+2)
+			border-bottom: 1px solid transparentize($garkgrey, .9)
+		&:nth-of-type(odd)
+			padding-left: 0
+		&:nth-of-type(even)
+			padding-right: 0
+			
+	+r(480)
+		min-height: 355px
+		padding: 15px
+	+r(374)
+		padding: 10px
+		&:nth-of-type(odd)
+			padding-left: 0
+		&:nth-of-type(even)
+			padding-right: 0
 	&__wrap
 		height: 161px
+		+r(1140)
+			height: 150px
+		+r(1024)
+			height: 140px
+		+r(768)
+			height: 130px
+		+r(480)
+			height: 110px
 	&__title
 		margin-bottom: 19px
 		line-height: 100%
+		+r(1140)
+			margin-bottom: 15px
+		+r(1024)
+			margin-bottom: 10px
+		+r(480)
+			font-size: 20px
+		+r(374)
+			font-size: 17px
 	&__text
 		line-height: 160%
 		color: $grey
+		+r(480)
+			line-height: 140%
 
 
