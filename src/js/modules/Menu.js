@@ -38,31 +38,33 @@ const Menu = (function () {
       });
     },
     positionSubmenu: function () {
-      $(document).on('click', function () {
-        if ($('.js-banner').length != 0) {
-          submenu.css('top', ($('.js-banner')[0].offsetHeight + $('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+      $(document).on("click", function () {
+        if ($(".js-banner").length != 0) {
+          submenu.css(
+            "top",
+            $(".js-banner")[0].offsetHeight +
+              $(".js-fixed-menu")[0].offsetHeight -
+              2 +
+              "px"
+          );
         } else {
-          submenu.css('top', ($('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+          submenu.css("top", $(".js-fixed-menu")[0].offsetHeight - 2 + "px");
         }
       });
-    
-      $(window).on('resize', function () {
-        if ($('.js-banner').length != 0) {
-          submenu.css('top', ($('.js-banner')[0].offsetHeight + $('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+
+      $(window).on("resize", function () {
+        if ($(".js-banner").length != 0) {
+          submenu.css(
+            "top",
+            $(".js-banner")[0].offsetHeight +
+              $(".js-fixed-menu")[0].offsetHeight -
+              2 +
+              "px"
+          );
         } else {
-          submenu.css('top', ($('.js-fixed-menu')[0].offsetHeight - 2) + 'px');
+          submenu.css("top", $(".js-fixed-menu")[0].offsetHeight - 2 + "px");
         }
       });
-      
-      // $(document).on('click', function (e) {
-      //   console.log(e.target);
-      //   console.log(btnShowSubmenu[0]);
-      //   if (submenu.has(e.target).length === 0 && e.target != btnShowSubmenu[0] && document.documentElement.clientWidth > 890) {
-      //     console.log(e.target);
-      //     btnShowSubmenu.removeClass("active-product-nav");
-      //     submenu.removeClass("active-product-menu");
-      //   };
-      // });
     },
     showFixedMenu: function () {
       DOC.scroll(function () {
@@ -119,7 +121,7 @@ const Menu = (function () {
     init: function () {
       Menu.showMobileMenu();
       Menu.scrollToTarget();
-      // Menu.showFixedMenu();
+      Menu.showFixedMenu();
       Menu.showSubmenu();
       Menu.closeSubmenu();
       Menu.positionSubmenu();
