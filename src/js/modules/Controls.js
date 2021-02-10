@@ -5,7 +5,23 @@ const Controls = (function () {
   const btnAccordeon = $(".js-btn-accordeon");
   const contentAccordeon = $(".js-info-accordeon");
   const btnCloseBanner = $(".js-close-banner");
+  function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return "";
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
   return {
+    highlightPanelItem: function () {
+      var paramdId = getParameterByName("id");
+      const target = $(`#${paramdId}`);
+      console.log(paramdId, "paramdId");
+      console.log(target, "target");
+
+      target.addClass("active");
+    },
     closeBanner: function () {
       btnCloseBanner.click(function (e) {
         e.preventDefault();
@@ -38,6 +54,7 @@ const Controls = (function () {
       });
     },
     init: function () {
+      Controls.highlightPanelItem();
       Controls.closeBanner();
       Controls.showInfoTabs();
       Controls.openFaqContent();

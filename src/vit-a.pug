@@ -1,0 +1,9 @@
+extends templates/layout/layout.pug
+block head
+	title GoodLabs - Витамин А
+block content
+	include templates/banner-top
+	include templates/mixins/menu.pug
+	+menu("vit-a")
+	include templates/ingredients/vit-a
+	include templates/banner-bottom

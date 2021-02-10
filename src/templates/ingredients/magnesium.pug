@@ -1,0 +1,116 @@
+include ../mixins/technical-table
+
+-
+	const componentInfo1 = {
+		title: 'Источники (на 100 грамм):',
+		list: [
+			{
+				text1: 'Кунжут',
+				text2: '540 мг'
+			},
+			{
+				text1: 'Отруби пшеничные',
+				text2: '448 мг'
+			},
+			{
+				text1: 'Семена подсолнечника (семечки)',
+				text2: '317 мг'
+			},
+			{
+				text1: 'Кешью',
+				text2: '270 мг'
+			},
+			{
+				text1: 'Гречиха (зерно)',
+				text2: '258 мг'
+			},
+			{
+				text1: 'Кедровый орех',
+				text2: '251 мг'
+			},
+			{
+				text1: 'Мука гречневая',
+				text2: '251 мг'
+			},
+			{
+				text1: 'Отруби овсяные',
+				text2: '235 мг'
+			},
+			{
+				text1: 'Миндаль',
+				text2: '234 мг'
+			},
+			{
+				text1: 'Соя (зерно)',
+				text2: '226 мг'
+			},
+			{
+				text1: 'Крупа гречневая (ядрица)',
+				text2: '200 мг'
+			},
+			{
+				text1: 'Арахис',
+				text2: '182 мг'
+			}
+		]
+	};
+	const componentInfo2 = {
+		title: "Рекомендуемая норма потребления:",
+		list: [
+			{
+				text1: 'Младенцы (до 12 месяцев)',
+				text2: '30 – 75 мг/день',
+			},
+			{
+				text1: 'Дети (1 – 13 лет)',
+				text2: '80 – 240 мг/день',
+			},
+			{
+				text1: 'Подростки (14 – 18 лет)',
+				text2: '360 – 410 мг/день',
+			},
+			{
+				text1: 'Взрослые (от 19 лет)',
+				text2: '310 – 420 мг/день',
+			},
+			{
+				text1: 'Кормящие женщины',
+				text2: '310 – 360 мг/день',
+			},
+			{
+				text1: 'Беременные женщины',
+				text2: '350 – 400 мг/день',
+			},
+		]
+	};
+
+section.component-detal.bg
+	.container
+		a.component-detal__link(href="ingredients.html")
+			i.fico.fico-arrowLink
+			span.text--small Назад на Ингредиенты
+		.component-detal__wrapper
+			include component-panel
+			.component-detal__left
+				.component-detal__wrap-title
+					h1.component-detal__title.title.title--big Магний
+					img.component-detal__image.magnesium(src="img/svg/ingredient_mg.svg", alt="Витамин А")
+				.component-detal__wrap
+					h3.component-detal__ttl.title.title--very-small Регуляторная функция
+					p.component-detal__text.text--med Магний важен для многих процессов в организме, в том числе для регулирования функции мышц и нервов, уровня сахара в крови и артериального давления, а также для производства белка,  костей и ДНК.
+				.component-detal__wrap
+					h3.component-detal__ttl.title.title--very-small Сердечно-сосудистая система
+					p.component-detal__text.text--med Магний отвечает за энергетический обмен в сердечной мышце и улучшает обеспечение клеток кислородом.
+				.component-detal__wrap
+					h3.component-detal__ttl.title.title--very-small Метаболизм
+					p.component-detal__text.text--med Магний является кофактором в более чем 300 ферментных системах, которые регулируют различные биохимические реакции в организме, включая синтез белка, функцию мышц и нервов, контроль уровня глюкозы в крови и регуляцию артериального давления.
+				.component-detal__wrap
+					h3.component-detal__ttl.title.title--very-small Энергия
+					p.component-detal__text.text--med Магний необходим для производства энергии, окислительного фосфорилирования и гликолиза. 
+				.component-detal__wrap
+					h3.component-detal__ttl.title.title--very-small Транспортная функция
+					p.component-detal__text.text--med Магний играет роль в активном транспорте ионов кальция и калия через клеточные мембраны, процессе, который важен для проведения нервных импульсов, сокращения мышц и нормального сердечного ритма.
+				.component-detal__wrap
+					+technical-table(componentInfo1)
+				.component-detal__wrap
+					+technical-table(componentInfo2)

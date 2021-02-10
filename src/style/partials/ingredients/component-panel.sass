@@ -1,0 +1,49 @@
+.component-panel
+	counter-reset: section
+	&__item
+		position: relative
+		padding-left: 39px
+		min-height: 50px
+		display: flex
+		align-items: center
+		+nlt
+			border-bottom: 1px solid transparentize($garkgrey, .9)
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			top: -1px
+			bottom: 0
+			right: -20px
+			left: -700px
+			opacity: 0
+			background: #FDF1DE
+		&::before
+			counter-increment: section
+			content: counter(section)
+			display: block
+			position: absolute
+			left: 0
+			top: 50%
+			transform: translateY(-50%)
+			font-family: "Tenor Sans", Arial, Helvetica, sans-serif
+			color: $grey
+			z-index: 1
+		&:nth-of-type(-n+9)
+			&::before
+				content: '0' counter(section)
+		.fico
+			margin-left: auto
+			transform: scaleX(-1)
+			font-size: 21px
+			color: $garkgrey
+			opacity: 0
+			z-index: 1
+		&.active
+			border-bottom: 1px solid transparentize($garkgrey, .999)
+			&::after
+				opacity: 1
+			.fico
+				opacity: 1
+	&__text
+		z-index: 1

@@ -1,0 +1,113 @@
+-
+	const componentsArray = [
+		{
+			title: 'Витамин А',
+			target: 'vit-a.html?id=vit-a',
+			id: 'vit-a'
+		},
+		{
+			title: 'Витамин B1',
+			target: 'vit-b1.html?id=vit-b1',
+			id: 'vit-b1'
+		},
+		{
+			title: 'Витамин B2',
+			target: 'vit-b2.html?id=vit-b2',
+			id: 'vit-b2'
+		},
+		{
+			title: 'Витамин B3',
+			target: 'vit-b3.html?id=vit-b3',
+			id: 'vit-b3'
+		},
+		{
+			title: 'Витамин B6',
+			target: 'vit-b6.html?id=vit-b6',
+			id: 'vit-b6'
+		},
+		{
+			title: 'Витамин B12',
+			target: 'vit-b12.html?id=vit-b12',
+			id: 'vit-b12'
+		},
+		{
+			title: 'Витамин C',
+			target: 'vit-c.html?id=vit-c',
+			id: 'vit-c'
+		},
+		{
+			title: 'Витамин D3',
+			target: 'vit-d3.html?id=vit-d3',
+			id: 'vit-d3'
+		},
+		{
+			title: 'Витамин E',
+			target: 'vit-e.html?id=vit-e',
+			id: 'vit-e'
+		},
+		{
+			title: 'Биотин',
+			target: 'biotin.html?id=biotin',
+			id: 'biotin'
+		},
+		{
+			title: 'Фолиева кислота',
+			target: 'folic.html?id=folic',
+			id: 'folic'
+		},
+		{
+			title: 'Пантотеновая кислота',
+			target: 'pantothenic-acid.html?id=pantothenic-acid',
+			id: 'pantothenic-acid'
+		},
+		{
+			title: 'Магний',
+			target: 'magnesium.html?id=magnesium',
+			id: 'magnesium'
+		},
+		{
+			title: 'Железо',
+			target: 'iron.html?id=iron',
+			id: 'iron'
+		},
+		{
+			title: 'Цинк',
+			target: 'zinc.html?id=zinc',
+			id: 'zinc'
+		},
+		{
+			title: 'Марганець',
+			target: 'manganese.html?id=manganese',
+			id: 'manganese'
+		},
+		{
+			title: 'Медь',
+			target: 'copper.html?id=copper',
+			id: 'copper'
+		},
+		{
+			title: 'Йод',
+			target: 'iodine.html?id=iodine',
+			id: 'iodine'
+		},
+		{
+			title: 'Молибден',
+			target: 'molybdenum.html?id=molybdenum',
+			id: 'molybdenum'
+		},
+		{
+			title: 'Селен',
+			target: 'selenium.html?id=selenium',
+			id: 'selenium'
+		},
+		{
+			title: 'Инозитол',
+			target: 'inositol.html?id=inositol',
+			id: 'inositol'
+		}
+	];
+.component-panel
+	each component in componentsArray
+		a.component-panel__item.title.text--big.js-component(href=component.target, id=component.id)
+			p.component-panel__text!= component.title
+			i.fico.fico-arrowLink
