@@ -1,47 +1,124 @@
 .component-detal
 	padding-top: 45px
 	padding-bottom: 80px
+	+r(480)
+		padding-top: 21px
+		padding-bottom: 50px
 	&__link
 		color: $grey
 		display: flex
 		align-items: center
 		margin-bottom: 55px
+		font-size: 14px
 		.fico
 			font-size: 20px
 			color: #999999
 			margin-right: 22px
+		+r(890)
+			margin-bottom: 40px
+		+r(640)
+			margin-bottom: 30px
+		+r(480)
+			margin-bottom: 22px
 	.component-panel
 		max-width: 330px
 		width: 100%
 		margin-right: 110px
+		+r(1440)
+			max-width: 300px
+			margin-right: 100px
+		+r(1300)
+			max-width: 270px
+			margin-right: 90px
+		+r(1140)
+			max-width: 240px
+			margin-right: 80px
+		+r(1024)
+			max-width: 25%
+			margin-right: 50px
+		+r(768)
+			max-width: 100%
+			margin-right: 0
 	&__wrapper
 		display: flex
 		align-items: flex-start
+		+r(768)
+			flex-direction: column-reverse
 	&__left
 		max-width: 730px
 		width: 100%
+		+r(1440)
+			max-width: 670px
+		+r(1300)
+			max-width: 600px
+		+r(1140)
+			max-width: 540px
+		+r(1024)
+			max-width: inherit
+			width: 100%
+		+r(768)
+			margin-bottom: 40px
 	&__wrap-title
 		padding-bottom: 64px
 		margin-bottom: 60px
 		border-bottom: 1px solid $garkgrey
 		position: relative
+		+r(1140)
+			padding-bottom: 54px
+			margin-bottom: 50px
+		+r(890)
+			padding-bottom: 40px
+			margin-bottom: 30px
+		+r(480)
+			padding-bottom: 24px
 		.vit-a
 			max-width: 200px
 			right: 10px
 			bottom: -60px
+			+r(1024)
+				right: 0
+			+r(640)
+				right: -40px
+			+r(480)
+				right: -60px
+				bottom: -80px
 		.magnesium
 			max-width: 164px
 			right: 20px
 			bottom: -50px
+			+r(640)
+				right: -20px
+			+r(480)
+				right: -40px
+				bottom: -70px
+	&__title
+		+r(1024)
+			font-size: 40px
+		+r(640)
+			font-size: 40px
 	&__image
 		position: absolute
 		right: 0
 		bottom: 0
 		width: 100%
+		+r(1300)
+			transform: scale(.9)
+		+r(890)
+			transform: scale(.8)
+		+r(640)
+			transform: scale(.6)
+		+r(480)
+			transform: scale(.5)
 	&__wrap
 		margin-bottom: 56px
+		+r(1300)
+			margin-bottom: 45px
+		+r(480)
+			margin-bottom: 30px
 	&__ttl
 		margin-bottom: 20px
 	&__text
 		color: $grey
 		line-height: 180%
+		+r(480)
+			line-height: 160%
