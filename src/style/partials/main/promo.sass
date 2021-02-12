@@ -154,43 +154,81 @@
 			font-size: 20px
 			max-width: 100%
 	&__bottom
+		position: relative
+		z-index: 1
+		height: 147px
 		padding: 45px 10px
 		border-bottom: 1px solid transparentize($garkgrey, .8)
 		+r(1024)
-			border-bottom: 0px solid transparentize($garkgrey, .8)
-			overflow-x: scroll
 			padding: 30px 0px
-			// scrollbar-color: #FF9900 #F4E2D0 !important
-			scrollbar-color: rgba(255, 153, 0, 0.7) rgba(244, 226, 208, 0.7) !important
-			scrollbar-width: thin !important
-			&::-webkit-scrollbar
-				width: 5px
-				height: 5px
-			&::-webkit-scrollbar-track
-				background: rgba(244, 226, 208, 0.7)
-				position: relative
-			&::-webkit-scrollbar-thumb
-				// background: url(../img/scroll.png), linear-gradient(to right, #FF9900, #ffbe5d, #FF9900)
-				background: url(../img/scroll.png), linear-gradient(to right, rgba(255, 153, 0, 0.7), rgba(255, 190, 93, 0.7), rgba(255, 153, 0, 0.7))
-				border-radius: 5px
-				background-repeat: no-repeat, repeat
-				background-position: center, center
-				background-size: 7px 1.5px, auto
+			height: 100px
+		+r(768)
+			height: auto
 	&__list
 		display: flex
 		justify-content: space-between
-		+r(1024)
-			width: 1000px
-		+r(480)
-			width: 830px
+		+r(768)
+			flex-wrap: wrap
 
 
-.item-adv0
-	width: 23%
-	display: flex
-	align-items: center
+.privilege
+	max-width: 290px
+	width: 100%
+	cursor: pointer
+	position: relative
+	&::after
+		content: ''
+		display: block
+		position: absolute
+		background: #FFFDFA
+		box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15)
+		top: -20px
+		left: -20px
+		right: -20px
+		bottom: -20px
+		border-top-left-radius: 10px
+		border-bottom-right-radius: 10px
+		z-index: -1
+		opacity: 0
+		transition: all .3s
+	+r(1440)
+		max-width: 270px
+	+r(1300)
+		max-width: 240px
+	+r(1140)
+		max-width: 220px
 	+r(1024)
-		width: 25%
+		max-width: calc(100%/4 - 20px)
+		&::after
+			top: -15px
+			left: -15px
+			right: -15px
+			bottom: -15px
+	+r(890)
+		max-width: calc(100%/4 - 15px)
+	+r(768)
+		max-width: 100%
+		+nlt
+			margin-bottom: 15px
+	&.active
+		&::after
+			opacity: 1
+		.fico
+			color: #000
+			transform: rotate(180deg)
+		.privilege__desc
+			display: block
+			margin-top: 20px
+			+r(1024)
+				margin-top: 10px
+	&__top
+		display: flex
+		align-items: center
+	.fico
+		font-size: 8px
+		margin-left: auto
+		color: transparentize(#000, .7)
+		transition: all  .3s
 	&__wrap-ico
 		flex-shrink: 0
 		margin-right: 25px
@@ -200,13 +238,28 @@
 			margin-right: 15px
 		+r(1024)
 			width: 33px
+			margin-right: 10px
+		+r(890)
+			width: 28px
+			margin-top: 8px
+		+r(768)
+			width: 33px
+			margin-right: 10px
 	&__text
 		font-family: 'Tenor Sans', sans-serif
 		font-size: 20px
 		line-height: 1.1
 		color: $garkgrey
+		margin-right: 5px
 		+r(1300)
 			font-size: 16px
+		+r(768)
+			br
+				display: none
+	&__desc
+		line-height: 160%
+		color: #777777
+		display: none
 
 .promo-circle-animation path
 	stroke-dasharray: 1000

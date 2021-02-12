@@ -5,6 +5,7 @@ const Controls = (function () {
   const btnAccordeon = $(".js-btn-accordeon");
   const contentAccordeon = $(".js-info-accordeon");
   const btnCloseBanner = $(".js-close-banner");
+  const privilege = $(".js-privilege");
   function getParameterByName(name, url = window.location.href) {
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -14,6 +15,17 @@ const Controls = (function () {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
   }
   return {
+    showPrivilege: function () {
+      privilege.on("click", function (e) {
+        e.preventDefault();
+        const _this = $(this);
+        const parent = _this.parents(".js-accordeon");
+        if (!_this.hasClass("active")) {
+          parent.find(privilege).removeClass("active");
+        }
+        _this.toggleClass("active");
+      });
+    },
     highlightPanelItem: function () {
       var paramdId = getParameterByName("id");
       const target = $(`#${paramdId}`);
@@ -54,6 +66,7 @@ const Controls = (function () {
       });
     },
     init: function () {
+      Controls.showPrivilege();
       Controls.highlightPanelItem();
       Controls.closeBanner();
       Controls.showInfoTabs();
