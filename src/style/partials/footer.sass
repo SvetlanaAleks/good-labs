@@ -1,11 +1,11 @@
 .footer
 	overflow: hidden
-	+r(1300)
-		padding: 80px 0
 	+r(1024)
-		padding: 60px 0
+		.container
+			padding-left: 60px
 	+r(480)
-		padding: 42px 0
+		.container
+			padding-left: 20px
 	&__banner
 		position: relative
 		&::after
@@ -19,6 +19,15 @@
 			z-index: -1
 			pointer-events: none
 			background: #578080
+		+r(1300)
+			&::after
+				left: 25px
+		+r(1024)
+			&::after
+				left: 20px
+		+r(480)
+			&::after
+				left: 0
 	&__top
 		padding-top: 100px
 		padding-bottom: 84px
@@ -36,6 +45,22 @@
 			pointer-events: none
 			border-top-left-radius: 90px
 			background: #3D6060
+		+r(1300)
+			padding: 80px 0
+			&::before
+				left: 25px
+		+r(1024)
+			padding-top: 60px
+			padding-bottom: 50px
+			&::before
+				left: 20px
+		+r(890)
+			padding-bottom: 30px
+		+r(480)
+			padding: 42px 0
+			&::before
+				left: 0
+				border-radius: 0
 	&__wrap
 		display: flex
 		align-items: flex-start
@@ -60,12 +85,12 @@
 				right: 280px
 		+r(1024)
 			&::after
-				right: calc(50% - 180px)
+				right: calc(50% - 160px)
 		+r(890)
 			margin-bottom: 30px
 			&::after
 				bottom: 0
-				right: calc(50% - 120px)
+				right: calc(50% - 80px)
 		+r(768)
 			flex-wrap: wrap
 			margin-bottom: 12px
@@ -76,7 +101,16 @@
 	&__wrapper-top
 		display: flex
 		align-items: flex-start
-		margin-bottom: 106px
+		margin-bottom: 126px
+		+r(1300)
+			margin-bottom: 146px
+		+r(1024)
+			margin-bottom: 76px
+		+r(768)
+			margin-bottom: 46px
+		+r(480)
+			flex-wrap: wrap
+			margin-bottom: 15px
 	&__col
 		max-width: 180px
 		width: 100%
@@ -99,7 +133,7 @@
 		&--mob
 			display: none
 		+r(1024)
-			width: 13%
+			width: 18%
 		+r(890)
 			br
 				display: none
@@ -127,11 +161,11 @@
 			max-width: 300px
 			margin-right: 20px
 		+r(1024)
-			max-width: 33%
+			max-width: 44%
 			.menu-footer
 				width: 50%
 		+r(890)
-			max-width: 40%
+			max-width: 57%
 		+r(768)
 			max-width: 64%
 		+r(480)
@@ -148,7 +182,9 @@
 			text-decoration: underline
 	&__privacy
 		+r(1024)
-			max-width: 17%
+			max-width: 20%
+		+r(890)
+			max-width: 26%
 		+r(768)
 			max-width: 28%
 			&.footer__col
@@ -159,8 +195,9 @@
 			width: 100%
 			padding-top: 35px
 			margin-top: 40px
-			margin-bottom: 36px
-			border-top: 1px solid transparentize($garkgrey, .8)
+			padding-bottom: 30px
+			border-bottom: 1px solid transparentize(white, .9)
+			border-top: 1px solid transparentize(white, .9)
 	&__right
 		max-width: 290px
 		width: 100%
@@ -172,19 +209,18 @@
 		+r(1140)
 			max-width: 230px
 		+r(1024)
-			max-width: 24%
+			max-width: 26%
 		+r(890)
-			max-width: 29%
+			max-width: 34%
 		+r(768)
 			max-width: 100%
 			text-align: center
 			padding-top: 20px
 			margin-top: 20px
-			border-top: 1px solid transparentize($garkgrey, .8)
+			border-top: 1px solid transparentize(white, .9)
 		+r(480)
-			padding-top: 0
-			margin-top: 0
-			border-top: none
+			padding-top: 15px
+			margin-top: 15px
 	&__address
 		color: #D5D5D5
 		line-height: 160%
@@ -194,6 +230,7 @@
 		+r(1024)
 			margin-bottom: 30px
 		+r(768)
+			margin-bottom: 20px
 			br
 				display: none
 	&__social
@@ -203,7 +240,7 @@
 		+r(1024)
 			margin-bottom: 26px
 		+r(768)
-			margin-bottom: 30px
+			margin-bottom: 20px
 	&__email-link
 		color: white
 		text-decoration: none
@@ -212,9 +249,17 @@
 		display: block
 		&:hover
 			text-decoration: underline
+		+r(1300)
+			margin-bottom: 60px
+		+r(1024)
+			margin-bottom: 40px
+		+r(768)
+			margin-bottom: 30px
 	&__icons
 		display: flex
 		align-items: center
+		+r(768)
+			justify-content: center
 
 .certificate
 	&__image
@@ -224,6 +269,10 @@
 .reviews-block
 	display: flex
 	align-items: flex-end
+	+r(1024)
+		flex-wrap: wrap
+	+r(768)
+		justify-content: center
 	&__logo
 		margin-right: 12px
 	&__stars
@@ -231,10 +280,20 @@
 	&__text
 		color: white
 		margin-bottom: 2px
+		line-height: 1.2
 		.bold
 			font-weight: 600
 			&--line
 				text-decoration: underline
+		+r(1024)
+			margin-top: 10px
+			margin-bottom: 0
+			width: 100%
+		+r(890)
+			max-width: 75%
+		+r(768)
+			max-width: 100%
+			text-align: center
 
 .menu-footer
 	&__item
