@@ -1,27 +1,34 @@
 - var REVIEWS = LANG.main.reviews;
 
-include ../mixins/review
+include ../mixins/review-main
 
 -
 	const reviewStars = [
-		'img/svg/raiting_review_2.svg',
-		'img/svg/raiting_review_2.svg',
-		'img/svg/raiting_review_1.svg',
-		'img/svg/raiting_review_2.svg',
-		'img/svg/raiting_review_1.svg',
-		'img/svg/raiting_review_2.svg',
-		'img/svg/raiting_review_2.svg',
-		'img/svg/raiting_review_2.svg',
-		'img/svg/raiting_review_1.svg',
-		'img/svg/raiting_review_2.svg',
-		'img/svg/raiting_review_1.svg',
-		'img/svg/raiting_review_2.svg'
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg',
+		'img/svg/raiting_trustpilot_full.svg'
 	];
 
-section.reviews.reviews--main
+section.reviews-main
 	.container
-		h2.reviews__title.title.title--med!= REVIEWS.title
-		.reviews__slider.slider-review.js-reviews-slider
+		.reviews-main__top
+			h2.reviews-main__title.title.title--med!= REVIEWS.title
+			p.reviews-main__text Rated 
+				span.bold 4.9 
+				| / 5 based on 
+				span.bold.bold--line 21 reviews
+				| . Showing our 4 & 5 star reviews.
+		.reviews-main__slider.slider-review.js-reviews-main-slider
 			each review, key in REVIEWS.reviewArray
 				+review(review.product, review.text, reviewStars[key], review.name, review.date)
-		a.reviews__btn.btn-empty(href="#")!= REVIEWS.btn
+		a.reviews-main__btn.btn-empty(href="#")!= REVIEWS.btn
+		img.reviews-main__logo(src="img/svg/trustpilot-black.svg", alt="trustpilot")

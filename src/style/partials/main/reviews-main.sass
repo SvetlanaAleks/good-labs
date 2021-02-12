@@ -1,18 +1,9 @@
-.reviews
+.reviews-main
 	padding-top: 127px
 	padding-bottom: 115px
 	position: relative
 	.container
 		position: relative
-	&--main
-		&::before
-			background: #EEF5EC
-	&--immunal
-		&::before
-			background: #EEF5EC
-	&--multi-vitamin
-		&::before
-			background: #FAF1E5
 	&::before
 		content: ''
 		display: block
@@ -24,6 +15,7 @@
 		z-index: -1
 		pointer-events: none
 		border-bottom-left-radius: 100px
+		background: #EEF5EC
 	+r(1300)
 		padding: 110px 0
 		&::before
@@ -48,10 +40,24 @@
 		padding-bottom: 67px
 	+r(374)
 		padding: 37px 0
-	&__title
-		margin-bottom: 48px
+	&__top
+		margin-bottom: 87px
+		display: flex
+		align-items: center
 		+r(480)
 			margin-bottom: 25px
+	&__title
+		margin-right: 32px
+	&__text
+		max-width: 200px
+		width: 100%
+		font-size: 12px
+		color: $garkgrey
+		line-height: 150%
+		.bold
+			font-weight: 600
+			&--line
+				text-decoration: underline
 	&__slider
 		+r(768)
 			margin-bottom: 40px
@@ -67,22 +73,22 @@
 			position: static
 			margin: auto
 			transform: none
+	&__logo
+		position: absolute
+		bottom: 0
+		right: 0
+		transform: translateY(50%)
 	.slick-list
-		margin: 0 -20px
+		margin-left: -35px
 		+r(1440)
 			margin: 0 -15px
 		+r(1140)
 			margin: 0 -10px
 		+r(640)
 			margin: 0 -20px 0 0
-	.slick-slide
-		margin: 0 20px
-		+r(1440)
-			margin: 0 15px
-		+r(1140)
-			margin: 0 10px
+
 	.slick-dots
-		margin-top: 122px
+		margin-top: 56px
 		+r(1300)
 			margin-top: 100px
 		+r(890)
@@ -103,7 +109,7 @@
 		cursor: pointer
 		background: none
 		position: absolute
-		top: -86px
+		top: -113px
 		padding: 0
 		right: 0
 		z-index: 100
@@ -125,35 +131,32 @@
 			&.prev
 				right: 41px
 
-.review
+.review-main
+	padding: 20px 35px
+	border-right: 1px solid transparentize($garkgrey, .85)
+	min-height: 255px
 	+r(640)
 		width: 280px !important
-	&__product
+	&__top
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin-bottom: 20px
+	&__title
 		margin-bottom: 15px
+		font-weight: 500
 		+r(1024)
 			margin-bottom: 9px
 	&__desc
 		color: $garkgrey
 		line-height: 160%
-		padding-bottom: 37px
-		margin-bottom: 30px
-		border-bottom: 1px solid transparentize($garkgrey, .8)
-		+r(1140)
-			padding-bottom: 30px
-			margin-bottom: 23px
-		+r(480)
-			padding-bottom: 20px
-			margin-bottom: 18px
-	&__stars
-		margin-bottom: 20px
-		+r(480)
-			margin-bottom: 10px
+		margin-bottom: 12px
 	&__info
 		display: flex
 		align-items: center
 	&__text
-		color: $garkgrey
-		line-height: 160%
+		color: #777777
+		line-height: 150%
 		&:not(:last-of-type)
 			margin-right: 14px
 			padding-right: 14px
