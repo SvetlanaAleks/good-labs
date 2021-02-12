@@ -22,13 +22,15 @@ section.reviews-main
 	.container
 		.reviews-main__top
 			h2.reviews-main__title.title.title--med!= REVIEWS.title
-			p.reviews-main__text Rated 
-				span.bold 4.9 
-				| / 5 based on 
-				span.bold.bold--line 21 reviews
-				| . Showing our 4 & 5 star reviews.
+			.reviews-main__wrap
+				img.reviews-main__logo.reviews-main__logo--mob(src="img/svg/trustpilot-black.svg", alt="trustpilot")
+				p.reviews-main__text Rated 
+					span.bold 4.9 
+					| / 5 based on 
+					span.bold.bold--line 21 reviews
+					| . Showing our 4 & 5 star reviews.
 		.reviews-main__slider.slider-review.js-reviews-main-slider
 			each review, key in REVIEWS.reviewArray
 				+review(review.product, review.text, reviewStars[key], review.name, review.date)
 		a.reviews-main__btn.btn-empty(href="#")!= REVIEWS.btn
-		img.reviews-main__logo(src="img/svg/trustpilot-black.svg", alt="trustpilot")
+		img.reviews-main__logo.reviews-main__logo--desc(src="img/svg/trustpilot-black.svg", alt="trustpilot")

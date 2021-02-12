@@ -86,7 +86,7 @@
       ]
     },
     "reviews": {
-      "title": "Reviews 4.9 / 5",
+      "title": "Reviews <span>4.9 / 5</span>",
       "btn": "Submit your review",
       "reviewArray": [
         {

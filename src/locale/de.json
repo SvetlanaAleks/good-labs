@@ -86,7 +86,7 @@
       ]
     },
     "reviews": {
-      "title": "Kommentare 4.9 / 5",
+      "title": "Kommentare <span>4.9 / 5</span>",
       "btn": "Lassen Sie Ihre Bewertung",
       "reviewArray": [
         {

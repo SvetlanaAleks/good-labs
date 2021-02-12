@@ -17,7 +17,8 @@
 		border-bottom-left-radius: 100px
 		background: #EEF5EC
 	+r(1300)
-		padding: 110px 0
+		padding-top: 90px
+		padding-bottom: 110px
 		&::before
 			left: 25px
 	+r(1140)
@@ -28,6 +29,9 @@
 			left: 20px
 		.container
 			padding-left: 60px
+	+r(768)
+		padding-top: 70px
+		padding-bottom: 100px
 	+r(640)
 		padding-top: 50px
 		padding-bottom: 70px
@@ -44,10 +48,33 @@
 		margin-bottom: 87px
 		display: flex
 		align-items: center
+		+r(1140)
+			margin-bottom: 70px
+		+r(768)
+			margin-bottom: 50px
+			display: block
 		+r(480)
 			margin-bottom: 25px
 	&__title
 		margin-right: 32px
+		+r(768)
+			margin-right: 0
+			margin-bottom: 12px
+		+r(640)
+			span
+				font-size: 24px
+		+r(480)
+			span
+				font-size: 18px
+		+r(374)
+			span
+				display: none
+	&__wrap
+		+r(768)
+			display: flex
+			align-items: flex-start
+		+r(374)
+			display: block
 	&__text
 		max-width: 200px
 		width: 100%
@@ -61,6 +88,8 @@
 	&__slider
 		+r(768)
 			margin-bottom: 40px
+		+r(480)
+			margin-bottom: 20px
 	&__btn
 		width: auto
 		position: absolute
@@ -78,19 +107,31 @@
 		bottom: 0
 		right: 0
 		transform: translateY(50%)
+		&--mob
+			display: none
+		+r(1024)
+			right: 30px
+		+r(768)
+			position: static
+			margin-right: 10px
+			transform: none
+			&--desc
+				display: none
+			&--mob
+				display: block
+		+r(480)
+			width: 90px
+		+r(374)
+			margin-right: 0
+			margin-bottom: 5px
+
 	.slick-list
 		margin-left: -35px
-		+r(1440)
-			margin: 0 -15px
 		+r(1140)
-			margin: 0 -10px
-		+r(640)
-			margin: 0 -20px 0 0
+			margin-left: -20px
 
 	.slick-dots
 		margin-top: 56px
-		+r(1300)
-			margin-top: 100px
 		+r(890)
 			margin-top: 60px
 		+r(768)
@@ -101,7 +142,7 @@
 			left: 50%
 			transform: translateX(-50%)
 		+r(480)
-			bottom: -120px
+			bottom: -100px
 		+r(374)
 			display: none !important
 	.slick-arrow
@@ -121,27 +162,37 @@
 				opacity: 1
 		&.prev
 			right: 60px
-		+r(1024)
-			top: -81px
+		+r(1140)
+			top: -106px
+		+r(768)
+			top: -125px
 		+r(480)
-			top: -51px
+			top: -101px
 			svg
 				width: 30px
 				height: 25px
 			&.prev
 				right: 41px
+		+r(374)
+			top: -128px
 
 .review-main
 	padding: 20px 35px
 	border-right: 1px solid transparentize($garkgrey, .85)
 	min-height: 255px
+	+r(1140)
+		padding: 20px
 	+r(640)
 		width: 280px !important
+		min-height: auto
 	&__top
 		display: flex
 		align-items: center
 		justify-content: space-between
 		margin-bottom: 20px
+	&__stars
+		+r(1140)
+			width: 90px
 	&__title
 		margin-bottom: 15px
 		font-weight: 500

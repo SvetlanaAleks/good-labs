@@ -186,7 +186,14 @@ const Sliders = (function () {
         dotsClass: "slick-dots slick-dots--dark",
         responsive: [
           {
-            breakpoint: 891,
+            breakpoint: 1025,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            },
+          },
+          {
+            breakpoint: 769,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
