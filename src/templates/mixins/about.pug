@@ -1,0 +1,10 @@
+mixin about(src, person, name)
+	.about-main
+		.about-main__wrap
+			i.fico.fico-int
+			picture
+				source(srcset='img/' + src + '.webp', type="image/webp")
+				img.about-main__image(src='img/' + src + '.jpg' alt="")
+		.about-main__person
+			img.about-main__photo(src=person, alt=name)
+			p.about-main__name!= name

@@ -1,5 +1,84 @@
-- var ABOUT = LANG.main.about;
+include mixins/about
 
+- var ABOUT = LANG.main.about;
+-
+	const photos = [
+		{
+			src: 'about_slider_main_1',
+			photo: 'img/review_photo_1.png',
+			name: 'Kate8477'
+		},
+		{
+			src: 'about_slider_main_2',
+			photo: 'img/review_photo_2.png',
+			name: 'Anton_65'
+		},
+		{
+			src: 'about_slider_main_3',
+			photo: 'img/review_photo_3.png',
+			name: 'Karolinajunior'
+		},
+		{
+			src: 'about_slider_main_4',
+			photo: 'img/review_photo_4.png',
+			name: 'Nikitabunin1994'
+		},
+		{
+			src: 'about_slider_main_5',
+			photo: 'img/review_photo_1.png',
+			name: 'Kate8477'
+		},
+		{
+			src: 'about_slider_main_6',
+			photo: 'img/review_photo_2.png',
+			name: 'Anton_65'
+		},
+		{
+			src: 'about_slider_main_7',
+			photo: 'img/review_photo_3.png',
+			name: 'Karolinajunior'
+		},
+		{
+			src: 'about_slider_main_8',
+			photo: 'img/review_photo_4.png',
+			name: 'Nikitabunin1994'
+		},
+		{
+			src: 'about_slider_main_9',
+			photo: 'img/review_photo_4.png',
+			name: 'Nikitabunin1994'
+		},
+		{
+			src: 'about_slider_main_10',
+			photo: 'img/review_photo_1.png',
+			name: 'Kate8477'
+		},
+		{
+			src: 'about_slider_main_11',
+			photo: 'img/review_photo_2.png',
+			name: 'Anton_65'
+		},
+		{
+			src: 'about_slider_main_12',
+			photo: 'img/review_photo_3.png',
+			name: 'Karolinajunior'
+		},
+		{
+			src: 'about_slider_main_13',
+			photo: 'img/review_photo_4.png',
+			name: 'Nikitabunin1994'
+		},
+		{
+			src: 'about_slider_main_14',
+			photo: 'img/review_photo_4.png',
+			name: 'Nikitabunin1994'
+		},
+		{
+			src: 'about_slider_main_15',
+			photo: 'img/review_photo_4.png',
+			name: 'Nikitabunin1994'
+		}
+	];
 section.about-big
 	.about-big__top.container
 		h2.about-big__title.title.title--med!= ABOUT.title
@@ -9,63 +88,5 @@ section.about-big
 				img(src="img/svg/insta.svg", alt="insta")
 	.about-big__slider-wrap
 		.about-big__slider.slider-about-big.js-about-slider2
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_1.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_1.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_2.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_2.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_3.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_3.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_4.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_4.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_5.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_5.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_6.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_6.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_7.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_7.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_8.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_8.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_9.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_9.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_10.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_10.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_11.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_11.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_12.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_12.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_13.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_13.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_14.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_14.jpg" alt="")
-			.slider-about-big__wrap
-				picture
-					source(srcset="img/about_slider_main_15.webp", type="image/webp")
-					img.slider-about-big__photo(src="img/about_slider_main_15.jpg" alt="")
+			each item in photos
+				+about(item.src, item.photo, item.name)

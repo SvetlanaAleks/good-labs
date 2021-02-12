@@ -1,6 +1,6 @@
 .about-big
 	padding-top: 120px
-	padding-bottom: 122px
+	padding-bottom: 94px
 	+r(1300)
 		padding: 100px 0
 	+r(1140)
@@ -14,7 +14,7 @@
 		display: flex
 		align-items: center
 		justify-content: space-between
-		margin-bottom: 70px
+		margin-bottom: 75px
 		+r(1140)
 			margin-bottom: 60px
 		+r(890)
@@ -54,7 +54,6 @@
 
 .slider-about-big
 	.slick-list
-		margin: 0 -10px
 		+r(640)
 			margin: 0 -5px
 		+r(480)
@@ -72,18 +71,37 @@
 			margin: 0 5px
 			width: 180px
 	.slick-dots
-		margin-top: 77px
+		margin-top: 69px
 		+r(1140)
 			margin-top: 65px
 		+r(640)
 			margin-top: 50px
 		+r(480)
 			margin-top: 30px
+.about-main
 	&__wrap
 		font-size: 0
-	&__photo
+		margin-bottom: 10px
+		position: relative
+		.fico
+			position: absolute
+			color: white
+			top: 20px
+			right: 20px
+			font-size: 20px
+	&__image
 		object-fit: contain
 		font-family: 'object-fit: contain;'
 		+r(480)
 			width: 180px
 			height: 180px
+	&__person
+		display: flex
+		align-items: center
+	&__photo
+		margin-right: 12px
+		width: 34px
+	&__name
+		font-weight: 500
+		font-size: 13px
+		color: $garkgrey
