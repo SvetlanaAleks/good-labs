@@ -1,47 +1,67 @@
 - var MENU = LANG.menu;
+- var BANNER_BOTTOM = LANG.banner_bottom;
 
 footer.footer
-	.container
-		.footer__wrapper
-			.footer__col.footer__copy.footer__copy--desc.text--small © GoodLabs 
+	.footer__top
+		.container
+			.footer__wrap
+				.footer__wrapper
+					.footer__wrapper-top
+						.footer__col.footer__copy.footer__copy--desc.text--small © GoodLabs 
+							br
+							| Smart Formulas
+							br
+							span.year
+							| .
+						.footer__links
+							ul.footer__col.menu-footer
+								li.menu-footer__item
+									a.menu-footer__link(href="index.html")!= MENU.item1
+								li.menu-footer__item
+									a.menu-footer__link(href="")!= MENU.item2
+								li.menu-footer__item
+									a.menu-footer__link(href="")!= MENU.item4
+								li.menu-footer__item
+									a.menu-footer__link(href="")!= MENU.item5
+							ul.menu-footer
+								li.menu-footer__item
+									a.menu-footer__link(href="about.html")!= MENU.item3
+								li.menu-footer__item
+									a.menu-footer__link(href="")!= MENU.item7
+								li.menu-footer__item
+									a.menu-footer__link(href="")!= MENU.item8
+								li.menu-footer__item
+									a.menu-footer__link(href="")!= MENU.item6
+						.footer__privacy.footer__col
+							a.footer__link.text--med(href="privacy-policy.html")!= MENU.item9
+							a.footer__link.text--med(href="cookie-policy.html")!= MENU.item10
+							a.footer__link.text--med(href="terms.html")!= MENU.item11
+					.footer__wrapper-bottom.reviews-block
+						img.reviews-block__logo(src="img/svg/trustpilot.svg", alt="trustpilot")
+						img.reviews-block__stars(src="img/raiting_trustpilot_full.png", alt="raiting_trustpilot_full")
+						p.reviews-block__text.text--small Rated 
+							span.bold 4.9 
+							| / 5 based on 
+							span.bold.bold--line 21 reviews
+							| . Showing our 4 & 5 star reviews.
+				.footer__right
+					p.footer__address.text--med!= MENU.address
+					.footer__social.social
+						a.social__link(href="")
+							i.fico.fico-int
+						a.social__link(href="")
+							i.fico.fico-fb
+					a.footer__email-link.text--med(href="mailto:support@glabs-nutrition.com") support@glabs-nutrition.com
+					.footer__icons.certificate
+						img.certificate__image(src="img/svg/certificate_1.svg", alt="")
+						img.certificate__image(src="img/svg/certificate_2.svg", alt="")
+			.footer__col.footer__copy.footer__copy--mob.text--small © GoodLabs 
 				br
-				| Smart Formulas
+				| Smart Formulas 
 				br
-				span.year
-				| .
-			.footer__links
-				ul.footer__col.menu-footer
-					li.menu-footer__item
-						a.menu-footer__link(href="index.html")!= MENU.item1
-					li.menu-footer__item
-						a.menu-footer__link(href="")!= MENU.item2
-					li.menu-footer__item
-						a.menu-footer__link(href="")!= MENU.item4
-					li.menu-footer__item
-						a.menu-footer__link(href="")!= MENU.item5
-				ul.menu-footer
-					li.menu-footer__item
-						a.menu-footer__link(href="about.html")!= MENU.item3
-					li.menu-footer__item
-						a.menu-footer__link(href="")!= MENU.item7
-					li.menu-footer__item
-						a.menu-footer__link(href="")!= MENU.item8
-					li.menu-footer__item
-						a.menu-footer__link(href="")!= MENU.item6
-			.footer__privacy.footer__col
-				a.footer__link.text--med(href="privacy-policy.html")!= MENU.item9
-				a.footer__link.text--med(href="cookie-policy.html")!= MENU.item10
-				a.footer__link.text--med(href="terms.html")!= MENU.item11
-			.footer__right
-				p.footer__address.text--med!= MENU.address
-				.footer__social.social
-					a.social__link(href="")
-						i.fico.fico-int
-					a.social__link(href="")
-						i.fico.fico-fb
-				a.footer__email-link.text--med(href="mailto:support@glabs-nutrition.com") support@glabs-nutrition.com
-		.footer__col.footer__copy.footer__copy--mob.text--small © GoodLabs 
-			br
-			| Smart Formulas 
-			br
-			| 2020.
+				| 2020.
+	.footer__banner.info-block.info-block--footer
+		.container
+			p.info-block__text.text--small 
+				span *
+				| #{BANNER_BOTTOM}
