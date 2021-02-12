@@ -1,0 +1,142 @@
+.knowledge
+	padding-top: 140px
+	padding-bottom: 30px
+	.container
+		position: relative
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			height: 1px
+			width: 100%
+			background: transparentize($garkgrey, .8)
+			bottom: -9px
+	+r(1300)
+		padding-top: 120px
+		padding-bottom: 100px
+	+r(1024)
+		.container
+			&::after
+				left: 30px
+				right: 30px
+				width: auto
+	+r(768)
+		padding: 90px 0
+	+r(640)
+		padding: 70px 0
+		.container
+			&::after
+				left: 20px
+				right: 20px
+	+r(480)
+		padding-top: 50px
+		padding-bottom: 20px
+	&__title
+		margin-bottom: 70px
+		+r(1140)
+			margin-bottom: 60px
+		+r(480)
+			margin-bottom: 40px
+	&__slider
+		padding-bottom: 123px
+		border-bottom: 1px solid $garkgrey
+		margin-bottom: 9px
+		+r(1300)
+			padding-bottom: 100px
+		+r(768)
+			padding-bottom: 80px
+		+r(640)
+			padding-bottom: 70px
+		+r(480)
+			padding-bottom: 58px
+	.slick-dots
+		margin-top: 86px
+		+r(480)
+			margin-top: 40px
+	.slick-list
+		margin: 0 -20px
+		+r(1440)
+			margin: 0 -15px
+		+r(1140)
+			margin: 0 -10px
+		+r(640)
+			margin: 0 -20px 0 0
+	.slick-slide
+		margin: 0 20px
+		+r(1440)
+			margin: 0 15px
+		+r(1140)
+			margin: 0 10px
+	.slick-arrow
+		background: none
+		cursor: pointer
+		background: none
+		position: absolute
+		top: -109px
+		padding: 0
+		right: 0
+		z-index: 100
+		svg
+			transition: all .3s
+		&:hover
+			svg
+				opacity: 1
+		&.prev
+			right: 60px
+		+r(1140)
+			top: -99px
+		+r(1024)
+			top: -93px
+		+r(480)
+			top: -67px
+			svg
+				width: 30px
+				height: 25px
+			&.prev
+				right: 41px
+
+.article
+	+r(640)
+		width: 300px
+	&__photo
+		font-size: 0
+		margin-bottom: 32px
+		&--1
+			border-top-left-radius: 50px
+		&--2
+			border-top-right-radius: 50px
+		&--3
+			border-bottom-right-radius: 50px
+		&--4
+			border-bottom-left-radius: 50px
+		+r(1140)
+			margin-bottom: 25px
+		+r(640)
+			margin-bottom: 19px
+			height: 250px
+			object-fit: cover
+			font-family: 'object-fit: cover;'
+			&--1
+				border-top-left-radius: 25px
+			&--2
+				border-top-right-radius: 25px
+			&--3
+				border-bottom-right-radius: 25px
+			&--4
+				border-bottom-left-radius: 25px
+	&__note
+		color: $grey
+		margin-bottom: 14px
+		line-height: 160%
+		+r(1140)
+			margin-bottom: 10px
+	&__title
+		color: $garkgrey
+		line-height: 130%
+		font-size: 25px
+		max-width: 87%
+		+r(1140)
+			font-size: 22px
+			max-width: 90%
+		+r(480)
+			font-size: 20px

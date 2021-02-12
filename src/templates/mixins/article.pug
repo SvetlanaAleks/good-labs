@@ -1,0 +1,7 @@
+mixin article(article)
+	.article
+		picture
+			source(srcset="img/" + article.photo + ".webp", type="image/webp")
+			img(class="article__photo article__photo--" + article.type, src="img/" + article.photo + ".jpg" alt="photo")
+		p.article__note.text--med!= article.note
+		p.article__title.title!= article.title
