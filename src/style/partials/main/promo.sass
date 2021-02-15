@@ -1,11 +1,24 @@
 .promo-prod
 	&__wrapper
+		height: 90vh
+		max-height: 895px
+		min-height: 895px
 		padding-bottom: 220px
 		position: relative
 		background-image: url(../img/promo__img.png)
 		background-repeat: no-repeat
 		background-position: bottom -160px right calc(50% - 165px)
 		background-size: 1439px auto
+		+r(1440)
+			max-height: 700px
+			min-height: 700px
+		+r(1300)
+			max-height: 680px
+			min-height: 680px
+		+r(1024)
+			max-height: auto
+			min-height: auto
+			height: auto
 		.container
 			position: relative
 		&::before
@@ -23,8 +36,13 @@
 			background-size: 70%
 			background-position: bottom -50px right -50px
 			padding-bottom: 120px
+		+r(1440)
+			background-size: 65%
+			background-position: bottom -50px right 10px
 		+r(1300)
 			padding-bottom: 110px
+			background-size: 64%
+			background-position: bottom -50px right -54px
 		+r(1140)
 			padding-bottom: 90px
 		+r(1024)
@@ -157,11 +175,15 @@
 		position: relative
 		z-index: 1
 		height: 147px
-		padding: 45px 10px
-		border-bottom: 1px solid transparentize($garkgrey, .8)
+		.container
+			padding-top: 45px
+			padding-bottom: 45px
+			border-bottom: 1px solid transparentize($garkgrey, .8)
 		+r(1024)
-			padding: 30px 0px
 			height: 100px
+			.container
+				padding-top: 30px
+				padding-bottom: 30px
 		+r(768)
 			height: auto
 	&__list
