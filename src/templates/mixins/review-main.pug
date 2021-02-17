@@ -4,5 +4,5 @@ mixin review(product, text, stars, name, date)
 			img.review-main__stars(src=stars, alt="raiting")
 			p.review-main__text.text--small!= date
 		h3.review-main__title.text--med!= product
-		p.review-main__desc.text--small!= text
+		p.review-main__desc!= text
 		p.review-main__text.text--small!= name

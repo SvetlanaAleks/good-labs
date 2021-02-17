@@ -6,7 +6,7 @@
 		position: relative
 	+r(1300)
 		padding-top: 90px
-		padding-bottom: 110px
+		padding-bottom: 70px
 	+r(1140)
 		padding: 90px 0
 	+r(1024)
@@ -16,10 +16,10 @@
 		padding-bottom: 100px
 	+r(640)
 		padding-top: 50px
-		padding-bottom: 70px
+		padding-bottom: 40px
 	+r(480)
-		padding-top: 37px
-		padding-bottom: 67px
+		padding-top: 61px
+		padding-bottom: 17px
 	+r(374)
 		padding: 37px 0
 	&__top
@@ -68,55 +68,37 @@
 			margin-bottom: 40px
 		+r(480)
 			margin-bottom: 20px
-	&__btn
-		width: auto
+	&__bottom
+		display: flex
+		align-items: center
+		justify-content: space-between
 		position: absolute
 		bottom: 0
 		left: 0
-		transform: translateY(50%)
-		+r(1024)
-			left: 60px
-		+r(768)
-			position: static
-			margin: auto
-			transform: none
-	&__logo
-		position: absolute
-		bottom: 0
 		right: 0
 		transform: translateY(50%)
-		&--mob
-			display: none
 		+r(1024)
+			left: 30px
 			right: 30px
 		+r(768)
 			position: static
-			margin-right: 10px
 			transform: none
-			&--desc
-				display: none
-			&--mob
-				display: block
-		+r(480)
-			width: 90px
-		+r(374)
-			margin-right: 0
-			margin-bottom: 5px
+	&__btn
+		width: auto
+		+r(768)
+			max-width: 210px
 	.slick-slide
 		margin: 0 5px
+	.slick-list
+		+r(640)
+			margin-right: -20px
 	.slick-dots
 		margin-top: 39px
 		+r(890)
 			margin-top: 60px
 		+r(768)
-			margin-top: 0
-			position: absolute
-			bottom: -130px
-			justify-content: center
-			left: 50%
-			transform: translateX(-50%)
-		+r(480)
-			bottom: -100px
+			margin-bottom: 44px
+			margin-top: 20px
 		+r(374)
 			display: none !important
 	.slick-arrow
@@ -148,15 +130,17 @@
 			&.prev
 				right: 41px
 		+r(374)
-			top: -128px
+			top: -101px
 
 .review-main
 	padding: 30px 30px 45px 30px
 	background: #EEF5EC
+	+r(1300)
+		padding: 20px
 	+r(1140)
 		padding: 20px
 	+r(640)
-		width: 280px !important
+		width: 300px !important
 		min-height: auto
 	&__top
 		display: flex
@@ -175,6 +159,8 @@
 		color: $garkgrey
 		line-height: 160%
 		margin-bottom: 12px
+		font-size: 14px
+
 	&__info
 		display: flex
 		align-items: center

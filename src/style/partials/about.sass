@@ -9,7 +9,8 @@
 	+r(640)
 		padding: 65px 0
 	+r(480)
-		padding: 50px 0
+		padding-top: 50px
+		padding-bottom: 34px
 	&__top
 		display: flex
 		align-items: center
@@ -77,7 +78,7 @@
 		+r(640)
 			margin-top: 50px
 		+r(480)
-			margin-top: 30px
+			margin-top: 16px
 .about-main
 	&__wrap
 		font-size: 0
@@ -101,7 +102,12 @@
 	&__photo
 		margin-right: 12px
 		width: 34px
+		+r(480)
+			width: 28px
+			margin-right: 9px
 	&__name
 		font-weight: 500
 		font-size: 13px
 		color: $garkgrey
+		+r(480)
+			font-size: 11px

@@ -12,16 +12,26 @@
 		border-bottom-right-radius: 100px
 		overflow: hidden
 		margin-right: 50px
+		+r(1680)
+			max-height: 752px
+			min-height: 752px
 		+r(1440)
 			max-height: 700px
 			min-height: 700px
 		+r(1300)
 			max-height: 680px
 			min-height: 680px
+			margin-right: 25px
 		+r(1024)
 			max-height: auto
 			min-height: auto
 			height: auto
+			margin-right: 20px
+		+r(640)
+			margin-right: 0
+			overflow: auto
+			&::before
+				border-bottom-right-radius: 0
 		.container
 			position: relative
 		&::before
@@ -39,10 +49,10 @@
 		+r(1680)
 			background-size: 70%
 			background-position: bottom -50px right -50px
-			padding-bottom: 120px
+			padding-bottom: 100px
 		+r(1440)
-			background-size: 65%
-			background-position: bottom -50px right 10px
+			background-size: 70%
+			background-position: bottom -50px right -70px
 		+r(1300)
 			padding-bottom: 110px
 			background-size: 64%
@@ -59,6 +69,7 @@
 			background-position: bottom -20px right -20px
 		+r(640)
 			padding-bottom: 50px
+			border-bottom-right-radius: 0
 		+r(480)
 			background-size: 570px
 			background-position: right -40px bottom
@@ -69,19 +80,29 @@
 	&__container
 		padding-top: 128px
 		padding-left: 25px
+		+r(1680)
+			padding-top: 100px
+		+r(1440)
+			padding-top: 60px
+		+r(1300)
+			padding-left: 12.5px
 		+r(1140)
 			padding-top: 100px
 		+r(1024)
 			padding-top: 90px
+			padding-left: 30px
 		+r(768)
 			padding-top: 80px
 		+r(640)
 			padding-top: 60px
+			padding-left: 20px
 		+r(480)
 			padding-top: 50px
 	&__title
 		margin-bottom: 91px
 		font-size: 62px
+		+r(1300)
+			font-size: 56px
 		+r(890)
 			margin-bottom: 40px
 		+r(480)
@@ -142,6 +163,8 @@
 			line-height: 1.6
 			color: $garkgrey
 			position: relative
+			+r(1300)
+				max-width: 370px
 			+r(890)
 				max-width: 100%
 			+r(768)
@@ -186,12 +209,13 @@
 			padding-bottom: 45px
 			border-bottom: 1px solid transparentize($garkgrey, .8)
 		+r(1024)
-			height: 100px
 			.container
+				height: 100px
 				padding-top: 30px
 				padding-bottom: 30px
 		+r(768)
-			height: auto
+			.container
+				height: auto
 	&__list
 		display: flex
 		justify-content: space-between

@@ -1,6 +1,8 @@
 .products {
   padding-bottom: 220px;
-
+  @include r(1314400) {
+    padding-bottom: 180px;
+  }
   @include r(1300) {
     padding-bottom: 110px;
   }
@@ -18,13 +20,16 @@
   }
 
   @include r(480) {
-    padding-bottom: 36px;
+    padding-bottom: 116px;
   }
 
   &__info {
     padding-top: 145px;
     padding-bottom: 175px;
-
+    @include r(1440) {
+      padding-top: 125px;
+      padding-bottom: 155px;
+    }
     @include r(1300) {
       padding: 110px 0;
     }
