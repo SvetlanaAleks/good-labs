@@ -1,0 +1,47 @@
+include ../mixins/expert
+
+-
+	const expertArray = [
+		{
+			photo: 'feedback_main_1',
+			text: 'Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью',
+		},
+		{
+			photo: 'feedback_main_1',
+			text: '2Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью',
+		},
+		{
+			photo: 'feedback_main_1',
+			text: '3Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью',
+		}
+	];
+
+section.experts
+	.container
+		.experts__top.js-experts-for
+			each expert in expertArray
+				+expert(expert.photo, expert.text)
+		.experts__bottom
+			.experts__dots.js-experts-nav
+				.experts__item.item-expert
+					.item-expert__wrap
+						.item-expert__photo
+							img(src="img/expert-small-1.png", alt="Dr. Kenosha Gleaton")
+						.item-expert__desc
+							p.item-expert__name Dr. Kenosha Gleaton
+							p.item-expert__post Medical Director
+				.experts__item.item-expert
+					.item-expert__wrap
+						.item-expert__photo
+							img(src="img/expert-small-2.png", alt="Dr. Kenosha Gleaton")
+						.item-expert__desc
+							p.item-expert__name Dr. Naz Homaifar
+							p.item-expert__post Medical Advisor
+				.experts__item.item-expert
+					.item-expert__wrap
+						.item-expert__photo
+							img(src="img/expert-small-3.png", alt="Dr. Kenosha Gleaton")
+						.item-expert__desc
+							p.item-expert__name Dr. Andrew Sun
+							p.item-expert__post Medical Advisor
+			p.experts__text.text--med Our experts wits 25 years common of experience

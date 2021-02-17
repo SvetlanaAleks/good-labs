@@ -1,5 +1,5 @@
 .products {
-  padding-bottom: 130px;
+  padding-bottom: 220px;
 
   @include r(1300) {
     padding-bottom: 110px;
@@ -22,8 +22,8 @@
   }
 
   &__info {
-    padding-top: 115px;
-    padding-bottom: 125px;
+    padding-top: 145px;
+    padding-bottom: 175px;
 
     @include r(1300) {
       padding: 110px 0;
@@ -179,21 +179,22 @@
   }
 
   &__name {
-    margin-bottom: 5px;
+    margin-bottom: 11px;
   }
 
   &__desc {
     font-size: 16px;
     line-height: 1.6;
     color: $garkgrey;
+    margin-bottom: 11px;
   }
 
   &__raiting {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 16px;
+    margin-bottom: 18px;
     border-bottom: 1px solid $garkgrey;
   }
 

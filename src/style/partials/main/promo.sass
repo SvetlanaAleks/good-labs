@@ -1,14 +1,17 @@
 .promo-prod
 	&__wrapper
 		height: 90vh
-		max-height: 895px
-		min-height: 895px
+		max-height: 902px
+		min-height: 902px
 		padding-bottom: 220px
 		position: relative
 		background-image: url(../img/promo__img.png)
 		background-repeat: no-repeat
-		background-position: bottom -160px right calc(50% - 165px)
-		background-size: 1439px auto
+		background-position: bottom -200px right calc(50% - 223px)
+		background-size: 1599px auto
+		border-bottom-right-radius: 100px
+		overflow: hidden
+		margin-right: 50px
 		+r(1440)
 			max-height: 700px
 			min-height: 700px
@@ -29,6 +32,7 @@
 			bottom: 0
 			left: 0
 			right: 0
+			border-bottom-right-radius: 100px
 			z-index: -1
 			pointer-events: none
 			background: radial-gradient(30.68% 98.73% at 32.65% 48.72%, rgba(245, 231, 216, 0.8) 0%, rgba(242, 221, 198, 0) 100%), radial-gradient(20.78% 47.22% at 85.98% 103.83%, #CCA785 0%, rgba(249, 224, 200, 0) 100%), linear-gradient(293.02deg, rgba(255, 234, 213, 0) 42.18%, rgba(250, 234, 216, 0.8) 85.29%), linear-gradient(0deg, #EACDAF, #EACDAF)
@@ -63,7 +67,8 @@
 			background-size: 550px
 			background-position: right -50px bottom
 	&__container
-		padding-top: 118px
+		padding-top: 128px
+		padding-left: 25px
 		+r(1140)
 			padding-top: 100px
 		+r(1024)
@@ -75,7 +80,8 @@
 		+r(480)
 			padding-top: 50px
 	&__title
-		margin-bottom: 90px
+		margin-bottom: 91px
+		font-size: 62px
 		+r(890)
 			margin-bottom: 40px
 		+r(480)
@@ -131,7 +137,7 @@
 			+r(480)
 				max-width: 100%
 		&--2
-			max-width: 310px
+			max-width: 290px
 			font-size: 16px
 			line-height: 1.6
 			color: $garkgrey
@@ -174,8 +180,8 @@
 	&__bottom
 		position: relative
 		z-index: 1
-		height: 147px
 		.container
+			height: 147px
 			padding-top: 45px
 			padding-bottom: 45px
 			border-bottom: 1px solid transparentize($garkgrey, .8)
@@ -198,6 +204,7 @@
 	width: 100%
 	cursor: pointer
 	position: relative
+	z-index: 1
 	&::after
 		content: ''
 		display: block

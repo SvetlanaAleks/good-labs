@@ -6,8 +6,26 @@ const Sliders = (function () {
   const sliderReviews = $(".js-reviews-slider");
   const sliderReviewsMain = $(".js-reviews-main-slider");
   const sliderKnowledge = $(".js-knowledge-slider");
-
   return {
+    initExpertsSlider: function () {
+      $(".js-experts-for").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow:
+          '<button class="prev"><svg width="42" height="36" opacity="0.1" viewBox="0 0 42 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.262 0.293457L0.587044 17.9999L18.262 35.7064L19.6774 34.2935L4.41117 18.9999H42V16.9999H4.41117L19.6774 1.70641L18.262 0.293457Z" fill="#202124"/></svg></button>',
+        nextArrow:
+          '<button class="next"><svg width="42" height="36" opacity="0.1"  viewBox="0 0 42 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.738 0.293457L41.413 17.9999L23.738 35.7064L22.3226 34.2935L37.5888 18.9999H0V16.9999H37.5888L22.3226 1.70641L23.738 0.293457Z" fill="#202124"/></svg></button>',
+        fade: true,
+        asNavFor: ".js-experts-nav",
+      });
+      $(".js-experts-nav").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: ".js-experts-for",
+        dots: true,
+        focusOnSelect: true,
+      });
+    },
     initIndexProsuctsSlider: function () {
       $(".slider-products").slick({
         slidesToShow: 3,
@@ -240,6 +258,7 @@ const Sliders = (function () {
       });
     },
     init: function () {
+      Sliders.initExpertsSlider();
       Sliders.initIndexProsuctsSlider();
       Sliders.initProsuctsSlider();
       Sliders.initAboutSlider();
