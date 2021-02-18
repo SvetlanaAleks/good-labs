@@ -47,9 +47,13 @@
       "text2": "Alles hat seine Grundlage. Die Grundlage für die menschliche Gesundheit ist eine ausreichende Menge an Vitaminen und Mineralstoffen im Körper. GoodLabs Produkte wurden hergestellt, um diese Grundlage zu stärken und Ihnen zu helfen, ein erfülltes Leben zu führen",
       "btn": "Über Produkte",
       "item_text_1": "Zusammensetzungen, <br />die funktionieren",
+      "item_desc_1": "Für die Auswahl der Komponenten und ihres Verhältnisses verwenden wir die fortgeschrittene Forschung von Wissenschaftlern.",
       "item_text_2": "Intelligente <br />Produktlinie",
+      "item_desc_2": "Die GoodLabs-Produktlinie erfüllt die Grundbedürfnisse des menschlichen Körpers.",
       "item_text_3": "Nischenkompetenz",
+      "item_desc_3": "Unsere Erfahrung in der Entwicklung von Gesundheitsprodukten beträgt 7 Jahre. Bei GoodLabs haben wir die besten Entwicklungen und Spezialisten gesammelt.",
       "item_text_4": "Beste <br />Produktionen",
+      "item_desc_4": "GoodLabs ist von GMP-, HACCP- und ISO-zertifiziert, um unsere hohen Qualitätsstandards zu gewährleisten.",
       "animate_letter_1": "Basis!",
       "animate_letter_2": "Gesundheit!",
       "animate_letter_3": "Leben!"
@@ -87,6 +91,7 @@
     },
     "reviews": {
       "title": "Kommentare <span>4.9 / 5</span>",
+      "desc": "Bewertet mit <span class=\"bold\">4.9 </span>/ 5 basierend auf <span class=\"bold bold--line\">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.",
       "btn": "Lassen Sie Ihre Bewertung",
       "reviewArray": [
         {
@@ -163,8 +168,11 @@
         }
       ]
     },
+    "experts": {
+      "desc": "Unsere Spezialisten haben 25 Jahre Erfahrung"
+    },
     "about": {
-      "title": "Über GoodLabs",
+      "title": "In der Wildnis",
       "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
     },
     "action": {
