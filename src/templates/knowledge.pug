@@ -1,0 +1,23 @@
+- var KNOWLENGE = LANG.knowledge;
+
+include mixins/article
+
+-
+	const articlePhoto = [
+		'article_1',
+		'article_2',
+		'article_3',
+		'article_4'
+	];
+	const articleLink = [
+		'article-1.html',
+		'article-2.html',
+		'article-3.html',
+		'article-4.html'
+	];
+section.knowledge
+	.container
+		h2.knowledge__title.title.title--med!= KNOWLENGE.title
+		.knowledge__slider.slider-knowledge.js-knowledge-slider
+			each article, key in KNOWLENGE.articleArray
+				+article(articleLink[key], articlePhoto[key], article.type, article.note, article.title)

@@ -1,0 +1,227 @@
+.article-page
+	background: url(../img/svg/promo-waves.svg) no-repeat, url(../img/svg/promo-waves.svg) no-repeat
+	background-position: calc(50% - 750px) 258px,calc(50% - -786px) 588px
+	&__wrapper
+		padding-top: 79px
+		padding-bottom: 80px
+		max-width: 1060px
+		width: 100%
+		margin: auto
+	&__title
+		text-align: center
+		margin-bottom: 80px
+	&__photo
+		height: 452px
+		object-fit: cover
+		font-family: 'object-fit: cover;'
+		border-top-right-radius: 100px
+		border-bottom-left-radius: 100px
+		overflow: hidden
+		margin-bottom: 80px
+	&__content
+		max-width: 840px
+		width: 100%
+		margin: auto
+	&__main-text
+		padding-bottom: 45px
+		margin-bottom: 80px
+		border-bottom: 1px solid $garkgrey
+		color: $garkgrey
+		font-style: italic
+		text-align: center
+		line-height: 160%
+	&__line
+		border-bottom: 1px solid $garkgrey
+		margin-top: 80px
+		margin-bottom: 75px
+	&__wrap
+		+nlt
+			margin-bottom: 60px
+		&--float-image-right
+			img
+				border-top-left-radius: 50px
+				border-bottom-right-radius: 50px
+				margin-right: -110px
+				margin-left: 40px
+				float: right
+				height: 320px
+				object-fit: cover
+				font-family: 'object-fit: cover;'
+		&--float-image-left
+			img
+				border-top-left-radius: 50px
+				border-bottom-right-radius: 50px
+				margin-left: -110px
+				margin-right: 40px
+				float: left
+				height: 320px
+				object-fit: cover
+				font-family: 'object-fit: cover;'
+		&--list
+			.article-page__ttl
+				margin-bottom: 50px
+	&__ttl
+		margin-bottom: 20px
+		line-height: 120%
+	&__text
+		color: #777
+		line-height: 180%
+		+nlt
+			margin-bottom: 24px
+	&__big-list
+		margin-bottom: 40px
+	&__list-adv
+		padding-left: 40px
+		display: flex
+		align-items: flex-start
+		flex-wrap: wrap
+		justify-content: space-between
+		margin-top: 40px
+		.item-benefit
+			max-width: 360px
+			width: 100%
+			&:nth-of-type(-n+2)
+				margin-bottom: 40px
+	&__top
+		display: flex
+		align-items: flex-start
+		justify-content: space-between
+		padding-bottom: 60px
+		margin-bottom: 60px
+		border-bottom: 1px solid transparentize($garkgrey, .9)
+	&__left
+		max-width: 510px
+		width: 100%
+	&__right
+		max-width: 250px
+		width: 100%
+		padding-top: 26px
+
+.big-list
+	&__row
+		display: flex
+		align-items: flex-start
+		+nlt
+			padding-bottom: 31px
+			margin-bottom: 34px
+			border-bottom: 1px solid transparentize($garkgrey, .9)
+	&__left
+		max-width: 400px
+		width: 100%
+		margin-right: 40px
+		display: flex
+		align-items: flex-start
+	&__vitamin
+		color: #EDE9E2
+		font-size: 50px
+		line-height: 40px
+		max-width: 70px
+		width: 100%
+		margin-right: 20px
+		font-weight: 600
+		font-family: 'Poppins', Arial, Helvetica, sans-serif
+	&__desc
+		color: $garkgrey
+		font-size: 20px
+		line-height: 120%
+		max-width: 65%
+
+.list-acticle
+	color: #777
+	&__item
+		position: relative
+		padding-left: 30px
+		+nlt
+			margin-bottom: 14px
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			width: 6px
+			height: 6px
+			border-radius: 50%
+			background: $garkgrey
+			left: 0
+			top: 5px
+
+.item-benefit
+	&__title
+		font-size: 20px
+		margin-bottom: 20px
+	&__text
+		color: #777
+		line-height: 180%
+
+.recom-item
+	display: flex
+	align-items: flex-end
+	&__prod
+		width: 93px
+		margin-right: 24px
+	&__info
+		margin-bottom: 10px
+	&__title
+		font-size: 20px
+		margin-bottom: 7px
+	&__desc
+		font-size: 14px
+		line-height: 160%
+		margin-bottom: 12px
+	&__raiting
+		width: 100%
+		padding-bottom: 19px
+		margin-bottom: 11px
+		border-bottom: 1px solid $garkgrey
+	&__bottom
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&__price
+		font-size: 20px
+	&__link
+		color: $garkgrey
+		transform: rotate(180deg)
+		font-size: 21px
+
+
+.mbtop
+	margin-top: 22px
+.mbbottom
+	margin-bottom: 20px
+
+
+.share-links
+	display: flex
+	align-items: center
+	&__text
+		line-height: 140%
+		color: #777
+		width: 140px
+		margin-right: 25px
+		font-size: 14px
+	&__wrap
+		display: flex
+		align-items: center
+	&__item
+		width: 40px
+		height: 40px
+		border-radius: 50%
+		border: 1px solid rgba(32, 33, 36, 0.1)
+		display: flex
+		align-items: center
+		justify-content: center
+		+nlt
+			margin-right: 10px
+	.fico
+		&-fb
+			color: #4A61B6
+			font-size: 16px
+		&-tw
+			color: #00CCFF
+			font-size: 15px
+		&-email
+			color: rgba(32, 33, 36, 0.5)
+			font-size: 13px
+		&-share
+			color: rgba(32, 33, 36, 0.5)
+			font-size: 15px

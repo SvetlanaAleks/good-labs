@@ -38,6 +38,31 @@
       }
     ]
   },
+  "knowledge": {
+    "title": "База знаний",
+    "articleArray": [
+      {
+        "type": "3",
+        "note": "Иммунитет",
+        "title": "Витаминная бомба: почему важно принимать мультивитаминные комплексы"
+      },
+      {
+        "type": "2",
+        "note": "Рекомендации",
+        "title": "Вопрос количества: почему важно соблюдать правильную дозировку при приеме витаминных комплексов"
+      },
+      {
+        "type": "4",
+        "note": "Истории",
+        "title": "Гармония здоровья: как витамины влияют на организм"
+      },
+      {
+        "type": "2",
+        "note": "Иммунитет",
+        "title": "Природный щит: роль бета-глюкана для иммунитета"
+      }
+    ]
+  },
   "banner_top": "Free shipping on orders over €50!",
   "banner_bottom": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
   "main": {
