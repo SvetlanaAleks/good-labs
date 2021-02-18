@@ -38,6 +38,12 @@
 		+nlt
 			margin-bottom: 60px
 		&--float-image-right
+			img.article-page__image-round
+				width: 340px
+				border-radius: 50%
+				margin-right: 30px
+				margin-bottom: 50px
+				margin-left: 80px
 			img
 				border-top-left-radius: 50px
 				border-bottom-right-radius: 50px
@@ -71,7 +77,6 @@
 	&__big-list
 		margin-bottom: 40px
 	&__list-adv
-		padding-left: 40px
 		display: flex
 		align-items: flex-start
 		flex-wrap: wrap
@@ -96,6 +101,9 @@
 		max-width: 250px
 		width: 100%
 		padding-top: 26px
+	&__steps
+		margin-bottom: 40px
+		counter-reset: section
 
 .big-list
 	&__row
@@ -131,6 +139,7 @@
 	&__item
 		position: relative
 		padding-left: 30px
+		line-height: 180%
 		+nlt
 			margin-bottom: 14px
 		&::after
@@ -142,7 +151,7 @@
 			border-radius: 50%
 			background: $garkgrey
 			left: 0
-			top: 5px
+			top: 12px
 
 .item-benefit
 	&__title
@@ -188,7 +197,8 @@
 	margin-top: 22px
 .mbbottom
 	margin-bottom: 20px
-
+.pl
+	padding-left: 40px
 
 .share-links
 	display: flex
@@ -225,3 +235,23 @@
 		&-share
 			color: rgba(32, 33, 36, 0.5)
 			font-size: 15px
+
+
+.steps
+	color: #777
+	line-height: 180%
+	&__item
+		position: relative
+		padding-left: 30px
+		+nlt
+			margin-bottom: 30px
+		&::after
+			counter-increment: section
+			content: counter(section) '.'
+			display: block
+			position: absolute
+			left: 0
+			top: 0
+			font-size: 20px
+			font-family: 'Tenor Sans', Arial, Helvetica, sans-serif
+			color: $garkgrey
