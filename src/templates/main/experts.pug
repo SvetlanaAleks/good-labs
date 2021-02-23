@@ -4,26 +4,17 @@
 include ../mixins/expert
 
 -
-	const expertArray = [
-		{
-			photo: 'feedback_main_1',
-			text: 'Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью',
-		},
-		{
-			photo: 'feedback_main_1',
-			text: '2Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью',
-		},
-		{
-			photo: 'feedback_main_1',
-			text: '3Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью',
-		}
+	const expertPhoto = [
+		'feedback_main_1',
+		'feedback_main_1',
+		'feedback_main_1',
 	];
 
 section.experts
 	.container
 		.experts__top.js-experts-for
-			each expert in expertArray
-				+expert(expert.photo, expert.text)
+			each expert, key in EXPERTS.expertArray
+				+expert(expertPhoto[key], expert)
 		.experts__bottom
 			.experts__dots.js-experts-nav
 				.experts__item.item-expert

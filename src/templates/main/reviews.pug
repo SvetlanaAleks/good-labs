@@ -27,5 +27,5 @@ section.reviews-main
 			each review, key in REVIEWS.reviewArray
 				+review(review.product, review.text, reviewStars[key], review.name, review.date)
 		.reviews-main__bottom
-			a.reviews-main__btn.btn-empty(href="#")!= REVIEWS.btn
+			a.reviews-main__btn.btn-empty(href="https://www.trustpilot.com/review/glabs-nutrition.com" target="_blank")!= REVIEWS.btn
 			img.reviews-main__logo(src="img/svg/trustpilot-black.svg", alt="trustpilot")

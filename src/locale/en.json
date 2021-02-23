@@ -39,7 +39,7 @@
     ]
   },
   "knowledge": {
-    "title": "База знаний",
+    "title": "Good to know",
     "articleArray": [
       {
         "type": "3",
@@ -68,8 +68,8 @@
   "main": {
     "header": {
       "title": "GoodLabs – good ",
-      "text1": "Vitamins for a strong foundation for your health",
-      "text2": "Everything has its foundation. The foundation of human health is a sufficient amount of vitamins and minerals in the body. GoodLabs products are designed to strengthen this foundation and help you live a full life.",
+      "text1": "Vitamins for a reliable basis of your health",
+      "text2": "Everything has its basis. The basis of human health is a sufficient amount of vitamins and minerals in the body. GoodLabs products are designed to strengthen this basis and help you live a full life.",
       "btn": "About products",
       "item_text_1": "Formulations <br />that work",
       "item_desc_1": "The components and their ratio are selected in accordance with the cutting-edge scientific researches.",
@@ -85,7 +85,7 @@
     },
     "formula": {
       "title": "GoodLabs is German quality formulations and&nbsp;production",
-      "desc": "We are proud of the formulations of our products and modern production sites in Germany. Each of our products is crafted by professionals with years of experience, based on cutting-edge research from nutritional scientists. Goodlabs product formulations meet human health needs as effectively as possible."
+      "desc": "We live in a world full of information and daily stress. Our mission is to develop only those products that can form the foundation for the health of a modern person, which is achieved thanks to the use of components, the effect and the necessity of which are proven by science"
     },
     "products": {
       "title": "Why GoodLabs products were created",
@@ -194,7 +194,12 @@
       ]
     },
     "experts": {
-      "desc": "Our specialists have 25 years of experience"
+      "desc": "Our specialists have 25 years of experience",
+      "expertArray": [
+        "In today's world, additional sources of vitamins and minerals are not a mere recommendation, but a necessity to lay a solid foundation for health and live a quality life.",
+        "In vitamin complexes and dietary supplements, the most important thing is the correct dosage of active ingredients. Therefore, choose only proven products with professionally selected ingredients based on scientific research.",
+        "Прием мультивитаминных комплексов - это самый простой способ заботы о своем здоровье. В них оптимальная дозировка витаминов и минералов, которые необходимы современному человеку для активной жизнедеятельности и сохранения здоровья."
+      ]
     },
     "about": {
       "title": "In the wild",

@@ -85,7 +85,7 @@
     },
     "formula": {
       "title": "GoodLabs - Deutsche Qualität der Zusammensetzung und Produktion",
-      "desc": "Wir sind stolz auf die Formeln unserer Produkte und modernen Produktionsstätten in Deutschland. Jedes unserer Produkte wird von Fachleuten mit langjähriger Erfahrung auf der Grundlage der fortgeschrittenen Forschung von Wissenschaftlern im Bereich der Nutriziologie erstellt. Die Produktformeln von Goodlabs erfüllen die Bedürfnisse der menschlichen Gesundheit so effektiv wie möglich."
+      "desc": "Wir leben in einer Welt der Informationsüberflutung und des täglichen Stresses. Unsere Mission ist es, nur solche Produkte zu entwickeln, die dank der Produkte, deren Wirkung und Notwendigkeit von der Wissenschaft bestätigt wird, die Grundlage für die Gesundheit eines modernen Menschen bilden können"
     },
     "products": {
       "title": "Wofür wurden Produkte GoodLabs hergestellt",
@@ -194,7 +194,12 @@
       ]
     },
     "experts": {
-      "desc": "Unsere Spezialisten haben 25 Jahre Erfahrung"
+      "desc": "Unsere Spezialisten haben 25 Jahre Erfahrung",
+      "expertArray": [
+        "In der modernen Welt sind zusätzliche Quellen für Vitamine und Mineralien nicht nur eine Empfehlung, sondern eine Notwendigkeit, eine solide Grundlage für die Gesundheit zu legen und ein qualitativ hochwertiges Leben zu führen.",
+        "Bei Vitaminkomplexen und Nahrungsergänzungsmitteln ist die richtige Dosierung der Komponenten das Wichtigste. Wählen Sie daher nur bewährte Produkte mit einer professionell ausgewählten Zusammensetzung, die auf wissenschaftlichen Forschungen basiert.",
+        "Die Einnahme eines Multivitamins ist der einfachste Weg, um sich um die Gesundheit zu kümmern. Sie enthalten die optimale Dosierung von Vitaminen und Mineralstoffen, die ein moderner Mensch für ein aktives Leben und Gesundheit benötigt."
+      ]
     },
     "about": {
       "title": "In der Wildnis",
