@@ -13,7 +13,8 @@
     "item9": "Datenschutzerklärung",
     "item10": "Cookie-Richtlinie",
     "item11": "Bedingungen",
-    "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania"
+    "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania",
+    "desc": "Bewertet mit <span class=\"bold\">4.9 </span>/ 5 basierend auf <span class=\"bold bold--line\">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt."
   },
   "submenu": {
     "title": "Intelligente Formeln der Zusammen­setzungen für Ihre Gesundheit",
@@ -39,26 +40,26 @@
     ]
   },
   "knowledge": {
-    "title": "База знаний",
+    "title": "Wichtig zu wissen",
     "articleArray": [
       {
         "type": "3",
-        "note": "Иммунитет",
-        "title": "Витаминная бомба: почему важно принимать мультивитаминные комплексы"
+        "note": "Immunität",
+        "title": "Vitaminbombe: Warum es wichtig ist, ein Multivitaminpräparat einzunehmen"
       },
       {
         "type": "2",
-        "note": "Рекомендации",
-        "title": "Вопрос количества: почему важно соблюдать правильную дозировку при приеме витаминных комплексов"
+        "note": "Empfehlungen",
+        "title": "Frage der Menge: Warum ist es wichtig, bei der Einnahme von Vitaminkomplexen die richtige Dosierung zu beachten?"
       },
       {
         "type": "4",
-        "note": "Истории",
-        "title": "Гармония здоровья: как витамины влияют на организм"
+        "note": "Empfehlungen",
+        "title": "Harmonie der Gesundheit: Wie Vitamine den Körper beeinflussen"
       },
       {
         "type": "2",
-        "note": "Иммунитет",
+        "note": "Immunität",
         "title": "Природный щит: роль бета-глюкана для иммунитета"
       }
     ]
@@ -77,7 +78,7 @@
       "item_desc_2": "Die GoodLabs-Produktlinie erfüllt die Grundbedürfnisse des menschlichen Körpers.",
       "item_text_3": "Nischenkompetenz",
       "item_desc_3": "Unsere Erfahrung in der Entwicklung von Gesundheitsprodukten beträgt 7 Jahre. Bei GoodLabs haben wir die besten Entwicklungen und Spezialisten gesammelt.",
-      "item_text_4": "Beste <br />Produktionen",
+      "item_text_4": "Zuverlässige <br />Produktion",
       "item_desc_4": "GoodLabs ist von GMP-, HACCP- und ISO-zertifiziert, um unsere hohen Qualitätsstandards zu gewährleisten.",
       "animate_letter_1": "Basis!",
       "animate_letter_2": "Gesundheit!",
@@ -117,7 +118,7 @@
     "reviews": {
       "title": "Kommentare <span>4.9 / 5</span>",
       "desc": "Bewertet mit <span class=\"bold\">4.9 </span>/ 5 basierend auf <span class=\"bold bold--line\">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.",
-      "btn": "Lassen Sie Ihre Bewertung",
+      "btn": "Ihren Kommentar hinzufügen",
       "reviewArray": [
         {
           "product": "Multi Vitamin",
@@ -203,7 +204,7 @@
     },
     "about": {
       "title": "In der Wildnis",
-      "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
+      "text": "Begleiten Sie uns auf Instagram @goodlabs_official"
     },
     "action": {
       "title": "Multivitamine - maximaler Nutzen in einer Packung",
@@ -239,7 +240,7 @@
     "weight": "mg",
     "about": {
       "title": "Über Immunal",
-      "text": "Begleiten Sie uns auf Instagram @goodlabs.com"
+      "text": "Begleiten Sie uns auf Instagram @goodlabs_official"
     },
     "immunal": {
       "promo": {
@@ -379,7 +380,7 @@
       },
       "reviews": {
         "title": "Kommentare",
-        "btn": "Lassen Sie Ihre Bewertung",
+        "btn": "Ihren Kommentar hinzufügen",
         "reviewArray": [
           {
             "text": "Eine wunderbare Kombination von Vitaminen, natürlichen Extrakten und Spurenelementen, die hilft, bei den ersten Anzeichen von Grippe und Erkältung auf den Beinen zu bleiben.",
@@ -697,7 +698,7 @@
       },
       "reviews": {
         "title": "Kommentare",
-        "btn": "Lassen Sie Ihre Bewertung",
+        "btn": "Ihren Kommentar hinzufügen",
         "reviewArray": [
           {
             "text": "Für mich persönlich war der GoodLabs Multivitamin Komplex das beste, was ich ausprobiert habe. Hier ist eine gute Zusammensetzung, jede Komponente hat eine wissenschaftliche Bestätigung der Wirksamkeit.",

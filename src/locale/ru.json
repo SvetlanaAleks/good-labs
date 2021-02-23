@@ -13,7 +13,8 @@
     "item9": "Privacy Policy",
     "item10": "Cookie Policy",
     "item11": "Terms",
-    "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania"
+    "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania",
+    "desc": "Оценка <span class=\"bold\">4.9 </span>/ 5 на основе <span class=\"bold bold--line\">21 отзывов</span>. Показаны наши 4- и 5-звездочные обзоры."
   },
   "submenu": {
     "title": "Умные формулы составов для вашего здоровья",
@@ -39,7 +40,7 @@
     ]
   },
   "knowledge": {
-    "title": "База знаний",
+    "title": "Важно знать",
     "articleArray": [
       {
         "type": "3",
@@ -53,7 +54,7 @@
       },
       {
         "type": "4",
-        "note": "Истории",
+        "note": "Рекомендации",
         "title": "Гармония здоровья: как витамины влияют на организм"
       },
       {
@@ -77,7 +78,7 @@
       "item_desc_2": "Линейка продуктов GoodLabs максимально отвечает основным потребностям организма человека.",
       "item_text_3": "Нишевая <br />экспертность",
       "item_desc_3": "Наш опыт разработки товаров для здоровья 7 лет. В GoodLabs мы собрали лучшие наработки и специалистов.",
-      "item_text_4": "Лучшие <br />производства",
+      "item_text_4": "Надежные <br />производства",
       "item_desc_4": "Производства GoodLabs имеют сертификаты GMP, НАССР, ISO, чтобы обеспечить наши высокие стандарты качества.",
       "animate_letter_1": "base!",
       "animate_letter_2": "health!",
@@ -117,79 +118,49 @@
     "reviews": {
       "title": "Отзывы <span>4.9 / 5</span>",
       "desc": "Оценка <span class=\"bold\">4.9 </span>/ 5 на основе <span class=\"bold bold--line\">21 отзывов</span>. Показаны наши 4- и 5-звездочные обзоры.",
-      "btn": "Оставить отзыв",
+      "btn": "Добавить ваш отзыв",
       "reviewArray": [
         {
-          "product": "Multi Vitamin",
-          "text": "Well, finally, vitamin complexes with a truly balanced composition appeared on sale! GoodLabs Multivitamin has a good dosage and is well absorbed by the body.",
-          "name": "Maria Bart",
-          "date": "Jan 16, 2019"
+          "product": "Эти добавки работают",
+          "text": "Я покупаю разные добавки очень часто. Я неправильно питаюсь и нервная работа, поэтому мне нужны витамины. Как мне казалось, они мне помогают. Но когда я попробовала GoodLabs и сравнила, я поняла как могут помогать организму витамины по-настоящему. Я п’ю Multivitamin, стала чувствовать себя прекрасно, много энергии, начала спортом заниматься. Вообщем всё хорошо. Спасибо GoodLabs.",
+          "name": "Anna Fir",
+          "date": " "
         },
         {
-          "product": "Immunal",
-          "text": "I have been looking for a complex remedy with balanced ingredients for a long time. Immunal was my discovery in this regard. Good prophylactic dosages and excellent bioavailability.",
-          "name": "Stephan Collins",
-          "date": "Jan 16, 2019"
+          "product": "Долгая доставка",
+          "text": "Не могу поставить 5 звезд, потому что ждал свой Immunal почти неделю. В следующий раз буду заказывать сразу несколько упаковок. Почему вы там долго доставляете?",
+          "name": "Michazzz",
+          "date": " "
         },
         {
-          "product": "Multi Vitamin",
-          "text": "For me personally, the GoodLabs Multivitamin is the best I have tried. There is a good composition, each component has scientific confirmation of its effectiveness.",
-          "name": "Luca Fischer",
-          "date": "Jan 12, 2019"
+          "product": "Покупала с опаской",
+          "text": "Знаю, що бренд новый, поэтому покупала с опаской, начала пить Immunal, пока довольна. Чувствую прилив сил.Спасибо, GoodLabs ❤️.",
+          "name": "Katharina",
+          "date": " "
         },
         {
-          "product": "Multi Vitamin",
-          "text": "I`ve started taking Multivitamin `cause I felt a lack of energy. For now it`s fine.",
-          "name": "Hans Hoffmann",
-          "date": "Jan 09, 2019"
+          "product": "Всё хорошо",
+          "text": "Купила, потому что производство в Германии и понравился состав Multivitamin. Осталась довольна. Закажу ещё.",
+          "name": "Linda",
+          "date": " "
         },
         {
-          "product": "Immunal",
-          "text": "I discovered for myself another way to improve immunity by taking the Immunal complex. It contains beta-glucan, which increases the body's resistance during high season of acute respiratory viral infections.",
-          "name": "Michael Stolz",
-          "date": "Jan 12, 2019"
+          "product": "Нормально",
+          "text": "Витамины, как витамины. Плохого ничего сказать не могу.",
+          "name": "First",
+          "date": " "
         },
         {
-          "product": "Immunal",
-          "text": "I take Immunal , as well as my elderly parents do. I am worried about their life and health, so I try to support their immunity with fruits and the Immunal complex.",
-          "name": "Hans Schulz",
-          "date": "Jan 16, 2019"
+          "product": "Формулы на основе научных исследований",
+          "text": "Когда увидела впервые - очень понравился дизайн. Сразу видно, что сделано в Германии. Подкупило также то, что формулы составов подобраны на основе научных исследований. Пока всё нравится.",
+          "name": "Lucy",
+          "date": " "
         },
         {
-          "product": "Immunal",
-          "text": "I used to get sick often, but now not a single flu can knock me off my feet. That's what good immunity means!",
-          "name": "Christian Bart",
-          "date": "Jan 16, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "It is a wonderful combination of vitamins, natural extracts and micro-elements that keeps you on your feet at the first sign of a cold.",
-          "name": "Petra Hoffman",
-          "date": "Jan 09, 2019"
-        },
-        {
-          "product": "Multi Vitamin",
-          "text": "Good dosage. I have been looking for a complex remedy for a long time, in which all components will be balanced. Goodlabs was my discovery in this regard. Good prophylactic dosages.",
-          "name": "David Barter",
-          "date": "Jan 09, 2019"
-        },
-        {
-          "product": "Multi Vitamin",
-          "text": "Well, finally, vitamin complexes with a truly balanced composition appeared on sale! GoodLabs Multivitamin has a good dosage and is well absorbed by the body.",
-          "name": "Maria Bart",
-          "date": "Jan 16, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "I used to get sick often, but now not a single flu can knock me off my feet. Thats what good immunity means!",
-          "name": "Christian Bart",
-          "date": "Jan 16, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "For me personally, the Immunal complex is optimal in terms of price and quality. But unlike synthetic products, the composition here is natural and balanced, each component has a scientific support of its effectiveness.",
-          "name": "Donnie Cowart",
-          "date": "Jan 09, 2019"
+          "product": "Решил попробовать новые витамины",
+          "text": "Решил попробовать новые витамины, посоветовала сестра. Пока всё хорошо.",
+          "name": "Sergio",
+          "date": " "
         }
       ]
     },
@@ -203,9 +174,9 @@
     },
     "about": {
       "title": "Community",
-      "text": "Присоединяйтесь к нам в Instagram @goodlabs.com"
+      "text": "Присоединяйтесь к нам в Instagram @goodlabs_official"
     },
-    
+
     "action": {
       "title": "Мультивитамины – максимум пользы в одной упаковке",
       "desc": "Мультикомплекс витаминов GoodLabs – самый простой способ поддерживать организм при больших умственных и физических нагрузках и для компенсации недостающих витаминов и минералов в организме.",
@@ -240,7 +211,7 @@
     "weight": "Mg",
     "about": {
       "title": "Immunal Community",
-      "text": "Join Us in Instagram @goodlabs.com"
+      "text": "Join Us in Instagram @goodlabs_official"
     },
     "immunal": {
       "promo": {

@@ -13,7 +13,8 @@
     "item9": "Privacy Policy",
     "item10": "Cookie Policy",
     "item11": "Terms",
-    "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania"
+    "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania",
+    "desc": "Rated <span class=\"bold\">4.9 </span>/ 5 based on <span class=\"bold bold--line\">21 reviews</span>. Showing our 4 & 5 star reviews."
   },
   "submenu": {
     "title": "Smart formulas of formulas for your health",
@@ -43,22 +44,22 @@
     "articleArray": [
       {
         "type": "3",
-        "note": "Иммунитет",
-        "title": "Витаминная бомба: почему важно принимать мультивитаминные комплексы"
+        "note": "Immunity",
+        "title": "Vitamin Bomb: Why Is It Important To Take Multivitamin Complexes"
       },
       {
         "type": "2",
-        "note": "Рекомендации",
-        "title": "Вопрос количества: почему важно соблюдать правильную дозировку при приеме витаминных комплексов"
+        "note": "Recommendations",
+        "title": "The question of quantity: why is it important to observe the correct dosage when taking vitamin complexes"
       },
       {
         "type": "4",
-        "note": "Истории",
-        "title": "Гармония здоровья: как витамины влияют на организм"
+        "note": "Recommendations",
+        "title": "Harmony of health: how vitamins affect the body"
       },
       {
         "type": "2",
-        "note": "Иммунитет",
+        "note": "Immunity",
         "title": "Природный щит: роль бета-глюкана для иммунитета"
       }
     ]
@@ -77,7 +78,7 @@
       "item_desc_2": "The GoodLabs product line meets the basic needs of the human body.",
       "item_text_3": "Niche <br />expertise",
       "item_desc_3": "We have 7 years of experience in developing health products. GoodLabs uses the best practices and has the best specialists.",
-      "item_text_4": "Best <br />productions",
+      "item_text_4": "Reliable <br />production",
       "item_desc_4": "The GoodLabs production is certified by GMP, HACCP, ISO to ensure our high-quality standards.",
       "animate_letter_1": "base!",
       "animate_letter_2": "health!",
@@ -117,7 +118,7 @@
     "reviews": {
       "title": "Reviews <span>4.9 / 5</span>",
       "desc": "Rated <span class=\"bold\">4.9 </span>/ 5 based on <span class=\"bold bold--line\">21 reviews</span>. Showing our 4 & 5 star reviews.",
-      "btn": "Submit your review",
+      "btn": "Add your review",
       "reviewArray": [
         {
           "product": "Multi Vitamin",
@@ -203,7 +204,7 @@
     },
     "about": {
       "title": "In the wild",
-      "text": "Join Us in Instagram @goodlabs.com"
+      "text": "Join Us in Instagram @goodlabs_official"
     },
     "action": {
       "title": "Multivitamins are maximum benefit in one package",
@@ -239,7 +240,7 @@
     "weight": "Mg",
     "about": {
       "title": "Immunal Community",
-      "text": "Join Us in Instagram @goodlabs.com"
+      "text": "Join Us in Instagram @goodlabs_official"
     },
     "immunal": {
       "promo": {
