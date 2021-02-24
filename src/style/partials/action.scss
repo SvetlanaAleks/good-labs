@@ -13,13 +13,11 @@
   }
 
   @include r(640) {
-    padding-bottom: 70px;
+    padding-bottom: 0px;
   }
-
   @include r(480) {
-    padding-bottom: 36px;
+    padding-bottom: 40px;
   }
-
   &__container {
     display: flex;
     align-items: flex-start;

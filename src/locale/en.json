@@ -121,48 +121,40 @@
       "btn": "Add your review",
       "reviewArray": [
         {
-          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
-          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
-          "name": "Michael Trapp",
-          "date": "Jan 12, 2019",
-          "photos": [
-            "img/about_slider_immunal_1.jpg",
-            "img/about_slider_immunal_2.jpg"
-          ],
-          "likes": "1",
-          "dislikes": "2"
+          "product": "Service",
+          "text": "I cannot put 5 stars, because I've been waiting for my Immune for almost a week. Next time I will order several packages at once. Why does it take so long for item to be delivered? ",
+          "name": "Sergio",
+          "date": " "
         },
         {
-          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
-          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
-          "name": "Michael Trapp",
-          "date": "Jan 12, 2019",
-          "likes": "1",
-          "dislikes": "2"
+          "product": "Immune",
+          "text": "I know that the brand is new, so I bought it with caution, started drinking Immune, and I'm satisfied. I feel a surge of energy. Thanks, GoodLabs ❤️. ",
+          "name": "Regina",
+          "date": " "
         },
         {
-          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
-          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
-          "name": "Michael Trapp",
-          "date": "Jan 12, 2019",
-          "likes": "1",
-          "dislikes": "2"
+          "product": "Multivitamin",
+          "text": "I bought it because it was made in Germany and I liked the composition of multivitamin. I was satisfied. I'll order more. ",
+          "name": "Melisa",
+          "date": " "
         },
         {
-          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
-          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
-          "name": "Michael Trapp",
-          "date": "Jan 12, 2019",
-          "likes": "1",
-          "dislikes": "2"
+          "product": "Multivitamin",
+          "text": "Quite well. Vitamins, like vitamins. I cannot say anything bad. ",
+          "name": "Sofia",
+          "date": " "
         },
         {
-          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
-          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
-          "name": "Michael Trapp",
-          "date": "Jan 12, 2019",
-          "likes": "1",
-          "dislikes": "2"
+          "product": "Immunal",
+          "text": "When I saw it for the first time, I really liked the design. Also it was made in Germany. So far, I like everything. ",
+          "name": "Lola",
+          "date": " "
+        },
+        {
+          "product": "Multivitamin",
+          "text": "I decided to try new vitamins advised by my sister. So far, so good. ",
+          "name": "Magda",
+          "date": " "
         }
       ]
     },
@@ -355,49 +347,48 @@
         "btn": "Submit your review",
         "reviewArray": [
           {
-            "text": "It is a wonderful combination of vitamins, natural extracts and micro-elements that keeps you on your feet at the first sign of a cold.",
-            "name": "Petra Hoffman",
-            "date": "Jan 09, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "photos": [
+              "img/about_slider_immunal_1.jpg",
+              "img/about_slider_immunal_2.jpg"
+            ],
+            "likes": "1",
+            "dislikes": "2"
           },
           {
-            "text": "These capsules are a source of vitamin C, zinc and nutrients, the composition speaks for itself. The product is all you need during the period of illness for the prevention of colds and flu. Immunal always works flawlessly for me.",
-            "name": "Anna Fischer",
-            "date": "Jan 16, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "likes": "1",
+            "dislikes": "2"
           },
           {
-            "text": "I discovered for myself another way to improve immunity by taking the Immunal complex. It contains beta-glucan, which increases the body's resistance during high season of acute respiratory viral infections.",
-            "name": "Michael Stolz",
-            "date": "Jan 12, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "likes": "1",
+            "dislikes": "2"
           },
           {
-            "text": "For me personally, the Immunal complex is optimal in terms of price and quality. But unlike synthetic products, the composition here is natural and balanced, each component has a scientific support of its effectiveness.",
-            "name": "Donnie Cowart",
-            "date": "Jan 09, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "likes": "1",
+            "dislikes": "2"
           },
           {
-            "text": "I have been looking for a complex remedy with balanced ingredients for a long time. Immunal was my discovery in this regard. Good prophylactic dosages and excellent bioavailability.",
-            "name": "Stephan Collins",
-            "date": "Jan 16, 2019"
-          },
-          {
-            "text": "I used to get sick often, but now not a single flu can knock me off my feet. That's what good immunity means!",
-            "name": "Christian Bart",
-            "date": "Jan 16, 2019"
-          },
-          {
-            "text": "I bought the Immunal vitamin complex a month ago. I just started taking it, but I haven`t yet understood the effect. I don't like that there are only 30 capsules in a jar. I constantly need to reorder.",
-            "name": "Anna Braun",
-            "date": "Jan 16, 2019"
-          },
-          {
-            "text": "I  take Immunal every time before cold season starts. During this time, I never had a fever, cough, or other unpleasant symptoms.",
-            "name": "Sofia Kocher",
-            "date": "Jan 16, 2019"
-          },
-          {
-            "text": "I take Immunal , as well as my elderly parents do. I am worried about their life and health, so I try to support their immunity with fruits and the Immunal complex.",
-            "name": "Hans Schulz",
-            "date": "Jan 16, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "likes": "1",
+            "dislikes": "2"
           }
         ]
       },
