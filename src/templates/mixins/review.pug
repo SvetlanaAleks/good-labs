@@ -1,8 +1,9 @@
 mixin review(name, date, stars, main, text, photos, likes, dislikes)
 	.review
 		.review__left
-			p.review__name.text--small!= name
-			p.review__date.text--small!= date
+			.review__wrap
+				p.review__name!= name
+				p.review__date!= date
 			img.review__stars(src=stars, alt="raiting")
 		.review__right
 			h3.review__main.text--med!= main

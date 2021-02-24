@@ -273,19 +273,21 @@
 			&.slick-current
 				border: 1px solid $orange
 			.slider-prod__img
-				width: 60px
-				height: 52px
+				height: 54px
+				+object-fit(contain)
 			+r(1024)
 				width: 65px !important
 				height: 65px
 				padding: 10px
 				.slider-prod__img
-					width: 55px
+					height: 41px
 			+r(480)
 				width: 50px !important
 				height: 50px
 				padding: 8px
 				margin-right: 5px
+				.slider-prod__img
+					height: 32px
 	&__for
 		padding-left: 30px
 		+r(768)
