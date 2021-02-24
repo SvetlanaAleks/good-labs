@@ -89,20 +89,22 @@
 		+r(768)
 			display: block
 	&__dots
+		white-space: nowrap
 		+r(768)
 			margin-bottom: 30px
 		+r(374)
 			margin-bottom: 15px
+		.slick-list
+			margin: 0 -15px
 		.slick-slide
-			width: 250px !important
-			+r(1300)
-				width: 240px !important
-			+r(1140)
-				width: 230px !important
+			margin: 0 15px
+			// width: 250px !important
+			// +r(1300)
+			// 	width: 240px !important
+			// +r(1140)
+			// 	width: 230px !important
 			+r(1024)
 				width: auto !important
-				+nlt
-					margin-right: 15px
 		.slick-current
 			.item-expert
 				&__photo
