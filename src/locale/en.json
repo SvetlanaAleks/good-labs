@@ -121,76 +121,48 @@
       "btn": "Add your review",
       "reviewArray": [
         {
-          "product": "Multi Vitamin",
-          "text": "Well, finally, vitamin complexes with a truly balanced composition appeared on sale! GoodLabs Multivitamin has a good dosage and is well absorbed by the body.",
-          "name": "Maria Bart",
-          "date": "Jan 16, 2019"
+          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+          "name": "Michael Trapp",
+          "date": "Jan 12, 2019",
+          "photos": [
+            "img/about_slider_immunal_1.jpg",
+            "img/about_slider_immunal_2.jpg"
+          ],
+          "likes": "1",
+          "dislikes": "2"
         },
         {
-          "product": "Immunal",
-          "text": "I have been looking for a complex remedy with balanced ingredients for a long time. Immunal was my discovery in this regard. Good prophylactic dosages and excellent bioavailability.",
-          "name": "Stephan Collins",
-          "date": "Jan 16, 2019"
+          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+          "name": "Michael Trapp",
+          "date": "Jan 12, 2019",
+          "likes": "1",
+          "dislikes": "2"
         },
         {
-          "product": "Multi Vitamin",
-          "text": "For me personally, the GoodLabs Multivitamin is the best I have tried. There is a good composition, each component has scientific confirmation of its effectiveness.",
-          "name": "Luca Fischer",
-          "date": "Jan 12, 2019"
+          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+          "name": "Michael Trapp",
+          "date": "Jan 12, 2019",
+          "likes": "1",
+          "dislikes": "2"
         },
         {
-          "product": "Multi Vitamin",
-          "text": "I`ve started taking Multivitamin `cause I felt a lack of energy. For now it`s fine.",
-          "name": "Hans Hoffmann",
-          "date": "Jan 09, 2019"
+          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+          "name": "Michael Trapp",
+          "date": "Jan 12, 2019",
+          "likes": "1",
+          "dislikes": "2"
         },
         {
-          "product": "Immunal",
-          "text": "I discovered for myself another way to improve immunity by taking the Immunal complex. It contains beta-glucan, which increases the body's resistance during high season of acute respiratory viral infections.",
-          "name": "Michael Stolz",
-          "date": "Jan 12, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "I take Immunal , as well as my elderly parents do. I am worried about their life and health, so I try to support their immunity with fruits and the Immunal complex.",
-          "name": "Hans Schulz",
-          "date": "Jan 16, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "I used to get sick often, but now not a single flu can knock me off my feet. That's what good immunity means!",
-          "name": "Christian Bart",
-          "date": "Jan 16, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "It is a wonderful combination of vitamins, natural extracts and micro-elements that keeps you on your feet at the first sign of a cold.",
-          "name": "Petra Hoffman",
-          "date": "Jan 09, 2019"
-        },
-        {
-          "product": "Multi Vitamin",
-          "text": "Good dosage. I have been looking for a complex remedy for a long time, in which all components will be balanced. Goodlabs was my discovery in this regard. Good prophylactic dosages.",
-          "name": "David Barter",
-          "date": "Jan 09, 2019"
-        },
-        {
-          "product": "Multi Vitamin",
-          "text": "Well, finally, vitamin complexes with a truly balanced composition appeared on sale! GoodLabs Multivitamin has a good dosage and is well absorbed by the body.",
-          "name": "Maria Bart",
-          "date": "Jan 16, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "I used to get sick often, but now not a single flu can knock me off my feet. Thats what good immunity means!",
-          "name": "Christian Bart",
-          "date": "Jan 16, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "For me personally, the Immunal complex is optimal in terms of price and quality. But unlike synthetic products, the composition here is natural and balanced, each component has a scientific support of its effectiveness.",
-          "name": "Donnie Cowart",
-          "date": "Jan 09, 2019"
+          "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+          "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+          "name": "Michael Trapp",
+          "date": "Jan 12, 2019",
+          "likes": "1",
+          "dislikes": "2"
         }
       ]
     },

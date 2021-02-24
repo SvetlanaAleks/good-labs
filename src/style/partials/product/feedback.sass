@@ -1,11 +1,12 @@
 .feedback
-	padding: 106px 0
+	padding-top: 6px
+	padding-bottom: 132px
 	position: relative
 	&::before
 		content: ''
 		display: block
 		position: absolute
-		top: 0
+		top: 45px
 		bottom: 0
 		left: 0px
 		right: calc(50% - 760px)
@@ -35,21 +36,16 @@
 			border-bottom-right-radius: 50px
 	.container
 		display: flex
-		align-items: center
-		justify-content: flex-end
-		+r(1440)
-			align-items: center
-		+r(890)
-			justify-content: flex-start
-			align-items: flex-start
+		align-items: flex-end
 		+r(768)
 			display: block
 			position: relative
 	&__wrap-img
 		flex-shrink: 0
-		max-width: 500px
+		max-width: 550px
 		width: 100%
-		margin-right: 100px
+		height: 550px
+		margin-right: 110px
 		border-radius: 50%
 		overflow: hidden
 		font-size: 0
@@ -88,11 +84,11 @@
 			max-width: 100%
 			flex: 1
 	&__text
-		line-height: 150%
-		padding-bottom: 30px
-		margin-bottom: 24px
+		line-height: 140%
+		padding-bottom: 26px
+		margin-bottom: 26px
 		position: relative
-		padding-top: 60px
+		padding-top: 68px
 		&::after
 			content: '‘‘'
 			display: block
