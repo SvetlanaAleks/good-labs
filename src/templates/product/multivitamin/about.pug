@@ -1,43 +1,59 @@
-- var ABOUT_PROD = LANG.products.about;
+include ../../mixins/about
 
-section.about
-	.container
-		.about__top
-			h2.about__title.title.title--med!= ABOUT_PROD.title
-			.about__right
-				span.about__text.text--med!= ABOUT_PROD.text
-				a.about__link(href="#")
-					img(src="img/svg/insta.svg", alt="insta")
-		.about__slider.slider-about.js-about-slider
-			.slider-about__wrap
-				picture
-					source(srcset="img/about_slider_multi-vitamin_1.webp", type="image/webp")
-					img.slider-about__photo(src="img/about_slider_multi-vitamin_1.jpg" alt="")
-			.slider-about__wrap
-				picture
-					source(srcset="img/about_slider_multi-vitamin_2.webp", type="image/webp")
-					img.slider-about__photo(src="img/about_slider_multi-vitamin_2.jpg" alt="")
-			.slider-about__wrap
-				picture
-					source(srcset="img/about_slider_multi-vitamin_3.webp", type="image/webp")
-					img.slider-about__photo(src="img/about_slider_multi-vitamin_3.jpg" alt="")
-			.slider-about__wrap
-				picture
-					source(srcset="img/about_slider_multi-vitamin_4.webp", type="image/webp")
-					img.slider-about__photo(src="img/about_slider_multi-vitamin_4.jpg" alt="")
-			.slider-about__wrap
-				picture
-					source(srcset="img/about_slider_multi-vitamin_5.webp", type="image/webp")
-					img.slider-about__photo(src="img/about_slider_multi-vitamin_5.jpg" alt="")
-			.slider-about__wrap
-				picture
-					source(srcset="img/about_slider_multi-vitamin_6.webp", type="image/webp")
-					img.slider-about__photo(src="img/about_slider_multi-vitamin_6.jpg" alt="")
-			.slider-about__wrap
-				picture
-					source(srcset="img/about_slider_multi-vitamin_7.webp", type="image/webp")
-					img.slider-about__photo(src="img/about_slider_multi-vitamin_7.jpg" alt="")
-			.slider-about__wrap
-				picture
-					source(srcset="img/about_slider_multi-vitamin_8.webp", type="image/webp")
-					img.slider-about__photo(src="img/about_slider_multi-vitamin_8.jpg" alt="")
+- var ABOUT = LANG.main.about;
+-
+	const photos = [
+		{
+			src: 'about_slider_multi-vitamin_1',
+			photo: 'img/review_photo_1.png',
+			name: 'Kate8477'
+		},
+		{
+			src: 'about_slider_multi-vitamin_2',
+			photo: 'img/review_photo_2.png',
+			name: 'Michal_35'
+		},
+		{
+			src: 'about_slider_multi-vitamin_3',
+			photo: 'img/review_photo_7.png',
+			name: 'helga_blume25'
+		},
+		{
+			src: 'about_slider_multi-vitamin_4',
+			photo: 'img/review_photo_4.png',
+			name: 'sergio_lucky'
+		},
+		{
+			src: 'about_slider_multi-vitamin_5',
+			photo: 'img/review_photo_5.png',
+			name: 'Mariya8521'
+		},
+		{
+			src: 'about_slider_multi-vitamin_6',
+			photo: 'img/review_photo_base.png',
+			name: 'goodlabs_official'
+		},
+		{
+			src: 'about_slider_multi-vitamin_7',
+			photo: 'img/review_photo_6.png',
+			name: 'magdalena_85'
+		},
+		{
+			src: 'about_slider_multi-vitamin_8',
+			photo: 'img/review_photo_base.png',
+			name: 'goodlabs_official'
+		}
+	];
+section.about-big
+	.about-big__top.container
+		h2.about-big__title.title.title--med!= ABOUT.title
+		.about-big__right
+			span.about-big__text.text--med!= ABOUT.text
+			a.about-big__link(href="#")
+				img(src="img/svg/insta.svg", alt="insta")
+	.about-big__slider-wrap
+		.about-big__slider.slider-about-big.js-about-slider2
+			each item in photos
+				+about(item.src, item.photo, item.name)
+
+

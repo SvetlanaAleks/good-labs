@@ -673,49 +673,48 @@
         "btn": "Submit your review",
         "reviewArray": [
           {
-            "text": "For me personally, the GoodLabs Multivitamin is the best I have tried. There is a good composition, each component has scientific confirmation of its effectiveness.",
-            "name": "Luca Fischer",
-            "date": "Jan 12, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "photos": [
+              "img/about_slider_multi-vitamin_2.jpg",
+              "img/about_slider_multi-vitamin_3.jpg"
+            ],
+            "likes": "1",
+            "dislikes": "2"
           },
           {
-            "text": "Good dosage. I have been looking for a complex remedy for a long time, in which all components will be balanced. Goodlabs was my discovery in this regard. Good prophylactic dosages.",
-            "name": "David Barter",
-            "date": "Jan 09, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "likes": "1",
+            "dislikes": "2"
           },
           {
-            "text": "I`ve been taking Multivitamin for several months now. I used to get sick often, but now not a single flu can knock me off my feet. That's what good multicomplex means!",
-            "name": "Anna Wagner",
-            "date": "Jan 16, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "likes": "1",
+            "dislikes": "2"
           },
           {
-            "text": "I bought the vitamin complex a month ago. I just started taking it, but I haven`t yet understood the effect. I don't like that there are only 30 capsules in a jar.",
-            "name": "Helga Müller",
-            "date": "Jan 12, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "likes": "1",
+            "dislikes": "2"
           },
           {
-            "text": "I`ve started taking Multivitamin `cause I felt a lack of energy. For now it`s fine.",
-            "name": "Hans Hoffmann",
-            "date": "Jan 09, 2019"
-          },
-          {
-            "text": "I take Multivitamin, as well as my elderly parents do. I am worried about their life and health, so I try to support their immunity with good multivitamin complexes.",
-            "name": "Alexander Bertz",
-            "date": "Jan 16, 2019"
-          },
-          {
-            "text": "Well, finally, vitamin complexes with a truly balanced composition appeared on sale! GoodLabs Multivitamin has a good dosage and is well absorbed by the body.",
-            "name": "Maria Bart",
-            "date": "Jan 16, 2019"
-          },
-          {
-            "text": "This product will appeal to those who do not like to buy a million jars, but prefer combined complexes with all-in-one. Multivitamin is just like that.",
-            "name": "Hannah Weber",
-            "date": "Jan 16, 2019"
-          },
-          {
-            "text": "We have been taking Multivitamin for only a week, but drowse and weakness have already disappeared. In general, an excellent composition, in addition, you don`t need to take anything else. We`ll order more for the future.",
-            "name": "Maria Hoff",
-            "date": "Jan 16, 2019"
+            "main": "Отличное сочетание элементов и концентраница, то что нужно по сезону!",
+            "text": "Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.",
+            "name": "Michael Trapp",
+            "date": "Jan 12, 2019",
+            "likes": "1",
+            "dislikes": "2"
           }
         ]
       },

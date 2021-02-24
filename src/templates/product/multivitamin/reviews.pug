@@ -1,24 +1,40 @@
 - var REVIEWS_MULTI = LANG.products.multi.reviews;
 
 include ../../mixins/review
-
 -
 	const reviewStars = [
 		'img/svg/raiting_review_1.svg',
 		'img/svg/raiting_review_2.svg',
-		'img/svg/raiting_review_2.svg',
 		'img/svg/raiting_review_1.svg',
 		'img/svg/raiting_review_2.svg',
 		'img/svg/raiting_review_2.svg',
 		'img/svg/raiting_review_2.svg',
+		'img/svg/raiting_review_1.svg',
 		'img/svg/raiting_review_2.svg',
-		'img/svg/raiting_review_2.svg'
+		'img/svg/raiting_review_2.svg',
 	];
-
-section.reviews.reviews--multi-vitamin
+section.reviews.reviews--immunal
 	.container
-		h2.reviews__title.title.title--med!= REVIEWS_MULTI.title
-		.reviews__slider.slider-review.js-reviews-slider
-			each review, key in REVIEWS_MULTI.reviewArray
-				+review(review.product, review.text, reviewStars[key], review.name, review.date)
-		a.reviews__btn.btn-empty(href="#")!= REVIEWS_MULTI.btn
+		.reviews__wrapper
+			.reviews__left
+				h2.reviews__title.title.title--med!= REVIEWS_MULTI.title
+				img.reviews__stars(src="img/svg/raiting_review_1.svg", alt="stars")
+				.reviews__wrap
+					p.reviews__estimate.title 4.9/5
+					p.reviews__count.text--small 128 отзывов о GoodLabs Multi Vitamin
+				p.reviews__desc.text--med Вам понравился GoodLabs Multi Vitamin? Напишите нам свой отзыв про опыт использования продукта, придумать небольшой призывающий текст
+				a.reviews__btn.btn-empty(href="#")!= REVIEWS_MULTI.btn
+			.reviews__right
+				.reviews__sorting.sorting
+					p.sorting__text Сортировать по:
+					.sorting__list
+						p.sorting__item Дате
+							i.fico.fico-arrow
+				.reviews__list
+					each review, key in REVIEWS_MULTI.reviewArray
+						+review(review.name, review.date, reviewStars[key], review.main, review.text, review.photos, review.likes, review.dislikes)
+				.reviews__pagination.pagination
+					.pagination__item.active 1
+					.pagination__item 2
+					.pagination__item 3
+					.pagination__item 4
