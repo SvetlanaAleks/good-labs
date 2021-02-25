@@ -1,0 +1,57 @@
+include ../../mixins/about
+
+- var ABOUT = LANG.main.about;
+-
+	const photos = [
+		{
+			src: 'about_slider_immunal_1',
+			photo: 'img/review_photo_1.png',
+			name: 'Kate8477'
+		},
+		{
+			src: 'about_slider_immunal_2',
+			photo: 'img/review_photo_2.png',
+			name: 'Michal_35'
+		},
+		{
+			src: 'about_slider_immunal_3',
+			photo: 'img/review_photo_7.png',
+			name: 'helga_blume25'
+		},
+		{
+			src: 'about_slider_immunal_4',
+			photo: 'img/review_photo_4.png',
+			name: 'sergio_lucky'
+		},
+		{
+			src: 'about_slider_immunal_5',
+			photo: 'img/review_photo_5.png',
+			name: 'Mariya8521'
+		},
+		{
+			src: 'about_slider_immunal_6',
+			photo: 'img/review_photo_base.png',
+			name: 'goodlabs_official'
+		},
+		{
+			src: 'about_slider_immunal_7',
+			photo: 'img/review_photo_6.png',
+			name: 'magdalena_85'
+		},
+		{
+			src: 'about_slider_immunal_8',
+			photo: 'img/review_photo_base.png',
+			name: 'goodlabs_official'
+		}
+	];
+section.about-big
+	.about-big__top.container
+		h2.about-big__title.title.title--med!= ABOUT.title
+		.about-big__right
+			span.about-big__text.text--med!= ABOUT.text
+			a.about-big__link(href="#")
+				img(src="img/svg/insta.svg", alt="insta")
+	.about-big__slider-wrap
+		.about-big__slider.slider-about-big.js-about-slider2
+			each item in photos
+				+about(item.src, item.photo, item.name)

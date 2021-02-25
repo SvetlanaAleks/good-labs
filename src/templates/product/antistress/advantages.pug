@@ -1,0 +1,25 @@
+- var ADVANTAGES_ANTISTRESS = LANG.products.antistress.advantages;
+
+section.advantages
+	.container
+		.advantages__top
+			h2.advantages__title.title.title--med!= ADVANTAGES_ANTISTRESS.title
+			.advantages__photo.advantages__photo--1.advantages__photo--mob
+				img.advantages__img(src="img/advantages_antistress_1.jpg", alt="photo")
+			p.advantages__desc.text--med!= ADVANTAGES_ANTISTRESS.desc
+		.advantages__photos
+			.advantages__photo.advantages__photo--1.advantages__photo--desc
+				img.advantages__img(src="img/advantages_antistress_1.jpg", alt="photo")
+			.advantages__photo.advantages__photo--2
+				img.advantages__img(src="img/advantages_antistress_2.jpg", alt="photo")
+			.advantages__photo.advantages__photo--3
+				img.advantages__img(src="img/advantages_antistress_3.jpg", alt="photo")
+		.advantages__bottom
+			.advantages__left
+				h2.advantages__ttl.title.title--med!= ADVANTAGES_ANTISTRESS.ttl
+				img.advantages__chart.advantages__chart--mob(src="img/svg/chart_antistress.svg", alt="chart")
+				p.advantages__text.text--med!= ADVANTAGES_ANTISTRESS.text
+				a.advantages__link.text--med(href="#")
+					span!= ADVANTAGES_ANTISTRESS.btn
+					img(src="img/svg/arrow.svg", alt="arrow")
+			img.advantages__chart.advantages__chart--desc(src="img/svg/chart_antistress.svg", alt="chart")

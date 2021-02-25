@@ -1,6 +1,21 @@
 .ingredients
 	padding-top: 60px
 	padding-bottom: 60px
+	&--antistress
+		.ingredient
+			&:nth-of-type(-n+2)
+				margin-bottom: 0
+			+r(890)
+				+nlt
+					margin-bottom: 40px
+			+r(640)
+				+nlt
+					margin-bottom: 15px
+					padding-bottom: 15px
+			+r(480)
+				+nlt
+					margin-bottom: 10px
+					padding-bottom: 10px
 	.container
 		position: relative
 		&::after

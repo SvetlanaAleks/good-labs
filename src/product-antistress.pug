@@ -1,0 +1,19 @@
+extends templates/layout/layout.pug
+block head
+	title GoodLabs - Product Anti–Stress
+block content
+	include templates/product/antistress/banner-top
+	include templates/mixins/menu.pug
+	+menu("product-antistress")
+	include templates/product/antistress/promo
+	include templates/product/antistress/ingredients
+	include templates/product/antistress/advantages
+	include templates/product/antistress/feedback
+	include templates/product/antistress/technical-info
+	include templates/product/antistress/about
+	include templates/product/antistress/reviews
+	include templates/knowledge
+	.container
+		.lines
+	include templates/product/antistress/faq
+	include templates/product/antistress/order-popup

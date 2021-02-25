@@ -1,0 +1,17 @@
+- var INGREDIENTS_ANTISTRESS = LANG.products.antistress.ingredients;
+
+include ../../mixins/ingredient
+
+-
+	const ingredientArrayImages1 = [
+		'img/svg/ingredient_rhodiola_rosea.svg',
+		'img/svg/ingredient_l-theanine.svg',
+	];
+
+section.ingredients.ingredients--antistress
+	.container
+		h2.ingredients__title.title.title--big!= INGREDIENTS_ANTISTRESS.title
+		.ingredients__info.ingredients__info--immunal
+			.ingredients__content.active.js-content-tab.js-accordeon#list1
+				each ingredient1, key in INGREDIENTS_ANTISTRESS.ingredientArray1
+					+ingredient(ingredientArrayImages1[key], ingredient1.ttl, ingredient1.text)

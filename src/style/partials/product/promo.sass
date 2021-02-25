@@ -200,6 +200,10 @@
 		.list__item
 			&::before
 				background: $green
+	&--blue
+		.list__item
+			&::before
+				background: $blue
 	&__item
 		position: relative
 		padding-left: 30px
@@ -225,6 +229,31 @@
 		content: ''
 		display: block
 		position: absolute
+	&--antistress
+		&::before
+			top: 100px
+			left: -46px
+			width: 326px
+			height: 414px
+			background: url('../img/svg/prod_antistress_decor.svg') no-repeat center
+			background-size: contain
+			+r(1440)
+				width: 300px
+				height: 388px
+			+r(1300)
+				width: 270px
+				height: 358px
+			+r(768)
+				width: 200px
+				height: 238px
+				left: -126px
+				top: 70px
+			+r(640)
+				left: -36px
+			+r(480)
+				left: calc(50% - 220px)
+				height: 178px
+				top: 60px
 	&--multi-vitamin
 		&::before
 			top: 100px
@@ -240,23 +269,19 @@
 			width: 365px
 			height: 347px
 			background: url('../img/svg/prod_immunal_decor.svg') no-repeat center
-	+r(1024)
-		&::before
-			width: 325px
-			height: 307px
-	+r(768)
-		&::before
-			left: -176px
-	+r(640)
-		&::before
-			left: -70px
-	+r(480)
-		&::before
-			width: 165px
-			height: 137px
-			background-size: 100%
-			top: 12px
-			left: calc(50% - 210px)
+			+r(1024)
+					width: 325px
+					height: 307px
+			+r(768)
+					left: -176px
+			+r(640)
+					left: -70px
+			+r(480)
+					width: 165px
+					height: 137px
+					background-size: 100%
+					top: 12px
+					left: calc(50% - 210px)
 	&__img
 		object-fit: contain
 		font-family: 'object-fit: contain;'
