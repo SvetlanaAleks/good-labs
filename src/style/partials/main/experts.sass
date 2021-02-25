@@ -28,6 +28,7 @@
 		z-index: -1
 		background-size: contain
 	+r(1440)
+	
 		&::after
 			width: 1170px
 			height: 185px
@@ -116,6 +117,7 @@
 						display: none
 
 	&__text
+		font-family: 'PT Serif', Arial, Helvetica, sans-serif
 		font-style: italic
 		color: $garkgrey
 		margin-left: auto
@@ -157,7 +159,7 @@
 		+r(1300)
 			top: 84px
 		+r(1140)
-			top: 71px
+			top: 61px
 		+r(1024)
 			top: 7px
 		+r(768)
@@ -209,27 +211,26 @@
 	&__text
 		line-height: 140%
 		position: relative
-		padding-top: 75px
-		margin-bottom: 53px
-		&::after
-			content: '‘‘'
-			display: block
+		padding-top: 98px
+		align-self: center
+		margin-top: 50px
+		.fico
 			position: absolute
 			top: 0
-			left: -7px
-			font-size: 126px
-			letter-spacing: -0.03em
-			font-family: "Tenor Sans", Arial, Helvetica, sans-serif
+			left: 0
+			font-size: 32px
 			color: $garkgrey
 		+r(1440)
-			padding-top: 40px
-			margin-bottom: 0
-		+r(1140)
-			padding-top: 30px
-		+r(1024)
 			padding-top: 70px
-			&::after
-				line-height: 103px
+			.fico
+				font-size: 30px
+		+r(1140)
+			padding-top: 40px
+			.fico
+				font-size: 28px
+		+r(1024)
+			padding-top: 50px
+			margin-top: 30px
 		+r(890)
 			flex: 1
 			font-size: 20px
@@ -255,7 +256,7 @@
 		margin-right: 20px
 		border-radius: 50%
 		overflow: hidden
-		padding: 4px
+		padding: 3px
 		font-size: 0
 		width: 70px
 		height: 70px
@@ -278,6 +279,7 @@
 			font-size: 12px
 	&__name
 		color: $garkgrey
+		white-space: nowrap
 	&__post
 		color: #777
 		white-space: nowrap

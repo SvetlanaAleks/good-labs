@@ -6,8 +6,10 @@ mixin menu(page)
 	+menu-mob(page)
 	.menu.js-fixed-menu
 		.menu__wrap
-			a.logo.menu__logo(href="index.html")
+			a.logo.menu__logo.menu__logo--abs(href="index.html")
 				img.logo__img(src="img/svg/logo.svg", alt="goodlabs")
+			a.logo.menu__logo.menu__logo--fixed(href="index.html")
+				img.logo__img(src="img/svg/logo-short.svg", alt="goodlabs")
 			ul.menu__list.nav
 				li.nav__item
 					a.nav__link(href="index.html")!= MENU.item1

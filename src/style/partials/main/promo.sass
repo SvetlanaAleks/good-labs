@@ -213,15 +213,19 @@
 				height: 100px
 				padding-top: 30px
 				padding-bottom: 30px
-		+r(768)
+		+r(890)
 			.container
 				height: auto
+		+r(480)
+			.container
+				padding-top: 29px
+				padding-bottom: 25px
 	&__list
 		display: flex
 		justify-content: space-between
-		+r(768)
-			flex-wrap: wrap
-
+		+r(890)
+			flex-wrap: nowrap
+			overflow-x: scroll
 
 .privilege
 	max-width: 290px
@@ -236,9 +240,9 @@
 		background: #FFFDFA
 		box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15)
 		top: -20px
-		left: -20px
-		right: -20px
-		bottom: -20px
+		left: -25px
+		right: -25px
+		bottom: -28px
 		border-top-left-radius: 10px
 		border-bottom-right-radius: 10px
 		z-index: -1
@@ -250,30 +254,32 @@
 		max-width: 240px
 	+r(1140)
 		max-width: 220px
-	+r(1024)
-		max-width: calc(100%/4 - 20px)
 		&::after
 			top: -15px
 			left: -15px
 			right: -15px
 			bottom: -15px
+	+r(1024)
+		max-width: calc(100%/4 - 20px)
 	+r(890)
-		max-width: calc(100%/4 - 15px)
-	+r(768)
-		max-width: 100%
-		+nlt
-			margin-bottom: 15px
-	&.active
+		width: 210px
+		max-width: initial
+		cursor: auto
+		flex-shrink: 0
 		&::after
-			opacity: 1
-		.fico
-			color: #000
-			transform: rotate(180deg)
-		.privilege__desc
-			display: block
-			margin-top: 20px
-			+r(1024)
-				margin-top: 10px
+			display: none
+	+rm(891)
+		&:hover
+			&::after
+				opacity: 1
+			.fico
+				color: #000
+				transform: rotate(180deg)
+			.privilege__desc
+				display: block
+				margin-top: 20px
+				+r(1024)
+					margin-top: 10px
 	&__top
 		display: flex
 		align-items: center
@@ -282,6 +288,8 @@
 		margin-left: auto
 		color: transparentize(#000, .7)
 		transition: all  .3s
+		+r(890)
+			display: none
 	&__wrap-ico
 		flex-shrink: 0
 		margin-right: 25px
@@ -293,11 +301,8 @@
 			width: 33px
 			margin-right: 10px
 		+r(890)
-			width: 28px
-			margin-top: 8px
-		+r(768)
 			width: 33px
-			margin-right: 10px
+			margin-right: 12px
 	&__text
 		font-family: 'Tenor Sans', sans-serif
 		font-size: 20px

@@ -37,7 +37,7 @@ const Controls = (function () {
     closeBanner: function () {
       btnCloseBanner.click(function (e) {
         e.preventDefault();
-        $(".js-banner").hide();
+        $(".js-banner").addClass("no-active");
       });
     },
     showInfoTabs: function () {

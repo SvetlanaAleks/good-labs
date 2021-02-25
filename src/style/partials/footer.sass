@@ -51,7 +51,7 @@
 			top: 0
 			right: 370px
 			bottom: -100px
-			background: transparentize(white, .9)
+			background: transparentize(white, .8)
 		+r(1440)
 			&::after
 				right: 350px
@@ -71,7 +71,7 @@
 				right: calc(50% - 80px)
 		+r(768)
 			flex-wrap: wrap
-			margin-bottom: 12px
+			margin-bottom: 24px
 			&::after
 				display: none
 	&__wrapper
@@ -88,7 +88,7 @@
 			margin-bottom: 46px
 		+r(480)
 			flex-wrap: wrap
-			margin-bottom: 15px
+			margin-bottom: 27px
 	&__col
 		max-width: 180px
 		width: 100%
@@ -171,11 +171,11 @@
 			text-align: center
 			max-width: 100%
 			width: 100%
-			padding-top: 35px
-			margin-top: 40px
-			padding-bottom: 30px
-			border-bottom: 1px solid transparentize(white, .9)
-			border-top: 1px solid transparentize(white, .9)
+			padding-top: 31px
+			margin-top: 30px
+			padding-bottom: 25px
+			border-bottom: 1px solid transparentize(white, .8)
+			border-top: 1px solid transparentize(white, .8)
 	&__right
 		max-width: 290px
 		width: 100%
@@ -195,10 +195,10 @@
 			text-align: center
 			padding-top: 20px
 			margin-top: 20px
-			border-top: 1px solid transparentize(white, .9)
+			border-top: 1px solid transparentize(white, .8)
 		+r(480)
-			padding-top: 15px
-			margin-top: 15px
+			padding-top: 28px
+			margin-top: 31px
 	&__address
 		color: #D5D5D5
 		line-height: 160%
@@ -256,10 +256,13 @@
 	&__stars
 		margin-right: 22px
 		width: 93px
+		+r(890)
+			margin-right: 0
 	&__text
 		color: white
 		line-height: 1.2
 		width: 50%
+		font-size: 14px
 		.bold
 			font-weight: 600
 			&--line
@@ -270,7 +273,9 @@
 		+r(890)
 			max-width: 75%
 		+r(768)
-			max-width: 100%
+			max-width: 80%
+			line-height: 140%
+			margin-top: 15px
 			text-align: center
 
 .menu-footer

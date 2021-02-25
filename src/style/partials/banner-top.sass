@@ -14,7 +14,14 @@
 		background: linear-gradient(90deg, #BF5394 0%, #6551B6 100%), #AC7897
 		.banner-top__text
 			color: white
-
+	&.no-active
+		height: 6px
+		padding: 0
+		.banner-top__text,
+		.banner-top__close
+			display: none
+		+r(640)
+			height: 5px
 	+r(1024)
 		padding: 13px 30px
 	+r(640)

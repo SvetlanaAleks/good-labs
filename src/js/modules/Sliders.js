@@ -19,7 +19,7 @@ const Sliders = (function () {
         asNavFor: ".js-experts-nav",
         responsive: [
           {
-            breakpoint: 769,
+            breakpoint: 891,
             settings: {
               adaptiveHeight: true,
             },
