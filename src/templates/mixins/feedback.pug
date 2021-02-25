@@ -6,5 +6,5 @@ mixin feedback(color, src, text, info)
 					source(srcset="img/" + src + ".webp", type="image/webp")
 					img(src="img/" + src + ".jpg", alt="photo")
 			.feedback__desc
-				p.feedback__text.title.title--small!= text
+				p.feedback__text.title.title--very-small!= text
 				p.feedback__info.text--big!= info
