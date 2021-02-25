@@ -45,21 +45,8 @@
 		box-shadow: 0px 30px 90px rgba(0, 0, 0, 0.1)
 		position: relative
 		overflow: hidden
-		&::before
-			content: ''
-			display: block
-			position: absolute
-			background: url('../img/svg/prod_immunal_decor.svg') no-repeat center
-			width: 365px
-			height: 347px
-			bottom: -55px
-			left: -135px
-			transform: scaleX(-1)
 		+r(1024)
 			padding: 30px
-			&::before
-				background: none
-				display: none
 		+r(640)
 			padding: 30px 20px
 		+r(480)
@@ -219,16 +206,88 @@
 	.order-popup__content:after
 		background-image: url(../img/bundles/multivitamin/bundle2.png), url(../img/bundles/multivitamin/bundle1.png), url(../img/bundles/multivitamin/bundle0.png)
 
-.order-popup--immunal
-	.order-popup__price-wrap
-		background-color: #FFF8E4
-	.order-price.price-active
-		background-color: #FFEECD
-		border: 2px solid #FF9900
-
-.order-popup--multivitamin
-	.order-popup__price-wrap
-		background-color: #f9fff3
-	.order-price.price-active
-		background-color: #eafcd7
-		border: 2px solid #d1e7b9
+.order-popup
+	&--immunal
+		.order-popup
+			&__content
+				&::before
+					content: ''
+					display: block
+					position: absolute
+					background: url('../img/svg/prod_immunal_decor.svg') no-repeat center
+					width: 365px
+					height: 347px
+					bottom: -55px
+					left: -135px
+					transform: scaleX(-1)
+					+r(1024)
+						display: none
+						background: none
+			&__price-wrap
+				background-color: #FFF8E4
+		.order-price.price-active
+			background-color: #FFEECD
+			border: 2px solid #FF9900
+	&--multivitamin
+		.order-popup
+			&__content
+				&::before
+					content: ''
+					display: block
+					position: absolute
+					background: url('../img/svg/prod_multi-vitamin_decor.svg') no-repeat center
+					width: 297px
+					height: 249px
+					bottom: -35px
+					left: -85px
+					transform: scaleX(-1)
+					+r(1024)
+						display: none
+						background: none
+			&__price-wrap
+				background-color: #f9fff3
+		.order-price.price-active
+			background-color: #eafcd7
+			border: 2px solid #d1e7b9
+	&--antistress
+		.order-popup
+			&__content
+				&::before
+					content: ''
+					display: block
+					position: absolute
+					background: url('../img/svg/prod_multi-vitamin_decor.svg') no-repeat center
+					width: 297px
+					height: 249px
+					bottom: -35px
+					left: -85px
+					transform: scaleX(-1)
+					+r(1024)
+						display: none
+						background: none
+			&__price-wrap
+				background-color: transparentize(#dff4f1, .5)
+		.order-price.price-active
+			background-color: #dff4f1
+			border: 2px solid $blue
+	&--vision
+		.order-popup
+			&__content
+				&::before
+					content: ''
+					display: block
+					position: absolute
+					background: url('../img/svg/prod_vision_decor.svg') no-repeat center
+					width: 266px
+					height: 253px
+					bottom: -35px
+					left: -85px
+					transform: scaleX(-1)
+					+r(1024)
+						display: none
+						background: none
+			&__price-wrap
+				background-color: transparentize(#daf0fb, .5)
+		.order-price.price-active
+			background-color: #daf0fb
+			border: 2px solid $dark-blue

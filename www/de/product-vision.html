@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <script>var locale = "de"</script>
+    <title>GoodLabs - Product Vision</title>
+  </head>
+  <body>
+    <div class="banner-top banner-top--dark-blue js-banner">
+      <div class="container">
+        <p class="banner-top__text text--med">Free shipping on orders over €50!</p><img class="banner-top__close js-close-banner" src="/img/svg/close.svg" alt="close"/>
+      </div>
+    </div>
+            <div class="menu-mobile" id="js-mobile-menu">
+              <div class="menu-mobile__wrap">
+                <div class="menu-mobile__top"><a class="logo menu-mobile__logo" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a>
+                  <div class="burger js-burger" data-target="#js-mobile-menu"><span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span></div>
+                </div>
+                <ul class="menu-mobile__nav nav">
+                  <li class="nav__item"><a class="nav__link" href="index.html">Hauptseite</a></li>
+                  <li class="nav__item nav__item--prod"><a class="nav__link js-btn-submenu" href="">Produkte</a>
+                    <div class="products-menu products-menu--mobile js-submenu">
+                      <div class="products-menu__container container">
+                        <div class="products-menu__list"> <a class="products-menu__item product_item " href="product-immunal.html"><img class="product_item__img" src="/img/product_1.png" alt=""/>
+                                <div class="product_item__info"><b class="product_item__name title">Immunal</b><span class="product_item__descr">Mit Beta-Glucan</span>
+                                  <div class="product_item__stars"><img src="/img/svg/raiting_review_1.svg" alt="raiting"/></div><b class="product_item__price title">€25.99</b>
+                                </div></a><a class="products-menu__item product_item " href="product-multivitamin.html"><img class="product_item__img" src="/img/product_2.png" alt=""/>
+                                <div class="product_item__info"><b class="product_item__name title">Multi Vitamin</b><span class="product_item__descr">Vitamine & Mineralien</span>
+                                  <div class="product_item__stars"><img src="/img/svg/raiting_review_2.svg" alt="raiting"/></div><b class="product_item__price title">€20.99</b>
+                                </div></a><a class="products-menu__item product_item product_item--not-active" href="product-antistress.html"><img class="product_item__img" src="/img/product_3.png" alt=""/>
+                                <div class="product_item__info"><b class="product_item__name title">Anti Stress</b><span class="product_item__descr">With Maqui Berries</span>
+                                  <div class="product_item__stars"><img src="/img/svg/raiting_review_1.svg" alt="raiting"/></div><b class="product_item__price title">€24.99</b>
+                                </div></a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav__item"><a class="nav__link" href="about.html">Über uns</a></li>
+                  <li class="nav__item"><a class="nav__link" href="ingredients.html">Komponenten</a></li>
+                  <li class="nav__item"><a class="nav__link" href="">Wissen</a></li>
+                  <li class="nav__item"><a class="nav__link" href="contacts.html">Kontakte</a></li>
+                </ul>
+                <div class="menu-mobile__bottom">
+                  <div class="menu-mobile__lang lang"><i class="fico fico-world"></i>
+                    <div class="lang__list-wrap">
+                      <div class="lang__list"><a class="lang-item" href="/product-vision.html"><img class="lang-item__ico" src="/img/svg/langEN.svg" alt="langEN"/></a><a class="lang-item" href="/de/product-vision.html"><img class="lang-item__ico" src="/img/svg/langDE.svg" alt="langDE"/></a></div>
+                    </div>
+                  </div><a class="menu-mobile__link" href="mailto:support@glabs-nutrition.com">support@glabs-nutrition.com</a>
+                </div>
+              </div>
+            </div>
+        <div class="menu js-fixed-menu">
+          <div class="menu__wrap"><a class="logo menu__logo" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a>
+            <ul class="menu__list nav">
+              <li class="nav__item"><a class="nav__link" href="index.html">Hauptseite</a></li>
+              <li class="nav__item"><a class="nav__link js-btn-submenu" href="">Produkte</a>
+                <div class="products-menu products-menu--desktop js-submenu"><img class="products-menu__close js-close-products" src="/img/svg/close.svg" alt="close"/>
+                  <div class="products-menu__container container">
+                    <h2 class="products-menu__title title title--very-small">Intelligente Formeln der Zusammen­setzungen für Ihre Gesundheit</h2>
+                    <div class="products-menu__list"><a class="products-menu__item product_item " href="product-immunal.html"><img class="product_item__img" src="/img/product_1.png" alt=""/>
+                                      <div class="product_item__info"><b class="product_item__name title">Immunal</b><span class="product_item__descr">Mit Beta-Glucan</span>
+                                        <div class="product_item__stars"><img src="/img/svg/raiting_review_1.svg" alt="raiting"/></div><b class="product_item__price title">€25.99</b>
+                                      </div></a><a class="products-menu__item product_item " href="product-multivitamin.html"><img class="product_item__img" src="/img/product_2.png" alt=""/>
+                                      <div class="product_item__info"><b class="product_item__name title">Multi Vitamin</b><span class="product_item__descr">Vitamine & Mineralien</span>
+                                        <div class="product_item__stars"><img src="/img/svg/raiting_review_2.svg" alt="raiting"/></div><b class="product_item__price title">€20.99</b>
+                                      </div></a><a class="products-menu__item product_item product_item--not-active" href="product-antistress.html"><img class="product_item__img" src="/img/product_3.png" alt=""/>
+                                      <div class="product_item__info"><b class="product_item__name title">Anti Stress</b><span class="product_item__descr">With Maqui Berries</span>
+                                        <div class="product_item__stars"><img src="/img/svg/raiting_review_1.svg" alt="raiting"/></div><b class="product_item__price title">€24.99</b>
+                                      </div></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="about.html">Über uns</a></li>
+              <li class="nav__item"><a class="nav__link" href="ingredients.html">Komponenten</a></li>
+              <li class="nav__item"><a class="nav__link" href="">Wissen</a></li>
+              <li class="nav__item"><a class="nav__link" href="contacts.html">Kontakte</a></li>
+            </ul>
+            <div class="menu__right">
+              <div class="menu__lang lang"><i class="fico fico-world"></i>
+                <div class="lang__list-wrap">
+                  <div class="lang__list"><a class="lang-item" href="/product-vision.html"><img class="lang-item__ico" src="/img/svg/langEN.svg" alt="langEN"/></a><a class="lang-item" href="/ru/product-vision.html"><img class="lang-item__ico" src="/img/svg/langRU.svg" alt="langRU"/></a><a class="lang-item" href="/de/product-vision.html"><img class="lang-item__ico" src="/img/svg/langDE.svg" alt="langDE"/></a></div>
+                </div>
+              </div>
+              <div class="burger js-burger" data-target="#js-mobile-menu"><span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span></div>
+            </div>
+          </div>
+        </div>
+    <section class="promo-product">
+      <div class="container">
+        <div class="promo-product__wrapper">
+          <div class="promo-product__slider slider-prod slider-prod--vision">
+            <div class="slider-prod__for">
+              <div class="slider-prod__wrap-img">
+                <picture>
+                  <source srcset="/img/vision_1.webp" type="image/webp"/><img class="slider-prod__img" src="/img/vision_1.png" alt="vision"/>
+                </picture>
+              </div>
+              <div class="slider-prod__wrap-img">
+                <picture>
+                  <source srcset="/img/vision_1.webp" type="image/webp"/><img class="slider-prod__img" src="/img/vision_1.png" alt="vision"/>
+                </picture>
+              </div>
+              <div class="slider-prod__wrap-img slider-prod__wrap-img--border">
+                <picture>
+                  <source srcset="/img/vision_3.webp" type="image/webp"/><img class="slider-prod__img" src="/img/vision_3.jpg" alt="vision"/>
+                </picture>
+              </div>
+              <div class="slider-prod__wrap-img slider-prod__wrap-img--border">
+                <picture>
+                  <source srcset="/img/vision_4.webp" type="image/webp"/><img class="slider-prod__img" src="/img/vision_4.jpg" alt="vision"/>
+                </picture>
+              </div>
+            </div>
+            <div class="slider-prod__nav"><img class="slider-prod__img" src="/img/vision_1_small.png" alt="vision"/><img class="slider-prod__img" src="/img/vision_2_small.png" alt="vision"/><img class="slider-prod__img" src="/img/vision_3_small.png" alt="vision"/><img class="slider-prod__img" src="/img/vision_4_small.png" alt="vision"/></div>
+          </div>
+          <div class="promo-product__info info-prod">
+            <h1 class="info-prod__title title title--main">Vision</h1>
+            <p class="info-prod__desc text--med">With Rhodiola Rosea</p>
+            <div class="info-prod__raiting raiting-prod"><img class="raiting-prod__img" src="/img/svg/raiting_review_1.svg" alt="stars"/>
+              <div class="raiting-prod__text text--med">280 Reviews</div>
+            </div>
+            <ul class="info-prod__list list list--dark-blue text--med">
+              <li class="list__item">Способствует восстановлению остроты зрения </li>
+              <li class="list__item">Снимает усталость глаз после работы за компьютером или других нагрузках на зрение</li>
+              <li class="list__item">Противодействует возрастному снижению зрения</li>
+              <li class="list__item">Защищает глаза от окислительного стресса</li>
+              <li class="list__item">Помогает справится с синдромом сухого глаза</li>
+            </ul>
+            <div class="info-prod__bottom">
+              <div class="info-prod__order">
+                <p class="info-prod__price title title--med">€25.99</p>
+                <button class="info-prod__btn btn btn--dark-blue js-show-popup" data-target="#order-popup">Bestellen</button>
+              </div>
+              <div class="info-prod__detals">
+                <p class="info-prod__text text--med">Anzahl der Produkte: <span>30 Stück</span></p>
+                <p class="info-prod__text text--med"><span>250 mg</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="promo-product__bottom">
+          <div class="promo-product__list">
+            <div class="item-adv">
+              <div class="item-adv__wrap-ico"><img class="item-adv__ico" src="/img/svg/item_adv_1.svg" alt="ico"/></div>
+              <p class="item-adv__text text--small">ENTHÄLT KEINE HEFE</p>
+            </div>
+            <div class="item-adv">
+              <div class="item-adv__wrap-ico"><img class="item-adv__ico" src="/img/svg/item_adv_2.svg" alt="ico"/></div>
+              <p class="item-adv__text text--small">ENTHÄLT KEIN MEHL</p>
+            </div>
+            <div class="item-adv">
+              <div class="item-adv__wrap-ico"><img class="item-adv__ico" src="/img/svg/item_adv_3.svg" alt="ico"/></div>
+              <p class="item-adv__text text--small">SOJAFREI PROTEIN</p>
+            </div>
+            <div class="item-adv">
+              <div class="item-adv__wrap-ico"><img class="item-adv__ico" src="/img/svg/item_adv_4.svg" alt="ico"/></div>
+              <p class="item-adv__text text--small">ENTHÄLT KEINE MOLKEREI PRODUKTE</p>
+            </div>
+            <div class="item-adv">
+              <div class="item-adv__wrap-ico"><img class="item-adv__ico" src="/img/svg/item_adv_5.svg" alt="ico"/></div>
+              <p class="item-adv__text text--small">ENTHÄLT KEINE KÖRNER</p>
+            </div>
+            <div class="item-adv">
+              <div class="item-adv__wrap-ico"><img class="item-adv__ico" src="/img/svg/item_adv_6.svg" alt="ico"/></div>
+              <p class="item-adv__text text--small">ZUCKERFREI</p>
+            </div>
+            <div class="item-adv">
+              <div class="item-adv__wrap-ico"><img class="item-adv__ico" src="/img/svg/item_adv_7.svg" alt="ico"/></div>
+              <p class="item-adv__text text--small">ENTHÄLT KEIN STÄRKEMEHL</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ingredients">
+      <div class="container">
+        <h2 class="ingredients__title title title--big">High quality ingredients for your immunity needs</h2>
+        <div class="ingredients__info ingredients__info--immunal">
+          <div class="ingredients__content active js-content-tab js-accordeon" id="list1">
+                <div class="ingredient">
+                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_blueberry.svg" alt="Черника"/></div>
+                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Черника</p>
+                  <div class="ingredient__info js-info-accordeon">
+                    <div class="ingredient__wrap">
+                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_blueberry.svg" alt="Черника"/></div>
+                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Черника</p>
+                      <p class="ingredient__text text--med">Стимулирует синтез гликозаминогликана, за счет чего капилляры сетчатки становятся более прочными. Она также улучшает микроциркуляцию и борется с окислительным стрессом, который также является фактором ухудшения зрения.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="ingredient">
+                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_maca-berries.svg" alt="Ягоды маки"/></div>
+                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Ягоды маки</p>
+                  <div class="ingredient__info js-info-accordeon">
+                    <div class="ingredient__wrap">
+                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_maca-berries.svg" alt="Ягоды маки"/></div>
+                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Ягоды маки</p>
+                      <p class="ingredient__text text--med">Ягоды маки помогают справится с симптомом сухого глаза. Они восстанавливают способность слезной железы образовывать жидкость, тем самым возвращая ощущение комфорта.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="ingredient">
+                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_saffron.svg" alt="Шафран"/></div>
+                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Шафран</p>
+                  <div class="ingredient__info js-info-accordeon">
+                    <div class="ingredient__wrap">
+                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_saffron.svg" alt="Шафран"/></div>
+                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Шафран</p>
+                      <p class="ingredient__text text--med">Обладает способностью улучшать остроту зрения и чувствительность сетчатки к свету. Он устраняет основную причину возрастной дегенерации желтого пятна и улучшает светочувствительность, что очень важно с возрастом.</p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__top">
+          <h2 class="advantages__title title title--med">GoodLabs Vision – надежная поддержка вашего зрения</h2>
+          <div class="advantages__photo advantages__photo--1 advantages__photo--mob"><img class="advantages__img" src="/img/advantages_vision_1.jpg" alt="photo"/></div>
+          <p class="advantages__desc text--med">В современном мире зрение человека постоянно сталкивается с серьезными испытаниями: экраны гаджетов и мониторов, увеличение окислительного стресса,  несбалансированное питание и другие. GoodLabs Vision способен поддержать здоровье глаз и обеспечить их комфорт, благодаря действенным природным  компонентам с доказанной эффективностью.</p>
+        </div>
+        <div class="advantages__photos">
+          <div class="advantages__photo advantages__photo--1 advantages__photo--desc"><img class="advantages__img" src="/img/advantages_vision_1.jpg" alt="photo"/></div>
+          <div class="advantages__photo advantages__photo--2"><img class="advantages__img" src="/img/advantages_vision_2.jpg" alt="photo"/></div>
+          <div class="advantages__photo advantages__photo--3"><img class="advantages__img" src="/img/advantages_vision_3.jpg" alt="photo"/></div>
+        </div>
+        <div class="advantages__bottom">
+          <div class="advantages__left">
+            <h2 class="advantages__ttl title title--med">Экстракт черники для надежной защиты вашего зрения</h2><img class="advantages__chart advantages__chart--mob" src="/img/svg/chart_vision.svg" alt="chart"/>
+            <p class="advantages__text text--med">В результате двойного слепого клинического исследования, в котором экстракт черники сравнивался с плацебо, пациенты, которые принимали экстракт ягод, испытали значительное улучшение в соответствии с тестом Ширмера, который является широко используемым показателем для измерения выработки слез и влажности глаз. Также в группе черники биологический антиоксидантный потенциал плазмы увеличился через 4 недели. У людей, принимавших плацебо, не было значительных изменений.</p><a class="advantages__link text--med" href="#"><span>Подробнее про исследование</span><img src="/img/svg/arrow.svg" alt="arrow"/></a>
+          </div><img class="advantages__chart advantages__chart--desc" src="/img/svg/chart_vision.svg" alt="chart"/>
+        </div>
+      </div>
+    </section>
+        <div class="feedback feedback--dark-blue">
+          <div class="container">
+            <div class="feedback__wrap-img">
+              <picture>
+                <source srcset="/img/feedback_immuten.webp" type="image/webp"/><img src="/img/feedback_immuten.jpg" alt="photo"/>
+              </picture>
+            </div>
+            <div class="feedback__desc">
+              <p class="feedback__text title title--small">Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью</p>
+              <p class="feedback__info text--big"><span>Dr. Kenosha Gleaton</span> Medical Director</p>
+            </div>
+          </div>
+        </div>
+    <section class="technical-info">
+      <div class="container">
+        <div class="technical-info__wrapper technical-info__wrapper--immunal">
+          <div class="technical-info__left">
+            <h2 class="technical-info__title title title--med">Technical Information</h2>
+            <p class="technical-info__ttl text--big">Fiber Usage</p>
+            <div class="technical-info__desc">
+              <p class="technical-info__text text--med">Take 1 capsule daily with water with or after food. </p>
+              <p class="technical-info__text text--med">Do not exceed the recommended daily dose. A food supplement is not intended to substitute for a healthy diet. Do not use the product in case o individual intolerance to the ingredients.</p>
+              <p class="technical-info__text text--med">Store in the original packaging in a dark dry place. Do not store above 25 °C.</p>
+            </div>
+          </div>
+          <div class="technical-info__right">
+                <div class="technical-table">
+                  <p class="technical-table__title text--big js-btn-accordeon">2 Vegetarian Capsules Contain:</p>
+                  <ul class="technical-table__list list-tech js-info-accordeon">
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Vitamin C</p>
+                      <p class="list-tech__text text--med">200 mg (250%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Vitamin B1</p>
+                      <p class="list-tech__text text--med">1,7 mg (150%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Vitamin B2</p>
+                      <p class="list-tech__text text--med">2,1 mg (150%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Vitamin B12</p>
+                      <p class="list-tech__text text--med">6,0 mg (240%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Vitamin B6</p>
+                      <p class="list-tech__text text--med">2,1 mg (150%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Biotin</p>
+                      <p class="list-tech__text text--med">750 ug (1500%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Folic acid</p>
+                      <p class="list-tech__text text--med">400 ug (200%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Vitamin D</p>
+                      <p class="list-tech__text text--med">20,0 ug (400%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Vitamin A</p>
+                      <p class="list-tech__text text--med">333 ug (42%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Zinc</p>
+                      <p class="list-tech__text text--med">10,0 mg (100%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Copper</p>
+                      <p class="list-tech__text text--med">0,20 mg (20%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Selenium</p>
+                      <p class="list-tech__text text--med">100 ug (182%)</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Histidine</p>
+                      <p class="list-tech__text text--med">50,0 mg</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Elderberry extract 4:1</p>
+                      <p class="list-tech__text text--med">100 mg</p>
+                    </li>
+                    <li class="list-tech__item">
+                      <p class="list-tech__text text--med">Beta glucan</p>
+                      <p class="list-tech__text text--med">5,0 mg</p>
+                    </li>
+                  </ul>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-big">
+      <div class="about-big__top container">
+        <h2 class="about-big__title title title--med">In der Wildnis</h2>
+        <div class="about-big__right"><span class="about-big__text text--med">Begleiten Sie uns auf Instagram @goodlabs_official</span><a class="about-big__link" href="#"><img src="/img/svg/insta.svg" alt="insta"/></a></div>
+      </div>
+      <div class="about-big__slider-wrap">
+        <div class="about-big__slider slider-about-big js-about-slider2">
+              <div class="about-main">
+                <div class="about-main__wrap"><i class="fico fico-int"></i>
+                  <picture>
+                    <source srcset="/img/about_slider_immunal_1.webp" type="image/webp"/><img class="about-main__image" src="/img/about_slider_immunal_1.jpg" alt=""/>
+                  </picture>
+                </div>
+                <div class="about-main__person"><img class="about-main__photo" src="/img/review_photo_1.png" alt="Kate8477"/>
+                  <p class="about-main__name">Kate8477</p>
+                </div>
+              </div>
+              <div class="about-main">
+                <div class="about-main__wrap"><i class="fico fico-int"></i>
+                  <picture>
+                    <source srcset="/img/about_slider_immunal_2.webp" type="image/webp"/><img class="about-main__image" src="/img/about_slider_immunal_2.jpg" alt=""/>
+                  </picture>
+                </div>
+                <div class="about-main__person"><img class="about-main__photo" src="/img/review_photo_2.png" alt="Michal_35"/>
+                  <p class="about-main__name">Michal_35</p>
+                </div>
+              </div>
+              <div class="about-main">
+                <div class="about-main__wrap"><i class="fico fico-int"></i>
+                  <picture>
+                    <source srcset="/img/about_slider_immunal_3.webp" type="image/webp"/><img class="about-main__image" src="/img/about_slider_immunal_3.jpg" alt=""/>
+                  </picture>
+                </div>
+                <div class="about-main__person"><img class="about-main__photo" src="/img/review_photo_7.png" alt="helga_blume25"/>
+                  <p class="about-main__name">helga_blume25</p>
+                </div>
+              </div>
+              <div class="about-main">
+                <div class="about-main__wrap"><i class="fico fico-int"></i>
+                  <picture>
+                    <source srcset="/img/about_slider_immunal_4.webp" type="image/webp"/><img class="about-main__image" src="/img/about_slider_immunal_4.jpg" alt=""/>
+                  </picture>
+                </div>
+                <div class="about-main__person"><img class="about-main__photo" src="/img/review_photo_4.png" alt="sergio_lucky"/>
+                  <p class="about-main__name">sergio_lucky</p>
+                </div>
+              </div>
+              <div class="about-main">
+                <div class="about-main__wrap"><i class="fico fico-int"></i>
+                  <picture>
+                    <source srcset="/img/about_slider_immunal_5.webp" type="image/webp"/><img class="about-main__image" src="/img/about_slider_immunal_5.jpg" alt=""/>
+                  </picture>
+                </div>
+                <div class="about-main__person"><img class="about-main__photo" src="/img/review_photo_5.png" alt="Mariya8521"/>
+                  <p class="about-main__name">Mariya8521</p>
+                </div>
+              </div>
+              <div class="about-main">
+                <div class="about-main__wrap"><i class="fico fico-int"></i>
+                  <picture>
+                    <source srcset="/img/about_slider_immunal_6.webp" type="image/webp"/><img class="about-main__image" src="/img/about_slider_immunal_6.jpg" alt=""/>
+                  </picture>
+                </div>
+                <div class="about-main__person"><img class="about-main__photo" src="/img/review_photo_base.png" alt="goodlabs_official"/>
+                  <p class="about-main__name">goodlabs_official</p>
+                </div>
+              </div>
+              <div class="about-main">
+                <div class="about-main__wrap"><i class="fico fico-int"></i>
+                  <picture>
+                    <source srcset="/img/about_slider_immunal_7.webp" type="image/webp"/><img class="about-main__image" src="/img/about_slider_immunal_7.jpg" alt=""/>
+                  </picture>
+                </div>
+                <div class="about-main__person"><img class="about-main__photo" src="/img/review_photo_6.png" alt="magdalena_85"/>
+                  <p class="about-main__name">magdalena_85</p>
+                </div>
+              </div>
+              <div class="about-main">
+                <div class="about-main__wrap"><i class="fico fico-int"></i>
+                  <picture>
+                    <source srcset="/img/about_slider_immunal_8.webp" type="image/webp"/><img class="about-main__image" src="/img/about_slider_immunal_8.jpg" alt=""/>
+                  </picture>
+                </div>
+                <div class="about-main__person"><img class="about-main__photo" src="/img/review_photo_base.png" alt="goodlabs_official"/>
+                  <p class="about-main__name">goodlabs_official</p>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews reviews--immunal">
+      <div class="container">
+        <div class="reviews__wrapper">
+          <div class="reviews__left">
+            <h2 class="reviews__title title title--med">Reviews</h2><img class="reviews__stars" src="/img/svg/raiting_review_1.svg" alt="stars"/>
+            <div class="reviews__wrap">
+              <p class="reviews__estimate title title--med">4.9/5</p>
+              <p class="reviews__count">128 отзывов о GoodLabs Vision</p>
+            </div>
+            <p class="reviews__desc text--med">Вам понравился GoodLabs Vision?Напишите нам свой отзыв про опыт использования продукта, придумать небольшой призывающий текст</p><a class="reviews__btn btn-empty" href="#">Submit your review</a>
+          </div>
+          <div class="reviews__right">
+            <div class="reviews__sorting sorting">
+              <p class="sorting__text">Сортировать по:</p>
+              <div class="sorting__list">
+                <p class="sorting__item">Дате<i class="fico fico-arrow"></i></p>
+              </div>
+            </div>
+            <div class="reviews__list">
+                  <div class="review">
+                    <div class="review__left">
+                      <div class="review__wrap">
+                        <p class="review__name">Michael Trapp</p>
+                        <p class="review__date">Jan 12, 2019</p>
+                      </div><img class="review__stars" src="/img/svg/raiting_review_1.svg" alt="raiting"/>
+                    </div>
+                    <div class="review__right">
+                      <h3 class="review__main text--med">Отличное сочетание элементов и концентраница, то что нужно по сезону!</h3>
+                      <p class="review__desc text--med">Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.</p>
+                      <div class="review__photos"><img src="/img/about_slider_immunal_1.jpg" alt="photo"/><img src="/img/about_slider_immunal_2.jpg" alt="photo"/>
+                      </div>
+                    </div>
+                    <div class="review__likes">
+                      <div class="review__col"><i class="fico fico-likes"></i>
+                        <p class="review__count">1</p>
+                      </div>
+                      <div class="review__col"><i class="fico fico-dislikes"></i>
+                        <p class="review__count">2</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    <div class="review__left">
+                      <div class="review__wrap">
+                        <p class="review__name">Michael Trapp</p>
+                        <p class="review__date">Jan 12, 2019</p>
+                      </div><img class="review__stars" src="/img/svg/raiting_review_2.svg" alt="raiting"/>
+                    </div>
+                    <div class="review__right">
+                      <h3 class="review__main text--med">Отличное сочетание элементов и концентраница, то что нужно по сезону!</h3>
+                      <p class="review__desc text--med">Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.</p>
+                    </div>
+                    <div class="review__likes">
+                      <div class="review__col"><i class="fico fico-likes"></i>
+                        <p class="review__count">1</p>
+                      </div>
+                      <div class="review__col"><i class="fico fico-dislikes"></i>
+                        <p class="review__count">2</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    <div class="review__left">
+                      <div class="review__wrap">
+                        <p class="review__name">Michael Trapp</p>
+                        <p class="review__date">Jan 12, 2019</p>
+                      </div><img class="review__stars" src="/img/svg/raiting_review_1.svg" alt="raiting"/>
+                    </div>
+                    <div class="review__right">
+                      <h3 class="review__main text--med">Отличное сочетание элементов и концентраница, то что нужно по сезону!</h3>
+                      <p class="review__desc text--med">Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.</p>
+                    </div>
+                    <div class="review__likes">
+                      <div class="review__col"><i class="fico fico-likes"></i>
+                        <p class="review__count">1</p>
+                      </div>
+                      <div class="review__col"><i class="fico fico-dislikes"></i>
+                        <p class="review__count">2</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    <div class="review__left">
+                      <div class="review__wrap">
+                        <p class="review__name">Michael Trapp</p>
+                        <p class="review__date">Jan 12, 2019</p>
+                      </div><img class="review__stars" src="/img/svg/raiting_review_2.svg" alt="raiting"/>
+                    </div>
+                    <div class="review__right">
+                      <h3 class="review__main text--med">Отличное сочетание элементов и концентраница, то что нужно по сезону!</h3>
+                      <p class="review__desc text--med">Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.</p>
+                    </div>
+                    <div class="review__likes">
+                      <div class="review__col"><i class="fico fico-likes"></i>
+                        <p class="review__count">1</p>
+                      </div>
+                      <div class="review__col"><i class="fico fico-dislikes"></i>
+                        <p class="review__count">2</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="review">
+                    <div class="review__left">
+                      <div class="review__wrap">
+                        <p class="review__name">Michael Trapp</p>
+                        <p class="review__date">Jan 12, 2019</p>
+                      </div><img class="review__stars" src="/img/svg/raiting_review_2.svg" alt="raiting"/>
+                    </div>
+                    <div class="review__right">
+                      <h3 class="review__main text--med">Отличное сочетание элементов и концентраница, то что нужно по сезону!</h3>
+                      <p class="review__desc text--med">Для себя я открыла еще один способ улучшения иммунитета — это прием комплекса Immunal. Он содержит бета-глюкан, который повышает сопротивляемость организма в период обострения ОРВИ.</p>
+                    </div>
+                    <div class="review__likes">
+                      <div class="review__col"><i class="fico fico-likes"></i>
+                        <p class="review__count">1</p>
+                      </div>
+                      <div class="review__col"><i class="fico fico-dislikes"></i>
+                        <p class="review__count">2</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="reviews__pagination pagination">
+              <div class="pagination__item active">1</div>
+              <div class="pagination__item">2</div>
+              <div class="pagination__item">3</div>
+              <div class="pagination__item">4</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="knowledge">
+      <div class="container">
+        <h2 class="knowledge__title title title--med">Wichtig zu wissen</h2>
+        <div class="knowledge__slider slider-knowledge js-knowledge-slider"><a class="article" href="article-1.html">
+                <picture>
+                  <source srcset="/img/article_1.webp" type="image/webp"/><img class="article__photo article__photo--3" src="/img/article_1.jpg" alt="photo"/>
+                </picture>
+                <p class="article__note text--med">Immunität</p>
+                <p class="article__title title">Vitaminbombe: Warum es wichtig ist, ein Multivitaminpräparat einzunehmen</p></a><a class="article" href="article-2.html">
+                <picture>
+                  <source srcset="/img/article_2.webp" type="image/webp"/><img class="article__photo article__photo--2" src="/img/article_2.jpg" alt="photo"/>
+                </picture>
+                <p class="article__note text--med">Empfehlungen</p>
+                <p class="article__title title">Frage der Menge: Warum ist es wichtig, bei der Einnahme von Vitaminkomplexen die richtige Dosierung zu beachten?</p></a><a class="article" href="article-3.html">
+                <picture>
+                  <source srcset="/img/article_3.webp" type="image/webp"/><img class="article__photo article__photo--4" src="/img/article_3.jpg" alt="photo"/>
+                </picture>
+                <p class="article__note text--med">Empfehlungen</p>
+                <p class="article__title title">Harmonie der Gesundheit: Wie Vitamine den Körper beeinflussen</p></a><a class="article" href="article-4.html">
+                <picture>
+                  <source srcset="/img/article_4.webp" type="image/webp"/><img class="article__photo article__photo--2" src="/img/article_4.jpg" alt="photo"/>
+                </picture>
+                <p class="article__note text--med">Immunität</p>
+                <p class="article__title title">Natürlicher Schild: Rolle von Beta-Glucan für Immunität</p></a>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="lines"></div>
+    </div>
+    <section class="faq">
+      <div class="container">
+        <h2 class="faq__title title title--med">Good to know</h2>
+        <div class="faq__list js-accordeon">
+              <div class="question">
+                <div class="question__top js-btn-accordeon">
+                  <h3 class="question__ttl title title--dark">Почему именно комплекс "Стрессоустойчивость" ТМ GoodLabs?</h3>
+                  <div class="question__plus"></div>
+                </div>
+                <p class="question__text text--med js-info-accordeon">Данный комплекс в своем составе содержит только хорошо изученные компоненты, действие который подтвержденны исследованиями.</p>
+              </div>
+              <div class="question">
+                <div class="question__top js-btn-accordeon">
+                  <h3 class="question__ttl title title--dark">Безопасен ли прием без назначения врача?</h3>
+                  <div class="question__plus"></div>
+                </div>
+                <p class="question__text text--med js-info-accordeon">Назначение врача необязательно, но при приеме других добавок или лекарств стоит проконсультироваться со специалистом.</p>
+              </div>
+              <div class="question">
+                <div class="question__top js-btn-accordeon">
+                  <h3 class="question__ttl title title--dark">Есть ли противопоказания к приему?</h3>
+                  <div class="question__plus"></div>
+                </div>
+                <p class="question__text text--med js-info-accordeon">Противопоказанием является индивидуальная непереносимость компонентов. В период беременности и лактации только проконсультировавшись со специалистом.</p>
+              </div>
+              <div class="question">
+                <div class="question__top js-btn-accordeon">
+                  <h3 class="question__ttl title title--dark">Как принимать комплекс?</h3>
+                  <div class="question__plus"></div>
+                </div>
+                <p class="question__text text--med js-info-accordeon">Принимать один раз в день, запивая водой или во время / после еды.</p>
+              </div>
+              <div class="question">
+                <div class="question__top js-btn-accordeon">
+                  <h3 class="question__ttl title title--dark">Какой курс приема?</h3>
+                  <div class="question__plus"></div>
+                </div>
+                <p class="question__text text--med js-info-accordeon">Курс приема определяется в соответствии с индивидуальными потребностями вашего организма.</p>
+              </div>
+              <div class="question">
+                <div class="question__top js-btn-accordeon">
+                  <h3 class="question__ttl title title--dark">Вызывает ли комплекс сонливость?</h3>
+                  <div class="question__plus"></div>
+                </div>
+                <p class="question__text text--med js-info-accordeon">Комплекс не вызывает сонливости и заторможенности.</p>
+              </div>
+        </div>
+        <div class="faq__info"> 
+          <p class="faq__text text--med">If you didn't find the answer to your question, feel free to write to us</p><a class="faq__link-email text--med" href="mailto:support@glabs-nutrition.com">support@glabs-nutrition.com</a>
+        </div>
+      </div>
+    </section>
+    <div class="order-popup order-popup--vision js-popup order-pack-bundle1" id="order-popup">
+      <div class="order-popup__wrap">
+        <div class="order-popup__close js-close"><img src="/img/svg/close.svg" alt="close"/></div>
+        <div class="order-popup__content">
+          <div class="order-popup__top">
+            <div class="order-popup__img"></div>
+            <div class="order-popup__info">
+              <h3 class="order-popup__title title title--med">Order Vision</h3>
+              <p class="order-popup__descr text--med">With Beta-Glucan</p>
+              <p class="order-popup__text text--med">Text that we will call. Do not exceed the recommended daily dose. A food supplement is not intended to substitute for a healthy diet.</p>
+            </div>
+          </div>
+          <div class="order-popup__price-wrap">
+            <label class="order-popup__price order-price js-price-label" for="bundle0"><b class="order-price__count text-small">1 pack</b><span class="order-price__value title title--small">€25.99</span></label>
+            <input class="order-popup__radio" id="bundle0" type="radio" name="bundle" value="0"/>
+            <label class="order-popup__price order-price js-price-label price-active" for="bundle1"><b class="order-price__count">3 pack</b><span class="order-price__value title title--small">€47.99</span><span class="order-price__comment text--small">Save 10%</span></label>
+            <input class="order-popup__radio" id="bundle1" type="radio" name="bundle" value="1"/>
+            <label class="order-popup__price order-price js-price-label" for="bundle2"><b class="order-price__count">5 pack</b><span class="order-price__value title title--small">€91.99</span><span class="order-price__comment text--small">Save 20%</span></label>
+            <input class="order-popup__radio" id="bundle2" type="radio" name="bundle" value="2"/>
+          </div>
+          <form class="order-form" id="js-order-form" action="/" method="post">
+            <div class="order-form__wrap">
+              <input class="order-form__input order-form__input--max input" type="text" name="name" placeholder="Your name" required="required"/>
+              <input class="order-form__input order-form__input--med input" type="tel" name="phone" placeholder="Phone number" required="required"/>
+              <input class="order-form__input order-form__input--med input" type="email" name="email" placeholder="Email (optional)" required="required"/>
+            </div>
+            <div class="order-form__checkbox checkbox">
+              <label class="checkbox__label">I consent to the processing of personal data
+                <input class="checkbox__input" type="checkbox" checked="checked"/><span class="checkbox__checkmark checkbox__checkmark--dark-blue"><img class="checkbox__ico" src="/img/svg/check-order.svg" alt="check"/></span>
+              </label>
+            </div>
+            <button class="order-form__btn btn btn--dark-blue" type="submit">Order Immunal</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="footer__wrap">
+            <div class="footer__wrapper">
+              <div class="footer__wrapper-top">
+                <div class="footer__col footer__copy footer__copy--desc text--small">© GoodLabs <br/>Smart Formulas<br/><span class="year"></span>.</div>
+                <div class="footer__links">
+                  <ul class="footer__col menu-footer">
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="index.html">Hauptseite</a></li>
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="">Produkte</a></li>
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="">Komponenten</a></li>
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="">Wissen</a></li>
+                  </ul>
+                  <ul class="menu-footer">
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="about.html">Über uns</a></li>
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="">Unsere Mission</a></li>
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="">Nachrichten</a></li>
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="">Kontakte</a></li>
+                  </ul>
+                </div>
+                <div class="footer__privacy footer__col"><a class="footer__link text--med" href="privacy-policy.html">Datenschutzerklärung</a><a class="footer__link text--med" href="cookie-policy.html">Cookie-Richtlinie</a><a class="footer__link text--med" href="terms.html">Bedingungen</a></div>
+              </div>
+              <div class="footer__wrapper-bottom reviews-block"><img class="reviews-block__logo" src="/img/svg/trustpilot.svg" alt="trustpilot"/><img class="reviews-block__stars" src="/img/svg/raiting_trustpilot_full.svg" alt="raiting_trustpilot_full"/>
+                <p class="reviews-block__text text--small">Bewertet mit <span class="bold">4.9 </span>/ 5 basierend auf <span class="bold bold--line">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.</p>
+              </div>
+            </div>
+            <div class="footer__right">
+              <p class="footer__address text--med">050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania</p>
+              <div class="footer__social social"><a class="social__link" href=""><i class="fico fico-int"></i></a><a class="social__link" href=""><i class="fico fico-fb"></i></a></div><a class="footer__email-link text--med" href="mailto:support@glabs-nutrition.com">support@glabs-nutrition.com</a>
+              <div class="footer__icons certificate"><img class="certificate__image" src="/img/svg/certificate_1.svg" alt=""/><img class="certificate__image" src="/img/svg/certificate_2.svg" alt=""/></div>
+            </div>
+          </div>
+          <div class="footer__col footer__copy footer__copy--mob text--small">© GoodLabs <br/>Smart Formulas <br/>2020.</div>
+        </div>
+      </div>
+    </footer>
+    <div class="overlay js-overlay"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

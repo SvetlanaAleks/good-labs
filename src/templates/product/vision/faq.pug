@@ -1,0 +1,13 @@
+- var FAQ_VISION = LANG.products.vision.faq;
+
+include ../../mixins/question
+
+section.faq
+	.container
+		h2.faq__title.title.title--med!= FAQ_VISION.title
+		.faq__list.js-accordeon
+			each question in FAQ_VISION.questionArray
+				+question(question)
+		.faq__info 
+			p.faq__text.text--med!= FAQ_VISION.desc
+			a.faq__link-email.text--med(href="mailto:support@glabs-nutrition.com") support@glabs-nutrition.com

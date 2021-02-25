@@ -1,0 +1,18 @@
+- var INGREDIENTS_VISION = LANG.products.vision.ingredients;
+
+include ../../mixins/ingredient
+
+-
+	const ingredientArrayImages1 = [
+		'img/svg/ingredient_blueberry.svg',
+		'img/svg/ingredient_maca-berries.svg',
+		'img/svg/ingredient_saffron.svg'
+	];
+
+section.ingredients
+	.container
+		h2.ingredients__title.title.title--big!= INGREDIENTS_VISION.title
+		.ingredients__info.ingredients__info--immunal
+			.ingredients__content.active.js-content-tab.js-accordeon#list1
+				each ingredient1, key in INGREDIENTS_VISION.ingredientArray1
+					+ingredient(ingredientArrayImages1[key], ingredient1.ttl, ingredient1.text)

@@ -1,0 +1,19 @@
+extends templates/layout/layout.pug
+block head
+	title GoodLabs - Product Vision
+block content
+	include templates/product/vision/banner-top
+	include templates/mixins/menu.pug
+	+menu("product-vision")
+	include templates/product/vision/promo
+	include templates/product/vision/ingredients
+	include templates/product/vision/advantages
+	include templates/product/vision/feedback
+	include templates/product/vision/technical-info
+	include templates/product/vision/about
+	include templates/product/vision/reviews
+	include templates/knowledge
+	.container
+		.lines
+	include templates/product/vision/faq
+	include templates/product/vision/order-popup

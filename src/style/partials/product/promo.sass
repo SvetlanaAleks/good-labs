@@ -204,6 +204,10 @@
 		.list__item
 			&::before
 				background: $blue
+	&--dark-blue
+		.list__item
+			&::before
+				background: $dark-blue
 	&__item
 		position: relative
 		padding-left: 30px
@@ -229,6 +233,30 @@
 		content: ''
 		display: block
 		position: absolute
+	&--vision
+		&::before
+			top: 100px
+			left: 34px
+			width: 266px
+			height: 253px
+			background: url('../img/svg/prod_vision_decor.svg') no-repeat center
+			background-size: contain
+			+r(1300)
+				left: -16px
+			+r(1140)
+				left: 4px
+				width: 236px
+				height: 193px
+			+r(768)
+				left: -86px
+				top: 60px
+			+r(640)
+				left: calc(50% - 260px)
+			+r(480)
+				left: calc(50% - 190px)
+				width: 206px
+				height: 133px
+				top: 40px
 	&--antistress
 		&::before
 			top: 100px
