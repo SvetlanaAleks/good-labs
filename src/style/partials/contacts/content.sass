@@ -189,6 +189,8 @@
 			width: calc(50% - 20px)
 		&:not(:last-of-type)
 			margin-bottom: 39px
+		&:last-of-type
+			margin-top: 39px
 		+r(1440)
 			&--med
 				width: 270px
@@ -215,6 +217,13 @@
 		+r(480)
 			&:not(:last-of-type)
 				margin-bottom: 10px
+	.has-error
+		.contacts-form__input
+			border-bottom: 1px solid red
+			&:focus, &.active
+				border-bottom: 1px solid red
+		.contacts-form__error
+			display: block
 	&__input
 		width: 100%
 		&:focus, &.active
@@ -231,6 +240,12 @@
 		transition: all .3s
 		font-size: 16px
 		pointer-events: none
+	&__error
+		display: none
+		color: red
+		font-style: italic
+		font-size: 12px
+		margin-top: 5px
 	&__textarea
 		height: 42px
 		&:focus, &.active

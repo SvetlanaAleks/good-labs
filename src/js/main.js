@@ -7,7 +7,7 @@ import Typed from "./modules/Typed";
 import Controls from "./modules/Controls";
 import Sliders from "./modules/Sliders";
 import Popup from "./modules/Popup";
-
+import "bootstrap-validator/js/validator.js";
 $(function () {
   Datee;
   objectFitImages();
@@ -53,4 +53,5 @@ $(function () {
     minimumResultsForSearch: Infinity,
     placeholder: "Your question",
   });
+  $("#js-contacts-form").validator();
 });

@@ -7,7 +7,6 @@ const Controls = (function () {
   const btnCloseBanner = $(".js-close-banner");
   const privilege = $(".js-privilege");
   const inputForm = $(".js-input");
-  const label = inputForm.siblings(".js-label");
   function getParameterByName(name, url = window.location.href) {
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),

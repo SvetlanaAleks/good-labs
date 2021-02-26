@@ -152,6 +152,16 @@
 			padding-bottom: 0
 			margin-bottom: 0
 			border-bottom: none
+		+r(640)
+			justify-content: space-between
+			position: fixed
+			bottom: 0
+			background: white
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1)
+			margin: 0 -20px
+			padding: 10px 20px
+			width: 100%
+			z-index: 100
 		+r(480)
 			justify-content: space-between
 	&__price
@@ -173,6 +183,8 @@
 		align-items: center
 		+r(768)
 			margin-bottom: 22px
+		+r(640)
+			margin-bottom: 0
 	&__text
 		color: $grey
 		line-height: 120%

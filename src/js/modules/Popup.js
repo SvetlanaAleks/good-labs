@@ -6,7 +6,7 @@ const Popup = (function () {
   const overlay = $(".js-overlay");
   const contactsForm = $("#js-contacts-form");
   const popupSuccess = $("#popup-success");
-  const priceLabel = $('.js-price-label');
+  const priceLabel = $(".js-price-label");
   const orderPopup = $("#order-popup");
 
   return {
@@ -33,10 +33,10 @@ const Popup = (function () {
         const _this = $(this);
         priceLabel.removeClass("price-active");
         _this.addClass("price-active");
-        orderPopup.removeClass('order-pack-bundle0');
-        orderPopup.removeClass('order-pack-bundle1');
-        orderPopup.removeClass('order-pack-bundle2');
-        orderPopup.addClass('order-pack-' + _this.attr('for'));
+        orderPopup.removeClass("order-pack-bundle0");
+        orderPopup.removeClass("order-pack-bundle1");
+        orderPopup.removeClass("order-pack-bundle2");
+        orderPopup.addClass("order-pack-" + _this.attr("for"));
       });
     },
     closePopup: function () {
@@ -49,7 +49,7 @@ const Popup = (function () {
     },
     init: function () {
       Popup.initPopup();
-      Popup.initPopupSuccess();
+      // Popup.initPopupSuccess();
       Popup.priceLabels();
       Popup.closePopup();
     },

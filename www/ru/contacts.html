@@ -105,32 +105,31 @@
             <p class="contacts-content__text-form contacts-content__text-form--desc text--med">Send your request, and we will find an individual solution that suits your needs best</p>
             <form class="contacts-form" id="js-contacts-form" action="/" method="post">
               <div class="contacts-form__wrap">
-                <div class="contacts-form__input-wrap contacts-form__input-wrap--max">
-                  <input class="contacts-form__input input js-input" type="text" name="name" required="required"/>
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--max form-group">
+                  <input class="contacts-form__input input js-input form-control" type="text" name="name" required="required"/>
                   <label class="contacts-form__label js-label">Your name</label>
+                  <p class="contacts-form__error">Введите имя</p>
                 </div>
-                <div class="contacts-form__input-wrap contacts-form__input-wrap--med">
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--med form-group">
                   <input class="contacts-form__input input js-input" type="tel" name="phone" required="required"/>
                   <label class="contacts-form__label js-label">Phone number</label>
+                  <p class="contacts-form__error">Введите телефон</p>
                 </div>
-                <div class="contacts-form__input-wrap contacts-form__input-wrap--med">
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--med form-group">
                   <input class="contacts-form__input input js-input" type="email" name="email" required="required"/>
                   <label class="contacts-form__label js-label">Email</label>
+                  <p class="contacts-form__error">Введите email</p>
                 </div>
-                <div class="contacts-form__input-wrap">
-                  <select class="select contacts-form__select js-select--type" data-placeholder="Your question">
-                    <option value="">&nbsp;</option>
-                    <option value="Consultation">Consultation</option>
-                  </select>
-                </div>
-                <div class="contacts-form__input-wrap">
-                  <select class="select contacts-form__select js-select--product" data-placeholder="Product">
-                    <option value="">&nbsp;</option>
-                    <option value="Immunal">Immunal</option>
-                    <option value="Multi-Vitamin">Multi Vitamin</option>
-                    <option value="Anti-Stress">Anti Stress</option>
-                  </select>
-                </div>
+                <select class="select contacts-form__select js-select--type" data-placeholder="Your question">
+                  <option value="">&nbsp;</option>
+                  <option value="Consultation">Consultation</option>
+                </select>
+                <select class="select contacts-form__select js-select--product" data-placeholder="Product">
+                  <option value="">&nbsp;</option>
+                  <option value="Immunal">Immunal</option>
+                  <option value="Multi-Vitamin">Multi Vitamin</option>
+                  <option value="Anti-Stress">Anti Stress</option>
+                </select>
                 <div class="contacts-form__input-wrap contacts-form__input-wrap--textarea">
                   <textarea class="contacts-form__textarea textarea js-input" name="text" required="required"></textarea>
                   <label class="contacts-form__label js-label">Message</label>
