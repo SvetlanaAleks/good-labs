@@ -6,6 +6,8 @@ const Controls = (function () {
   const contentAccordeon = $(".js-info-accordeon");
   const btnCloseBanner = $(".js-close-banner");
   const privilege = $(".js-privilege");
+  const inputForm = $(".js-input");
+  const label = inputForm.siblings(".js-label");
   function getParameterByName(name, url = window.location.href) {
     name = name.replace(/[\[\]]/g, "\\$&");
     var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -15,6 +17,16 @@ const Controls = (function () {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
   }
   return {
+    labelFormActive: function () {
+      inputForm.keyup(function () {
+        const _this = $(this);
+        if (_this.val()) {
+          _this.addClass("active");
+        } else {
+          _this.removeClass("active");
+        }
+      });
+    },
     showPrivilege: function () {
       privilege.on("click", function (e) {
         e.preventDefault();
@@ -29,8 +41,6 @@ const Controls = (function () {
     highlightPanelItem: function () {
       var paramdId = getParameterByName("id");
       const target = $(`#${paramdId}`);
-      console.log(paramdId, "paramdId");
-      console.log(target, "target");
 
       target.addClass("active");
     },
@@ -66,6 +76,7 @@ const Controls = (function () {
       });
     },
     init: function () {
+      Controls.labelFormActive();
       Controls.showPrivilege();
       Controls.highlightPanelItem();
       Controls.closeBanner();

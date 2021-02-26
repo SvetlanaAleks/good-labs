@@ -54,11 +54,11 @@
               </div>
             </div>
         <div class="menu js-fixed-menu">
-          <div class="menu__wrap"><a class="logo menu__logo" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a>
+          <div class="menu__wrap"><a class="logo menu__logo menu__logo--abs" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a><a class="logo menu__logo menu__logo--fixed" href="index.html"><img class="logo__img" src="/img/svg/logo-short.svg" alt="goodlabs"/></a>
             <ul class="menu__list nav">
               <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
-              <li class="nav__item"><a class="nav__link js-btn-submenu" href="">Продукты</a>
-                <div class="products-menu products-menu--desktop js-submenu"><img class="products-menu__close js-close-products" src="/img/svg/close.svg" alt="close"/>
+              <li class="nav__item nav__item--products"><a class="nav__link" href="">Продукты</a>
+                <div class="products-menu products-menu--desktop">
                   <div class="products-menu__container container">
                     <h2 class="products-menu__title title title--very-small">Умные формулы составов для вашего здоровья</h2>
                     <div class="products-menu__list"><a class="products-menu__item product_item " href="product-immunal.html"><img class="product_item__img" src="/img/product_1.png" alt=""/>
@@ -183,36 +183,24 @@
         <div class="ingredients__info ingredients__info--immunal">
           <div class="ingredients__content active js-content-tab js-accordeon" id="list1">
                 <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_blueberry.svg" alt="Черника"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Черника</p>
-                  <div class="ingredient__info js-info-accordeon">
-                    <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_blueberry.svg" alt="Черника"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Черника</p>
-                      <p class="ingredient__text text--med">Стимулирует синтез гликозаминогликана, за счет чего капилляры сетчатки становятся более прочными. Она также улучшает микроциркуляцию и борется с окислительным стрессом, который также является фактором ухудшения зрения.</p>
-                    </div>
+                  <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_blueberry.svg" alt="Черника"/></div>
+                  <div class="ingredient__wrap">
+                    <p class="ingredient__ttl title title--small">Черника</p>
+                    <p class="ingredient__text text--med">Стимулирует синтез гликозаминогликана, за счет чего капилляры сетчатки становятся более прочными. Она также улучшает микроциркуляцию и борется с окислительным стрессом, который также является фактором ухудшения зрения.</p>
                   </div>
                 </div>
                 <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_maca-berries.svg" alt="Ягоды маки"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Ягоды маки</p>
-                  <div class="ingredient__info js-info-accordeon">
-                    <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_maca-berries.svg" alt="Ягоды маки"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Ягоды маки</p>
-                      <p class="ingredient__text text--med">Ягоды маки помогают справится с симптомом сухого глаза. Они восстанавливают способность слезной железы образовывать жидкость, тем самым возвращая ощущение комфорта.</p>
-                    </div>
+                  <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_maca-berries.svg" alt="Ягоды маки"/></div>
+                  <div class="ingredient__wrap">
+                    <p class="ingredient__ttl title title--small">Ягоды маки</p>
+                    <p class="ingredient__text text--med">Ягоды маки помогают справится с симптомом сухого глаза. Они восстанавливают способность слезной железы образовывать жидкость, тем самым возвращая ощущение комфорта.</p>
                   </div>
                 </div>
                 <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_saffron.svg" alt="Шафран"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Шафран</p>
-                  <div class="ingredient__info js-info-accordeon">
-                    <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_saffron.svg" alt="Шафран"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Шафран</p>
-                      <p class="ingredient__text text--med">Обладает способностью улучшать остроту зрения и чувствительность сетчатки к свету. Он устраняет основную причину возрастной дегенерации желтого пятна и улучшает светочувствительность, что очень важно с возрастом.</p>
-                    </div>
+                  <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_saffron.svg" alt="Шафран"/></div>
+                  <div class="ingredient__wrap">
+                    <p class="ingredient__ttl title title--small">Шафран</p>
+                    <p class="ingredient__text text--med">Обладает способностью улучшать остроту зрения и чувствительность сетчатки к свету. Он устраняет основную причину возрастной дегенерации желтого пятна и улучшает светочувствительность, что очень важно с возрастом.</p>
                   </div>
                 </div>
           </div>
@@ -651,18 +639,27 @@
             </div>
           </div>
           <div class="order-popup__price-wrap">
-            <label class="order-popup__price order-price js-price-label" for="bundle0"><b class="order-price__count text-small">1 pack</b><span class="order-price__value title title--small">€25.99</span></label>
+            <label class="order-popup__price order-price js-price-label" for="bundle0"><b class="order-price__count text--small">1 pack</b><span class="order-price__value title title--small">€25.99</span></label>
             <input class="order-popup__radio" id="bundle0" type="radio" name="bundle" value="0"/>
-            <label class="order-popup__price order-price js-price-label price-active" for="bundle1"><b class="order-price__count">3 pack</b><span class="order-price__value title title--small">€47.99</span><span class="order-price__comment text--small">Save 10%</span></label>
+            <label class="order-popup__price order-price js-price-label price-active" for="bundle1"><b class="order-price__count text--small">3 pack</b><span class="order-price__value title title--small">€47.99</span><span class="order-price__comment text--small">Save 10%</span></label>
             <input class="order-popup__radio" id="bundle1" type="radio" name="bundle" value="1"/>
-            <label class="order-popup__price order-price js-price-label" for="bundle2"><b class="order-price__count">5 pack</b><span class="order-price__value title title--small">€91.99</span><span class="order-price__comment text--small">Save 20%</span></label>
+            <label class="order-popup__price order-price js-price-label" for="bundle2"><b class="order-price__count text--small">5 pack</b><span class="order-price__value title title--small">€91.99</span><span class="order-price__comment text--small">Save 20%</span></label>
             <input class="order-popup__radio" id="bundle2" type="radio" name="bundle" value="2"/>
           </div>
           <form class="order-form" id="js-order-form" action="/" method="post">
             <div class="order-form__wrap">
-              <input class="order-form__input order-form__input--max input" type="text" name="name" placeholder="Your name" required="required"/>
-              <input class="order-form__input order-form__input--med input" type="tel" name="phone" placeholder="Phone number" required="required"/>
-              <input class="order-form__input order-form__input--med input" type="email" name="email" placeholder="Email (optional)" required="required"/>
+              <div class="order-form__input-wrap">
+                <input class="order-form__input input js-input" type="text" name="name" required="required"/>
+                <label class="order-form__label">Your name</label>
+              </div>
+              <div class="order-form__input-wrap">
+                <input class="order-form__input input js-input" type="tel" name="phone" required="required"/>
+                <label class="order-form__label">Phone number</label>
+              </div>
+              <div class="order-form__input-wrap">
+                <input class="order-form__input input js-input" type="email" name="email"/>
+                <label class="order-form__label">Email <span>(optional)</span></label>
+              </div>
             </div>
             <div class="order-form__checkbox checkbox">
               <label class="checkbox__label">I consent to the processing of personal data
@@ -698,7 +695,7 @@
                 <div class="footer__privacy footer__col"><a class="footer__link text--med" href="privacy-policy.html">Privacy Policy</a><a class="footer__link text--med" href="cookie-policy.html">Cookie Policy</a><a class="footer__link text--med" href="terms.html">Terms</a></div>
               </div>
               <div class="footer__wrapper-bottom reviews-block"><img class="reviews-block__logo" src="/img/svg/trustpilot.svg" alt="trustpilot"/><img class="reviews-block__stars" src="/img/svg/raiting_trustpilot_full.svg" alt="raiting_trustpilot_full"/>
-                <p class="reviews-block__text text--small">Оценка <span class="bold">4.9 </span>/ 5 на основе <span class="bold bold--line">21 отзывов</span>. Показаны наши 4- и 5-звездочные обзоры.</p>
+                <p class="reviews-block__text">Оценка <span class="bold">4.9 </span>/ 5 на основе <span class="bold bold--line">21 отзывов</span>. Показаны наши 4- и 5-звездочные обзоры.</p>
               </div>
             </div>
             <div class="footer__right">

@@ -54,11 +54,11 @@
               </div>
             </div>
         <div class="menu js-fixed-menu">
-          <div class="menu__wrap"><a class="logo menu__logo" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a>
+          <div class="menu__wrap"><a class="logo menu__logo menu__logo--abs" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a><a class="logo menu__logo menu__logo--fixed" href="index.html"><img class="logo__img" src="/img/svg/logo-short.svg" alt="goodlabs"/></a>
             <ul class="menu__list nav">
               <li class="nav__item"><a class="nav__link" href="index.html">Hauptseite</a></li>
-              <li class="nav__item"><a class="nav__link js-btn-submenu" href="">Produkte</a>
-                <div class="products-menu products-menu--desktop js-submenu"><img class="products-menu__close js-close-products" src="/img/svg/close.svg" alt="close"/>
+              <li class="nav__item nav__item--products"><a class="nav__link" href="">Produkte</a>
+                <div class="products-menu products-menu--desktop">
                   <div class="products-menu__container container">
                     <h2 class="products-menu__title title title--very-small">Intelligente Formeln der Zusammen­setzungen für Ihre Gesundheit</h2>
                     <div class="products-menu__list"><a class="products-menu__item product_item " href="product-immunal.html"><img class="product_item__img" src="/img/product_1.png" alt=""/>
@@ -180,108 +180,84 @@
     <section class="ingredients">
       <div class="container">
         <h2 class="ingredients__title title title--big">Hochwertige Zutaten für die Bedürfnisse Ihrer Immunität</h2>
-        <div class="ingredients__wrap">
-          <div class="ingredients__tabs tabs">
-            <div class="tab tab--orange active js-tab" data-tab="#list1">
-              <p class="tab__text text--med">IMMUNSYSTEM</p>
-            </div>
-            <div class="tab tab--orange js-tab" data-tab="#list2">
-              <p class="tab__text text--med">ANDERE SYSTEME</p>
-            </div>
+        <div class="ingredients__tabs tabs">
+          <div class="tab tab--orange active js-tab" data-tab="#list1">
+            <p class="tab__text text--med">IMMUNSYSTEM</p>
+          </div>
+          <div class="tab tab--orange js-tab" data-tab="#list2">
+            <p class="tab__text text--med">ANDERE SYSTEME</p>
           </div>
         </div>
         <div class="ingredients__info ingredients__info--immunal">
-          <div class="ingredients__content active js-content-tab js-accordeon" id="list1">
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_elderberry.svg" alt="Holunderbeerextrakt"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Holunderbeerextrakt</p>
-                  <div class="ingredient__info js-info-accordeon">
+          <div class="ingredients__content-wrap">
+            <div class="tab tab--orange active js-tab" data-tab="#list1">
+              <p class="tab__text text--med">IMMUNSYSTEM</p><i class="fico fico-arrow"></i>
+            </div>
+            <div class="ingredients__content active js-content-tab js-accordeon" id="list1">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_elderberry.svg" alt="Holunderbeerextrakt"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_elderberry.svg" alt="Holunderbeerextrakt"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Holunderbeerextrakt</p>
+                      <p class="ingredient__ttl title title--small">Holunderbeerextrakt</p>
                       <p class="ingredient__text text--med">Es ist aufgrund des Gehalts an Phenolsäuren eine der wertvollsten Heilpflanzen der Welt. Diese Verbindungen sind starke Antioxidantien, die durch Stimulierung des Immunsystems dazu beitragen können, die Schädigung des Körpers durch oxidativen Stress zu verringern.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit_c_zinc.svg" alt="Vitamin C und Zink"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin C und Zink</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit_c_zinc.svg" alt="Vitamin C und Zink"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit_c_zinc.svg" alt="Vitamin C und Zink"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin C und Zink</p>
+                      <p class="ingredient__ttl title title--small">Vitamin C und Zink</p>
                       <p class="ingredient__text text--med">Sie fördern ein gesundes Funktionieren des Immunsystems und reduzieren oxidativen Stress. Sie sind wirksam im Kampf gegen Erkältungen und Viruserkrankungen, verhindern das Wachstum und die Vermehrung pathogener Mikroorganismen und lindern Entzündungen.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_glucan.svg" alt="Beta Glucan"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Beta Glucan</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_glucan.svg" alt="Beta Glucan"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_glucan.svg" alt="Beta Glucan"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Beta Glucan</p>
+                      <p class="ingredient__ttl title title--small">Beta Glucan</p>
                       <p class="ingredient__text text--med">Beta-Glucan stimuliert die Funktion des Immunsystems: Reduziert das Risiko von Infektionskrankheiten (viraler, bakterieller und parasitärer Herkunft). Und als Antioxidans stimuliert es die Zellen, Bindungen zwischen Sauerstoffradikalen zu bilden, die das Auftreten von Autoimmunerkrankungen verhindern können.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_histidine.svg" alt="Histidin"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Histidin</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_histidine.svg" alt="Histidin"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_histidine.svg" alt="Histidin"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Histidin</p>
+                      <p class="ingredient__ttl title title--small">Histidin</p>
                       <p class="ingredient__text text--med">Histidin ist eine essentielle Aminosäure, die auch Vorläufer mehrerer Hormone sowie Vorläufer einer als Histamin bekannten Verbindung ist. Es aktiviert Immunreaktionen, erhöht die Reifungsrate von Immunzellen, erhöht deren Aktivität und verlängert deren Lebensdauer erheblich.</p>
                     </div>
                   </div>
-                </div>
+            </div>
           </div>
-          <div class="ingredients__content js-content-tab js-accordeon" id="list2">
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit_b.svg" alt="Vitamine der Gruppe&amp;nbsp;B"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamine der Gruppe&nbsp;B</p>
-                  <div class="ingredient__info js-info-accordeon">
+          <div class="ingredients__content-wrap">
+            <div class="tab tab--orange js-tab" data-tab="#list2">
+              <p class="tab__text text--med">ANDERE SYSTEME</p><i class="fico fico-arrow"></i>
+            </div>
+            <div class="ingredients__content js-content-tab js-accordeon" id="list2">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit_b.svg" alt="Vitamine der Gruppe&amp;nbsp;B"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit_b.svg" alt="Vitamine der Gruppe&amp;nbsp;B"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamine der Gruppe&nbsp;B</p>
+                      <p class="ingredient__ttl title title--small">Vitamine der Gruppe&nbsp;B</p>
                       <p class="ingredient__text text--med">Eine der Hauptursachen für die Senkung der körpereigenen Immunität ist übermäßiger Stress. B-Vitamine unterstützen das Nervensystem und sorgen für die Gesundheit und Schönheit der Haut und Haare.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit_d.svg" alt="Vitamin D"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin D</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit_d.svg" alt="Vitamin D"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit_d.svg" alt="Vitamin D"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin D</p>
+                      <p class="ingredient__ttl title title--small">Vitamin D</p>
                       <p class="ingredient__text text--med">Vitamin D wirkt sich direkt auf das Immunsystem aus und erhöht seine Schutzfunktionen, außerdem ist es ohne diese Substanz unmöglich, Kalzium im Körper zu absorbieren. Es ist besonders wichtig, während der bewölkten Jahreszeit eine ausreichende Menge an Vitamin D zu erhalten, da die Exposition gegenüber der Sonne die Hauptquelle für Ihren Erhalt ist.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit_a.svg" alt="Vitamin A"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin A</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit_a.svg" alt="Vitamin A"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit_a.svg" alt="Vitamin A"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin A</p>
+                      <p class="ingredient__ttl title title--small">Vitamin A</p>
                       <p class="ingredient__text text--med">Vitamin A kümmert sich um die Sehkraft und unterstützt die normale Funktion der Netzhaut des Auges. Vitamin A fördert auch das Zellwachstum und spielt eine wichtige Rolle bei der normalen Arbeit des Herzens, der Lunge, der Nieren und anderer Organe.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_selenium.svg" alt="Selen"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Selen</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_selenium.svg" alt="Selen"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_selenium.svg" alt="Selen"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Selen</p>
+                      <p class="ingredient__ttl title title--small">Selen</p>
                       <p class="ingredient__text text--med">Selen ist ein wichtiges Element des antioxidativen Schutzes. Es ist diese mineralische Substanz, die den Körper vor schädlichen Oxidationsmitteln schützt, Zellschäden und Infektionen verhindert.</p>
                     </div>
                   </div>
-                </div>
+            </div>
           </div>
         </div>
       </div>
@@ -732,18 +708,27 @@
             </div>
           </div>
           <div class="order-popup__price-wrap">
-            <label class="order-popup__price order-price js-price-label" for="bundle0"><b class="order-price__count text-small">1 pack</b><span class="order-price__value title title--small">€25.99</span></label>
+            <label class="order-popup__price order-price js-price-label" for="bundle0"><b class="order-price__count text--small">1 pack</b><span class="order-price__value title title--small">€25.99</span></label>
             <input class="order-popup__radio" id="bundle0" type="radio" name="bundle" value="0"/>
-            <label class="order-popup__price order-price js-price-label price-active" for="bundle1"><b class="order-price__count">3 pack</b><span class="order-price__value title title--small">€47.99</span><span class="order-price__comment text--small">Save 10%</span></label>
+            <label class="order-popup__price order-price js-price-label price-active" for="bundle1"><b class="order-price__count text--small">3 pack</b><span class="order-price__value title title--small">€47.99</span><span class="order-price__comment text--small">Save 10%</span></label>
             <input class="order-popup__radio" id="bundle1" type="radio" name="bundle" value="1"/>
-            <label class="order-popup__price order-price js-price-label" for="bundle2"><b class="order-price__count">5 pack</b><span class="order-price__value title title--small">€91.99</span><span class="order-price__comment text--small">Save 20%</span></label>
+            <label class="order-popup__price order-price js-price-label" for="bundle2"><b class="order-price__count text--small">5 pack</b><span class="order-price__value title title--small">€91.99</span><span class="order-price__comment text--small">Save 20%</span></label>
             <input class="order-popup__radio" id="bundle2" type="radio" name="bundle" value="2"/>
           </div>
           <form class="order-form" id="js-order-form" action="/" method="post">
             <div class="order-form__wrap">
-              <input class="order-form__input order-form__input--max input" type="text" name="name" placeholder="Your name" required="required"/>
-              <input class="order-form__input order-form__input--med input" type="tel" name="phone" placeholder="Phone number" required="required"/>
-              <input class="order-form__input order-form__input--med input" type="email" name="email" placeholder="Email (optional)" required="required"/>
+              <div class="order-form__input-wrap">
+                <input class="order-form__input input js-input" type="text" name="name" required="required"/>
+                <label class="order-form__label">Your name</label>
+              </div>
+              <div class="order-form__input-wrap">
+                <input class="order-form__input input js-input" type="tel" name="phone" required="required"/>
+                <label class="order-form__label">Phone number</label>
+              </div>
+              <div class="order-form__input-wrap">
+                <input class="order-form__input input js-input" type="email" name="email"/>
+                <label class="order-form__label">Email <span>(optional)</span></label>
+              </div>
             </div>
             <div class="order-form__checkbox checkbox">
               <label class="checkbox__label">I consent to the processing of personal data
@@ -779,7 +764,7 @@
                 <div class="footer__privacy footer__col"><a class="footer__link text--med" href="privacy-policy.html">Datenschutzerklärung</a><a class="footer__link text--med" href="cookie-policy.html">Cookie-Richtlinie</a><a class="footer__link text--med" href="terms.html">Bedingungen</a></div>
               </div>
               <div class="footer__wrapper-bottom reviews-block"><img class="reviews-block__logo" src="/img/svg/trustpilot.svg" alt="trustpilot"/><img class="reviews-block__stars" src="/img/svg/raiting_trustpilot_full.svg" alt="raiting_trustpilot_full"/>
-                <p class="reviews-block__text text--small">Bewertet mit <span class="bold">4.9 </span>/ 5 basierend auf <span class="bold bold--line">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.</p>
+                <p class="reviews-block__text">Bewertet mit <span class="bold">4.9 </span>/ 5 basierend auf <span class="bold bold--line">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.</p>
               </div>
             </div>
             <div class="footer__right">

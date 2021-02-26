@@ -21,11 +21,11 @@ $(function () {
     afterResize: (layout) => {
       $(".js-select--product").select2({
         minimumResultsForSearch: Infinity,
-        placeholder: $(".js-select--product").data('placeholder'),
+        placeholder: $(".js-select--product").data("placeholder"),
       });
       $(".js-select--type").select2({
         minimumResultsForSearch: Infinity,
-        placeholder: $(".js-select--type").data('placeholder'),
+        placeholder: $(".js-select--type").data("placeholder"),
       });
       if (layout.WIN_WIDTH >= 641) {
         $(".technical-table__list").css("display", "block");

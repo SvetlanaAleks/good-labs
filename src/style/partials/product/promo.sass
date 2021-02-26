@@ -39,12 +39,13 @@
 			max-width: 100%
 	&__info
 		padding-top: 20px
+		margin-left: auto
 	&__bottom
 		padding: 17px 10px
-		border-top: 1px solid transparentize($garkgrey, .8)
-		border-bottom: 1px solid transparentize($garkgrey, .8)
+		border-top: 1px solid $garkgrey
+		border-bottom: 1px solid $garkgrey
 		+r(1300)
-			padding: 17px 0
+			padding: 20px 0
 		+r(1024)
 			overflow-x: scroll
 	&__list
@@ -53,18 +54,28 @@
 		+r(1024)
 			width: 1000px
 		+r(480)
-			width: 830px
+			width: auto
+			flex-wrap: nowrap
 
 
 .item-adv
 	display: flex
 	align-items: center
 	width: calc(100%/7 - 5px)
+	+r(480)
+		width: 90px
+		flex-shrink: 0
+		+nlt
+			margin-right: 10px
 	&__wrap-ico
 		flex-shrink: 0
 		margin-right: 20px
 		+r(1300)
 			margin-right: 10px
+		+r(480)
+			margin-right: 16px
+			img
+				height: 28px
 	&__text
 		text-transform: uppercase
 		color: $grey
@@ -290,6 +301,19 @@
 			height: 249px
 			background: url('../img/svg/prod_multi-vitamin_decor.svg') no-repeat center
 			transform: rotate(-8deg)
+			background-size: contain
+			+r(768)
+				width: 200px
+				height: 238px
+				left: -126px
+				top: 70px
+			+r(640)
+				left: calc(50% - 290px)
+			+r(480)
+				left: calc(50% - 200px)
+				width: 170px
+				height: 178px
+				top: 20px
 	&--immunal
 		&::before
 			top: 7px
@@ -298,18 +322,18 @@
 			height: 347px
 			background: url('../img/svg/prod_immunal_decor.svg') no-repeat center
 			+r(1024)
-					width: 325px
-					height: 307px
+				width: 325px
+				height: 307px
 			+r(768)
-					left: -176px
+				left: -176px
 			+r(640)
-					left: -70px
+				left: -70px
 			+r(480)
-					width: 165px
-					height: 137px
-					background-size: 100%
-					top: 12px
-					left: calc(50% - 210px)
+				width: 165px
+				height: 137px
+				background-size: 100%
+				top: 12px
+				left: calc(50% - 210px)
 	&__img
 		object-fit: contain
 		font-family: 'object-fit: contain;'

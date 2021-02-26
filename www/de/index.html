@@ -54,11 +54,11 @@
                           </div>
                         </div>
                 <div class="menu js-fixed-menu">
-                  <div class="menu__wrap"><a class="logo menu__logo" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a>
+                  <div class="menu__wrap"><a class="logo menu__logo menu__logo--abs active" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a><a class="logo menu__logo menu__logo--fixed" href="index.html"><img class="logo__img" src="/img/svg/logo-short.svg" alt="goodlabs"/></a>
                     <ul class="menu__list nav">
-                      <li class="nav__item"><a class="nav__link" href="index.html">Hauptseite</a></li>
-                      <li class="nav__item"><a class="nav__link js-btn-submenu" href="">Produkte</a>
-                        <div class="products-menu products-menu--desktop js-submenu"><img class="products-menu__close js-close-products" src="/img/svg/close.svg" alt="close"/>
+                      <li class="nav__item"><a class="nav__link active" href="index.html">Hauptseite</a></li>
+                      <li class="nav__item nav__item--products"><a class="nav__link" href="">Produkte</a>
+                        <div class="products-menu products-menu--desktop">
                           <div class="products-menu__container container">
                             <h2 class="products-menu__title title title--very-small">Intelligente Formeln der Zusammen­setzungen für Ihre Gesundheit</h2>
                             <div class="products-menu__list"><a class="products-menu__item product_item " href="product-immunal.html"><img class="product_item__img" src="/img/product_1.png" alt=""/>
@@ -109,34 +109,34 @@
       </div>
       <div class="promo-prod__bottom">
         <div class="container">
-          <div class="promo-prod__list js-accordeon">
-            <div class="privilege js-privilege">
+          <div class="promo-prod__list">
+            <div class="privilege">
               <div class="privilege__top">
                 <div class="privilege__wrap-ico"><img class="privilege__ico" src="/img/svg/privilege_1.svg" alt="ico"/></div>
                 <p class="privilege__text">Zusammensetzungen, <br />die funktionieren</p><i class="fico fico-arrow"></i>
               </div>
-              <p class="privilege__desc text--med js-info-accordeon">Für die Auswahl der Komponenten und ihres Verhältnisses verwenden wir die fortgeschrittene Forschung von Wissenschaftlern.</p>
+              <p class="privilege__desc text--med">Für die Auswahl der Komponenten und ihres Verhältnisses verwenden wir die fortgeschrittene Forschung von Wissenschaftlern.</p>
             </div>
-            <div class="privilege js-privilege">
+            <div class="privilege">
               <div class="privilege__top">
                 <div class="privilege__wrap-ico"><img class="privilege__ico" src="/img/svg/privilege_2.svg" alt="ico"/></div>
                 <p class="privilege__text">Intelligente <br />Produktlinie</p><i class="fico fico-arrow"></i>
               </div>
-              <p class="privilege__desc text--med js-info-accordeon">Die GoodLabs-Produktlinie erfüllt die Grundbedürfnisse des menschlichen Körpers.</p>
+              <p class="privilege__desc text--med">Die GoodLabs-Produktlinie erfüllt die Grundbedürfnisse des menschlichen Körpers.</p>
             </div>
-            <div class="privilege js-privilege">
+            <div class="privilege">
               <div class="privilege__top">
                 <div class="privilege__wrap-ico"><img class="privilege__ico" src="/img/svg/privilege_3.svg" alt="ico"/></div>
                 <p class="privilege__text">Nischenkompetenz</p><i class="fico fico-arrow"></i>
               </div>
-              <p class="privilege__desc text--med js-info-accordeon">Unsere Erfahrung in der Entwicklung von Gesundheitsprodukten beträgt 7 Jahre. Bei GoodLabs haben wir die besten Entwicklungen und Spezialisten gesammelt.</p>
+              <p class="privilege__desc text--med">Unsere Erfahrung in der Entwicklung von Gesundheitsprodukten beträgt 7 Jahre. Bei GoodLabs haben wir die besten Entwicklungen und Spezialisten gesammelt.</p>
             </div>
-            <div class="privilege js-privilege">
+            <div class="privilege">
               <div class="privilege__top">
                 <div class="privilege__wrap-ico"><img class="privilege__ico" src="/img/svg/privilege_4.svg" alt="ico"/></div>
                 <p class="privilege__text">Zuverlässige <br />Produktion</p><i class="fico fico-arrow"></i>
               </div>
-              <p class="privilege__desc text--med js-info-accordeon">GoodLabs ist von GMP-, HACCP- und ISO-zertifiziert, um unsere hohen Qualitätsstandards zu gewährleisten.</p>
+              <p class="privilege__desc text--med">GoodLabs ist von GMP-, HACCP- und ISO-zertifiziert, um unsere hohen Qualitätsstandards zu gewährleisten.</p>
             </div>
           </div>
         </div>
@@ -190,7 +190,7 @@
                     <source srcset="/img/feedback_main_1.webp" type="image/webp"/><img src="/img/feedback_main_1.jpg" alt="photo"/>
                   </picture>
                 </div>
-                <p class="expert__text title title--very-small">Vitamine und Mineralien sind essentielle Mikronährstoffe.  Sie liefern keine Energie, sind jedoch für das ordnungsgemäße und normale Funktionieren des Körpers und die Aufrechterhaltung der allgemeinen Gesundheit von entscheidender Bedeutung.  In der modernen Welt sind ihre zusätzlichen Quellen nicht nur eine Empfehlung, sondern eine Notwendigkeit, insbesondere wenn Sie einen aktiven Lebensstil führen.</p>
+                <p class="expert__text title title--very-small">Vitamine und Mineralien sind essentielle Mikronährstoffe.  Sie liefern keine Energie, sind jedoch für das ordnungsgemäße und normale Funktionieren des Körpers und die Aufrechterhaltung der allgemeinen Gesundheit von entscheidender Bedeutung.  In der modernen Welt sind ihre zusätzlichen Quellen nicht nur eine Empfehlung, sondern eine Notwendigkeit, insbesondere wenn Sie einen aktiven Lebensstil führen.<i class="fico fico-mark"></i></p>
               </div>
               <div class="expert">
                 <div class="expert__wrap-img">
@@ -198,7 +198,7 @@
                     <source srcset="/img/feedback_main_1.webp" type="image/webp"/><img src="/img/feedback_main_1.jpg" alt="photo"/>
                   </picture>
                 </div>
-                <p class="expert__text title title--very-small">Bei Vitaminkomplexen und Nahrungsergänzungsmitteln ist die richtige Dosierung der Komponenten das Wichtigste. Wählen Sie daher nur bewährte Produkte mit einer professionell ausgewählten Zusammensetzung, die auf wissenschaftlichen Forschungen basiert.</p>
+                <p class="expert__text title title--very-small">Bei Vitaminkomplexen und Nahrungsergänzungsmitteln ist die richtige Dosierung der Komponenten das Wichtigste. Wählen Sie daher nur bewährte Produkte mit einer professionell ausgewählten Zusammensetzung, die auf wissenschaftlichen Forschungen basiert.<i class="fico fico-mark"></i></p>
               </div>
               <div class="expert">
                 <div class="expert__wrap-img">
@@ -206,7 +206,7 @@
                     <source srcset="/img/feedback_main_1.webp" type="image/webp"/><img src="/img/feedback_main_1.jpg" alt="photo"/>
                   </picture>
                 </div>
-                <p class="expert__text title title--very-small">Die Einnahme eines Multivitamins ist der einfachste Weg, um sich um die Gesundheit zu kümmern. Sie enthalten die optimale Dosierung von Vitaminen und Mineralstoffen, die ein moderner Mensch für ein aktives Leben und Gesundheit benötigt.</p>
+                <p class="expert__text title title--very-small">Die Einnahme eines Multivitamins ist der einfachste Weg, um sich um die Gesundheit zu kümmern. Sie enthalten die optimale Dosierung von Vitaminen und Mineralstoffen, die ein moderner Mensch für ein aktives Leben und Gesundheit benötigt.<i class="fico fico-mark"></i></p>
               </div>
         </div>
         <div class="experts__bottom">
@@ -239,7 +239,7 @@
               </div>
             </div>
           </div>
-          <p class="experts__text text--med">Unsere Spezialisten haben 25 Jahre Erfahrung</p>
+          <p class="experts__text text--big">Unsere Spezialisten haben 25 Jahre Erfahrung</p>
         </div>
       </div>
     </section>
@@ -255,7 +255,7 @@
                   <p class="review-main__text text--small">Jan 16, 2019</p>
                 </div>
                 <h3 class="review-main__title text--med">Multi Vitamin</h3>
-                <p class="review-main__desc">Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung! GoodLabs Multivitamin hat eine gute Dosierung und wird vom Körper gut aufgenommen.</p>
+                <p class="review-main__desc">Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung! GoodLabs Multivitamin hat eine...</p>
                 <p class="review-main__text text--small">Maria Bart</p>
               </div>
               <div class="review-main">
@@ -263,7 +263,7 @@
                   <p class="review-main__text text--small">Jan 16, 2019</p>
                 </div>
                 <h3 class="review-main__title text--med">Immunal</h3>
-                <p class="review-main__desc">Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgewogen sind. Immunal wurde meine Entdeckung in dieser Hinsicht. Gute prophylaktische Dosierungen und ausgezeichnete Bioverdaubarkeit.</p>
+                <p class="review-main__desc">Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgewogen sind. Immunal wurde meine Entdeckung in dieser...</p>
                 <p class="review-main__text text--small">Stephan Collins</p>
               </div>
               <div class="review-main">
@@ -271,7 +271,7 @@
                   <p class="review-main__text text--small">Jan 12, 2019</p>
                 </div>
                 <h3 class="review-main__title text--med">Multi Vitamin</h3>
-                <p class="review-main__desc">Für mich persönlich war der GoodLabs Multivitamin Komplex das beste, was ich ausprobiert habe. Hier ist eine gute Zusammensetzung, jede Komponente hat eine wissenschaftliche Bestätigung der Wirksamkeit.</p>
+                <p class="review-main__desc">Für mich persönlich war der GoodLabs Multivitamin Komplex das beste, was ich ausprobiert habe. Hier ist eine gute...</p>
                 <p class="review-main__text text--small">Luca Fischer</p>
               </div>
               <div class="review-main">
@@ -287,7 +287,7 @@
                   <p class="review-main__text text--small">Jan 12, 2019</p>
                 </div>
                 <h3 class="review-main__title text--med">Immunal</h3>
-                <p class="review-main__desc">Für mich entdeckte ich einen anderen Weg, um die Immunität zu verbessern — es ist die Einnahme von Immunal. Es enthält Beta-Glucan, das den Widerstand des Körpers bei akuten Virusinfektionen der Atemwege erhöht.</p>
+                <p class="review-main__desc">Für mich entdeckte ich einen anderen Weg, um die Immunität zu verbessern — es ist die Einnahme von Immunal. Es enthält Beta-Glucan, das...</p>
                 <p class="review-main__text text--small">Michael Stolz</p>
               </div>
               <div class="review-main">
@@ -295,7 +295,7 @@
                   <p class="review-main__text text--small">Jan 16, 2019</p>
                 </div>
                 <h3 class="review-main__title text--med">Immunal</h3>
-                <p class="review-main__desc">Immunal wird nicht nur von mir, sondern auch von meinen Eltern eingenommen. Ich mache mir Sorgen um ihr Leben und ihre Gesundheit, also versuche ich, ihre Immunität mit Obst und dem Immunal-Komplex aufrechtzuerhalten.</p>
+                <p class="review-main__desc">Immunal wird nicht nur von mir, sondern auch von meinen Eltern eingenommen. Ich mache mir Sorgen um ihr Leben und ihre Gesundheit...</p>
                 <p class="review-main__text text--small">Hans Schulz</p>
               </div>
               <div class="review-main">
@@ -319,7 +319,7 @@
                   <p class="review-main__text text--small">Jan 09, 2019</p>
                 </div>
                 <h3 class="review-main__title text--med">Multi Vitamin</h3>
-                <p class="review-main__desc">Gute Dosierung. Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgeglichen sind. Goodlabs wurde in dieser Hinsicht zu meiner Entdeckung. Gute präventive Dosierungen.</p>
+                <p class="review-main__desc">Gute Dosierung. Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgeglichen sind...</p>
                 <p class="review-main__text text--small">David Barter</p>
               </div>
               <div class="review-main">
@@ -327,7 +327,7 @@
                   <p class="review-main__text text--small">Jan 16, 2019</p>
                 </div>
                 <h3 class="review-main__title text--med">Multi Vitamin</h3>
-                <p class="review-main__desc">Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung! GoodLabs Multivitamin hat eine gute Dosierung und wird vom Körper gut aufgenommen.</p>
+                <p class="review-main__desc">Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung...</p>
                 <p class="review-main__text text--small">Maria Bart</p>
               </div>
               <div class="review-main">
@@ -343,7 +343,7 @@
                   <p class="review-main__text text--small">Jan 09, 2019</p>
                 </div>
                 <h3 class="review-main__title text--med">Immunal</h3>
-                <p class="review-main__desc">Persönlich für mich ist der Komplex Immunal in Preis und Qualität optimal. Nur im Gegensatz zu Synthetik ist die Zusammensetzung hier natürlich und ausgewogen, jede Komponente hat eine wissenschaftliche Bestätigung der Wirksamkeit.</p>
+                <p class="review-main__desc">Persönlich für mich ist der Komplex Immunal in Preis und Qualität optimal. Nur im Gegensatz zu Synthetik ist die Zusammensetzung hier...</p>
                 <p class="review-main__text text--small">Donnie Cowart</p>
               </div>
         </div>
@@ -560,7 +560,7 @@
                 <div class="footer__privacy footer__col"><a class="footer__link text--med" href="privacy-policy.html">Datenschutzerklärung</a><a class="footer__link text--med" href="cookie-policy.html">Cookie-Richtlinie</a><a class="footer__link text--med" href="terms.html">Bedingungen</a></div>
               </div>
               <div class="footer__wrapper-bottom reviews-block"><img class="reviews-block__logo" src="/img/svg/trustpilot.svg" alt="trustpilot"/><img class="reviews-block__stars" src="/img/svg/raiting_trustpilot_full.svg" alt="raiting_trustpilot_full"/>
-                <p class="reviews-block__text text--small">Bewertet mit <span class="bold">4.9 </span>/ 5 basierend auf <span class="bold bold--line">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.</p>
+                <p class="reviews-block__text">Bewertet mit <span class="bold">4.9 </span>/ 5 basierend auf <span class="bold bold--line">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.</p>
               </div>
             </div>
             <div class="footer__right">

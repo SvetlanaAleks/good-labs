@@ -109,6 +109,7 @@ a
 	width: 100%
 	border-top-left-radius: 20px
 	border-bottom-right-radius: 20px
+	transition: all .3s
 	&--orange
 		background: $orange
 	&--green
@@ -117,6 +118,9 @@ a
 		background: $blue
 	&--dark-blue
 		background: $dark-blue
+	&:hover
+		border-top-left-radius: 0px
+		border-bottom-right-radius: 0px
 	+r(1024)
 		height: 50px
 	+r(480)
@@ -264,7 +268,32 @@ a
 		font-size: 14px
 		&::placeholder
 			font-size: 14px
-
+.textarea
+	width: 100%
+	padding: 10px 10px 10px 0
+	box-sizing: border-box
+	background: none
+	font-size: 16px
+	color: $garkgrey
+	outline: none
+	border: none
+	border-radius: 0
+	border-bottom: 1px solid transparentize($garkgrey, .8)
+	transition: all .3s
+	font-family: 'Inter', sans-serif
+	resize: none
+	&::placeholder
+		font-family: 'Inter', sans-serif
+		font-size: 16px
+		color: $garkgrey
+	&:hover, &:focus
+		border-bottom: 1px solid $orange
+	&--green:hover, &--green:focus
+		border-bottom: 1px solid $green
+	+r(480)
+		font-size: 14px
+		&::placeholder
+			font-size: 14px
 // Стили для чекбокса в формах
 .checkbox
 	display: flex
@@ -279,12 +308,16 @@ a
 		padding-left: 40px
 	+r(480)
 		font-size: 14px
+		padding-left: 30px
 	&__input
 		position: absolute
 		opacity: 0
 		cursor: pointer
 		height: 0
 		width: 0
+		&:hover
+			~ .checkbox__checkmark
+				border: 1px solid $orange
 		&:checked 
 			~ .checkbox__checkmark
 				background-color: $orange
@@ -312,12 +345,17 @@ a
 		align-items: center
 		justify-content: center
 		transition: all .3s
+		+r(480)
+			width: 20px
+			height: 20px
 	&__label
 		cursor: pointer
 	&__ico
 		opacity: 0
 		font-size: 9px
 		transition: all .3s
+		+r(480)
+			font-size: 7px
 
 .text-center
 	text-align: center
@@ -339,3 +377,6 @@ a
 .lines-index
 	+r(640)
 		display: none
+
+input:-webkit-autofill
+	-webkit-box-shadow: 0 0 0px 1000px #fffdfa inset

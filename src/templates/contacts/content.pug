@@ -17,21 +17,31 @@ section.contacts-content
 				p.contacts-content__text-form.contacts-content__text-form--desc.text--med!= CONTACTS.descr 
 				form.contacts-form#js-contacts-form(action="/", method="post")
 					.contacts-form__wrap
-						input.contacts-form__input.contacts-form__input--max.input(type="text", name="name" placeholder=CONTACTS.placeholder.name required)
-						input.contacts-form__input.contacts-form__input--med.input(type="tel", name="phone" placeholder=CONTACTS.placeholder.phone required)
-						input.contacts-form__input.contacts-form__input--med.input(type="email", name="email" placeholder=CONTACTS.placeholder.email required)
-						select.select.contacts-form__select.js-select--type(data-placeholder=CONTACTS.placeholder.question)
-							option(value="") &nbsp;
-							option(value=CONTACTS.select1.variant1)!=CONTACTS.select1.variant1
-						select.select.contacts-form__select.js-select--product(data-placeholder=CONTACTS.placeholder.prod)
-							option(value="") &nbsp;
-							option(value="Immunal") Immunal
-							option(value="Multi-Vitamin") Multi Vitamin
-							option(value="Anti-Stress") Anti Stress
-						input.contacts-form__input.contacts-form__input--max.input(type="text", name="text" placeholder=CONTACTS.placeholder.message required)
+						.contacts-form__input-wrap.contacts-form__input-wrap--max
+							input.contacts-form__input.input.js-input(type="text", name="name" required)
+							label.contacts-form__label.js-label!= CONTACTS.placeholder.name
+						.contacts-form__input-wrap.contacts-form__input-wrap--med
+							input.contacts-form__input.input.js-input(type="tel", name="phone" required)
+							label.contacts-form__label.js-label!= CONTACTS.placeholder.phone
+						.contacts-form__input-wrap.contacts-form__input-wrap--med
+							input.contacts-form__input.input.js-input(type="email", name="email" required)
+							label.contacts-form__label.js-label!= CONTACTS.placeholder.email
+						.contacts-form__input-wrap
+							select.select.contacts-form__select.js-select--type(data-placeholder=CONTACTS.placeholder.question)
+								option(value="") &nbsp;
+								option(value=CONTACTS.select1.variant1)!=CONTACTS.select1.variant1
+						.contacts-form__input-wrap
+							select.select.contacts-form__select.js-select--product(data-placeholder=CONTACTS.placeholder.prod)
+								option(value="") &nbsp;
+								option(value="Immunal") Immunal
+								option(value="Multi-Vitamin") Multi Vitamin
+								option(value="Anti-Stress") Anti Stress
+						.contacts-form__input-wrap.contacts-form__input-wrap--textarea
+							textarea.contacts-form__textarea.textarea.js-input(name="text", required)
+							label.contacts-form__label.js-label!= CONTACTS.placeholder.message
 					.contacts-form__checkbox.checkbox
 						label.checkbox__label!=CONTACTS.checkmark
-							input.checkbox__input(type="checkbox" checked)
+							input.checkbox__input(type="checkbox")
 							span.checkbox__checkmark
 								img.checkbox__ico(src="img/svg/check-order.svg", alt="check")
 					button.contacts-form__btn.btn.btn--orange(type="submit")!=CONTACTS.btn

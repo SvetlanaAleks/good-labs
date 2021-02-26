@@ -52,11 +52,11 @@
               </div>
             </div>
         <div class="menu js-fixed-menu">
-          <div class="menu__wrap"><a class="logo menu__logo" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a>
+          <div class="menu__wrap"><a class="logo menu__logo menu__logo--abs" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a><a class="logo menu__logo menu__logo--fixed" href="index.html"><img class="logo__img" src="/img/svg/logo-short.svg" alt="goodlabs"/></a>
             <ul class="menu__list nav">
               <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
-              <li class="nav__item"><a class="nav__link js-btn-submenu" href="">Products</a>
-                <div class="products-menu products-menu--desktop js-submenu"><img class="products-menu__close js-close-products" src="/img/svg/close.svg" alt="close"/>
+              <li class="nav__item nav__item--products"><a class="nav__link" href="">Products</a>
+                <div class="products-menu products-menu--desktop">
                   <div class="products-menu__container container">
                     <h2 class="products-menu__title title title--very-small">Smart formulas of formulas for your health</h2>
                     <div class="products-menu__list"><a class="products-menu__item product_item " href="product-immunal.html"><img class="product_item__img" src="/img/product_1.png" alt=""/>
@@ -76,7 +76,7 @@
               <li class="nav__item"><a class="nav__link" href="about.html">About</a></li>
               <li class="nav__item"><a class="nav__link" href="ingredients.html">Ingredients</a></li>
               <li class="nav__item"><a class="nav__link" href="">Knowledge</a></li>
-              <li class="nav__item"><a class="nav__link" href="contacts.html">Contacts</a></li>
+              <li class="nav__item"><a class="nav__link active" href="contacts.html">Contacts</a></li>
             </ul>
             <div class="menu__right">
               <div class="menu__lang lang"><i class="fico fico-world"></i>
@@ -105,24 +105,40 @@
             <p class="contacts-content__text-form contacts-content__text-form--desc text--med">Send your request, and we will find an individual solution that suits your needs best</p>
             <form class="contacts-form" id="js-contacts-form" action="/" method="post">
               <div class="contacts-form__wrap">
-                <input class="contacts-form__input contacts-form__input--max input" type="text" name="name" placeholder="Your name" required="required"/>
-                <input class="contacts-form__input contacts-form__input--med input" type="tel" name="phone" placeholder="Phone number" required="required"/>
-                <input class="contacts-form__input contacts-form__input--med input" type="email" name="email" placeholder="Email" required="required"/>
-                <select class="select contacts-form__select js-select--type" data-placeholder="Your question">
-                  <option value="">&nbsp;</option>
-                  <option value="Consultation">Consultation</option>
-                </select>
-                <select class="select contacts-form__select js-select--product" data-placeholder="Product">
-                  <option value="">&nbsp;</option>
-                  <option value="Immunal">Immunal</option>
-                  <option value="Multi-Vitamin">Multi Vitamin</option>
-                  <option value="Anti-Stress">Anti Stress</option>
-                </select>
-                <input class="contacts-form__input contacts-form__input--max input" type="text" name="text" placeholder="Message" required="required"/>
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--max">
+                  <input class="contacts-form__input input js-input" type="text" name="name" required="required"/>
+                  <label class="contacts-form__label js-label">Your name</label>
+                </div>
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--med">
+                  <input class="contacts-form__input input js-input" type="tel" name="phone" required="required"/>
+                  <label class="contacts-form__label js-label">Phone number</label>
+                </div>
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--med">
+                  <input class="contacts-form__input input js-input" type="email" name="email" required="required"/>
+                  <label class="contacts-form__label js-label">Email</label>
+                </div>
+                <div class="contacts-form__input-wrap">
+                  <select class="select contacts-form__select js-select--type" data-placeholder="Your question">
+                    <option value="">&nbsp;</option>
+                    <option value="Consultation">Consultation</option>
+                  </select>
+                </div>
+                <div class="contacts-form__input-wrap">
+                  <select class="select contacts-form__select js-select--product" data-placeholder="Product">
+                    <option value="">&nbsp;</option>
+                    <option value="Immunal">Immunal</option>
+                    <option value="Multi-Vitamin">Multi Vitamin</option>
+                    <option value="Anti-Stress">Anti Stress</option>
+                  </select>
+                </div>
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--textarea">
+                  <textarea class="contacts-form__textarea textarea js-input" name="text" required="required"></textarea>
+                  <label class="contacts-form__label js-label">Message</label>
+                </div>
               </div>
               <div class="contacts-form__checkbox checkbox">
                 <label class="checkbox__label">I consent to the processing of personal data and to receive information about special offers 
-                  <input class="checkbox__input" type="checkbox" checked="checked"/><span class="checkbox__checkmark"><img class="checkbox__ico" src="/img/svg/check-order.svg" alt="check"/></span>
+                  <input class="checkbox__input" type="checkbox"/><span class="checkbox__checkmark"><img class="checkbox__ico" src="/img/svg/check-order.svg" alt="check"/></span>
                 </label>
               </div>
               <button class="contacts-form__btn btn btn--orange" type="submit">Send</button>
@@ -138,11 +154,6 @@
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, nobis.</p>
           <button class="popup-success__btn btn btn--orange js-btn-popup-success">Ok</button>
         </div>
-      </div>
-    </div>
-    <div class="info-block info-block--orange">
-      <div class="container">
-        <p class="info-block__text text--small"> <span>*</span>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
       </div>
     </div>
     <footer class="footer">
@@ -169,7 +180,7 @@
                 <div class="footer__privacy footer__col"><a class="footer__link text--med" href="privacy-policy.html">Privacy Policy</a><a class="footer__link text--med" href="cookie-policy.html">Cookie Policy</a><a class="footer__link text--med" href="terms.html">Terms</a></div>
               </div>
               <div class="footer__wrapper-bottom reviews-block"><img class="reviews-block__logo" src="/img/svg/trustpilot.svg" alt="trustpilot"/><img class="reviews-block__stars" src="/img/svg/raiting_trustpilot_full.svg" alt="raiting_trustpilot_full"/>
-                <p class="reviews-block__text text--small">Rated <span class="bold">4.9 </span>/ 5 based on <span class="bold bold--line">21 reviews</span>. Showing our 4 & 5 star reviews.</p>
+                <p class="reviews-block__text">Rated <span class="bold">4.9 </span>/ 5 based on <span class="bold bold--line">21 reviews</span>. Showing our 4 & 5 star reviews.</p>
               </div>
             </div>
             <div class="footer__right">

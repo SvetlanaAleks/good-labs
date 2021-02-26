@@ -109,10 +109,6 @@
 	position: relative
 	z-index: 3
 	cursor: pointer
-	+r(640)
-		padding: 14px 18px
-		display: flex
-		align-items: center
 	&:before
 		content: ''
 		display: block
@@ -122,20 +118,37 @@
 		transform: translateY(-50%)
 		background-color: rgba(0,0,0,0.2)
 		height: 70px
-		width: 2px
-		+r(640)
-			content: none
+		width: 1px
 	&:nth-child(1)
 		&:before
 			content: none
+			+r(640)
+				content: ''
+	&:nth-child(5)
+		+r(640)
+			&:before
+				content: none
+				display: none
 	+r(640)
+		padding: 14px 18px
+		display: flex
+		align-items: center
 		width: 100%
+		&:before
+			bottom: -3px
+			top: auto
+			left: 18px
+			right: 18px
+			height: 1px
+			transform: none
+			width: 92%
 	&.price-active
 		z-index: 5
 		border-top-left-radius: 20px
 		border-bottom-right-radius: 20px
 		&:before
 			content: none
+			display: none
 	&__comment
 		display: block
 		color: #777777
@@ -157,9 +170,30 @@
 			margin-right: auto
 
 .order-form
-	&__input
+	&__input-wrap
 		width: 100%
 		margin-bottom: 25px
+		position: relative
+	&__input
+		width: 100%
+		&:focus, &.active
+			border-bottom: 1px solid $orange
+			&~.order-form__label
+				font-size: 14px
+				color: #777
+				top: -15px
+	&__label
+		color: $garkgrey
+		position: absolute
+		left: 0
+		top: 8px
+		transition: all .3s
+		font-size: 16px
+		pointer-events: none
+		span
+			font-size: 13px
+			color: #999
+			font-style: italic
 	&__checkbox
 		margin-bottom: 40px
 

@@ -1,30 +1,38 @@
 - var MENU = LANG.menu;
 
+-
+	function getActiveClass(active){
+		return function(current){
+			return current===active?"active":"";
+		}
+	};
+
 include menu-mob.pug
 
 mixin menu(page)
+	- const activeClass = getActiveClass(page);
 	+menu-mob(page)
 	.menu.js-fixed-menu
 		.menu__wrap
-			a.logo.menu__logo.menu__logo--abs(href="index.html")
+			a.logo.menu__logo.menu__logo--abs(href="index.html", class=activeClass("index"))
 				img.logo__img(src="img/svg/logo.svg", alt="goodlabs")
 			a.logo.menu__logo.menu__logo--fixed(href="index.html")
 				img.logo__img(src="img/svg/logo-short.svg", alt="goodlabs")
 			ul.menu__list.nav
 				li.nav__item
-					a.nav__link(href="index.html")!= MENU.item1
-				li.nav__item
-					a.nav__link.js-btn-submenu(href="")!= MENU.item2
-					.products-menu.products-menu--desktop.js-submenu
+					a.nav__link(href="index.html", class=activeClass("index"))!= MENU.item1
+				li.nav__item.nav__item--products
+					a.nav__link(href="")!= MENU.item2
+					.products-menu.products-menu--desktop
 						include submenu.pug
 				li.nav__item
-					a.nav__link(href="about.html")!= MENU.item3
+					a.nav__link(href="about.html", class=activeClass("about"))!= MENU.item3
 				li.nav__item
-					a.nav__link(href="ingredients.html")!= MENU.item4
+					a.nav__link(href="ingredients.html", class=activeClass("ingredients"))!= MENU.item4
 				li.nav__item
 					a.nav__link(href="")!= MENU.item5
 				li.nav__item
-					a.nav__link(href="contacts.html")!= MENU.item6
+					a.nav__link(href="contacts.html", class=activeClass("contacts"))!= MENU.item6
 			.menu__right
 				.menu__lang.lang
 						i.fico.fico-world

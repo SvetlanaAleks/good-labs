@@ -1,6 +1,8 @@
 .contacts-content
 	padding-top: 120px
 	padding-bottom: 116px
+	background: url('../img/svg/waves_big.svg') no-repeat, url('../img/svg/waves_big.svg') no-repeat
+	background-position: calc(50% - 641px) calc(50% - 88px), calc(50% - -900px) calc(50% - 300px)
 	+r(1300)
 		padding: 100px 0
 	+r(1024)
@@ -40,22 +42,49 @@
 			text-align: center
 	&__wrap-map
 		margin-bottom: 32px
+		padding-bottom: 30px
 		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			width: 30px
+			height: 46px
+			background: url('../img/svg/point.svg') no-repeat
+			background-size: contain
+			left: 50%
+			transform: translateX(-50%)
+			bottom: 274px
 		&::after
 			content: ''
 			display: block
 			position: absolute
-			top: 200px
-			left: -139px
-			width: 279px
-			height: 147px
-			background: url('../img/svg/formula-waves.svg') no-repeat center
-			background-size: 100%
-			z-index: -1
+			left: 50%
+			bottom: 0
+			width: 1px
+			height: 260px
+			background-color: $orange
+			transform: translateX(-50%)
 		+r(1440)
 			&::after
-				top: 170px
-				left: -119px
+				height: 255px
+			&::before
+				bottom: 270px
+		+r(1300)
+			&::after
+				height: 235px
+			&::before
+				bottom: 250px
+		+r(1300)
+			&::after
+				height: 215px
+			&::before
+				bottom: 225px
+		+r(1024)
+			&::after
+				height: 48%
+			&::before
+				bottom: 50%
 		+r(640)
 			max-width: 350px
 			width: 100%
@@ -75,7 +104,7 @@
 		display: flex
 		align-items: flex-start
 		justify-content: space-between
-		+r(1024)
+		+r(1140)
 			display: block
 	&__address
 		max-width: 290px
@@ -83,7 +112,7 @@
 		margin-right: 40px
 		line-height: 160%
 		color: $grey
-		+r(1024)
+		+r(1140)
 			margin-right: 0
 			margin-bottom: 18px
 		+r(640)
@@ -127,7 +156,7 @@
 	&__text-form
 		line-height: 180%
 		color: $grey
-		margin-bottom: 51px
+		margin-bottom: 58px
 		&--mob
 			display: none
 		+r(1300)
@@ -144,21 +173,22 @@
 		display: flex
 		flex-wrap: wrap
 		justify-content: space-between
-		margin-bottom: 45px
+		margin-bottom: 46px
 		+r(1024)
 			margin-bottom: 35px
 		+r(480)
 			margin-bottom: 20px
-	&__input
-		&:not(:last-of-type)
-			margin-bottom: 39px
-		&:last-of-type
-			margin-top: 39px
+	&__input-wrap
+		position: relative
+		&--textarea
+			width: 100%
 		&--max
 			max-width: 100%
 			width: 100%
 		&--med
 			width: calc(50% - 20px)
+		&:not(:last-of-type)
+			margin-bottom: 39px
 		+r(1440)
 			&--med
 				width: 270px
@@ -185,6 +215,30 @@
 		+r(480)
 			&:not(:last-of-type)
 				margin-bottom: 10px
+	&__input
+		width: 100%
+		&:focus, &.active
+			border-bottom: 1px solid $orange
+			&~.contacts-form__label
+				font-size: 14px
+				color: #777
+				top: -15px
+	&__label
+		color: $garkgrey
+		position: absolute
+		left: 0
+		top: 8px
+		transition: all .3s
+		font-size: 16px
+		pointer-events: none
+	&__textarea
+		height: 42px
+		&:focus, &.active
+			border-bottom: 1px solid $orange
+			&~.contacts-form__label
+				font-size: 14px
+				color: #777
+				top: -15px
 	&__select
 		width: 290px
 		+r(1440)
@@ -199,6 +253,7 @@
 			width: 100%
 	&__select, .select2-container .select2-selection--single
 		border-bottom: 1px solid transparentize($garkgrey, .8)
+		padding-right: 0
 		+r(890)
 			margin-bottom: 20px
 		+r(480)
@@ -274,7 +329,7 @@
 					background-size: 100%
 					top: 50%
 					transform: translateY(-50%)
-					right: 15px
+					right: 0
 					transition: all .3s
 					b
 						display: none
@@ -288,21 +343,16 @@
 			.select2-selection__arrow
 				transform: translateY(-50%) rotate(180deg) !important
 			.select2-results__option
-				font-size: 16px
+				font-size: 20px
 				padding: 15px 0 15px 20px
+				font-family: "Tenor Sans", Arial, Helvetica, sans-serif
 				&:not(:last-of-type)
 					border-bottom: 1px solid transparentize(#000000, .9)
 				+r(480)
 					font-size: 14px
 			.select2-results__option--highlighted[aria-selected]
-				background: #FFF4E4
-				color: $garkgrey
+				background: $orange
+				color: white
 			.select2-results__option[aria-selected=true]
 				background: #FFF4E4
-				p
-					font-size: 20px
-					line-height: 130%
-				span
-					display: block
-					font-size: 14px
-					color: $grey
+				color: $garkgrey

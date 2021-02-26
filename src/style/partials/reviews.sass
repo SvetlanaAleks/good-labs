@@ -8,6 +8,8 @@
 		padding-top: 0
 	+r(640)
 		padding: 20px 0
+	+r(480)
+		padding-top: 0
 	&__wrapper
 		display: flex
 		align-items: flex-start
@@ -46,12 +48,12 @@
 		display: flex
 		align-items: flex-start
 		color: $garkgrey
-		padding-bottom: 27px
+		padding-bottom: 40px
 		margin-bottom: 40px
-		border-bottom: 1px solid $garkgrey
+		border-bottom: 2px solid $garkgrey
 		+r(1140)
 			padding-bottom: 30px
-			margin-bottom: 20px
+			margin-bottom: 30px
 	&__estimate
 		margin-right: 27px
 		+r(1140)
@@ -69,11 +71,9 @@
 		+r(1140)
 			margin-bottom: 35px
 		+r(480)
-			margin-bottom: 0
+			margin-bottom: 20px
 	&__btn
 		max-width: 200px
-		+r(480)
-			display: none
 	&__right
 		max-width: 840px
 		width: 100%
@@ -135,6 +135,8 @@
 	&__item
 		position: relative
 		color: $garkgrey
+		display: flex
+		align-items: center
 		.fico
 			margin-left: 16px
 			font-size: 7px

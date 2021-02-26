@@ -54,11 +54,11 @@
                           </div>
                         </div>
                 <div class="menu js-fixed-menu">
-                  <div class="menu__wrap"><a class="logo menu__logo" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a>
+                  <div class="menu__wrap"><a class="logo menu__logo menu__logo--abs active" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a><a class="logo menu__logo menu__logo--fixed" href="index.html"><img class="logo__img" src="/img/svg/logo-short.svg" alt="goodlabs"/></a>
                     <ul class="menu__list nav">
-                      <li class="nav__item"><a class="nav__link" href="index.html">Главная</a></li>
-                      <li class="nav__item"><a class="nav__link js-btn-submenu" href="">Продукты</a>
-                        <div class="products-menu products-menu--desktop js-submenu"><img class="products-menu__close js-close-products" src="/img/svg/close.svg" alt="close"/>
+                      <li class="nav__item"><a class="nav__link active" href="index.html">Главная</a></li>
+                      <li class="nav__item nav__item--products"><a class="nav__link" href="">Продукты</a>
+                        <div class="products-menu products-menu--desktop">
                           <div class="products-menu__container container">
                             <h2 class="products-menu__title title title--very-small">Умные формулы составов для вашего здоровья</h2>
                             <div class="products-menu__list"><a class="products-menu__item product_item " href="product-immunal.html"><img class="product_item__img" src="/img/product_1.png" alt=""/>
@@ -109,34 +109,34 @@
       </div>
       <div class="promo-prod__bottom">
         <div class="container">
-          <div class="promo-prod__list js-accordeon">
-            <div class="privilege js-privilege">
+          <div class="promo-prod__list">
+            <div class="privilege">
               <div class="privilege__top">
                 <div class="privilege__wrap-ico"><img class="privilege__ico" src="/img/svg/privilege_1.svg" alt="ico"/></div>
                 <p class="privilege__text">Составы, которые <br />работают</p><i class="fico fico-arrow"></i>
               </div>
-              <p class="privilege__desc text--med js-info-accordeon">Для подбора компонентов и их соотношения используем передовые исследования ученых.</p>
+              <p class="privilege__desc text--med">Для подбора компонентов и их соотношения используем передовые исследования ученых.</p>
             </div>
-            <div class="privilege js-privilege">
+            <div class="privilege">
               <div class="privilege__top">
                 <div class="privilege__wrap-ico"><img class="privilege__ico" src="/img/svg/privilege_2.svg" alt="ico"/></div>
                 <p class="privilege__text">Умная линейка <br />товаров</p><i class="fico fico-arrow"></i>
               </div>
-              <p class="privilege__desc text--med js-info-accordeon">Линейка продуктов GoodLabs максимально отвечает основным потребностям организма человека.</p>
+              <p class="privilege__desc text--med">Линейка продуктов GoodLabs максимально отвечает основным потребностям организма человека.</p>
             </div>
-            <div class="privilege js-privilege">
+            <div class="privilege">
               <div class="privilege__top">
                 <div class="privilege__wrap-ico"><img class="privilege__ico" src="/img/svg/privilege_3.svg" alt="ico"/></div>
                 <p class="privilege__text">Нишевая <br />экспертность</p><i class="fico fico-arrow"></i>
               </div>
-              <p class="privilege__desc text--med js-info-accordeon">Наш опыт разработки товаров для здоровья 7 лет. В GoodLabs мы собрали лучшие наработки и специалистов.</p>
+              <p class="privilege__desc text--med">Наш опыт разработки товаров для здоровья 7 лет. В GoodLabs мы собрали лучшие наработки и специалистов.</p>
             </div>
-            <div class="privilege js-privilege">
+            <div class="privilege">
               <div class="privilege__top">
                 <div class="privilege__wrap-ico"><img class="privilege__ico" src="/img/svg/privilege_4.svg" alt="ico"/></div>
                 <p class="privilege__text">Надежные <br />производства</p><i class="fico fico-arrow"></i>
               </div>
-              <p class="privilege__desc text--med js-info-accordeon">Производства GoodLabs имеют сертификаты GMP, НАССР, ISO, чтобы обеспечить наши высокие стандарты качества.</p>
+              <p class="privilege__desc text--med">Производства GoodLabs имеют сертификаты GMP, НАССР, ISO, чтобы обеспечить наши высокие стандарты качества.</p>
             </div>
           </div>
         </div>
@@ -190,7 +190,7 @@
                     <source srcset="/img/feedback_main_1.webp" type="image/webp"/><img src="/img/feedback_main_1.jpg" alt="photo"/>
                   </picture>
                 </div>
-                <p class="expert__text title title--very-small">Витамины и минералы – незаменимые питательные микроэлементы. Они не дают энергии, но жизненно важны для правильной и нормальной работы организма, поддержания здоровья в целом. В современном мире дополнительные их источники не просто рекомендация а необходимость, особенно если Вы ведете активный образ жизни.</p>
+                <p class="expert__text title title--very-small">Витамины и минералы – незаменимые питательные микроэлементы. Они не дают энергии, но жизненно важны для правильной и нормальной работы организма, поддержания здоровья в целом. В современном мире дополнительные их источники не просто рекомендация а необходимость, особенно если Вы ведете активный образ жизни.<i class="fico fico-mark"></i></p>
               </div>
               <div class="expert">
                 <div class="expert__wrap-img">
@@ -198,7 +198,7 @@
                     <source srcset="/img/feedback_main_1.webp" type="image/webp"/><img src="/img/feedback_main_1.jpg" alt="photo"/>
                   </picture>
                 </div>
-                <p class="expert__text title title--very-small">В витаминных комплексах и БАД самое важное - это правильно подобранные дозировки действующих веществ. Поэтому выбирайте только проверенные средства с профессионально подобранным составом на основании научных исследований.</p>
+                <p class="expert__text title title--very-small">В витаминных комплексах и БАД самое важное - это правильно подобранные дозировки действующих веществ. Поэтому выбирайте только проверенные средства с профессионально подобранным составом на основании научных исследований.<i class="fico fico-mark"></i></p>
               </div>
               <div class="expert">
                 <div class="expert__wrap-img">
@@ -206,7 +206,7 @@
                     <source srcset="/img/feedback_main_1.webp" type="image/webp"/><img src="/img/feedback_main_1.jpg" alt="photo"/>
                   </picture>
                 </div>
-                <p class="expert__text title title--very-small">Прием мультивитаминных комплексов - это самый простой способ заботы о своем здоровье. В них оптимальная дозировка витаминов и минералов, которые необходимы современному человеку для активной жизнедеятельности и сохранения здоровья.</p>
+                <p class="expert__text title title--very-small">Прием мультивитаминных комплексов - это самый простой способ заботы о своем здоровье. В них оптимальная дозировка витаминов и минералов, которые необходимы современному человеку для активной жизнедеятельности и сохранения здоровья.<i class="fico fico-mark"></i></p>
               </div>
         </div>
         <div class="experts__bottom">
@@ -239,7 +239,7 @@
               </div>
             </div>
           </div>
-          <p class="experts__text text--med">Наши специалисты имеют 25-летний опыт работы </p>
+          <p class="experts__text text--big">Наши специалисты имеют 25-летний опыт работы </p>
         </div>
       </div>
     </section>
@@ -255,7 +255,7 @@
                   <p class="review-main__text text--small"> </p>
                 </div>
                 <h3 class="review-main__title text--med">Долгая доставка</h3>
-                <p class="review-main__desc">Не могу поставить 5 звезд, потому что ждал свой Immunal почти неделю. В следующий раз буду заказывать сразу несколько упаковок. Почему вы там долго доставляете?</p>
+                <p class="review-main__desc">Не могу поставить 5 звезд, потому что ждал свой Immunal почти неделю. В следующий раз буду заказывать сразу несколько упаковок. Почему вы...</p>
                 <p class="review-main__text text--small">Sergio</p>
               </div>
               <div class="review-main">
@@ -287,7 +287,7 @@
                   <p class="review-main__text text--small"> </p>
                 </div>
                 <h3 class="review-main__title text--med">Формулы на основе научных исследований</h3>
-                <p class="review-main__desc">Когда увидела впервые - очень понравился дизайн. Сразу видно, что сделано в Германии. Подкупило также то, что формулы составов подобраны на основе научных исследований. Пока всё нравится.</p>
+                <p class="review-main__desc">Когда увидела впервые - очень понравился дизайн. Сразу видно, что сделано в Германии. Подкупило также то, что формулы составов...</p>
                 <p class="review-main__text text--small">Lucy</p>
               </div>
               <div class="review-main">
@@ -512,7 +512,7 @@
                 <div class="footer__privacy footer__col"><a class="footer__link text--med" href="privacy-policy.html">Privacy Policy</a><a class="footer__link text--med" href="cookie-policy.html">Cookie Policy</a><a class="footer__link text--med" href="terms.html">Terms</a></div>
               </div>
               <div class="footer__wrapper-bottom reviews-block"><img class="reviews-block__logo" src="/img/svg/trustpilot.svg" alt="trustpilot"/><img class="reviews-block__stars" src="/img/svg/raiting_trustpilot_full.svg" alt="raiting_trustpilot_full"/>
-                <p class="reviews-block__text text--small">Оценка <span class="bold">4.9 </span>/ 5 на основе <span class="bold bold--line">21 отзывов</span>. Показаны наши 4- и 5-звездочные обзоры.</p>
+                <p class="reviews-block__text">Оценка <span class="bold">4.9 </span>/ 5 на основе <span class="bold bold--line">21 отзывов</span>. Показаны наши 4- и 5-звездочные обзоры.</p>
               </div>
             </div>
             <div class="footer__right">

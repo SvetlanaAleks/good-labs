@@ -52,11 +52,11 @@
               </div>
             </div>
         <div class="menu js-fixed-menu">
-          <div class="menu__wrap"><a class="logo menu__logo" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a>
+          <div class="menu__wrap"><a class="logo menu__logo menu__logo--abs" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a><a class="logo menu__logo menu__logo--fixed" href="index.html"><img class="logo__img" src="/img/svg/logo-short.svg" alt="goodlabs"/></a>
             <ul class="menu__list nav">
               <li class="nav__item"><a class="nav__link" href="index.html">Hauptseite</a></li>
-              <li class="nav__item"><a class="nav__link js-btn-submenu" href="">Produkte</a>
-                <div class="products-menu products-menu--desktop js-submenu"><img class="products-menu__close js-close-products" src="/img/svg/close.svg" alt="close"/>
+              <li class="nav__item nav__item--products"><a class="nav__link" href="">Produkte</a>
+                <div class="products-menu products-menu--desktop">
                   <div class="products-menu__container container">
                     <h2 class="products-menu__title title title--very-small">Intelligente Formeln der Zusammen­setzungen für Ihre Gesundheit</h2>
                     <div class="products-menu__list"><a class="products-menu__item product_item " href="product-immunal.html"><img class="product_item__img" src="/img/product_1.png" alt=""/>
@@ -76,7 +76,7 @@
               <li class="nav__item"><a class="nav__link" href="about.html">Über uns</a></li>
               <li class="nav__item"><a class="nav__link" href="ingredients.html">Komponenten</a></li>
               <li class="nav__item"><a class="nav__link" href="">Wissen</a></li>
-              <li class="nav__item"><a class="nav__link" href="contacts.html">Kontakte</a></li>
+              <li class="nav__item"><a class="nav__link active" href="contacts.html">Kontakte</a></li>
             </ul>
             <div class="menu__right">
               <div class="menu__lang lang"><i class="fico fico-world"></i>
@@ -105,24 +105,40 @@
             <p class="contacts-content__text-form contacts-content__text-form--desc text--med">Senden Sie Ihre Anfrage - und wir wählen eine individuelle Lösung, die Ihren Anforderungen am besten entspricht</p>
             <form class="contacts-form" id="js-contacts-form" action="/" method="post">
               <div class="contacts-form__wrap">
-                <input class="contacts-form__input contacts-form__input--max input" type="text" name="name" placeholder="Ihr Name" required="required"/>
-                <input class="contacts-form__input contacts-form__input--med input" type="tel" name="phone" placeholder="Ihr Telefon" required="required"/>
-                <input class="contacts-form__input contacts-form__input--med input" type="email" name="email" placeholder="Email" required="required"/>
-                <select class="select contacts-form__select js-select--type" data-placeholder="Ihre Frage">
-                  <option value="">&nbsp;</option>
-                  <option value="Beratung">Beratung</option>
-                </select>
-                <select class="select contacts-form__select js-select--product" data-placeholder="Produkt">
-                  <option value="">&nbsp;</option>
-                  <option value="Immunal">Immunal</option>
-                  <option value="Multi-Vitamin">Multi Vitamin</option>
-                  <option value="Anti-Stress">Anti Stress</option>
-                </select>
-                <input class="contacts-form__input contacts-form__input--max input" type="text" name="text" placeholder="Nachricht" required="required"/>
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--max">
+                  <input class="contacts-form__input input js-input" type="text" name="name" required="required"/>
+                  <label class="contacts-form__label js-label">Ihr Name</label>
+                </div>
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--med">
+                  <input class="contacts-form__input input js-input" type="tel" name="phone" required="required"/>
+                  <label class="contacts-form__label js-label">Ihr Telefon</label>
+                </div>
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--med">
+                  <input class="contacts-form__input input js-input" type="email" name="email" required="required"/>
+                  <label class="contacts-form__label js-label">Email</label>
+                </div>
+                <div class="contacts-form__input-wrap">
+                  <select class="select contacts-form__select js-select--type" data-placeholder="Ihre Frage">
+                    <option value="">&nbsp;</option>
+                    <option value="Beratung">Beratung</option>
+                  </select>
+                </div>
+                <div class="contacts-form__input-wrap">
+                  <select class="select contacts-form__select js-select--product" data-placeholder="Produkt">
+                    <option value="">&nbsp;</option>
+                    <option value="Immunal">Immunal</option>
+                    <option value="Multi-Vitamin">Multi Vitamin</option>
+                    <option value="Anti-Stress">Anti Stress</option>
+                  </select>
+                </div>
+                <div class="contacts-form__input-wrap contacts-form__input-wrap--textarea">
+                  <textarea class="contacts-form__textarea textarea js-input" name="text" required="required"></textarea>
+                  <label class="contacts-form__label js-label">Nachricht</label>
+                </div>
               </div>
               <div class="contacts-form__checkbox checkbox">
                 <label class="checkbox__label">Ich bin damit einverstanden, personenbezogene Daten zu verarbeiten und Informationen über Sonderangebote zu erhalten
-                  <input class="checkbox__input" type="checkbox" checked="checked"/><span class="checkbox__checkmark"><img class="checkbox__ico" src="/img/svg/check-order.svg" alt="check"/></span>
+                  <input class="checkbox__input" type="checkbox"/><span class="checkbox__checkmark"><img class="checkbox__ico" src="/img/svg/check-order.svg" alt="check"/></span>
                 </label>
               </div>
               <button class="contacts-form__btn btn btn--orange" type="submit">Senden</button>
@@ -138,11 +154,6 @@
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, nobis.</p>
           <button class="popup-success__btn btn btn--orange js-btn-popup-success">Ok</button>
         </div>
-      </div>
-    </div>
-    <div class="info-block info-block--orange">
-      <div class="container">
-        <p class="info-block__text text--small"> <span>*</span>Diese Aussagen wurden von dem Bundesinstitut für Arzneimittel und Medizinprodukte nicht bewertet. Dieses Produkt ist nicht zur Diagnose, Behandlung, Heilung oder Vorbeugung von Krankheiten bestimmt.</p>
       </div>
     </div>
     <footer class="footer">
@@ -169,7 +180,7 @@
                 <div class="footer__privacy footer__col"><a class="footer__link text--med" href="privacy-policy.html">Datenschutzerklärung</a><a class="footer__link text--med" href="cookie-policy.html">Cookie-Richtlinie</a><a class="footer__link text--med" href="terms.html">Bedingungen</a></div>
               </div>
               <div class="footer__wrapper-bottom reviews-block"><img class="reviews-block__logo" src="/img/svg/trustpilot.svg" alt="trustpilot"/><img class="reviews-block__stars" src="/img/svg/raiting_trustpilot_full.svg" alt="raiting_trustpilot_full"/>
-                <p class="reviews-block__text text--small">Bewertet mit <span class="bold">4.9 </span>/ 5 basierend auf <span class="bold bold--line">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.</p>
+                <p class="reviews-block__text">Bewertet mit <span class="bold">4.9 </span>/ 5 basierend auf <span class="bold bold--line">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.</p>
               </div>
             </div>
             <div class="footer__right">

@@ -54,11 +54,11 @@
               </div>
             </div>
         <div class="menu js-fixed-menu">
-          <div class="menu__wrap"><a class="logo menu__logo" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a>
+          <div class="menu__wrap"><a class="logo menu__logo menu__logo--abs" href="index.html"><img class="logo__img" src="/img/svg/logo.svg" alt="goodlabs"/></a><a class="logo menu__logo menu__logo--fixed" href="index.html"><img class="logo__img" src="/img/svg/logo-short.svg" alt="goodlabs"/></a>
             <ul class="menu__list nav">
               <li class="nav__item"><a class="nav__link" href="index.html">Hauptseite</a></li>
-              <li class="nav__item"><a class="nav__link js-btn-submenu" href="">Produkte</a>
-                <div class="products-menu products-menu--desktop js-submenu"><img class="products-menu__close js-close-products" src="/img/svg/close.svg" alt="close"/>
+              <li class="nav__item nav__item--products"><a class="nav__link" href="">Produkte</a>
+                <div class="products-menu products-menu--desktop">
                   <div class="products-menu__container container">
                     <h2 class="products-menu__title title title--very-small">Intelligente Formeln der Zusammen­setzungen für Ihre Gesundheit</h2>
                     <div class="products-menu__list"><a class="products-menu__item product_item " href="product-immunal.html"><img class="product_item__img" src="/img/product_1.png" alt=""/>
@@ -202,281 +202,215 @@
           </div>
         </div>
         <div class="ingredients__info ingredients__info--multi-vitamin">
-          <div class="ingredients__content active js-content-tab" id="list1">
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-b3.svg" alt="Vitamin B3"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin B3</p>
-                  <div class="ingredient__info js-info-accordeon">
+          <div class="ingredients__content-wrap">
+            <div class="tab tab--green active js-tab" data-tab="#list1">
+              <p class="tab__text text--med">ENERGIE</p><i class="fico fico-arrow"></i>
+            </div>
+            <div class="ingredients__content active js-content-tab" id="list1">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-b3.svg" alt="Vitamin B3"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-b3.svg" alt="Vitamin B3"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin B3</p>
+                      <p class="ingredient__ttl title title--small">Vitamin B3</p>
                       <p class="ingredient__text text--med">Vitamin B3 ist an der Hormonsynthese beteiligt und wirkt sich wiederum auf unser Wohlbefinden und unsere Vitalität aus. Es stimuliert auch Enzyme und Magensaft, die an der Verdauung beteiligt sind, deren Ergebnis die Sättigung des Körpers mit Energie und Nährstoffen ist. </p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-b12.svg" alt="Vitamin B12"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin B12</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-b12.svg" alt="Vitamin B12"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-b12.svg" alt="Vitamin B12"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin B12</p>
+                      <p class="ingredient__ttl title title--small">Vitamin B12</p>
                       <p class="ingredient__text text--med">Zusammen mit anderen B-Vitaminen hilft Vitamin B12, Nahrung in Energie umzuwandeln. Es hilft auch, die Art der Anämie zu verhindern, die Sie Schwäche und Müdigkeit verursachen kann.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_mg.svg" alt="Magnesium"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Magnesium</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_mg.svg" alt="Magnesium"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_mg.svg" alt="Magnesium"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Magnesium</p>
+                      <p class="ingredient__ttl title title--small">Magnesium</p>
                       <p class="ingredient__text text--med">Es fördert eine schnelle Erholung bei Kraftverlust und schützt vor erhöhter Ermüdung. Es beteiligt sich an der Übertragung von Nervenimpulsen und an der Kontraktion und Entspannung der Muskeln, die für die Arbeit des Herz-Kreislauf-Systems wichtig ist.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-c.svg" alt="Vitamin C"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin C</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-c.svg" alt="Vitamin C"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-c.svg" alt="Vitamin C"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin C</p>
+                      <p class="ingredient__ttl title title--small">Vitamin C</p>
                       <p class="ingredient__text text--med">Vitamin C wird am häufigsten eingenommen, um die Immunität zu stärken, aber darüber hinaus wirkt es sich positiv auf unser Wohlbefinden und unser Energieniveau aus. Es ist notwendig für die Synthese von L-Carnitin, das hilft, Fett für die Energiegewinnung durch den Körper zu verbrennen. </p>
                     </div>
                   </div>
-                </div>
+            </div>
           </div>
-          <div class="ingredients__content js-content-tab" id="list2">
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-c.svg" alt="Vitamin C"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin C</p>
-                  <div class="ingredient__info js-info-accordeon">
+          <div class="ingredients__content-wrap">
+            <div class="tab tab--green active js-tab" data-tab="#list2">
+              <p class="tab__text text--med">IMMUNITÄT</p><i class="fico fico-arrow"></i>
+            </div>
+            <div class="ingredients__content js-content-tab" id="list2">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-c.svg" alt="Vitamin C"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-c.svg" alt="Vitamin C"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin C</p>
+                      <p class="ingredient__ttl title title--small">Vitamin C</p>
                       <p class="ingredient__text text--med">Vitamin C hilft, die Produktion von weißen Blutkörperchen, bekannt als Lymphozyten und Phagozyten, zu stimulieren, die den Körper vor Infektionen schützen. </p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-d.svg" alt="Vitamin D"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin D</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-d.svg" alt="Vitamin D"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-d.svg" alt="Vitamin D"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin D</p>
+                      <p class="ingredient__ttl title title--small">Vitamin D</p>
                       <p class="ingredient__text text--med">Vitamin D verstärkt die Anti-Pathogen-Wirkung von Monozyten und Makrophagen - weißen Blutkörperchen, die ein wichtiger Bestandteil der Immunabwehr sind - und reduziert Entzündungen, die eine Immunantwort fördern. </p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_cink.svg" alt="Zinc"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Zinc</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_cink.svg" alt="Zinc"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_cink.svg" alt="Zinc"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Zinc</p>
+                      <p class="ingredient__ttl title title--small">Zinc</p>
                       <p class="ingredient__text text--med">Zink ist wichtig für die Entwicklung und Kommunikation von Immunzellen und spielt eine wichtige Rolle bei der Entzündungsreaktion. Ein Mangel an diesem Nährstoff führt zu einem erhöhten Risiko für Infektionen und Krankheiten, einschließlich Lungenentzündung.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-b6.svg" alt="Vitamine der Gruppe&amp;nbsp;B"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamine der Gruppe&nbsp;B</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-b6.svg" alt="Vitamine der Gruppe&amp;nbsp;B"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-b6.svg" alt="Vitamine der Gruppe&amp;nbsp;B"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamine der Gruppe&nbsp;B</p>
+                      <p class="ingredient__ttl title title--small">Vitamine der Gruppe&nbsp;B</p>
                       <p class="ingredient__text text--med">Vitamine der Gruppe B, einschließlich B12 und B6, haben entzündungshemmende Aktivität und beeinflussen die Produktion von Melatonin, die wiederum die Immunantwort verstärken.</p>
                     </div>
                   </div>
-                </div>
+            </div>
           </div>
-          <div class="ingredients__content js-content-tab" id="list3">
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_mg.svg" alt="Magnesium"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Magnesium</p>
-                  <div class="ingredient__info js-info-accordeon">
+          <div class="ingredients__content-wrap">
+            <div class="tab tab--green active js-tab" data-tab="#list3">
+              <p class="tab__text text--med">GEISTIGE AKTIVITÄT</p><i class="fico fico-arrow"></i>
+            </div>
+            <div class="ingredients__content js-content-tab" id="list3">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_mg.svg" alt="Magnesium"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_mg.svg" alt="Magnesium"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Magnesium</p>
+                      <p class="ingredient__ttl title title--small">Magnesium</p>
                       <p class="ingredient__text text--med">Magnesium hilft, Neurotransmitter zu regulieren, die Nachrichten im Gehirn und Nervensystem senden. Es spielt eine entscheidende Rolle bei der Gehirnfunktion und Stimmung, und niedrige Werte sind mit einem erhöhten Risiko für Depressionen verbunden.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_marganets.svg" alt="Mangan"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Mangan</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_marganets.svg" alt="Mangan"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_marganets.svg" alt="Mangan"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Mangan</p>
+                      <p class="ingredient__ttl title title--small">Mangan</p>
                       <p class="ingredient__text text--med">Mangan ist wichtig für eine gesunde Gehirnfunktion und wird häufig zur Behandlung bestimmter Nervenstörungen eingesetzt. Es beschleunigt die Bewegung elektrischer Impulse durch den Körper, was wiederum die Reaktionsgeschwindigkeit des Gehirns beeinflusst.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-b12.svg" alt="Vitamin B12"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin B12</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-b12.svg" alt="Vitamin B12"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-b12.svg" alt="Vitamin B12"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin B12</p>
+                      <p class="ingredient__ttl title title--small">Vitamin B12</p>
                       <p class="ingredient__text text--med">Wenn Sie genug Vitamin B12 erhalten, kann dies das Gedächtnis verbessern und das Lernen erleichtern. Es hat sich auch gezeigt, dass es hilft, die Stimmung zu verbessern und die Symptome von Depressionen und depressiven Stimmungen zu reduzieren. </p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_cink.svg" alt="Zinc"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Zinc</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_cink.svg" alt="Zinc"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_cink.svg" alt="Zinc"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Zinc</p>
+                      <p class="ingredient__ttl title title--small">Zinc</p>
                       <p class="ingredient__text text--med">Zink ist wichtig für die Gehirnabteilungen, die für Konzentration und Gedächtnis verantwortlich sind. Mit einem Mangel an Zink beginnt die Großhirnrinde zu versagen, was sich in Halluzinationen, epileptischen Anfällen, beeinträchtigtem Geruchssinn und Geschmacksverlust äußern kann.</p>
                     </div>
                   </div>
-                </div>
+            </div>
           </div>
-          <div class="ingredients__content js-content-tab" id="list4">
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_inozitol.svg" alt="Inositol"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Inositol</p>
-                  <div class="ingredient__info js-info-accordeon">
+          <div class="ingredients__content-wrap">
+            <div class="tab tab--green active js-tab" data-tab="#list4">
+              <p class="tab__text text--med">ANTI-STRESS</p><i class="fico fico-arrow"></i>
+            </div>
+            <div class="ingredients__content js-content-tab" id="list4">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_inozitol.svg" alt="Inositol"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_inozitol.svg" alt="Inositol"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Inositol</p>
+                      <p class="ingredient__ttl title title--small">Inositol</p>
                       <p class="ingredient__text text--med">Inositol kann helfen, wichtige Chemikalien im Gehirn auszugleichen, einschließlich solcher, von denen angenommen wird, dass sie die Stimmung beeinflussen, wie Serotonin und Dopamin.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_folieva.svg" alt="Folsäure"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Folsäure</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_folieva.svg" alt="Folsäure"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_folieva.svg" alt="Folsäure"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Folsäure</p>
+                      <p class="ingredient__ttl title title--small">Folsäure</p>
                       <p class="ingredient__text text--med">Folsäure oder Vitamin B9 ist auch an der Synthese von Serotonin beteiligt. Es reguliert auch die Teilung und das Wachstum aller Zellen des Körpers, einschließlich der Nervenzellen, die, wie jetzt bekannt ist, immer noch wiederhergestellt werden.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-b6.svg" alt="Vitamin B6"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin B6</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-b6.svg" alt="Vitamin B6"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-b6.svg" alt="Vitamin B6"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin B6</p>
+                      <p class="ingredient__ttl title title--small">Vitamin B6</p>
                       <p class="ingredient__text text--med">Vitamin B6 ist notwendig für die Synthese von Gamma-Aminobuttersäure — die wichtigste «beruhigende» Substanz im zentralen Nervensystem, sowie Serotonin — das «Glückshormon». </p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_mg.svg" alt="Magnesium"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Magnesium</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_mg.svg" alt="Magnesium"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_mg.svg" alt="Magnesium"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Magnesium</p>
+                      <p class="ingredient__ttl title title--small">Magnesium</p>
                       <p class="ingredient__text text--med">Von den Spurenelementen für das zentrale Nervensystem ist Magnesium besonders wichtig. Es reguliert den Prozess der Durchführung eines Nervenimpulses und ist daher für einen vollen Schlaf und die Aufrechterhaltung eines stabilen psychoemotionalen Zustands notwendig.</p>
                     </div>
                   </div>
-                </div>
+            </div>
           </div>
-          <div class="ingredients__content js-content-tab" id="list5">
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-d3.svg" alt="Vitamin D3"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin D3</p>
-                  <div class="ingredient__info js-info-accordeon">
+          <div class="ingredients__content-wrap">
+            <div class="tab tab--green active js-tab" data-tab="#list5">
+              <p class="tab__text text--med">GESUNDEN SCHLAF</p><i class="fico fico-arrow"></i>
+            </div>
+            <div class="ingredients__content js-content-tab" id="list5">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-d3.svg" alt="Vitamin D3"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-d3.svg" alt="Vitamin D3"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin D3</p>
+                      <p class="ingredient__ttl title title--small">Vitamin D3</p>
                       <p class="ingredient__text text--med">Ein Mangel an Vitamin D3 beeinträchtigt die Fähigkeit des Körpers, zyklische Rhythmen zu regulieren. Wenn die Uhr des Körpers nicht richtig funktioniert, sind Sie nicht in der Lage, Signale an die Schlafhormone zu senden, die am Einschlafen beteiligt sind.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-e.svg" alt="Vitamin E"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin E</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-e.svg" alt="Vitamin E"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-e.svg" alt="Vitamin E"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin E</p>
+                      <p class="ingredient__ttl title title--small">Vitamin E</p>
                       <p class="ingredient__text text--med">Vitamin E-Mangel wurde mit dem "Syndrom der ruhelosen Beine" in Verbindung gebracht, das die Schlafqualität stark beeinträchtigen kann. Vitamin E hilft, schneller einzuschlafen und verhindert, dass der Schlaf während der Nacht unterbrochen wird.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-b3.svg" alt="Vitamine der Gruppe&amp;nbsp;B"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamine der Gruppe&nbsp;B</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-b3.svg" alt="Vitamine der Gruppe&amp;nbsp;B"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-b3.svg" alt="Vitamine der Gruppe&amp;nbsp;B"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamine der Gruppe&nbsp;B</p>
+                      <p class="ingredient__ttl title title--small">Vitamine der Gruppe&nbsp;B</p>
                       <p class="ingredient__text text--med">B-Vitamine sind ein wichtiges Element der ordnungsgemäßen Funktion der Nebennieren und helfen somit, die Freisetzung von Adrenalin in den Nachtstunden zu verhindern, wenn es nicht benötigt wird.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_zhelezo.svg" alt="Eisen"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Eisen</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_zhelezo.svg" alt="Eisen"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_zhelezo.svg" alt="Eisen"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Eisen</p>
+                      <p class="ingredient__ttl title title--small">Eisen</p>
                       <p class="ingredient__text text--med">Eisenmangel gilt auch als Hauptursache für das Auftreten des Syndroms der ruhelosen Beine, das wiederum Schlaflosigkeit und Angststörungen verursacht, die das einschlafen beeinträchtigen. </p>
                     </div>
                   </div>
-                </div>
+            </div>
           </div>
-          <div class="ingredients__content js-content-tab" id="list6">
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_biotin.svg" alt="Biotin"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Biotin</p>
-                  <div class="ingredient__info js-info-accordeon">
+          <div class="ingredients__content-wrap">
+            <div class="tab tab--green active js-tab" data-tab="#list6">
+              <p class="tab__text text--med">SCHÖNHEIT</p><i class="fico fico-arrow"></i>
+            </div>
+            <div class="ingredients__content js-content-tab" id="list6">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_biotin.svg" alt="Biotin"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_biotin.svg" alt="Biotin"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Biotin</p>
+                      <p class="ingredient__ttl title title--small">Biotin</p>
                       <p class="ingredient__text text--med">Biotin fördert die Gesundheit der Haut und ist wichtig für die Produktion von Keratin - ein Protein, das zur Stärkung von Nägeln und Haaren beiträgt. Es ist Biotin eines der Hauptelemente, das das Wachstum von gesundem und dickem Haar fördert. </p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-c.svg" alt="Vitamin C"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin C</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-c.svg" alt="Vitamin C"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-c.svg" alt="Vitamin C"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin C</p>
+                      <p class="ingredient__ttl title title--small">Vitamin C</p>
                       <p class="ingredient__text text--med">Vitamin C im Körper wirkt als Antioxidans und schützt die Zellen vor Schäden durch freie Radikale und verlangsamt dadurch das Altern.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-e.svg" alt="Vitamin E"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin E</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-e.svg" alt="Vitamin E"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-e.svg" alt="Vitamin E"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin E</p>
+                      <p class="ingredient__ttl title title--small">Vitamin E</p>
                       <p class="ingredient__text text--med">Es ist verantwortlich für die Festigkeit, Elastizität und Feuchtigkeit von Haut und Haaren. Dieses natürliche Antioxidans sowie Vitamin C hilft dem Körper, die Jugend zu verlängern und wirkt sich positiv auf den hormonellen Hintergrund aus, von dem der Zustand unserer Haut direkt abhängt.</p>
                     </div>
                   </div>
-                </div>
-                <div class="ingredient">
-                  <div class="ingredient__wrap-img ingredient__wrap-img--desc"><img src="/img/svg/ingredient_vit-a.svg" alt="Vitamin A"/></div>
-                  <p class="ingredient__ttl ingredient__ttl--mob title title--small js-btn-accordeon">Vitamin A</p>
-                  <div class="ingredient__info js-info-accordeon">
+                  <div class="ingredient">
+                    <div class="ingredient__wrap-img"><img src="/img/svg/ingredient_vit-a.svg" alt="Vitamin A"/></div>
                     <div class="ingredient__wrap">
-                      <div class="ingredient__wrap-img ingredient__wrap-img--mob"><img src="/img/svg/ingredient_vit-a.svg" alt="Vitamin A"/></div>
-                      <p class="ingredient__ttl ingredient__ttl--desc title title--small">Vitamin A</p>
+                      <p class="ingredient__ttl title title--small">Vitamin A</p>
                       <p class="ingredient__text text--med">Vitamin A spielt eine sehr wichtige Rolle bei der Erneuerung der Hautzellen und stimuliert auch die Funktion von Fibroblasten — Zellen, die mit der Produktion von Kollagen und Elastin verbunden sind.</p>
                     </div>
                   </div>
-                </div>
+            </div>
           </div>
         </div>
       </div>
@@ -907,18 +841,27 @@
             </div>
           </div>
           <div class="order-popup__price-wrap">
-            <label class="order-popup__price order-price js-price-label" for="bundle0"><b class="order-price__count text-small">1 pack</b><span class="order-price__value title title--small">€20.99</span></label>
+            <label class="order-popup__price order-price js-price-label" for="bundle0"><b class="order-price__count text--small">1 pack</b><span class="order-price__value title title--small">€20.99</span></label>
             <input class="order-popup__radio" id="bundle0" type="radio" name="bundle" value="0"/>
-            <label class="order-popup__price order-price js-price-label price-active" for="bundle1"><b class="order-price__count">3 pack</b><span class="order-price__value title title--small">€39.99</span><span class="order-price__comment text--small">Save 10%</span></label>
+            <label class="order-popup__price order-price js-price-label price-active" for="bundle1"><b class="order-price__count text--small">3 pack</b><span class="order-price__value title title--small">€39.99</span><span class="order-price__comment text--small">Save 10%</span></label>
             <input class="order-popup__radio" id="bundle1" type="radio" name="bundle" value="1"/>
-            <label class="order-popup__price order-price js-price-label" for="bundle2"><b class="order-price__count">5 pack</b><span class="order-price__value title title--small">€79.99</span><span class="order-price__comment text--small">Save 20%</span></label>
+            <label class="order-popup__price order-price js-price-label" for="bundle2"><b class="order-price__count text--small">5 pack</b><span class="order-price__value title title--small">€79.99</span><span class="order-price__comment text--small">Save 20%</span></label>
             <input class="order-popup__radio" id="bundle2" type="radio" name="bundle" value="2"/>
           </div>
           <form class="order-form" id="js-order-form" action="/" method="post">
             <div class="order-form__wrap">
-              <input class="order-form__input order-form__input--max input input--green" type="text" name="name" placeholder="Your name" required="required"/>
-              <input class="order-form__input order-form__input--med input input--green" type="tel" name="phone" placeholder="Phone number" required="required"/>
-              <input class="order-form__input order-form__input--med input input--green" type="email" name="email" placeholder="Email (optional)" required="required"/>
+              <div class="order-form__input-wrap">
+                <input class="order-form__input input js-input" type="text" name="name" required="required"/>
+                <label class="order-form__label">Your name</label>
+              </div>
+              <div class="order-form__input-wrap">
+                <input class="order-form__input input js-input" type="tel" name="phone" required="required"/>
+                <label class="order-form__label">Phone number</label>
+              </div>
+              <div class="order-form__input-wrap">
+                <input class="order-form__input input js-input" type="email" name="email"/>
+                <label class="order-form__label">Email <span>(optional)</span></label>
+              </div>
             </div>
             <div class="order-form__checkbox checkbox">
               <label class="checkbox__label">I consent to the processing of personal data
@@ -954,7 +897,7 @@
                 <div class="footer__privacy footer__col"><a class="footer__link text--med" href="privacy-policy.html">Datenschutzerklärung</a><a class="footer__link text--med" href="cookie-policy.html">Cookie-Richtlinie</a><a class="footer__link text--med" href="terms.html">Bedingungen</a></div>
               </div>
               <div class="footer__wrapper-bottom reviews-block"><img class="reviews-block__logo" src="/img/svg/trustpilot.svg" alt="trustpilot"/><img class="reviews-block__stars" src="/img/svg/raiting_trustpilot_full.svg" alt="raiting_trustpilot_full"/>
-                <p class="reviews-block__text text--small">Bewertet mit <span class="bold">4.9 </span>/ 5 basierend auf <span class="bold bold--line">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.</p>
+                <p class="reviews-block__text">Bewertet mit <span class="bold">4.9 </span>/ 5 basierend auf <span class="bold bold--line">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.</p>
               </div>
             </div>
             <div class="footer__right">

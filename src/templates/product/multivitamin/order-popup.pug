@@ -1,37 +1,44 @@
 .order-popup.order-popup--multivitamin.js-popup.order-pack-bundle1#order-popup
-    .order-popup__wrap
-        .order-popup__close.js-close
-            img(src="img/svg/close.svg", alt="close")
-        .order-popup__content
-            .order-popup__top
-                .order-popup__img
-                .order-popup__info
-                    h3.order-popup__title.title.title--med Order Multi Vitamin
-                    p.order-popup__descr.text--med Vitamins & Minerals
-                    p.order-popup__text.text--med Text that we will call. Do not exceed the recommended daily dose. A food supplement is not intended to substitute for a healthy diet.
-            .order-popup__price-wrap
-                label.order-popup__price.order-price.js-price-label(for='bundle0')
-                    b.order-price__count.text-small 1 pack
-                    span.order-price__value.title.title--small €20.99
-                input#bundle0.order-popup__radio(type='radio' name='bundle' value='0')
-                label.order-popup__price.order-price.js-price-label.price-active(for='bundle1')
-                    b.order-price__count 3 pack
-                    span.order-price__value.title.title--small €39.99
-                    span.order-price__comment.text--small Save 10%
-                input#bundle1.order-popup__radio(type='radio' name='bundle' value='1')
-                label.order-popup__price.order-price.js-price-label(for='bundle2')
-                    b.order-price__count 5 pack
-                    span.order-price__value.title.title--small €79.99
-                    span.order-price__comment.text--small Save 20%
-                input#bundle2.order-popup__radio(type='radio' name='bundle' value='2')
-            form.order-form#js-order-form(action="/", method="post")
-                    .order-form__wrap
-                        input.order-form__input.order-form__input--max.input.input--green(type="text", name="name" placeholder="Your name" required)
-                        input.order-form__input.order-form__input--med.input.input--green(type="tel", name="phone" placeholder="Phone number" required)
-                        input.order-form__input.order-form__input--med.input.input--green(type="email", name="email" placeholder="Email (optional)" required)
-                    .order-form__checkbox.checkbox
-                        label.checkbox__label I consent to the processing of personal data
-                            input.checkbox__input(type="checkbox" checked)
-                            span.checkbox__checkmark.checkbox__checkmark--green
-                                img.checkbox__ico(src="img/svg/check-order.svg", alt="check")
-                    button.order-form__btn.btn.btn--green(type="submit") Order Immunal
+	.order-popup__wrap
+		.order-popup__close.js-close
+			img(src="img/svg/close.svg", alt="close")
+		.order-popup__content
+			.order-popup__top
+				.order-popup__img
+				.order-popup__info
+					h3.order-popup__title.title.title--med Order Multi Vitamin
+					p.order-popup__descr.text--med Vitamins & Minerals
+					p.order-popup__text.text--med Text that we will call. Do not exceed the recommended daily dose. A food supplement is not intended to substitute for a healthy diet.
+			.order-popup__price-wrap
+				label.order-popup__price.order-price.js-price-label(for='bundle0')
+					b.order-price__count.text--small 1 pack
+					span.order-price__value.title.title--small €20.99
+				input#bundle0.order-popup__radio(type='radio' name='bundle' value='0')
+				label.order-popup__price.order-price.js-price-label.price-active(for='bundle1')
+					b.order-price__count.text--small 3 pack
+					span.order-price__value.title.title--small €39.99
+					span.order-price__comment.text--small Save 10%
+				input#bundle1.order-popup__radio(type='radio' name='bundle' value='1')
+				label.order-popup__price.order-price.js-price-label(for='bundle2')
+					b.order-price__count.text--small 5 pack
+					span.order-price__value.title.title--small €79.99
+					span.order-price__comment.text--small Save 20%
+				input#bundle2.order-popup__radio(type='radio' name='bundle' value='2')
+			form.order-form#js-order-form(action="/", method="post")
+					.order-form__wrap
+						.order-form__input-wrap
+							input.order-form__input.input.js-input(type="text", name="name" required)
+							label.order-form__label Your name
+						.order-form__input-wrap
+							input.order-form__input.input.js-input(type="tel", name="phone"   required)
+							label.order-form__label Phone number
+						.order-form__input-wrap
+							input.order-form__input.input.js-input(type="email", name="email")
+							label.order-form__label Email 
+								span (optional)
+					.order-form__checkbox.checkbox
+						label.checkbox__label I consent to the processing of personal data
+							input.checkbox__input(type="checkbox" checked)
+							span.checkbox__checkmark.checkbox__checkmark--green
+								img.checkbox__ico(src="img/svg/check-order.svg", alt="check")
+					button.order-form__btn.btn.btn--green(type="submit") Order Immunal
