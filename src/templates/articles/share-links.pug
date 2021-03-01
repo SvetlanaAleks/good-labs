@@ -1,5 +1,7 @@
+- var ARTICLES = LANG.articles;
+
 .share-links
-	p.share-links__text Поделиться постом с друзьями
+	p.share-links__text!= ARTICLES.share_text
 	.share-links__wrap
 		.share-links__item
 			i.fico.fico-fb

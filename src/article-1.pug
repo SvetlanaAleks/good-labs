@@ -1,6 +1,7 @@
 extends templates/layout/layout.pug
 block head
-	title GoodLabs - Витаминная бомба: почему важно принимать мультивитаминные комплексы
+	- var ARTICLES_TITLE_MAIN = LANG.articles.article_1.title_main;
+	title!= ARTICLES_TITLE_MAIN
 block content
 	include templates/articles/article-1
 	.container

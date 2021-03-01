@@ -1187,5 +1187,92 @@
     "select1": {
       "variant1": "Beratung"
     }
+  },
+  "articles": {
+    "share_text": "Teile diesen Beitrag mit deinen Freunden",
+    "article_1": {
+      "title_main": "Vitaminbombe: warum es wichtig ist, die Multivitamin-Komplexe einzunehmen",
+      "desc": "Die klinische Diagnose „Avitaminose“ ist heutzutage nicht sehr häufig, dennoch kaufen die Menschen weiterhin massenhaft Vitaminkomplexe. Warum passiert das? Braucht unser Körper wirklich Unterstützung von außen? Und nach welchem Prinzip funktionieren Multivitamin-Komplexe? Lassen Sie uns all diese Fragen genauer betrachten.",
+      "ttl_1": "Marketing-Trick oder Notwendigkeit?",
+      "desc_1": [
+        "In den USA nehmen 40 bis 50 % der Männer und Frauen im Alter von 50 Jahren und älter regelmäßig Multivitamin-/Mineralstoffpräparate (MVM) zu sich, was zu einem jährlichen Umsatz von über 11 Milliarden USD für diese Präparate führt. Natürlich erzeugt eine solche Nachfrage noch mehr Angebot und bildet einen ganzen Markt, der sich mit der Freigabe von neuen und neuen Produkten beschäftigt.",
+        "Es besteht die Vorstellung, dass Multivitamin-Komplexe vom Körper schlecht aufgenommen werden und ihm keinen Nutzen bringen. Stimmt das in der Realität? Der Ausdruck gilt nur für solche Produkte, die Vitamine und Nährstoffe in zu hohen Konzentrationen enthalten, um von den Zellen aufgenommen zu werden.",
+        "Darüber hinaus konzentrieren sich die Wissenschaftler auf bestimmte Eigenschaften der einzelnen Vitamine: einige sind fettlöslich, andere wasserlöslich. Einige werden durch direktes Sonnenlicht zerstört, andere benötigen einen „Partner“, um sie zu aktivieren, wodurch ihre Wirkung verstärkt wird. All diese Punkte sind bei der Formulierung eines Vitaminkomplexes zu beachten."
+      ],
+      "ttl_2": "Das ABC der Gesundheit: wie erkenne ich die Signale des Körpers?",
+      "desc_2": [
+        "Der menschliche Körper ist ein zusammenhängendes System, ein integraler Mechanismus, bei dem alle Elemente voneinander abhängen. Viele Lebensprozesse benötigen ein gewisses Maß an Energie, die hauptsächlich aus der Nahrung gewonnen wird. Kleine Mengen an Energie werden durch Wasser und Getränke, körperliche Bewegung und guten Schlaf bereitgestellt.",
+        "Doch nicht immer ist es möglich, den gesamten Vitamin- und Mikronährstoffbedarf des Körpers selbst zu decken. Wie können Sie die Signale des Körpers erkennen und verstehen, was ihm fehlt?"
+      ],
+      "ttl_3": "Anzeichen von Vitaminmangel im menschlichen Körper",
+      "item_1": "Vitamin А - Mangel:",
+      "list_item_1_1": "Brüchigkeit der Haare und Nägel, Trockenheit der Haut;",
+      "list_item_1_2": "Sehverschlechterung.",
+      "item_2": "Vitamin В1 (Thiamin) - Mangel:",
+      "list_item_2_1": "niedriger Muskeltonus;",
+      "list_item_2_2": "Herzinsuffizienz.",
+      "item_3": "Vitamin В5 (Pantothensäure) - Mangel:",
+      "list_item_3_1": "erhöhte Müdigkeit, Schwäche;",
+      "list_item_3_2": "Blähungen und Übelkeit.",
+      "item_4": "Vitamin В7 (Biotin) - Mangel:",
+      "list_item_4_1": "Blutzuckeranstieg;",
+      "list_item_4_2": "Verschlechterung des Zustandes von Haut, Haaren, Nägeln.",
+      "item_5": "В9 (Folsäure) - Mangel:",
+      "list_item_5_1": "Risiko von Herzinfarkt und Schlaganfall;",
+      "list_item_5_2": "Risiko von Arteriosklerose und Nervenstörungen.",
+      "item_6": "Vitamin С - Mangel:",
+      "list_item_6_1": "depressive Stimmung, Müdigkeit;",
+      "list_item_6_2": "Immunsuppression, Kränklichkeit.",
+      "item_7": "Vitamin D3 - Mangel:",
+      "list_item_7_1": "Hormonelle Störungen, Schilddrüsenprobleme;",
+      "list_item_7_2": "Sehstörungen, Apathie.",
+      "item_8": "Vitamin Е - Mangel:",
+      "list_item_8_1": "Anämie, Kapillarbrüchigkeit;",
+      "list_item_8_2": "Beeinträchtigung der Psychomotorik.",
+      "text_1": "Als effektivste Methode zur Erkennung von Vitamin- und Mineralstoffmängeln gilt nach wie vor die Laboruntersuchung.",
+      "ttl_4": "Quellen der Vitalität",
+      "desc_3": [
+        "Es gibt unzählige Quellen der Vitalität in der Welt. Zum Beispiel hat eine Person Zugang zu einer schmackhaften und abwechslungsreichen Ernährung, sauberem Trinkwasser, einem gesunden Tiefschlaf von 7 Stunden und moderater körperlicher Aktivität. All diese Dinge erhöhen die Vitalität.",
+        "Bei Vitamin-Mangel sollten Sie besonders auf die Lebensmittel achten:"
+      ],
+      "list_1": [
+        "Vitamin А: Leber, Fischfett;",
+        "Vitamin B1: Zirbelnüsse, Hafer, Erbsen, Sojabohnen; ",
+        "Vitamin B2: Hühnereier, Nüsse, Leber;",
+        "Vitamin B3: Bohnen, Champignons und andere Pilze, Erbsen;",
+        "Vitamin B6: Pinienkerne, Bohnen, Granatapfel, Paprika;",
+        "Vitamin В12: Milch, Leber, Fleisch, Fisch, Eier;",
+        "Vitamin С: Hagebutten, Kiwi, Paprika, Zitrusfrüchte;",
+        "Vitamin D3: Leber, Fisch, Butter, Eier;",
+        "Eisen: Leber, Eier, Pistazien;",
+        "Jod: Meeresfrüchte, Jodsalz, Dorsch;",
+        "Kalzium: Milch, Pistazien, Erbsen;",
+        "Magnesium: Sonnenblumenkerne und Nüsse;",
+        "Zink: Leber, Bohnen, Austern, Erbsen."
+      ],
+      "text_2": "Warum also, wenn alle Stoffe in den Lebensmitteln sind, gibt es so viele Vitamin-Zusätze?!",
+      "ttl_5": "Moderne Wege zur Beseitigung von Vitaminmangelzuständen",
+      "desc_4": [
+        "Leider hat der Mensch bei einem äußeren Überfluss an Ressourcen nicht immer die Möglichkeit, die inneren Bedürfnisse seines Körpers wieder aufzufüllen. Sauberes Wasser erweist sich in der mikrobiologischen Analyse oft als nicht so „sauber“. Farmgemüse und Früchte können Nitrate und schweres Eisen aus dem Boden anreichern. Geflügel, Vieh und Fische halten oft Schadstoffe zurück oder werden künstlich beeinträchtigt.",
+        "Multivitamin-Komplexe sind die einzige Möglichkeit, die fehlenden Nährstoffe zu erhalten, und sie müssen in die Ernährung aufgenommen werden. Multivitamine sind vollkommen sicher, aber nur, wenn sie ausreichende und notwendige Mengen der notwendigen Vitamine und Mineralien enthalten - nicht mehr und nicht weniger als die, die Sie brauchen, um gesund zu bleiben.",
+        "GoodLabs Multivitamin ist ein Beispiel für einen ausgewogenen Komplex in Bezug auf Dosierung und Zusammensetzung."
+      ],
+      "ttl_6": "Vorteile von GoodLabs Multivitamin",
+      "desc_5": [
+        "GoodLabs Multivitamin ist ein hochwirksamer deutscher Komplex aus Vitaminen und Mineralien in optimalen Konzentrationen für den Körper. ",
+        "Wie GoodLabs Multivitamin Ihrem Körper hilft:"
+      ],
+      "list_ttl_1": "1. Starke Immunität",
+      "list_text_1": "Die Vitamine C und D3 sowie Zink erhalten die Integrität der natürlichen entzündungshemmenden Barriere aufrecht, so dass Sie während des saisonalen Rückgangs der körpereigenen Abwehrkräfte und des allgemeinen Kräfteverfalls Infektionen vermeiden können.",
+      "list_ttl_2": "2. Gesunde Knochen",
+      "list_text_2": "Die Goldenen Vier für die Knochen - die Vitamine B und D sowie die natürlichen Mineralstoffe Kalzium und Magnesium - spielen eine wichtige Rolle im Körper und tragen zur normalen Knochenbildung sowie zur Muskelfunktion und Durchblutung bei.",
+      "list_ttl_3": "3. Gute Verdauung",
+      "list_text_3": "Histidin, Molybdän, B-Vitamine zugesetzt, die das Stoffwechselsystem mit essentiellen Nährstoffen anreichern, den Magen-Darm-Trakt und die Leber unterstützen, Giftstoffe aus dem Körper ausscheiden.",
+      "list_ttl_4": "4. Stabiles Nervensystem",
+      "list_text_4": "B-Vitamine und Magnesium lindern Müdigkeit und Depressionen, fördern guten Schlaf und unterstützen das Nervensystem, die Herzmuskelfunktion und den normalen Kreislauf.",
+      "ttl_last": "Schlussfolgerung",
+      "text_last": "Gehen Sie keine Kompromisse bei der Qualität ein, wählen Sie nur das Beste für Ihre Gesundheit. Achten Sie auf einen gut aufgebauten Tagesablauf, ausreichend Ruhe, aktive Zeit im Freien, eine ausgewogene Ernährung, und GoodLabs Multivitamin wird Ihnen helfen, die Vitalität Ihres Körpers jeden Tag auf einem hohen Niveau zu halten.",
+      "rec_desc": "Vitamine & Mineralien"
+    }
   }
 }

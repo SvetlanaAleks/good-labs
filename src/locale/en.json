@@ -1151,5 +1151,92 @@
     "select1": {
       "variant1": "Consultation"
     }
+  },
+  "articles": {
+    "share_text": "Share this post with your friends",
+    "article_1": {
+      "title_main": "Vitamin bomb: why it is important to take multivitamin complexes",
+      "desc": "The clinical diagnosis of “vitamin deficiency” is not very common these days, but people continue to massively buy vitamin complexes. Why is this happening? Does our body really need external support? And what is the principle of work of multivitamin complexes? Let's examine all the issues in more detail.",
+      "ttl_1": "Marketing gimmick or necessity?",
+      "desc_1": [
+        "In the United States, from 40 to 50% of men and women at the age of 50 and older regularly use multivitamin / mineral supplements, resulting in more than $ 11 billion in annual sales of these supplements. Of course, this demand generates even more supply and forms a whole market that is engaged in the release of new and new products.",
+        "There is an opinion that multivitamin complexes are poorly absorbed by the body and do not bring any benefit to it. Is it true? The expression is true only for those products that contain vitamins and nutrients in too high concentrations, unable to be absorbed by cells.",
+        "In addition, scientists focus on some features of individual vitamins: some of them are fat-soluble, others are water-soluble. Some are destroyed by direct sunlight, while others require a “partner”, who will enhance their effect, for the activation. All these points are fundamentally important to take into account in the preparation of the vitamin complex formula."
+      ],
+      "ttl_2": "The ABC of Health: How to Recognize Body Signals?",
+      "desc_2": [
+        "The human body is a well-coordinated system, an integral mechanism, all elements of which depend on each other. Many vital processes require a certain level of energy, which is obtained mainly from food. Small portions of energy give us water and drinks, exercises, good healthy sleep.",
+        "But people do not always manage to independently satisfy all the needs of their bodies for vitamins and microelements. How to recognize the signals of the body and understand what it lacks?"
+      ],
+      "ttl_3": "Signs of a lack of vitamins in the human body",
+      "item_1": "vitamin A deficiency:",
+      "list_item_1_1": "brittle hair and nails, dry skin;",
+      "list_item_1_2": "deterioration of vision.",
+      "item_2": "vitamin B1 (thiamine) deficiency:",
+      "list_item_2_1": "low muscle tone;",
+      "list_item_2_2": "heart failure.",
+      "item_3": "vitamin B5 (pantothenic acid) deficiency:",
+      "list_item_3_1": "increased fatigue, weakness;",
+      "list_item_3_2": "flatulence and nausea.",
+      "item_4": "vitamin B7 (biotin) deficiency:",
+      "list_item_4_1": "the level of sugar in the blood rises;",
+      "list_item_4_2": "the condition of the skin, hair, nails worsens.",
+      "item_5": "B9 (folic acid) deficiency:",
+      "list_item_5_1": "риск инфаркта и инсульта;",
+      "list_item_5_2": "риск атеросклероза и нервных расстройств.",
+      "item_6": "vitamin C deficiency:",
+      "list_item_6_1": "depressed mood, fatigue;",
+      "list_item_6_2": "suppression of immunity, soreness.",
+      "item_7": "vitamin D3 deficiency:",
+      "list_item_7_1": "hormonal disruptions, thyroid problems;",
+      "list_item_7_2": "blurred vision, apathy.",
+      "item_8": "vitamin E deficiency:",
+      "list_item_8_1": "anemia, capillary fragility;",
+      "list_item_8_2": "violation of psychomotor functions.",
+      "text_1": "Laboratory testing is still considered the most effective way to detect vitamin and mineral deficiencies.",
+      "ttl_4": "Sources of vitality",
+      "desc_3": [
+        "There are a lot of sources of vitality in the world. So, people have access to tasty and varied food, clean drinking water, healthy deep sleep from 7 hours and moderate physical activity. All these factors increase vitality.",
+        "In case of vitamin deficiency, you need to pay close attention to food products:"
+      ],
+      "list_1": [
+        "vitamin A: liver, cod-liver oil;",
+        "vitamin B1: pine nuts, oatmeal, peas, soy;",
+        "vitamin B2: chicken eggs, nuts, liver;",
+        "vitamin B3: beans, champignons and other mushrooms, peas;",
+        "vitamin B6: pine nuts, beans, pomegranate, bell peppers;",
+        "vitamin B12: milk, liver, meat, fish, eggs;",
+        "vitamin C: canker-rose, kiwi, bell pepper, citrus;",
+        "vitamin D3: liver, fish, butter, eggs;",
+        "iron: liver, eggs, pistachios;",
+        "iodine: seafood, iodized salt, cod;",
+        "calcium: milk, pistachios, peas;",
+        "magnesium: seeds and nuts;",
+        "zinc: liver, beans, oysters, peas."
+      ],
+      "text_2": "Why there are so many vitamin supplements, if all the substances are in food?!",
+      "ttl_5": "Modern methods of elimination of vitamin deficiencies",
+      "desc_4": [
+        "Unfortunately, with an external abundance of resources, a person does not always have the opportunity to meet the internal needs of his body. Microbiological analysis of pure water often turns out to be not so “pure”. Farm vegetables and fruits can accumulate nitrates and heavy iron from the soil. Poultry, livestock meat, and fish often retain contamination or are subjected to artificial interference from the outside.",
+        "Multivitamin complexes are the only way to get the missing nutrients, and they must be included in the diet. Taking multivitamins is absolutely safe, but only if the complex contains the necessary vitamins and minerals in sufficient and necessary quantities - no more and no less but the right amount that you need to maintain health.",
+        "GoodLabs Multivitamin is an example of a complex balanced in terms of dosage and composition. "
+      ],
+      "ttl_6": "GoodLabs Multivitamin Benefits",
+      "desc_5": [
+        "GoodLabs Multivitamin is a highly effective German complex of vitamins and minerals in optimal concentrations for the body.",
+        "How GoodLabs Multivitamin helps your body:"
+      ],
+      "list_ttl_1": "1. Strong immunity",
+      "list_text_1": "Vitamins C and D3 and zinc maintain the integrity of the natural anti-inflammatory barrier, thereby avoiding infection during the period of seasonal weakening of the body's defense and general loss of strength.",
+      "list_ttl_2": "2. Healthy bones",
+      "list_text_2": "The Golden Four for bones - vitamins B and D, as well as natural minerals calcium and magnesium - play an important role in the body, helping the normal formation of the skeletal system, as well as muscle function and blood circulation.",
+      "list_ttl_3": "3. Good digestion",
+      "list_text_3": "The product contains histidine, molybdenum, B vitamins, which enrich the metabolic system with essential nutrients, support the functioning of the gastrointestinal tract and liver, and remove toxins from the body.",
+      "list_ttl_4": "4. Stable nervous system",
+      "list_text_4": "B vitamins and magnesium relieve fatigue and depression, promote good sleep and support the nervous system, heart muscles and normal blood circulation.",
+      "ttl_last": "Conclusion",
+      "text_last": "Don't compromise on quality; choose only the best for your health. Take care of a well-structured daily routine, adequate rest, active time in the fresh air, a balanced diet, and GoodLabs Multivitamin will help keep your body's vitality at a high level every day.",
+      "rec_desc": "Vitamins & Minerals"
+    }
   }
 }
