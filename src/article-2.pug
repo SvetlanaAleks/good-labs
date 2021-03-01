@@ -1,6 +1,7 @@
 extends templates/layout/layout.pug
 block head
-	title GoodLabs - Вопрос количества: почему важно соблюдать правильную дозировку при приеме витаминных комплексов
+	- var ARTICLES_TITLE_MAIN = LANG.articles.article_2.title_main;
+	title!= ARTICLES_TITLE_MAIN
 block content
 	include templates/articles/article-2
 	.container

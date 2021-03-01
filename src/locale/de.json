@@ -1273,6 +1273,61 @@
       "ttl_last": "Schlussfolgerung",
       "text_last": "Gehen Sie keine Kompromisse bei der Qualität ein, wählen Sie nur das Beste für Ihre Gesundheit. Achten Sie auf einen gut aufgebauten Tagesablauf, ausreichend Ruhe, aktive Zeit im Freien, eine ausgewogene Ernährung, und GoodLabs Multivitamin wird Ihnen helfen, die Vitalität Ihres Körpers jeden Tag auf einem hohen Niveau zu halten.",
       "rec_desc": "Vitamine & Mineralien"
+    },
+    "article_2": {
+      "title_main": "Frage der Menge: warum es wichtig ist, bei der Einnahme von Vitaminkomplexen die richtige Dosierung zu beachten",
+      "desc": "Maß ist zu allen Dingen gut. Dieses Sprichwort spiegelt die Hauptregel eines gesunden und glücklichen Lebens vollständig wider - ein Leben im Gleichgewicht. Auch bei der Einnahme von Multivitaminkomplexen ist es wichtig, die Regel der Ausgewogenheit zu beachten. Lesen Sie in diesem Artikel mehr darüber, wie Sie den Bedarf Ihres Körpers verstehen und wie Sie die Dosis jedes einzelnen Vitamins bestimmen können.",
+      "ttl_1": "Das Phänomen der Megavitaminisierung",
+      "desc_1": [
+        "Der Begriff „Megavitaminisierung“ ist relativ neu, aber seine Bedeutung nimmt von Jahr zu Jahr zu. Etwa 20-30 % der Bürger in den entwickelten Ländern nehmen täglich Vitaminpräparate ein, aber profitiert ihre Gesundheit davon? Wie sicher sind Vitaminpräparate und warum reichern Lebensmittelhersteller jetzt sogar Brot und Milch zusätzlich an? Lassen Sie uns all diese Fragen nacheinander beantworten.",
+        "In der Tat ist die Vitaminproduktion eine große Industrie mit einem Umsatz von mehreren Millionen. Aber sie entstand als Reaktion auf die schlechte Qualität der Lebensmittel. Zunehmend ist der Anbau von Obst und Gemüse die Keimzelle der Nitratanreicherung im Boden. Immer seltener versorgen uns Fleisch oder Fisch mit gesundem Eiweiß und nicht mit einem Übermaß an schwerem Eisen.",
+        "Auch die Qualität des Trinkwassers lässt zu wünschen übrig, so dass selbst bei ausgewogener Ernährung das Problem des Mangels an bestimmten Vitaminen für viele Menschen akut ist. Zum Beispiel hat fast jeder Zweite einen Mangel an Vitamin D3, der durch spezielle Zusätze ausgeglichen werden kann. Oder wenn sich Haut, Haare und Nägel verschlechtern, bestätigen Untersuchungen nicht selten einen Biotin-Mangel.",
+        "Zweifellos gibt es das Phänomen der Megavitaminisierung, aber es ist als Reaktion auf das Problem des Vitaminmangels entstanden. Auch bei diesem Thema ist es wichtig, das Prinzip der Ausgewogenheit zu beachten."
+      ],
+      "ttl_2": "Sicherheitsgrenzen",
+      "text_1": "Der Tagesbedarf an Vitaminen ist eine Einheit, die variabel ist. Sie hängt von vielen externen Faktoren ab:",
+      "list_1": [
+        "was Sie über den Tag hinweg gegessen haben;",
+        "was Sie getrunken haben;",
+        "wie und wie lange Sie sich ausgeruht haben;",
+        "wie gut Sie geschlafen haben;",
+        "wie viele Stunden Sie im Freien verbracht haben;",
+        "ob Sie sich körperlich aktiv bewegt haben oder nicht."
+      ],
+      "desc_2": [
+        "Ernährung, Sport, Stress, Schlaf - sie alle zwingen unseren Körper, eine bestimmte Menge an Energie aufzuwenden, um eindeutige biochemische Prozesse auszulösen. Vitamine und Mikronährstoffe sind spezielle Substanzen, die der Körper braucht, um richtig zu funktionieren. Tatsächlich sind diese Verbindungen die Bausteine von Zellen und ganzen Organsystemen und beeinflussen direkt die Qualität des menschlichen Lebens.",
+        "Vitamine und Spurenelemente haben keinen Nährwert, erfüllen aber essentielle Funktionen: sie regulieren Stoffwechselprozesse, katalysieren biochemische Reaktionen, helfen bei der Aufnahme vieler Mineralstoffe. Aber ihr Übermaß hat einen polaren Effekt."
+      ],
+      "ttl_3": "Vorsicht mit den Vitaminen!",
+      "text_3": "Der übermäßige Konsum von Vitaminkomplexen führt zu einer Hypervitaminose. Welche Gefahr geht von diesem Zustand aus? Sie ist gekennzeichnet durch die Anhäufung eines bestimmten Vitamins im menschlichen Körper, was zu unvorhersehbaren Folgen führt. Lassen Sie uns herausfinden, wie man eine Hypervitaminose bestimmter Elemente erkennt:",
+      "list_2": [
+        "Längerer Gebrauch von hohen Dosen von Vitamin A (über 50.000 U) kann Schläfrigkeit, erhöhten Augeninnendruck, Kopfschmerzen, Übelkeit, Erbrechen, Sehstörungen (gelbe Fleckschwellung auf der Netzhaut), Photophobie, Blutungen verursachen.",
+        "Eine unkontrollierte Einnahme von Vitamin D (mehr als 1000 IE pro 1 kg Körpergewicht) führt zu Hyperkalzämie und Hyperkalziurie. Überdosierung von Vitamin D stört den Transport von Kalium und Magnesium, was mit einer Beeinträchtigung der Herzkontraktilität, der Entwicklung von Mikronekrosenherden und Arrhythmien einhergeht.",
+        "Hohe Dosen von Vitamin E haben toxische Effekte auf Neutrophile, Thrombozyten, Darmepithel, Leber- und Nierenzellen; hemmen die Vitamin-K-abhängige Carboxylase-Aktivität.",
+        "Die Einnahme von B6 in einer Menge von 50 mg oder mehr pro Tag verursacht Störungen des Protein-, Kohlenhydrat- und Fettstoffwechsels, degenerative Veränderungen im zentralen Nervensystem."
+      ],
+      "text_4": "Und dies ist keine vollständige Liste aller Stolpersteine einer unkontrollierten Einnahme von Vitaminzusätzen.",
+      "ttl_4": "Wann die Einnahme von Vitaminen notwendig ist",
+      "text_5": "Die meisten Ärzte, Ernährungswissenschaftler und zertifizierten Ernährungsfachkräften identifizieren 4 Situationen, in denen die Einnahme von Vitaminen für einen Patienten lebenswichtig ist:",
+      "list_3": [
+        "Bei der Behandlung von Hypo- und Avitaminose (nach entsprechender Diagnostik werden sie vom behandelnden Arzt verordnet).",
+        "Bei der Behandlung verschiedener Krankheiten (in der Regel vom behandelnden Arzt empfohlen und/oder verordnet).",
+        "Zur Erhöhung der Anpassungsfähigkeit des Körpers in Dosen, die den Tagesbedarf um das 2-3-fache übersteigen (in der Regel sind dies vom behandelnden Arzt verordnete Monopräparate).",
+        "Zur Vorbeugung von Hypovitaminose (vor allem in der Winter- und Frühjahrssaison; in der Regel werden Vitamine „verschrieben“ und selbständig oder nach Rücksprache mit einem Apotheker ausgewählt)."
+      ],
+      "text_6": "In solchen Situationen ist die Einnahme von Vitaminkomplexen voll gerechtfertigt und wird klinisch empfohlen.",
+      "ttl_5": "Dosierung von GoodLabs Multivitamin",
+      "desc_3": [
+        "Multivitamin-Komplexe sind die einzige Möglichkeit, die fehlenden Nährstoffe zu erhalten, und sie müssen in die Ernährung aufgenommen werden. Multivitamine sind sicher einzunehmen, aber nur, wenn sie die richtige Menge an Vitaminen und Mineralien enthalten - nicht mehr und nicht weniger als das, was Sie brauchen, um gesund zu bleiben.",
+        "GoodLabs Multivitamin ist ein Beispiel für einen ausgewogenen Komplex in Bezug auf Dosierung und Zusammensetzung. Es handelt sich um ein sicheres, natürliches Produkt in bester deutscher Qualität, das auf alle Bedürfnisse des Körpers abgestimmt ist. Die prophylaktischen Dosen haben eine optimale gesundheitsfördernde Wirkung und sind für den Menschen nicht schädlich.",
+        "GoodLabs Multivitamin-Vitamin- und Mineralienkomplex wurde von Fachleuten auf der Grundlage modernster Forschung von Wissenschaftlern entwickelt. Perfekte deutsche Formeln aktivieren die Abwehrkräfte, die Vitamine A, C und E spielen die Rolle natürlicher Antioxidantien, und B-Vitamine und Kalzium stärken den Stütz- und Bewegungsapparat. Magnesium und Rosenwurz-Extrakt sind für die Stabilität des Nervensystems verantwortlich, während Probiotika die Magen-Darm-Funktion verbessern."
+      ],
+      "ttl_last": "Schlussfolgerung",
+      "desc_last": [
+        "Um einen Vitaminkomplex sicher einzunehmen, ist es wichtig, alle Vitaminmangeltests zu machen und eine gründliche Diagnostik unter Aufsicht des behandelnden Arztes durchzuführen. Nehmen Sie dann nur solche Nahrungsergänzungsmittel ein, die den Prinzipien der vorbeugenden Dosierung folgen und für den Menschen sicher sind.",
+        "Denken Sie daran, dass mehr nicht besser ist. Achten Sie auf Ihr Wohlbefinden und bleiben Sie gesund!"
+      ],
+      "recom_desc": "Vitamine & Mineralien"
     }
   }
 }

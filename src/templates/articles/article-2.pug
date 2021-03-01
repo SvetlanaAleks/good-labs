@@ -1,80 +1,71 @@
+- var ARTICLES_2 = LANG.articles.article_2;
+
 section.article-page
 	include ../banner-top
 	include ../mixins/menu.pug
 	+menu("article-2")
 	.container
 		.article-page__wrapper
-				h1.article-page__title.title.title--main Вопрос количества: почему важно соблюдать правильную дозировку при приеме витаминных комплексов
+				h1.article-page__title.title.title--main!= ARTICLES_2.title_main
 				.article-page__photo
 					picture
 						source(srcset="img/article_2.webp", type="image/webp")
-						img.article-page__image(src="img/article_2.jpg", alt="Вопрос количества: почему важно соблюдать правильную дозировку при приеме витаминных комплексов")
+						img.article-page__image(src="img/article_2.jpg", alt=ARTICLES_2.title_main)
 				.article-page__content
-					p.article-page__main-text.text--large Хорошо то, что в меру. Эта пословица полностью отображает главное правило здоровой и счастливой жизни — жизни в балансе. Придерживаться правила баланса важно и при приеме мультивитаминных комплексов. Как понять потребности своего организма и как определить дозировки каждого отдельного витамина расскажем подробнее в статье.
+					p.article-page__main-text.text--large!= ARTICLES_2.desc
 					.article-page__wrap.article-page__wrap--float-image-right
-						h4.article-page__ttl.title.title--small Феномен мегавитаминизации
+						h4.article-page__ttl.title.title--small!= ARTICLES_2.ttl_1
 						.article-page__desc
-							img.article-page__image-round(src="img/acticle_image_3.jpg", alt="Феномен мегавитаминизации")
-							p.article-page__text.text--med Термин “мегавитаминизация” появился относительно недавно, но его актуальность возрастает год от года. Около 20-30% граждан развитых стран ежедневно принимают витаминные добавки, но несет ли это пользу их здоровью? Насколько безопасны витаминные добавки и почему сейчас производители пищевых продуктов дополнительно витаминизируют даже хлеб и молоко? Ответим на все вопросы по-порядку.
-							p.article-page__text.text--med Действительно, производство витаминов — большая индустрия с многомиллионным оборотом. Но возникла она как ответ на низкое качество потребляемых человеком продуктов. Все чаще фермерские овощи и фрукты становятся ядром накопления нитратов из почвы. Все реже мясо или рыба несут нам полезный белок, а не избыток тяжелого железа.
-							p.article-page__text.text--med Качество питьевой воды также оставляет желать лучшего, потому даже придерживаясь сбалансированного рациона проблема дефицитов отдельных витаминов остро стоит для многих людей. Так, практически у каждого второго наблюдается нехватка витамина-гормона D3, компенсировать который могут специализированные добавки. Или же при ухудшении состояния кожи, волос и ногтей чаще всего анализы подтверждают факт нехватки биотина.
-							p.article-page__text.text--med Несомненно, феномен мегавитаминизации существует, но он возник как ответ на проблему витаминного дефицита. Опять же, в решении этого вопроса также важно придерживаться принципа балансирования.
+							img.article-page__image-round(src="img/acticle_image_3.jpg", alt= ARTICLES_2.ttl_1)
+							each text in ARTICLES_2.desc_1
+								p.article-page__text.text--med!= text
 					.article-page__wrap.article-page__wrap--simle-text
-						h4.article-page__ttl.title.title--small Границы безопасности
+						h4.article-page__ttl.title.title--small!= ARTICLES_2.ttl_2
 						.article-page__desc
-							p.article-page__text.text--med Суточная потребность в витаминах — единица переменного характера. Она зависит от многих внешних факторов:
+							p.article-page__text.text--med!= ARTICLES_2.text_1
 						ul.list-acticle.text--med.mbtop.mbbottom.pl
-							li.list-acticle__item того, что вы ели на протяжении дня;
-							li.list-acticle__item  того, что вы пили;
-							li.list-acticle__item  того, как и сколько вы отдыхали;
-							li.list-acticle__item  того, как хорошо вы выспались;
-							li.list-acticle__item  того, сколько часов вы провели на свежем воздухе;
-							li.list-acticle__item  того, занимались ли физическими нагрузками.
+							each item in ARTICLES_2.list_1
+								li.list-acticle__item!= item
 						.article-page__desc
-							p.article-page__text.text--med Питание, спорт, стресс, сон — все они вынуждают наш организм тратить определенное количество энергии, запускать четкие биохимические процессы. Витамины и микроэлементы — это особые вещества, необходимые организму для полноценного функционирования. По сути, эти соединения — строительные элементы клеток и целых систем органов, непосредственно влияющих на качество жизни человека.
-							p.article-page__text.text--med Витамины и микроэлементы не обладают пищевой ценностью, но выполняют важнейшие функции: регулируют обменные процессы, катализируют биохимические реакции, помогают в усвоении многих минеральных компонентов. Но их переизбыток имеет полярное действие.
+							each text in ARTICLES_2.desc_2
+								p.article-page__text.text--med!= text
 					.article-page__wrap.article-page__wrap--simle-text
-						h4.article-page__ttl.title.title--small Осторожно, витамины!
+						h4.article-page__ttl.title.title--small!= ARTICLES_2.ttl_3
 						.article-page__desc
-							p.article-page__text.text--med Переизбыток употребления витаминных комплексов ведет к гипервитаминозу. Чем опасно это состояние? Оно характеризуется накоплением определенного витамина в организме человека, что ведет к непредсказуемым последствиям. Узнаем, по каким признакам распознать гипервитаминоз отдельных элементов:
+							p.article-page__text.text--med!= ARTICLES_2.text_3
 						ul.list-acticle.text--med.mbtop.mbbottom.pl
-							li.list-acticle__item при длительном применении витамина А в высоких дозах (более 50 000 ЕД) наблюдаются сонливость, повышение внутриглазного давления, головная боль, тошнота, рвота, нарушения зрения (отечность желтого пятна на сетчатой оболочке), светобоязнь, геморрагии.
-							li.list-acticle__item неконтролируемое потребление витамина D (более 1000 ME на 1 кг веса тела) приводит к гиперкальциемии и гиперкальциурии. Передозировка витамина D нарушает транспорт калия и магния, что сопровождается ухудшением сократительной деятельности сердца, развитием очагов микронекроза и появлением аритмий.
-							li.list-acticle__item большие дозы витамина Е оказывают токсическое действие на нейтрофилы, тромбоциты, эпителий кишечника, клетки печени и почек; угнетают активность витамин-К-зависимой карбоксилазы.
-							li.list-acticle__item применение В6 по 50 мг и более в сутки вызывает нарушение обмена белков, углеводов и липидов, дегенеративные изменения в центральной нервной системе.
-						p.article-page__text.text--med И это далеко не полный перечень всех подводных камней бесконтрольного приема витаминных добавок.
+							each item in ARTICLES_2.list_2
+								li.list-acticle__item!= item
+						p.article-page__text.text--med!= ARTICLES_2.text_4
 					.article-page__wrap.article-page__wrap--float-image-right
-						h4.article-page__ttl.title.title--small Когда прием витаминов необходим
+						h4.article-page__ttl.title.title--small!= ARTICLES_2.ttl_4
 						.article-page__desc
 							.article-page__desc
-								img.article-page__image-border(src="img/acticle_image_4.jpg", alt="Когда прием витаминов необходим")
-								p.article-page__text.text--med Большинство врачей, диетологов и сертифицированных нутрициологов выделяют 4 ситуации, когда прием витаминов пациенту жизненно необходим:
+								img.article-page__image-border(src="img/acticle_image_4.jpg", alt=ARTICLES_2.ttl_4)
+								p.article-page__text.text--med!= ARTICLES_2.text_5
 								ul.article-page__steps.pl.mbbottom.steps
-									li.steps__item.text--med При лечении гипо- и авитаминозов (после проведения соответствующей диагностики их назначает лечащий врач).
-									li.steps__item.text--med При лечении различных заболеваний (обычно их рекомендует и/или назначает лечащий врач).
-									li.steps__item.text--med Для повышения адаптационных возможностей организма в дозах, превышающих суточную потребность в 2-3 раза (как правило, речь идет о монопрепаратах, которые назначаются лечащим врачом).
-									li.steps__item.text--med С целью профилактики гиповитаминозов (особенно в зимне-весеннее время года; как правило, витамины "назначаются" и выбираются самостоятельно или после консультации с фармацевтическим работником).
-								p.article-page__text.text--med.mbtop В таких ситуациях прием витаминных комплексов полностью оправдан и рекомендован клинически.
+									each item in ARTICLES_2.list_3
+										li.steps__item.text--med!= item
+								p.article-page__text.text--med.mbtop!= ARTICLES_2.text_6
 					.article-page__wrap.article-page__wrap--simle-text
-						h4.article-page__ttl.title.title--small Дозировка GoodLabs Multivitamin
+						h4.article-page__ttl.title.title--small!= ARTICLES_2.ttl_5
 						.article-page__desc
-							p.article-page__text.text--med Мультивитаминные комплексы — единственный способ получить недостающие полезные вещества и их нужно обязательно включать в рацион. Прием мультивитаминных средств абсолютно безопасен, но только в том случае, если комплекс содержит в достаточном и необходимом количестве нужные витамины и минералы — не больше и не меньше, чем те, что нужны вам для поддержания здоровья.
-							p.article-page__text.text--med Примером сбалансированного по дозировке и составу комплекса можно считать средство GoodLabs Multivitamin. Это безопасное, натуральное средство премиального немецкого качества, разработанное с учетом всех потребностей организма. Профилактические дозировки оказывают оптимальный оздоравливающий эффект и при этом не вредят человеку.
-							p.article-page__text.text--med Витаминно-минеральный комплекс GoodLabs Multivitamin был разработан профессионалами на основании передовых исследований ученых. Совершенные немецкие формулы активируют защитные силы организма, витамины А, С и Е играют роль природного антиоксиданта, а витамины группы В и кальций укрепляют опорно-двигательный аппарат. Магний и экстракт родиолы розовой в ответе за стабильность нервной системы, в то время как пробиотики улучшают работу ЖКТ.
+								each text in ARTICLES_2.desc_3
+									p.article-page__text.text--med!= text
 					.article-page__line
 					.article-page__wrap.article-page__wrap--result
 						.article-page__top
 							.article-page__left
-								h4.article-page__ttl.title.title--small Заключение
+								h4.article-page__ttl.title.title--small!= ARTICLES_2.ttl_last
 								.article-page__desc
-									p.article-page__text.text--med Для безопасного приема витаминного комплекса важно под контролем лечащего врача сдать все анализы на витаминные дефициты и пройти процедуру тщательной диагностики. Далее принимать только те добавки, которые соблюдают принципы профилактической дозировки, безопасной для человека.
-									p.article-page__text.text--med Помните, что больше — не значит лучше. Относитесь внимательно к своему самочувствию и будьте здоровы!
+									each text in ARTICLES_2.desc_last
+										p.article-page__text.text--med!= text
 							a.article-page__right.recom-item(href="product-multivitamin.html")
 								.recom-item__prod
 									img(src="img/product_2.png", alt="Multi Vitamin")
 								.recom-item__info
 									h3.recom-item__title.title Multi Vitamin
-									p.recom-item__desc Vitamins & Minerals
+									p.recom-item__desc!= ARTICLES_2.recom_desc
 									img.recom-item__raiting(src="img/svg/raiting_review_1.svg", alt="raiting")
 									.recom-item__bottom
 										p.recom-item__price.title €20.99
