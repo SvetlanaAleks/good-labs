@@ -1,6 +1,7 @@
 extends templates/layout/layout.pug
 block head
-	title GoodLabs - Природный щит: роль бета-глюкана для иммунитета
+	- var ARTICLES_TITLE_MAIN = LANG.articles.article_4.title_main;
+	title!= ARTICLES_TITLE_MAIN
 block content
 	include templates/articles/article-4
 	.container

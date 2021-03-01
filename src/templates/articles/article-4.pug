@@ -1,53 +1,55 @@
+- var ARTICLES_4 = LANG.articles.article_4;
+
 section.article-page
 	include ../banner-top
 	include ../mixins/menu.pug
 	+menu("article-4")
 	.container
 		.article-page__wrapper
-				h1.article-page__title.title.title--main Природный щит: роль бета-глюкана для иммунитета
+				h1.article-page__title.title.title--main!= ARTICLES_4.title_main
 				.article-page__photo
 					picture
 						source(srcset="img/article_4.webp", type="image/webp")
-						img.article-page__image(src="img/article_4.jpg", alt="Природный щит: роль бета-глюкана для иммунитета")
+						img.article-page__image(src="img/article_4.jpg", alt=ARTICLES_4.title_main)
 				.article-page__content
-					p.article-page__main-text.text--large Современные реалии показывают нам, что бояться простудных заболеваний нужно не только в межсезонье. Актуально круглогодично заботиться о своем иммунитете, повышая защитные силы организма. Бета-глюканы — основа хорошего самочувствия и отсутствия болезней. Как работает этот элемент и чем он ценен для человеческого организма? Рассмотрим подробнее в статье.
+					p.article-page__main-text.text--large!= ARTICLES_4.desc
 					.article-page__wrap.article-page__wrap--float-image-left
-						h4.article-page__ttl.title.title--small Что такое бета-глюкан
+						h4.article-page__ttl.title.title--small!= ARTICLES_4.ttl_1
 						.article-page__desc
-							img.article-page__no-border(src="img/acticle_image_5.png", alt="бета-глюкан")
-							p.article-page__text.text--med Бета-глюканы — природные иммуномодулирующие агенты, которые нашли самое широкое применение в медицинской и фармакологической практике во всем мире. По факту бета-глюканы — это полисахариды, состоящие из молекул глюкозы. Открытие бета-глюканов, несомненно, настоящий прорыв в научном мире, ведь эти элементы решают проблему неустойчивости иммунной системы в борьбе с вирусами и бактериями.
-							p.article-page__text.text--med Бета-глюканы содержатся в клеточных стенках бактерий, грибов, дрожжей, водорослей, лишайников, а также растений, таких как овес и ячмень. Так как сама молекула бета-глюкана достаточно крупная по размеру, она, попадая в кишечник, не подвергается его фрагментарной ферментации. Они захватываются клетками слизистой оболочки кишечника и активно переносятся в подслизистый слой, где активируют макрофаги, а через них — лимфоциты, ответственные за защиту эндотелия, то есть за местный иммунитет.
+							img.article-page__no-border(src="img/acticle_image_5.png", alt=ARTICLES_4.ttl_1)
+							each text in ARTICLES_4.desc_1
+								p.article-page__text.text--med!= text
 					.article-page__wrap.article-page__wrap--float-image-right
-						h4.article-page__ttl.title.title--small Механизм работы бета-глюканов
+						h4.article-page__ttl.title.title--small!= ARTICLES_4.ttl_2
 						.article-page__desc
-							img.article-page__image-round(src="img/acticle_image_6.jpg", alt="Механизм работы бета-глюканов")
-							p.article-page__text.text--med Попадая в желудок, крупные молекулы бета-глюканов не перетравливаются, а двигаются дальше по пищеварительной системе. Они захватываются клетками слизистой оболочки кишечника и переносятся ими в подслизистый слой, где активируют макрофаги, а через них — лимфоциты, ответственные за защиту эндотелия, то есть за местный иммунитет. Благодаря механизму репопуляции активированные лимфоциты из слизистой оболочки кишечника диссеминируют в слизистые оболочки различных органов, обеспечивая, таким образом, их защиту от инфекций.
-							p.article-page__text.text--med Недавно ученые констатировали еще одну удивительную способность бета-глюкана в буквальном смысле “абсорбировать” плохой холестерин из плазмы крови. Таким образом, элемент положительно влияет на всю сердечно-сосудистую систему, снижает риск инфарктов и инсультов, очищает стенки сосудов.
+							img.article-page__image-round(src="img/acticle_image_6.jpg", alt=ARTICLES_4.ttl_2)
+							each text in ARTICLES_4.desc_2
+								p.article-page__text.text--med!= text
 					.article-page__wrap.article-page__wrap--float-image-left
-						h4.article-page__ttl.title.title--small Польза бета-глюканов для организма
+						h4.article-page__ttl.title.title--small!= ARTICLES_4.ttl_3
 						.article-page__desc
-							p.article-page__text.text--med Важнейшим свойством бета-глюканов является возможность ускорения метаболизма, выведения шлаков и токсинов, а также налаживание пищеварения. При попадании в слепую и толстую кишку бета-глюкан постепенно превращается в полисахариды, которые служат питательной средой для микрофлоры толстого кишечника. Также клетчатка ускоряет продвижение пищи по пищеварительному тракту, улучшая процесс переваривания. В результате улучшается функциональное состояние желудочно-кишечного тракта и нормализуется микрофлора кишечника.
-							img.article-page__image-border(src="img/acticle_image_7.jpg", alt="Когда прием витаминов необходим")
-							p.article-page__text.text--med Также бета-глюкан может работать для регулирования количества глюкозы в крови, именно поэтому его на постоянной основе принимают диабетики. Что касается местного и общего иммунитета, то мы уже выяснили принцип действия этого элемента, который доказано повышает защитные способности организма.
+							p.article-page__text.text--med!= ARTICLES_4.text_1
+							img.article-page__image-border(src="img/acticle_image_7.jpg", alt=ARTICLES_4.ttl_3)
+							p.article-page__text.text--med!= ARTICLES_4.text_2
 					.article-page__wrap.article-page__wrap--simle-text
-						h4.article-page__ttl.title.title--small Бета-глюкан в GoodLabs Immunal
+						h4.article-page__ttl.title.title--small!= ARTICLES_4.ttl_4
 						.article-page__desc
-							p.article-page__text.text--med Бета-глюкан — это полностью натуральное вещество, обладающее уникальными биологическими свойствами. Бета-глюкан стимулирует макрофаги и выработку антител. Это мощный и безопасный активатор иммунитета. Он стимулирует иммунные реакции, повышая скорость созревания иммунных клеток, изменяя их активность и существенно повышая срок их жизни.
-							p.article-page__text.text--med Именно поэтому бета-глюкан стал базовым компонентом формулы комплекса Immunal от GoodLabs. Это вещество также оказывает благотворное влияние на снижение частоты симптомов гриппа и ОРВИ. Бета-глюканы активируют как местный иммунитет, обеспечивая защиту организма от вторжений антигенов, так и системный иммунитет, что приводит к уничтожению уже проникшего внутрь организма чужеродного генетического материала.
+							each text in ARTICLES_4.desc_3
+								p.article-page__text.text--med!= text
 					.article-page__line
 					.article-page__wrap.article-page__wrap--result
 						.article-page__top
 							.article-page__left
-								h4.article-page__ttl.title.title--small Заключение
+								h4.article-page__ttl.title.title--small!= ARTICLES_4.ttl_last
 								.article-page__desc
-									p.article-page__text.text--med Ежедневно с пищей вы получаете массу витаминов и нутриентов, но какие-то из элементов все равно сохраняются в дефиците. Разрабатывая комплекс Immunal, было важно определить четкую дозировку каждого элемента формулы для сохранения идеального баланса внутри организма.
-									p.article-page__text.text--med Результатом исследований стал совершенный состав комплекса, где каждый компонент взаимодополняет друг друга. А бета-глюкан возглавляет эту борьбу за крепкий иммунитет и хорошее самочувствие.
+									each text in ARTICLES_4.desc_last
+										p.article-page__text.text--med!= text
 							a.article-page__right.recom-item(href="product-immunal.html")
 								.recom-item__prod
 									img(src="img/product_1.png", alt="Multi Vitamin")
 								.recom-item__info
 									h3.recom-item__title.title Immunal
-									p.recom-item__desc With Beta-Glucan
+									p.recom-item__desc!= ARTICLES_4.recom_desc
 									img.recom-item__raiting(src="img/svg/raiting_review_2.svg", alt="raiting")
 									.recom-item__bottom
 										p.recom-item__price.title €25.99
