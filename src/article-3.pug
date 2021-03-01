@@ -1,6 +1,7 @@
 extends templates/layout/layout.pug
 block head
-	title GoodLabs - Гармония здоровья: как витамины влияют на организм
+	- var ARTICLES_TITLE_MAIN = LANG.articles.article_3.title_main;
+	title!= ARTICLES_TITLE_MAIN
 block content
 	include templates/articles/article-3
 	.container

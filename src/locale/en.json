@@ -1292,6 +1292,62 @@
         "Remember that more – is not always better. Be attentive to your well-being and be healthy!"
       ],
       "recom_desc": "Vitamins & Minerals"
+    },
+    "article_3": {
+      "title_main": "Harmony of health: how vitamins affect the body",
+      "desc": "Even the root “vita” in the word “vitamins” is translated from ancient Greek as life. A healthy, active, full life without limits. Everyone dreams of this when buying another jar of a multivitamin complex. But are all supplements in the diet so safe and what effect does each individual vitamin have on a person's well-being? Let's talk about this in more detail in the article.",
+      "ttl_1": "Basics of classification",
+      "desc_1": [
+        "Vitamins and microelements are special substances that the body needs to function properly. In fact, these compounds are the building blocks of cells and entire organ systems that directly affect the quality of human life.",
+        "Vitamins and microelements have no nutritional value, but they perform important functions: they regulate metabolic processes, catalyze biochemical reactions, and help in the assimilation of many mineral components. But their overabundance has a polarizing effect.",
+        "Modern science knows about 20 different vitamins, but the list continues to grow. By origin, 2 main groups of vitamins are distinguished:"
+      ],
+      "list_1": [
+        "synthetic (artificially produced in laboratories);",
+        "and natural (which the body receives from natural food)."
+      ],
+      "text_1": "In addition, vitamins are categorized by chemical ability into:",
+      "list_2": [
+        "water-soluble (C and B vitamins) are not stored by the body, and in case of excess they are simply excreted from it in the urine;",
+        "fat-soluble (A, D, E, K) accumulate in the body, especially in adipose tissue and liver."
+      ],
+      "text_2": "It is important to consider in more detail how each individual group affects our body in a complex and what consequences deficiencies or overdose of these vitamins can lead to. ",
+      "ttl_2": "B vitamins",
+      "desc_2": [
+        "Most consumers consider B vitamins to be completely safe, as they are water-soluble compounds. But this is not entirely true. Even a small overdose of vitamin B6 (biotin) leads to damage to neurosensory connections and individual nerve endings. Therefore, be especially careful about complexes for the growth of hair and nails, since it is in such medicines the amount of B6 is often overstated.",
+        "Vitamin B3 (niacin), in turn, helps to regulate the level of bad cholesterol and has a beneficial effect on blood microcirculation, but with its excess in the body, polar processes occur: the level of cholesterol rises, and the blood becomes viscous.",
+        "Vitamin B12 prevents the development of anemia and normalizes the metabolism of amino acids. But, according to scientific studies in 2012, with an overdose of vitamin B12, acne appears, a general deterioration in human well-being."
+      ],
+      "ttl_3": "Vitamin C",
+      "desc_3": [
+        "Vitamin C is another water-soluble vitamin that is taken in huge dosages during colds. But does this provide real benefits to our body? No. This is because even with a high dosage, vitamin C is not retained in the cells, but is excreted from there in the urine. With the right dose, vitamin C neutralizes charged free radicals by accepting their free electron. This is a true “molecular martyr”, taking the blow to protect the cellular neighborhood.",
+        "But an overdose of vitamin C from an antioxidant war hero turns him into a dangerous free radical, which produces oxidative processes in the body. That is why leading scientists insist on regular, but dosed intake of vitamin C."
+      ],
+      "ttl_4": "Vitamin Е",
+      "desc_4": [
+        "In the press there is an epic name for vitamin E as “the vitamin of youth”. Is it really true? Vitamin E really significantly accelerates the processes of soft tissue regeneration, reduces the intensity of the wrinkles appearance. But its uncontrolled intake may have even lethal consequences.",
+        "This is supported by data from two large scientific experiments (a study published in the New England Journal of Medicine in 1994 and a 2005 study published in the Annals of Internal Medicine). "
+      ],
+      "ttl_5": "Vitamin A",
+      "desc_5": [
+        "Vitamin A is known for helping to maintain good vision, healthy skin, teeth, skeletal and soft tissues, and mucous membranes. People who do not get enough vitamin A are more likely to suffer from infectious diseases and ophthalmic problems.",
+        "But a high dose of the vitamin causes nausea, vomiting, diarrhea, loss of appetite, fatigue, headaches, dizziness, blurred vision, poor muscle coordination, itching and flaky skin, bone pain, hair loss, irregular menstruation in women, osteoporosis, and temporary or permanent liver damage. High doses of vitamin A also increase the risk of lung cancer in smokers. The problem with it is that, unlike other vitamins, excess amounts are not washed out in the urine, but rather accumulated in the liver. "
+      ],
+      "ttl_6": "Vitamin D",
+      "desc_6": [
+        "One of the most interesting members of this list, since it is not just a vitamin, but a vitamin-hormone. It is clear that low levels of vitamin D reduce the body's defense when fighting infection. In other words, vitamin D is essential for the formation of strong immunity.",
+        "But at the same time, an excess of vitamin D increases the risk of heart pathologies and diseases of the cardiovascular system in general. Vitamin D is critically important when taking calcium, since it is this vitamin that allows the element to be fully absorbed. However, this does not mean that vitamin D alone has any positive effect on strengthening the musculoskeletal system."
+      ],
+      "ttl_7": "GoodLabs Multivitamin Action",
+      "desc_7": [
+        "Vitamin deficiency can be compared to a lack of basic building blocks on site. A house built without important blocks will settle down over time and cease to exist due to poor-quality construction. Likewise, our body experiences a vital need for a particular component of health.",
+        "With a deficiency of vitamin A, a person's vision deteriorates, with a deficiency of thiamine, heart failure occurs. With a deficiency of pantothenic acid, you feel weak and fatigued, and with a deficiency of biotin, you notice how bad your hair, nails and skin are. GoodLabs Multivitamin Vitamin and Mineral Complex contains an optimal concentration of base ingredients for your health and wellness.",
+        "The power is within you. It is only important to know the depth of your potential, to reveal the reserve of raging energy and apply it in life. GoodLabs Multivitamin Balanced Complex was created specifically for this purpose.",
+        "GoodLabs Multivitamin is a revolutionary development by leading professionals based on cutting edge research from scientists. Optimal safe prophylactic dosages, high bioavailability of each component of the formula, good absorption and synergistic action of all elements. These are the main advantages of German quality without compromise. GoodLabs Multivitamin is a proven health support group."
+      ],
+      "ttl_last": "Conclusion",
+      "desc_last": "It is important to remember that the body's need for vitamins must first of all be provided by natural vitamins from food. And in case of a shortage of food resources - by taking premium quality vitamin complexes.",
+      "recom_desc": "Vitamins & Minerals"
     }
   }
 }

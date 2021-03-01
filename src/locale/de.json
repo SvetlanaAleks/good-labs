@@ -1328,6 +1328,62 @@
         "Denken Sie daran, dass mehr nicht besser ist. Achten Sie auf Ihr Wohlbefinden und bleiben Sie gesund!"
       ],
       "recom_desc": "Vitamine & Mineralien"
+    },
+    "article_3": {
+      "title_main": "Harmonie der Gesundheit: wie Vitamine den Körper beeinflussen",
+      "desc": "Schon die Wurzel „vita“ im Wort \"Vitamine\" bedeutet aus dem Altgriechischen übersetzt Leben. Gesund, aktiv, lebensfroh ohne Einschränkungen. Davon träumt jeder, der eine weitere Dose Multivitamin-Komplex kauft. Aber sind alle Nahrungsergänzungsmittel so sicher und was genau ist die Wirkung jedes einzelnen Vitamins auf das Wohlbefinden des Menschen. Lassen Sie uns dies im Artikel genauer besprechen.",
+      "ttl_1": "Grundlage der Klassifizierung",
+      "desc_1": [
+        "Vitamine und Mikronährstoffe sind spezielle Substanzen, die der Körper braucht, um richtig zu funktionieren. Tatsächlich sind diese Verbindungen die Bausteine von Zellen und ganzen Organsystemen und beeinflussen direkt die Qualität des menschlichen Lebens.",
+        "Vitamine und Spurenelemente haben keinen Nährwert, erfüllen aber essentielle Funktionen: Sie regulieren Stoffwechselprozesse, katalysieren biochemische Reaktionen, helfen bei der Aufnahme vieler Mineralstoffe. Aber ihr Übermaß hat den gegenteiligen Effekt.",
+        "Die moderne Wissenschaft kennt etwa 20 verschiedene Vitamine, aber die Liste wird immer länger. Es gibt 2 Hauptgruppen von Vitaminen nach ihrer Herkunft:"
+      ],
+      "list_1": [
+        "synthetisch (künstlich in Labors hergestellt);",
+        "und natürlich (die der Körper aus natürlichen Lebensmitteln erhält)."
+      ],
+      "text_1": "Darüber hinaus werden Vitamine nach ihrer chemischen Eigenschaft eingeteilt in:",
+      "list_2": [
+        "Wasserlösliche Vitamine (C- und B-Vitamine) werden nicht im Körper gespeichert und bei Überschuss einfach mit dem Urin ausgeschieden;",
+        "Fettlösliche (A, D, E, K) reichern sich im Körper an, besonders im Fettgewebe und in der Leber."
+      ],
+      "text_2": "Es ist wichtig, sich genauer anzusehen, wie jede einzelne Gruppe in Kombination auf unseren Körper wirkt und welche Folgen ein Mangel oder eine Überdosierung dieser Vitamine haben kann.",
+      "ttl_2": "Vitamine der B-Gruppe",
+      "desc_2": [
+        "Die meisten Verbraucher halten Vitamine der B-Gruppe für völlig unschädlich, weil sie wasserlösliche Verbindungen sind. Dies ist jedoch nicht ganz richtig. Schon eine geringe Überdosierung von Vitamin B6 (Biotin) führt zur Schädigung neurosensorischer Verbindungen und einzelner Nervenenden. Seien Sie also besonders vorsichtig mit Komplexen für Haar- und Nagelwachstum, weil es in solchen Präparaten eine überschätzte Menge an B6 ist..",
+        "Vitamin B3 (Niacin) wiederum hilft bei der Regulierung des schädlichen Cholesterinspiegels und wirkt sich günstig auf die Mikrozirkulation des Blutes aus, aber bei seinem Überschuss im Körper geschieht das Gegenteil: der Cholesterinspiegel steigt und das Blut wird zähflüssig.",
+        "Vitamin B12 verhindert die Entwicklung einer Anämie und normalisiert den Aminosäurestoffwechsel. Aber laut einer wissenschaftlichen Studie aus dem Jahr 2012 kann eine Überdosis Vitamin B12 zu Akne, einer allgemeinen Verschlechterung der menschlichen Gesundheit führen."
+      ],
+      "ttl_3": "Vitamin C",
+      "desc_3": [
+        "Vitamin C ist ein weiteres wasserlösliches Vitamin, das bei Erkältungen in großen Dosen eingenommen wird. Aber nützt es unserem Körper wirklich? Nein. Das liegt daran, dass Vitamin C auch in hohen Dosen nicht in den Zellen verbleibt, sondern mit dem Urin ausgeschieden wird. In der richtigen Dosis neutralisiert Vitamin C geladene freie Radikale, indem es deren freies Elektron aufnimmt. Es ist ein wahrer „molekularer Märtyrer“, der den Schlag einsteckt, um die zelluläre Nachbarschaft zu schützen.",
+        "Doch eine Überdosis Vitamin C verwandelt es vom antioxidativen Kriegshelden in ein gefährliches freies Radikal, das im Körper oxidative Prozesse auslöst. Deshalb bestehen führende Wissenschaftler auf eine regelmäßige, aber gemessene Einnahme von Vitamin C."
+      ],
+      "ttl_4": "Vitamin Е",
+      "desc_4": [
+        "Die epische Bezeichnung von Vitamin E als „Vitamin der Verjüngung“ findet sich in der Presse. Ist das wirklich so? Vitamin E tatsächlich deutlich beschleunigt die Regeneration von Weichgewebe, reduziert die Intensität der Falten. Doch seine unkontrollierte Aufnahme kann sogar tödliche Folgen haben.",
+        "Dies wird durch Daten aus zwei umfangreichen wissenschaftlichen Experimenten bestätigt (eine 1994 in der „Medizinischen Zeitschrift des Neuen Englands“ veröffentlichte Studie und eine 2005 in den Annals of Internal Medicine veröffentlichte Studie)."
+      ],
+      "ttl_5": "Vitamin А",
+      "desc_5": [
+        "Vitamin A ist dafür bekannt, dass es hilft, gutes Sehen, gesunde Haut, Zähne, Skelett- und Weichgewebe sowie Schleimhäute zu erhalten. Menschen, die nicht genug Vitamin A bekommen, leiden eher an Infektionskrankheiten und Augenproblemen.",
+        "Aber eine hohe Dosis des Vitamins verursacht Übelkeit, Erbrechen, Durchfall, Appetitlosigkeit, Müdigkeit, Kopfschmerzen, Schwindel, Sehstörungen, schlechte Muskelkoordination, juckende und schuppige Haut, Knochenschmerzen, Haarausfall, unregelmäßige Menstruation bei Frauen, Osteoporose und vorübergehende oder dauerhafte Leberschäden. Hohe Dosen von Vitamin A erhöhen auch das Risiko für Lungenkrebs bei Rauchern. Das Problem dabei ist, dass seine überschüssigen Mengen im Gegensatz zu anderen Vitaminen nicht über den Urin ausgeschieden werden, sondern sich in der Leber anreichern."
+      ],
+      "ttl_6": "Vitamin D",
+      "desc_6": [
+        "Einer der interessantesten Teilnehmer an dieser Liste, da es nicht nur ein Vitamin, sondern ein Hormonvitamin ist. Offensichtlich reduzieren niedrige Vitamin-D-Spiegel die Abwehrkräfte des Körpers gegen Infektionen. Mit anderen Worten: wir brauchen Vitamin D, um ein starkes Immunsystem aufzubauen.",
+        "Gleichzeitig erhöht ein Überschuss an Vitamin D aber auch das Risiko für Herz- und Kreislauferkrankungen im Allgemeinen. Vitamin D ist bei der Einnahme von Kalzium von entscheidender Bedeutung, da das Vitamin die vollständige Aufnahme des Elements ermöglicht. Dies bedeutet jedoch nicht, dass Vitamin D allein eine positive Wirkung auf die Stärkung des Bewegungsapparates hat."
+      ],
+      "ttl_7": "Wirkung von GoodLabs Multivitamin",
+      "desc_7": [
+        "Vitaminmangel kann mit einem Mangel an Grundbausteinen auf einer Baustelle verglichen werden. Ein Haus, das ohne wichtige Bausteine gebaut wurde, wird sich irgendwann setzen und aufgrund schlechter Bauqualität nicht mehr existieren. Genauso hat unser Körper ein vitales Bedürfnis nach der einen oder anderen Komponente der Gesundheit.",
+        "Bei einem Vitamin-A-Mangel ist das Sehvermögen beeinträchtigt, bei einem Thiaminmangel kommt es zu einer Herzschwäche. Pantothensäuremangel führt dazu, dass Sie sich schwach fühlen und schnell müde werden, und Biotinmangel führt dazu, dass Sie merken, wie schlecht Ihre Haare, Nägel und Haut sind. Vitamin-Mineral-Komplex GoodLabs Multivitamin enthält die optimale Konzentration an Basiskomponenten für Ihre Gesundheit und Ihr Wohlbefinden.",
+        "Die Kraft ist in Ihnen. Es geht nur darum, die Tiefe Ihres Potenzials zu entdecken, die Reserven Ihrer wütenden Energie freizulegen und sie in Ihrem Leben anzuwenden. Der ausgewogene Komplex GoodLabs Multivitamin wurde mit genau diesem Ziel entwickelt.",
+        "GoodLabs Multivitamin ist eine revolutionäre Entwicklung von führenden Fachleuten, die auf fortschrittlicher Forschung von Wissenschaftlern basiert. Optimale sichere prophylaktische Dosen, hohe Bioverfügbarkeit jeder Komponente der Formel, gute Verdaulichkeit und synergistische Wirkung aller Elemente. Das sind die Hauptvorteile der deutschen Qualität ohne Kompromisse. GoodLabs Multivitamin - die bewährte Unterstützungsgruppe für Ihre Gesundheit."
+      ],
+      "ttl_last": "Schlussfolgerung",
+      "desc_last": "Es ist wichtig zu bedenken, dass der Bedarf des Körpers an Vitaminen in erster Linie durch natürliche Vitamine aus der Nahrung gedeckt werden sollte. Und im Falle eines Mangels an Nahrungsmitteln - durch die Einnahme von Vitaminkomplexen in Premiumqualität.",
+      "recom_desc": "Vitamine & Mineralien"
     }
   }
 }

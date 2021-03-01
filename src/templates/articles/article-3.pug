@@ -1,81 +1,78 @@
+- var ARTICLES_3 = LANG.articles.article_3;
+
 section.article-page
 	include ../banner-top
 	include ../mixins/menu.pug
 	+menu("article-3")
 	.container
 		.article-page__wrapper
-				h1.article-page__title.title.title--main Гармония здоровья: как витамины влияют на организм
+				h1.article-page__title.title.title--main!= ARTICLES_3.title_main
 				.article-page__photo
 					picture
 						source(srcset="img/article_3.webp", type="image/webp")
-						img.article-page__image(src="img/article_3.jpg", alt="Гармония здоровья: как витамины влияют на организм")
+						img.article-page__image(src="img/article_3.jpg", alt= ARTICLES_3.title_main)
 				.article-page__content
-					p.article-page__main-text.text--large Даже корень “вита” в слове “витамины” с древнегреческого переводится как жизнь. Здоровая, активная, наполненная жизнь без ограничений. О такой мечтает каждый, покупая очередную баночку мультивитаминного комплекса. Но так ли безопасны все добавки в рационе и какое именно влияние оказывает каждый отдельный витамин на самочувствие человека. Поговорим об этом подробнее в статье.
+					p.article-page__main-text.text--large!= ARTICLES_3.desc
 					.article-page__wrap.article-page__wrap--simle-text
-						h4.article-page__ttl.title.title--small Основы классификации
+						h4.article-page__ttl.title.title--small!= ARTICLES_3.ttl_1
 						.article-page__desc
-							p.article-page__text.text--med Витамины и микроэлементы — это особые вещества, необходимые организму для полноценного функционирования. По сути, эти соединения — строительные элементы клеток и целых систем органов, непосредственно влияющих на качество жизни человека.
-							p.article-page__text.text--med Витамины и микроэлементы не обладают пищевой ценностью, но выполняют важнейшие функции: регулируют обменные процессы, катализируют биохимические реакции, помогают в усвоении многих минеральных компонентов. Но их переизбыток имеет полярное действие.
-							p.article-page__text.text--med Современной науке известно около 20 различных витаминов, но этот список продолжает пополняться. По происхождению выделяют 2 основные группы витаминов:
+							each text in ARTICLES_3.desc_1
+								p.article-page__text.text--med!= text
 						ul.list-acticle.text--med.mbtop.mbbottom.pl
-							li.list-acticle__item синтетические (произведенные в лабораториях искусственным путем);
-							li.list-acticle__item и натуральные (которые организм получает из природной пищи).
-						p.article-page__text.text--med Кроме того, витамины разделяются по химическим способностям на:
+							each item in ARTICLES_3.list_1
+								li.list-acticle__item!= item
+						p.article-page__text.text--med!= ARTICLES_3.text_1
 						ul.list-acticle.text--med.mbtop.mbbottom.pl
-							li.list-acticle__item водорастворимые (С и витамины В) не запасаются организмом, а при избытке попросту выводятся из него с мочой;
-							li.list-acticle__item жирорастворимые (А, D, E, K) накапливаются в организме, в особенности в жировых тканях и печени.
-						p.article-page__text.text--med Важно рассмотреть подробнее как каждая отдельная группа воздействует на наш организм в комплексе и к каким последствиям могут привести дефициты или передозировка этими витаминами.
+							each item in ARTICLES_3.list_2
+								li.list-acticle__item!= item
+						p.article-page__text.text--med!= ARTICLES_3.text_2
 					.article-page__wrap.article-page__wrap--float-image-right
-						h4.article-page__ttl.title.title--small Витамины группы В
+						h4.article-page__ttl.title.title--small!= ARTICLES_3.ttl_2
 						.article-page__desc
-							img.article-page__vitamin(src="img/svg/ingredient_vit-b.svg", alt="Витамины группы В")
-							p.article-page__text.text--med Большинство потребителей считают витамины группы В полностью безопасными, так как они относятся к водорастворимым соединениям. Но это не совсем так. Даже небольшая передозировка витамина В6 (биотина) ведет к повреждению нейросенсорных связей и отдельных нервных окончаний. Поэтому особенно осторожно относитесь к комплексам для роста волос и ногтей, так как именно в подобных препаратах количество В6 часто завышено.
-							p.article-page__text.text--med Витамин В3 (ниацин) в свою очередь помогает регулировать уровень вредного холестерина и благотворно действует на микроциркуляцию крови, но при его избытке в организме происходят полярные процессы: уровень холестерина повышается, а кровь становится вязкой.
-							p.article-page__text.text--med Витамин В12 препятствует развитию анемии и нормализует метаболизм аминокислот. Но, если верить научным исследованиям 2012 года, при передозировке витамина В12 наблюдается появление прыщей, общее ухудшение самочувствия человека.
+							img.article-page__vitamin(src="img/svg/ingredient_vit-b.svg", alt=ARTICLES_3.ttl_2)
+							each text in ARTICLES_3.desc_2
+								p.article-page__text.text--med!= text
 					.article-page__wrap.article-page__wrap--float-image-right
-						h4.article-page__ttl.title.title--small Витамин С
+						h4.article-page__ttl.title.title--small!= ARTICLES_3.ttl_3
 						.article-page__desc
-							img.article-page__vitamin(src="img/svg/ingredient_vit-c.svg", alt="Витамин С")
-							p.article-page__text.text--med Витамин С — еще один водорастворимый витамин, который при простудах принимается в огромных дозировках. Но дает ли это реальную пользу нашему организму? Нет. Все потому, что даже при большой дозировке витамин С не задерживается в клетках, а выводится оттуда с мочой. При правильной дозе витамин С нейтрализует заряженные свободные радикалы, принимая их свободный электрон. Это настоящий «молекулярный мученик», берущий удар на себя, чтобы защитить клеточное соседство.
-							p.article-page__text.text--med Но передозировка витамином С из героя антиоксидантной войны превращает его самого в опасного свободного радикала, что продуцирует окислительные процессы в теле. Именно поэтому ведущие ученые настаивают на регулярном, но дозированном приеме витамина С.
+							img.article-page__vitamin(src="img/svg/ingredient_vit-c.svg", alt=ARTICLES_3.ttl_3)
+							each text in ARTICLES_3.desc_3
+								p.article-page__text.text--med!= text
 					.article-page__wrap.article-page__wrap--float-image-right
-						h4.article-page__ttl.title.title--small Витамин Е
+						h4.article-page__ttl.title.title--small!= ARTICLES_3.ttl_4
 						.article-page__desc
-							img.article-page__vitamin(src="img/svg/ingredient_vit-e.svg", alt="Витамин Е")
-							p.article-page__text.text--med В прессе встречается эпическое название витамина Е как “витамина молодости”. Так ли это на самом деле? Витамин Е действительно существенно ускоряет процессы регенерации мягких тканей, снижает интенсивность появления морщин. Но его неконтролируемый прием может иметь даже летальные последствия.
-							p.article-page__text.text--med В прессе встречается эпическое название витамина Е как “витамина молодости”. Так ли это на самом деле? Витамин Е действительно существенно ускоряет процессы регенерации мягких тканей, снижает интенсивность появления морщин. Но его неконтролируемый прием может иметь даже летальные последствия.
-							p.article-page__text.text--med Это подтверждают данные двух масштабных научных экспериментов (исследование, опубликованное в «Медицинском журнале Новой Англии» в 1994 году, а также исследование 2005 года, опубликованное в Annals of Internal Medicine).
+							img.article-page__vitamin(src="img/svg/ingredient_vit-e.svg", alt=ARTICLES_3.ttl_4)
+							each text in ARTICLES_3.desc_4
+								p.article-page__text.text--med!= text
 					.article-page__wrap.article-page__wrap--float-image-right
-						h4.article-page__ttl.title.title--small Витамин А
+						h4.article-page__ttl.title.title--small!= ARTICLES_3.ttl_5
 						.article-page__desc
-							img.article-page__vitamin(src="img/svg/ingredient_vit_a.svg", alt="Витамин А")
-							p.article-page__text.text--med Витамин А известен тем, что способствует поддержанию хорошего зрения, здорового состояния кожи, зубов, скелетных и мягких тканей, слизистой оболочки. Люди, которые не получают достаточное количество витамина А, чаще страдают инфекционными заболеваниями и офтальмологическими проблемами.
-							p.article-page__text.text--med Но высокая доза витамина вызывает тошноту, рвоту, диарею, потерю аппетита, усталость, головные боли, головокружение, нарушение зрения, плохую координацию мышц, зуд и шелушение кожи, боль в костях, выпадение волос, нерегулярные менструации у женщин, остеопороз и временное или постоянное повреждение печени. Высокие дозы витамина А также повышают риск развития рака легких у курильщиков. Проблема с ним состоит в том, что, в отличие от других витаминов, его избыточное количество не вымывается в моче, а скорее накапливается в печени.
+							img.article-page__vitamin(src="img/svg/ingredient_vit_a.svg", alt=ARTICLES_3.ttl_5)
+							each text in ARTICLES_3.desc_5
+								p.article-page__text.text--med!= text
 					.article-page__wrap.article-page__wrap--float-image-right
-						h4.article-page__ttl.title.title--small Витамин D
+						h4.article-page__ttl.title.title--small!= ARTICLES_3.ttl_6
 						.article-page__desc
-							img.article-page__vitamin(src="img/svg/ingredient_vit-d3.svg", alt="Витамин D")
-							p.article-page__text.text--med Один из самых интересных участников этого списка, так как это не просто витамин, а витамин-гормон. Совершенно очевидно, что низкий уровень витамина D снижает защитные силы организма в момент противодействия инфекции. Иными словами, витамин D необходим нам для формирования крепкого иммунитета.
-							p.article-page__text.text--med Но в то же время переизбыток витамина D повышает риск возникновения сердечных патологий и заболеваний сердечно-сосудистой системы в целом. Витамин D критически важен при приеме кальция, так как именно этот витамин позволяет в полной мере усваиваться элементу. Однако это не означает, что витамин D самостоятельно оказывает какое-либо положительное воздействие на укрепление опорно-двигательного аппарата.
+							img.article-page__vitamin(src="img/svg/ingredient_vit-d3.svg", alt=ARTICLES_3.ttl_6)
+							each text in ARTICLES_3.desc_6
+								p.article-page__text.text--med!= text
 					.article-page__wrap.article-page__wrap--simle-text
-						h4.article-page__ttl.title.title--small Действие GoodLabs Multivitamin
+						h4.article-page__ttl.title.title--small!= ARTICLES_3.ttl_7
 						.article-page__desc
-							p.article-page__text.text--med Дефицит витаминов можно сравнить с нехваткой базовых строительных элементов на площадке. Дом, построенный без важных блоков, со временем осядет и прекратит существование из-за некачественно выполненной постройки. Так и наш организм испытывает жизненную необходимость в том или ином компоненте здоровья.
-							p.article-page__text.text--med При дефиците витамина А у человека ухудшается зрение, при дефиците тиамина возникает сердечная недостаточность. При дефиците пантотеновой кислоты вы ощущаете слабость и быструю утомляемость, а при дефиците биотина замечаете насколько испортились волосы, ногти и кожа. Витаминно-минеральный комплекс GoodLabs Multivitamin содержит оптимальную концентрацию базовых компонентов для вашего здоровья и хорошего самочувствия.
-							p.article-page__text.text--med Сила внутри вас. Важно только узнать глубину своего потенциала, раскрыть резерв бушующей энергии и применить ее в жизни. Сбалансированный комплекс GoodLabs Multivitamin создан именно с этой целью.
-							p.article-page__text.text--med GoodLabs Multivitamin — это революционная разработка ведущих профессионалов на основании передовых исследований ученых. Оптимальные безопасные профилактические дозировки, высокая биодоступность каждого компонента формулы, хорошая усваиваемость и синергетическое действие всех элементов. Вот главные преимущества немецкого качества без компромиссов. GoodLabs Multivitamin — проверенная группа поддержки вашего здоровья.
+							each text in ARTICLES_3.desc_7
+								p.article-page__text.text--med!= text
 					.article-page__line
 					.article-page__wrap.article-page__wrap--result
 						.article-page__top
 							.article-page__left
-								h4.article-page__ttl.title.title--small Заключение
-								p.article-page__text.text--med Важно помнить, что потребность организма в витаминах должна в первую очередь обеспечиваться натуральными витаминами из пищи. А в случае нехватки пищевых ресурсов — путем приема витаминных комплексов премиального качества.
+								h4.article-page__ttl.title.title--small!= ARTICLES_3.ttl_last
+								p.article-page__text.text--med!= ARTICLES_3.desc_last
 							a.article-page__right.recom-item(href="product-multivitamin.html")
 								.recom-item__prod
 									img(src="img/product_2.png", alt="Multi Vitamin")
 								.recom-item__info
 									h3.recom-item__title.title Multi Vitamin
-									p.recom-item__desc Vitamins & Minerals
+									p.recom-item__desc!= ARTICLES_3.recom_desc
 									img.recom-item__raiting(src="img/svg/raiting_review_1.svg", alt="raiting")
 									.recom-item__bottom
 										p.recom-item__price.title €20.99
