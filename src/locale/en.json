@@ -344,7 +344,7 @@
       },
       "reviews": {
         "title": "Reviews",
-        "btn": "Submit your review",
+        "btn": "Add your review",
         "count": "128 reviews for GoodLabs Immunal",
         "desc": "Did you like GoodLabs Immunal? Help us get better and let us know your opinion about this product.",
         "sort_text": "Sort by ",
@@ -353,11 +353,11 @@
           {
             "main": "Powerful composition and German production",
             "text": "Because of the heavy workload, I felt that I had a weakened immune system. I decided it was time to buy some remedy for health support. I chose Immunal because it was made in Germany and the composition is strong. I trust German products.",
-            "name": "Michael Trapp",
+            "name": "Linda Trapp",
             "date": "Jan 12, 2019",
             "photos": [
-              "img/about_slider_immunal_1.jpg",
-              "img/about_slider_immunal_2.jpg"
+              "img/immunal_review_1.jpg",
+              "img/immunal_review_2.jpg"
             ],
             "likes": "1",
             "dislikes": "2"
@@ -365,7 +365,7 @@
           {
             "main": "I didn't want to get sick, so I bought Immunal",
             "text": "I didn't want to get sick, so I bought Immunal. So far so good. I feel great.",
-            "name": "Michael Trapp",
+            "name": "Magda L.",
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
@@ -373,7 +373,7 @@
           {
             "main": "I was taken by German quality in relation to price",
             "text": "I was looking for a remedy that would help strengthen the body's defense mechanisms. I was taken by German production in relation to price",
-            "name": "Michael Trapp",
+            "name": "Michal Polky",
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
@@ -381,7 +381,7 @@
           {
             "main": "Immunal is made on scientific research",
             "text": "I chose Immunal because I found out that it was made on scientific research. I work in a scientific field, so this is important to me.",
-            "name": "Michael Trapp",
+            "name": "Anna Denisa",
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
@@ -389,7 +389,7 @@
           {
             "main": " I liked the composition ",
             "text": " I really liked the composition. Everything is so well chosen. I can say it as a nutritionist.",
-            "name": "Michael Trapp",
+            "name": "Liana Schmidt",
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
