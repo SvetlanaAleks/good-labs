@@ -665,7 +665,7 @@
       },
       "reviews": {
         "title": "Reviews",
-        "btn": "Submit your review",
+        "btn": "Add your review",
         "count": "128 reviews for GoodLabs Multivitamin",
         "desc": "Did you like GoodLabs Multivitamin? Help us get better and let us know your opinion about this product.",
         "sort_text": "Sort by ",
@@ -674,11 +674,11 @@
           {
             "main": "Everything in one capsule",
             "text": "To be honest, I like to keep everything simple. They offered me Multivitamin as a product that has everything necessary in one capsule. That's why I bought it. I feel great.",
-            "name": "Michael Trapp",
+            "name": "Anna Muler",
             "date": "Jan 12, 2019",
             "photos": [
-              "img/about_slider_multi-vitamin_2.jpg",
-              "img/about_slider_multi-vitamin_3.jpg"
+              "img/multi_review_1.jpg",
+              "img/multi_review_2.jpg"
             ],
             "likes": "1",
             "dislikes": "2"
@@ -686,7 +686,7 @@
           {
             "main": "Good composition",
             "text": "I've never looked at the composition of vitamins before, but my nutritionist told me that the composition was awesome. Well, I believe him.",
-            "name": "Michael Trapp",
+            "name": "Lucy Becker",
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
@@ -694,7 +694,7 @@
           {
             "main": "Made in Germany. It says a lot",
             "text": "For me, Germany is a symbol of quality. And the fact that these vitamins are made in this country played a decisive role for me.",
-            "name": "Michael Trapp",
+            "name": "Kasy A.",
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
@@ -702,7 +702,7 @@
           {
             "main": "I feel much better",
             "text": "I feel stronger, like I can achieve anything.",
-            "name": "Michael Trapp",
+            "name": "Liana Weber",
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
@@ -710,7 +710,7 @@
           {
             "main": "I liked the composition",
             "text": "There is a lot of goodies in one jar. It is very comfortable. You don't have to bother whether you have enough vitamins that you get with food.",
-            "name": "Michael Trapp",
+            "name": "Maya S.",
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
