@@ -1,6 +1,7 @@
 extends templates/layout/layout.pug
 block head
-	title GoodLabs - Ingredients
+	- var INGRIDIENTS_TITLE_MAIN = LANG.ingredients.title_main;
+	title!= INGRIDIENTS_TITLE_MAIN
 block content
 	include templates/banner-top
 	include templates/mixins/menu.pug

@@ -1385,5 +1385,94 @@
       ],
       "recom_desc": "With Beta-Glucan"
     }
+  },
+  "ingredients": {
+    "title_main": "Ingredients",
+    "componentArray": [
+      {
+        "title": "Vitamin A",
+        "text": "It is a fat-soluble vitamin that is important for normal sense of vision and support for the immune and reproductive systems."
+      },
+      {
+        "title": "Vitamin B1",
+        "text": "It helps to transform food into essential energy, plays a crucial role in energy metabolism and therefore in the growth, development and functioning of cells."
+      },
+      {
+        "title": "Vitamin B2",
+        "text": "It helps the body to split fats and carbohydrates and also provides skin renewal."
+      },
+      {
+        "title": "Vitamin B3",
+        "text": "It promotes the functioning of the digestive, nervous systems and skin, plays an important role in the transmission of cellular signals, DNA creation, and also acts as an antioxidant."
+      },
+      {
+        "title": "Vitamin B6",
+        "text": "It performs a wide range of functions in the body and is extremely multipurpose, participates in the development of the baby brain during pregnancy, as well as in immune function."
+      },
+      {
+        "title": "Vitamin B12",
+        "text": "It helps to maintain the health of nerve and blood cells, and promotes the production of DNA, the genetic material of all cells."
+      },
+      {
+        "title": "Vitamin C",
+        "text": "It acts as an antioxidant to help protect cells from damage caused by free radicals."
+      },
+      {
+        "title": "Vitamin D3",
+        "text": "It helps the body to take up calcium, promotes muscle tone, increases immunity, is necessary for the functioning of the thyroid gland and normal blood clotting."
+      },
+      {
+        "title": "Vitamin E",
+        "text": "This vitamin is popular first of all for its antioxidant properties, cell protection and free radical neutralization."
+      },
+      {
+        "title": "Biotin",
+        "text": "It promotes good skin health and helps to regulate bad cholesterol and blood sugar levels."
+      },
+      {
+        "title": "Folic acid",
+        "text": "An important substance for the production of DNA and other genetic material, as well as for the proper functioning of the immune system, heart and blood vessels, and the synthesis of amino acids."
+      },
+      {
+        "title": "Panthothenic acid",
+        "text": "It is also known as vitamin B5, which is important for boosting metabolism, as it is involved in the release of energy from essential nutrients as well as other vitamins."
+      },
+      {
+        "title": "Magnesium",
+        "text": "It is important substance for many processes in the body, including the regulation of muscle and nerve function, blood sugar level and blood pressure."
+      },
+      {
+        "title": "Ferrum",
+        "text": "An essential element for metabolic processes - participates in the destruction and utilization of toxins, cholesterol metabolism, the transforming of calories into energy. It also helps the body's immune system to deal with aggressors."
+      },
+      {
+        "title": "Zinc",
+        "text": "A nutrient, that people need for their immune systems to function well, helps to control bacteria and viruses."
+      },
+      {
+        "title": "Manganese",
+        "text": "This essential micronutrient element helps the body to take up amino acids, carbohydrates and fats."
+      },
+      {
+        "title": "Copper",
+        "text": "A mineral that is required for many important functions, including the production of energy, connective tissues, and blood vessels."
+      },
+      {
+        "title": "Iodine",
+        "text": "The body needs iodine to produce thyroid hormones. These hormones control the body's metabolism and many other important functions."
+      },
+      {
+        "title": "Molybdenum",
+        "text": "The body uses molybdenum to process proteins and genetic material. It also helps to split drugs and toxic substances that enter the body."
+      },
+      {
+        "title": "Selenium",
+        "text": "Its main ability is to protect the body from harmful oxidants, preventing damage and infection. Current researches shows that selenium is an essential element in antioxidant defense."
+      },
+      {
+        "title": "Inositol",
+        "text": "Inositol is often referred to as vitamin B8, but it is a type of sugar that affects insulin response and several hormones associated with mood and cognition."
+      }
+    ]
   }
 }

@@ -5,7 +5,7 @@
     "item1": "Hauptseite",
     "item2": "Produkte",
     "item3": "Über uns",
-    "item4": "Komponenten",
+    "item4": "Inhaltsstoffe",
     "item5": "Wissen",
     "item6": "Kontakte",
     "item7": "Unsere Mission",
@@ -1421,5 +1421,94 @@
       ],
       "recom_desc": "Mit Beta-Glucan"
     }
+  },
+  "ingredients": {
+    "title_main": "Inhaltsstoffe",
+    "componentArray": [
+      {
+        "title": "Vitamin A",
+        "text": "Es ist ein fettlösliches Vitamin, das für den normalen Sehsinn und die Unterstützung des Immun- und Fortpflanzungssystems wichtig ist."
+      },
+      {
+        "title": "Vitamin B1",
+        "text": "Es hilft, Lebensmittel in essentielle Energie umzuwandeln, spielt eine entscheidende Rolle im Energiestoffwechsel und damit im Wachstum, in der Entwicklung und in der Funktion von Zellen."
+      },
+      {
+        "title": "Vitamin B2",
+        "text": "Es hilft dem Körper, Fette und Kohlenhydrate zu spalten und sorgt auch für eine Hauterneuerung."
+      },
+      {
+        "title": "Vitamin B3",
+        "text": "Es fördert die Funktion des Verdauungssystems, des Nervensystems und der Haut, spielt eine wichtige Rolle bei der Übertragung von Zellsignalen, der DNA-Erzeugung und wirkt auch als Antioxidans."
+      },
+      {
+        "title": "Vitamin B6",
+        "text": "Es erfüllt eine Vielzahl von Funktionen im Körper und ist äußerst vielseitig einsetzbar. Es ist an der Entwicklung des Babyhirns während der Schwangerschaft sowie an der Immunfunktion beteiligt."
+      },
+      {
+        "title": "Vitamin B12",
+        "text": "Es hilft, die Gesundheit von Nerven und Blutzellen zu erhalten, und fördert die Produktion von DNA, dem genetischen Material aller Zellen."
+      },
+      {
+        "title": "Vitamin C",
+        "text": "Es wirkt als Antioxidans und schützt die Zellen vor Schäden durch freie Radikale."
+      },
+      {
+        "title": "Vitamin D3",
+        "text": "Es hilft dem Körper, Kalzium aufzunehmen, fördert den Muskeltonus, erhöht die Immunität, ist für die Funktion der Schilddrüse und die normale Blutgerinnung notwendig."
+      },
+      {
+        "title": "Vitamin E",
+        "text": "Dieses Vitamin ist vor allem wegen seiner antioxidativen Eigenschaften, seines Zellschutzes und seiner Neutralisation durch freie Radikale meistgenannt."
+      },
+      {
+        "title": "Biotin",
+        "text": "Es fördert die Gesundheit der Haut und hilft, den schlechten Cholesterin- und Blutzuckerspiegel zu regulieren."
+      },
+      {
+        "title": "Folsäure",
+        "text": "Eine wichtige Substanz für die Produktion von DNA und anderem genetischen Material sowie für das reibungslose Funktionieren des Immunsystems, des Herzens und der Blutgefäße sowie für die Synthese von Aminosäuren."
+      },
+      {
+        "title": "Pantothensäure",
+        "text": "Es ist auch als Vitamin B5 bekannt, das für die Ankurbelung des Stoffwechsels wichtig ist, da es an der Freisetzung von Energie aus essentiellen Nährstoffen sowie anderen Vitaminen beteiligt ist."
+      },
+      {
+        "title": "Magnesium",
+        "text": "Es ist eine wichtige Substanz für viele Prozesse im Körper, einschließlich der Regulierung der Muskel- und Nervenfunktion, des Blutzuckerspiegels und des Blutdrucks."
+      },
+      {
+        "title": "Eisen",
+        "text": "Ein wesentliches Element für Stoffwechselprozesse - beteiligt sich an der Zerstörung und Verwerten von Toxinen, dem Cholesterinstoffwechsel und der Umwandlung von Kalorien in Energie. Es hilft auch dem körpereigenen Immunsystem, mit Aggressoren umzugehen."
+      },
+      {
+        "title": "Zink",
+        "text": "Ein Nährstoff, den Menschen benötigen, damit ihr Immunsystem gut funktioniert, hilft bei der Kontrolle von Bakterien und Viren."
+      },
+      {
+        "title": "Mangan",
+        "text": "Dieses essentielle Mikronährstoffelement hilft dem Körper, Aminosäuren, Kohlenhydrate und Fette aufzunehmen."
+      },
+      {
+        "title": "Kupfer",
+        "text": "Ein Mineral, das für viele wichtige Funktionen benötigt wird, einschließlich der Produktion von Energie, Bindegewebe und Blutgefäßen."
+      },
+      {
+        "title": "Jod",
+        "text": "Der Körper braucht Jod, um Schilddrüsenhormone zu produzieren. Diese Hormone steuern den Stoffwechsel des Körpers und viele andere wichtige Funktionen."
+      },
+      {
+        "title": "Molybdän",
+        "text": "Der Körper verwendet Molybdän, um Proteine und genetisches Material zu verarbeiten. Es hilft auch, Medikamente und toxische Substanzen zu spalten, die in den Körper gelangen."
+      },
+      {
+        "title": "Selen",
+        "text": "Seine Hauptfähigkeit besteht darin, den Körper vor schädlichen Oxidationsmitteln zu schützen und Schäden und Infektionen zu verhindern. Aktuelle Forschungen zeigen, dass Selen ein wesentliches Element der antioxidativen Bewahrung ist."
+      },
+      {
+        "title": "Inositol",
+        "text": "Inositol wird oft als Vitamin B8 bezeichnet, aber es ist eine Zuckerart, die die Insulinreaktion und verschiedene Hormone beeinflusst, die mit Stimmung und Kognition verbunden sind."
+      }
+    ]
   }
 }
