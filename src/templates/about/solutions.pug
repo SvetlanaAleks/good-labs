@@ -5,17 +5,17 @@ section.solutions
 		.solutions__image-wrap
 			img.solutions__image(src="img/solutions-image.jpg", alt="")
 		.solutions__info
-			h2.title.title--big.solutions__title GoodLabs stands for modern health solutions
+			h2.title.title--big.solutions__title!= SOLUTIONS.title_2
 			.solutions__text.text--med
-				p.solutions__text--1 Our experts are constantly studying new practices and approaches of scientists in order to find the optimal modern solution for existing health problems.
+				p.solutions__text--1!= SOLUTIONS.text_2
 				p.solutions__text--2 Science and innovation are basis of GoodLabs product formulations.
 			a.solutions__link.text--med(href="")!= SOLUTIONS.btn
 				img.solutions__link-arrow(src="img/svg/arrow.svg", alt="")
 	.container
 		.solutions__bottom
 			.solutions__left
-				h2.title.title--big.solutions__title!= SOLUTIONS.title_2
-				p.solutions__desc.text--med!= SOLUTIONS.text_2
+				h2.title.title--big.solutions__title GoodLabs stands for&nbsp;modern health solutions
+				p.solutions__desc.text--med Our experts are constantly studying new practices and approaches of scientists in order to find the optimal modern solution for existing health problems.
 			.solutions__photos
 				img.solutions__img(src="img/solutions_1.jpg", alt="solutions")
 				img.solutions__img(src="img/solutions_2.jpg", alt="solutions")
