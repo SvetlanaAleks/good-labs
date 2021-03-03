@@ -1,3 +1,5 @@
+- var SOLUTIONS = LANG.about.solutions;
+
 section.solutions
 	.container.solutions__container
 		.solutions__image-wrap
@@ -7,5 +9,15 @@ section.solutions
 			.solutions__text.text--med
 				p.solutions__text--1 Our experts are constantly studying new practices and approaches of scientists in order to find the optimal modern solution for existing health problems.
 				p.solutions__text--2 Science and innovation are basis of GoodLabs product formulations.
-			a.solutions__link.text--med(href="") Our products
+			a.solutions__link.text--med(href="")!= SOLUTIONS.btn
 				img.solutions__link-arrow(src="img/svg/arrow.svg", alt="")
+	.container
+		.solutions__bottom
+			.solutions__left
+				h2.title.title--big.solutions__title!= SOLUTIONS.title_2
+				p.solutions__desc.text--med!= SOLUTIONS.text_2
+			.solutions__photos
+				img.solutions__img(src="img/solutions_1.jpg", alt="solutions")
+				img.solutions__img(src="img/solutions_2.jpg", alt="solutions")
+		img.solutions__logo(src="img/svg/goodlabs_light.svg" alt="goodlabs")
+

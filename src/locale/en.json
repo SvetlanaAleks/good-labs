@@ -178,16 +178,24 @@
   },
   "about": {
     "header": {
-      "title": "GoodLabs for a strong foundation for&nbsp;your health",
-      "desc": "Our mission is to enable every person to live a quality life. We know that with the right supplements it is possible to prevent many health problems, live a full, happy life, and make your body the main assistant in achieving your goals."
+      "title": "Vitamins for a reliable basis of your health",
+      "desc": "Our mission is to develop only those products that can form the foundation for the health of a modern person, which is achieved thanks to the use of components, the effect and the necessity of which are proven by science"
     },
     "family": {
       "title": "The families of our employees use GoodLabs, too",
       "text_1": "We created this line of products as for our families. To do this, we combined the experience of the best specialists, modern scientific practices and advanced production sites. We managed to create a line of products meeting to the fullest the needs of a modern family in matters of health.",
       "text_2": "Vitamins and minerals from GoodLabs are included in the diet of our employees' families.",
-      "item_1": "Лет на рынке <br />витаминов",
-      "item_2": "Специалистов <br />и когото",
-      "item_3": "Страны <br />производителя"
+      "item_1": "years of niche <br />expertise",
+      "item_2": "experts <br />and specialists",
+      "item_3": "countries <br />of origin"
+    },
+    "solutions": {
+      "title_1": "",
+      "text_1_1": "",
+      "text_1_2": "",
+      "title_2": "GoodLabs keeps track of trends",
+      "text_2": "In order to meet the needs of our clients the best way we can, we constantly monitor trends and include products in the GoodLabs line to solve the most pressing problems.",
+      "btn": "About products"
     }
   },
   "products": {

@@ -1,39 +1,130 @@
 .solutions {
   padding-top: 190px;
-  padding-bottom: 195px;
+  padding-bottom: 55px;
 
   @include r(1440) {
-    padding: 140px 0 170px;
+    padding: 140px 0 60px;
   }
 
   @include r(1300) {
-    padding: 110px 0 150px;
+    padding: 110px 0 50px;
   }
 
   @include r(1140) {
-    padding: 90px 0 140px;
+    padding: 90px 0 40px;
   }
 
   @include r(1024) {
-    padding: 80px 0 130px;
+    padding: 80px 0 30px;
   }
-
+  @include r(768) {
+    padding-bottom: 0;
+  }
   @include r(640) {
-    padding: 50px 0 90px;
+    padding-top: 50px;
   }
 
   @include r(480) {
-    padding: 36px 0 60px;
+    padding-top: 36px;
   }
-
+  &__photos {
+    display: flex;
+    align-items: flex-end;
+  }
+  &__img {
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    flex-shrink: 0;
+    &:not(:last-of-type) {
+      margin-right: 20px;
+    }
+    @include r(1440) {
+      width: 470px;
+    }
+    @include r(1300) {
+      width: 420px;
+    }
+    @include r(1140) {
+      width: 380px;
+    }
+    @include r(1024) {
+      width: 340px;
+    }
+    @include r(890) {
+      width: 280px;
+    }
+    @include r(480) {
+      width: 247px;
+      &:not(:last-of-type) {
+        margin-right: 10px;
+      }
+    }
+  }
+  &__logo {
+    @include r(640) {
+      width: 693px;
+      flex-shrink: 0;
+      max-width: inherit;
+    }
+  }
+  &__bottom {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 105px;
+    @include r(1140) {
+      margin-bottom: 90px;
+    }
+    @include r(768) {
+      display: block;
+      margin-bottom: 50px;
+    }
+  }
+  &__left {
+    max-width: 510px;
+    width: 100%;
+    margin-right: 40px;
+    @include r(1440) {
+      max-width: 470px;
+      margin-right: 30px;
+    }
+    @include r(1300) {
+      max-width: 420px;
+    }
+    @include r(1140) {
+      max-width: 380px;
+      margin-right: 20px;
+    }
+    @include r(768) {
+      margin-bottom: 26px;
+      max-width: 100%;
+    }
+  }
+  &__desc {
+    color: #777;
+    line-height: 180%;
+    width: 70%;
+    @include r(1300) {
+      width: 85%;
+    }
+    @include r(640) {
+      width: 100%;
+    }
+    @include r(480) {
+      line-height: 160%;
+    }
+  }
   &__container {
     display: flex;
     align-items: center;
+    margin-bottom: 140px;
 
     @include r(1300) {
       align-items: flex-start;
+      margin-bottom: 100px;
     }
-
+    @include r(1024) {
+      margin-bottom: 70px;
+    }
     @include r(768) {
       flex-direction: column;
     }
