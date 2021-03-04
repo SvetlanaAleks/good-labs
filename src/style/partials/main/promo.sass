@@ -165,6 +165,8 @@
 			position: relative
 			+r(1300)
 				max-width: 370px
+			+r(1024)
+				max-width: 310px
 			+r(890)
 				max-width: 100%
 			+r(768)
@@ -337,15 +339,10 @@
 	transition: 0.3s
 	width: calc(100% + 40px)
 	height: auto
-	&.promo-circle-hidden
-		opacity: 0
-		+r(768)
-			opacity: 1
-
-.promo-prod__base
-	opacity: 1
-	transition: 0.3s
-	&.promo-circle-hidden
-		opacity: 0
-		+r(768)
-			opacity: 1
+	+r(1140)
+		width: 184px
+		height: 73px
+	+r(1024)
+		height: 60px
+	+r(480)
+		height: 56px
