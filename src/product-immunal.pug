@@ -1,4 +1,4 @@
-extends templates/layout/layout.pug
+extends templates/layout/layout-prod.pug
 block head
 	title GoodLabs - Product Immunal
 block content
@@ -17,3 +17,6 @@ block content
 		.lines
 	include templates/product/immunal/faq
 	include templates/product/immunal/order-popup
+block scripts
+	script.
+		Reviews.init();

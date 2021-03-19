@@ -1,5 +1,6 @@
 const Controls = (function () {
   "use strict";
+  const cookieBanner = $(".js-cookie-banner");
   const tabs = $(".js-tab");
   const contentTabs = $(".js-content-tab");
   const btnAccordeon = $(".js-btn-accordeon");
@@ -16,6 +17,18 @@ const Controls = (function () {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
   }
   return {
+    scrollToTop: function () {
+      $(".js-scroll-top").click(function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "fast");
+      });
+    },
+    closeCookieBanner: function () {
+      $(".js-btn-cookie").click(function (e) {
+        e.preventDefault();
+        cookieBanner.hide();
+      });
+    },
     labelFormActive: function () {
       inputForm.keyup(function () {
         const _this = $(this);
@@ -47,6 +60,7 @@ const Controls = (function () {
       btnCloseBanner.click(function (e) {
         e.preventDefault();
         $(".js-banner").addClass("no-active");
+        $(".menu").addClass("menu--banner-closed");
       });
     },
     showInfoTabs: function () {
@@ -75,6 +89,8 @@ const Controls = (function () {
       });
     },
     init: function () {
+      Controls.scrollToTop();
+      Controls.closeCookieBanner();
       Controls.labelFormActive();
       Controls.showPrivilege();
       Controls.highlightPanelItem();

@@ -10,11 +10,11 @@
     "item6": "Kontakte",
     "item7": "Unsere Mission",
     "item8": "Nachrichten",
-    "item9": "Datenschutzerklärung",
+    "item9": "Datenschu&shy;tzerklärung",
     "item10": "Cookie-Richtlinie",
     "item11": "Bedingungen",
     "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania",
-    "desc": "Bewertet mit <span class=\"bold\">4.9 </span>/ 5 basierend auf <span class=\"bold bold--line\">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt."
+    "desc": "Bewertet mit <span class=\"bold\">4.5 </span>/ 5 basierend auf <span class=\"bold bold--line\">8 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt."
   },
   "submenu": {
     "title": "Intelligente Formeln der Zusammen­setzungen für Ihre Gesundheit",
@@ -22,20 +22,23 @@
       {
         "product": "Immunal",
         "descr": "Mit Beta-Glucan",
-        "price": "€25.99",
-        "isNotActive": ""
+        "price": "€22.99",
+        "isNotActive": "",
+        "text": ""
       },
       {
         "product": "Multi Vitamin",
         "descr": "Vitamine & Mineralien",
-        "price": "€20.99",
-        "isNotActive": ""
+        "price": "€18.99",
+        "isNotActive": "",
+        "text": ""
       },
       {
         "product": "Anti Stress",
-        "descr": "With Maqui Berries",
+        "descr": "With Phodiola Rosea",
         "price": "€24.99",
-        "isNotActive": "product_item--not-active"
+        "isNotActive": "product_item--not-active",
+        "text": "Soon"
       }
     ]
   },
@@ -72,11 +75,11 @@
       "text1": "Vitamine für eine zuverlässige Grundlage Ihrer Gesundheit",
       "text2": "Alles hat seine Grundlage. Die Grundlage für die menschliche Gesundheit ist eine ausreichende Menge an Vitaminen und Mineralstoffen im Körper. GoodLabs Produkte wurden hergestellt, um diese Grundlage zu stärken und Ihnen zu helfen, ein erfülltes Leben zu führen",
       "btn": "Über Produkte",
-      "item_text_1": "Zusammensetzungen, <br />die funktionieren",
+      "item_text_1": "Zusamme&shy;nsetzungen, <br />die funktionieren",
       "item_desc_1": "Für die Auswahl der Komponenten und ihres Verhältnisses verwenden wir die fortgeschrittene Forschung von Wissenschaftlern.",
       "item_text_2": "Intelligente <br />Produktlinie",
       "item_desc_2": "Die GoodLabs-Produktlinie erfüllt die Grundbedürfnisse des menschlichen Körpers.",
-      "item_text_3": "Nischenkompetenz",
+      "item_text_3": "Nischen&shy;kompetenz",
       "item_desc_3": "Unsere Erfahrung in der Entwicklung von Gesundheitsprodukten beträgt 7 Jahre. Bei GoodLabs haben wir die besten Entwicklungen und Spezialisten gesammelt.",
       "item_text_4": "Zuverlässige <br />Produktion",
       "item_desc_4": "GoodLabs ist von GMP-, HACCP- und ISO-zertifiziert, um unsere hohen Qualitätsstandards zu gewährleisten.",
@@ -95,20 +98,20 @@
         {
           "name": "Immunal",
           "text": "Mit Beta-Glucan",
-          "reviews": "280 Kommentare",
+          "reviews": "9 Kommentare",
           "price": "€25.99",
           "link": "<svg width='26' height='23' viewBox='0 0 26 23' fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 11.6351H25M25 11.6351C25 11.6351 21.071 8.55025 19 6.5C16.929 4.44975 14.3939 1.13513 14.3939 1.13513M25 11.6351C25 11.6351 21.1308 14.3647 19 16.5C16.9924 18.5119 14.3939 22.1351 14.3939 22.1351\" stroke=\"#202124\"/></svg>"
         },
         {
           "name": "Multi Vitamin",
           "text": "Vitamine & Mineralien",
-          "reviews": "165 Kommentare",
-          "price": "€20.99",
+          "reviews": "12 Kommentare",
+          "price": "€18.99",
           "link": "<svg width='26' height='23' viewBox='0 0 26 23' fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 11.6351H25M25 11.6351C25 11.6351 21.071 8.55025 19 6.5C16.929 4.44975 14.3939 1.13513 14.3939 1.13513M25 11.6351C25 11.6351 21.1308 14.3647 19 16.5C16.9924 18.5119 14.3939 22.1351 14.3939 22.1351\" stroke=\"#202124\"/></svg>"
         },
         {
           "name": "Anti Stress",
-          "text": "With Maqui Berries",
+          "text": "With Phodiola Rosea",
           "reviews": "0 Kommentare",
           "price": "€24.99",
           "link": "Coming soon"
@@ -116,91 +119,70 @@
       ]
     },
     "reviews": {
-      "title": "Kommentare <span>4.9 / 5</span>",
-      "desc": "Bewertet mit <span class=\"bold\">4.9 </span>/ 5 basierend auf <span class=\"bold bold--line\">21 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.",
+      "title": "Kommentare <span>4.5 / 5</span>",
+      "desc": "Bewertet mit <span class=\"bold\">4.5 </span>/ 5 basierend auf <span class=\"bold bold--line\">8 Bewertungen</span>. Unsere 4- und 5-Sterne-Bewertungen werden angezeigt.",
       "btn": "Ihren Kommentar hinzufügen",
       "reviewArray": [
         {
           "product": "Multi Vitamin",
           "text": "Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung! GoodLabs Multivitamin hat eine...",
           "name": "Maria Bart",
-          "date": "Jan 16, 2019"
+          "date": "Feb 23"
         },
         {
           "product": "Immunal",
           "text": "Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgewogen sind. Immunal wurde meine Entdeckung in dieser...",
           "name": "Stephan Collins",
-          "date": "Jan 16, 2019"
+          "date": "Mar 8"
         },
         {
           "product": "Multi Vitamin",
           "text": "Für mich persönlich war der GoodLabs Multivitamin Komplex das beste, was ich ausprobiert habe. Hier ist eine gute...",
           "name": "Luca Fischer",
-          "date": "Jan 12, 2019"
+          "date": "Mar 15"
         },
         {
           "product": "Multi Vitamin",
           "text": "Begann mit der Einnahme von Multivitamin, fühlte aber einen Mangel an Energie. Bis jetzt ist alles gut.",
           "name": "Hans Hoffmann",
-          "date": "Jan 09, 2019"
+          "date": "Feb 24"
         },
         {
           "product": "Immunal",
           "text": "Für mich entdeckte ich einen anderen Weg, um die Immunität zu verbessern — es ist die Einnahme von Immunal. Es enthält Beta-Glucan, das...",
           "name": "Michael Stolz",
-          "date": "Jan 12, 2019"
+          "date": "Mar 16"
         },
         {
           "product": "Immunal",
           "text": "Immunal wird nicht nur von mir, sondern auch von meinen Eltern eingenommen. Ich mache mir Sorgen um ihr Leben und ihre Gesundheit...",
           "name": "Hans Schulz",
-          "date": "Jan 16, 2019"
+          "date": "Mar 10"
         },
         {
           "product": "Immunal",
           "text": "Früher war ich oft krank, aber jetzt bin ich immer gesund. Das ist, was gute Immunität bedeutet!",
           "name": "Christian Bart",
-          "date": "Jan 16, 2019"
+          "date": "Feb 26"
         },
         {
           "product": "Immunal",
           "text": "Eine wunderbare Kombination von Vitaminen, natürlichen Extrakten und Spurenelementen, die hilft, bei den ersten Anzeichen von Grippe und Erkältung auf den Beinen zu bleiben.",
           "name": "Petra Hoffman",
-          "date": "Jan 09, 2019"
-        },
-        {
-          "product": "Multi Vitamin",
-          "text": "Gute Dosierung. Ich habe lange nach einem komplexen Mittel gesucht, bei dem alle Komponenten ausgeglichen sind...",
-          "name": "David Barter",
-          "date": "Jan 09, 2019"
-        },
-        {
-          "product": "Multi Vitamin",
-          "text": "Nun, schließlich gibt es Vitaminkomplexe mit einer wirklich ausgewogenen Zusammensetzung...",
-          "name": "Maria Bart",
-          "date": "Jan 16, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "Früher war ich oft krank, aber jetzt bin ich immer gesund. Das ist, was gute Immunität bedeutet!",
-          "name": "Christian Bart",
-          "date": "Jan 16, 2019"
-        },
-        {
-          "product": "Immunal",
-          "text": "Persönlich für mich ist der Komplex Immunal in Preis und Qualität optimal. Nur im Gegensatz zu Synthetik ist die Zusammensetzung hier...",
-          "name": "Donnie Cowart",
-          "date": "Jan 09, 2019"
+          "date": "Feb 28"
         }
       ]
     },
     "experts": {
-      "desc": "Unsere Spezialisten haben 25 Jahre Erfahrung",
+      "desc": "Führende Experten im Bereich der Ernährung arbeiten mit uns zusammen",
       "expertArray": [
-        "Vitamine und Mineralien sind essentielle Mikronährstoffe.  Sie liefern keine Energie, sind jedoch für das ordnungsgemäße und normale Funktionieren des Körpers und die Aufrechterhaltung der allgemeinen Gesundheit von entscheidender Bedeutung.  In der modernen Welt sind ihre zusätzlichen Quellen nicht nur eine Empfehlung, sondern eine Notwendigkeit, insbesondere wenn Sie einen aktiven Lebensstil führen.",
         "Bei Vitaminkomplexen und Nahrungsergänzungsmitteln ist die richtige Dosierung der Komponenten das Wichtigste. Wählen Sie daher nur bewährte Produkte mit einer professionell ausgewählten Zusammensetzung, die auf wissenschaftlichen Forschungen basiert.",
-        "Die Einnahme eines Multivitamins ist der einfachste Weg, um sich um die Gesundheit zu kümmern. Sie enthalten die optimale Dosierung von Vitaminen und Mineralstoffen, die ein moderner Mensch für ein aktives Leben und Gesundheit benötigt."
-      ]
+        "Vitamine und Mineralien sind essentielle Mikronährstoffe.  Sie liefern keine Energie, sind jedoch für das ordnungsgemäße und normale Funktionieren des Körpers und die Aufrechterhaltung der allgemeinen Gesundheit von entscheidender Bedeutung.  In der modernen Welt sind ihre zusätzlichen Quellen nicht nur eine Empfehlung, sondern eine Notwendigkeit, insbesondere wenn Sie einen aktiven Lebensstil führen."
+      ],
+      "name_1": "Julia Buchholz",
+      "post_1": "Ernährungsberaterin",
+      "name_2": "Johann Maier",
+      "post_2": " Trainer, Sporternährungsberater"
     },
     "about": {
       "title": "In der Wildnis",
@@ -237,13 +219,13 @@
   "products": {
     "btn": "Bestellen",
     "text": "Anzahl der Produkte: ",
-    "item_1": "ENTHÄLT KEINE HEFE",
-    "item_2": "ENTHÄLT KEIN MEHL",
-    "item_3": "SOJAFREI PROTEIN",
-    "item_4": "ENTHÄLT KEINE MOLKEREI PRODUKTE",
-    "item_5": "ENTHÄLT KEINE KÖRNER",
+    "item_1": "ENTHÄLT KEINE<br> HEFE",
+    "item_2": "ENTHÄLT KEIN<br> MEHL",
+    "item_3": "SOJAFREI<br> PROTEIN",
+    "item_4": "ENTHÄLT KEINE<br> MOLKEREI<br> PRODUKTE",
+    "item_5": "ENTHÄLT KEINE<br> KÖRNER",
     "item_6": "ZUCKERFREI",
-    "item_7": "ENTHÄLT KEIN STÄRKEMEHL",
+    "item_7": "ENTHÄLT KEIN<br> STÄRKEMEHL",
     "count": "Stück",
     "weight": "mg",
     "about": {
@@ -251,10 +233,26 @@
       "text": "Begleiten Sie uns auf Instagram @goodlabs_official"
     },
     "immunal": {
+      "popup": {
+        "text": "Geben Sie Ihren Namen und Ihre Telefonnummer ein. Unser Spezialist wird Sie anrufen, beraten und die Bestellung bestätigen.",
+        "desc": "mit Beta-Glucan",
+        "title": "Immunal bestellen",
+        "label_1": "1 Stück",
+        "label_2": "3 Stück",
+        "label_3": "5 Stück",
+        "safe": "Sie sparen",
+        "pl_name": "Ihr Name",
+        "pl_tel": "Ihr Telefon",
+        "pl_email": "Email ",
+        "pl_code": "Gutscheincode ",
+        "pl_opt": "(optional)",
+        "checkbox": "Ich stimme der Verarbeitung personenbezogener Daten zu",
+        "btn": "Jetzt kaufen"
+      },
       "promo": {
         "title": "Immunal",
         "desc": "Mit Beta-Glucan",
-        "comment": "280 Kommentare",
+        "comment": "9 Kommentare",
         "item_1": "Unterstützt und stärkt das Immunsystem",
         "item_2": "Stärkt die Schutzfunktionen des Körpers gegen Viren und Bakterien",
         "item_3": "Hat eine antioxidative Wirkung",
@@ -268,19 +266,19 @@
         "ingredientArray1": [
           {
             "ttl": "Holunderbeerextrakt",
-            "text": "Es ist aufgrund des Gehalts an Phenolsäuren eine der wertvollsten Heilpflanzen der Welt. Diese Verbindungen sind starke Antioxidantien, die durch Stimulierung des Immunsystems dazu beitragen können, die Schädigung des Körpers durch oxidativen Stress zu verringern."
+            "text": "Es ist aufgrund des Gehalts an Phenolsäuren eine der wertvollsten Heilpflanzen der Welt. Diese Verbindungen sind starke Antioxidantien, die durch Stimulierung des Immunsystems <span>dazu beitragen können, die Schädigung des Körpers durch oxidativen Stress</span> zu verringern."
           },
           {
             "ttl": "Vitamin C und Zink",
-            "text": "Sie fördern ein gesundes Funktionieren des Immunsystems und reduzieren oxidativen Stress. Sie sind wirksam im Kampf gegen Erkältungen und Viruserkrankungen, verhindern das Wachstum und die Vermehrung pathogener Mikroorganismen und lindern Entzündungen."
+            "text": "<span>Sie fördern ein gesundes Funktionieren des Immunsystems und reduzieren oxidativen Stress.</span> Sie sind wirksam im Kampf gegen Erkältungen und Viruserkrankungen, verhindern das Wachstum und die Vermehrung pathogener Mikroorganismen und lindern Entzündungen."
           },
           {
             "ttl": "Beta Glucan",
-            "text": "Beta-Glucan stimuliert die Funktion des Immunsystems: Reduziert das Risiko von Infektionskrankheiten (viraler, bakterieller und parasitärer Herkunft). Und als Antioxidans stimuliert es die Zellen, Bindungen zwischen Sauerstoffradikalen zu bilden, die das Auftreten von Autoimmunerkrankungen verhindern können."
+            "text": "Beta-Glucan stimuliert die Funktion des Immunsystems: <span>Reduziert das Risiko von Infektionskrankheiten (viraler, bakterieller und parasitärer Herkunft).</span> Und als Antioxidans stimuliert es die Zellen, Bindungen zwischen Sauerstoffradikalen zu bilden, die das Auftreten von Autoimmunerkrankungen verhindern können."
           },
           {
             "ttl": "Histidin",
-            "text": "Histidin ist eine essentielle Aminosäure, die auch Vorläufer mehrerer Hormone sowie Vorläufer einer als Histamin bekannten Verbindung ist. Es aktiviert Immunreaktionen, erhöht die Reifungsrate von Immunzellen, erhöht deren Aktivität und verlängert deren Lebensdauer erheblich."
+            "text": "Histidin ist eine essentielle Aminosäure, die auch Vorläufer mehrerer Hormone sowie Vorläufer einer als Histamin bekannten Verbindung ist.<span> Es aktiviert Immunreaktionen, erhöht die Reifungsrate von Immunzellen,</span> erhöht deren Aktivität und verlängert deren Lebensdauer erheblich."
           }
         ],
         "ingredientArray2": [
@@ -311,8 +309,8 @@
       },
       "feedback": {
         "color": "orange",
-        "text": "Vitamine und Mineralien sind essentielle Mikronährstoffe.  Sie liefern keine Energie, sind jedoch für das ordnungsgemäße und normale Funktionieren des Körpers und die Aufrechterhaltung der allgemeinen Gesundheit von entscheidender Bedeutung.  In der modernen Welt sind ihre zusätzlichen Quellen nicht nur eine Empfehlung, sondern eine Notwendigkeit, insbesondere wenn Sie einen aktiven Lebensstil führen.",
-        "info": "Experte <span>Dr. Kenosha Gleaton</span> sagt"
+        "text": "Bei Vitaminkomplexen und Nahrungsergänzungsmitteln ist die richtige Dosierung der Komponenten das Wichtigste. Wählen Sie daher nur bewährte Produkte mit einer professionell ausgewählten Zusammensetzung, die auf wissenschaftlichen Forschungen basiert.",
+        "info": "<span>Julia Buchholz -</span> Ernährungsberaterin"
       },
       "technical": {
         "title": "Technische Details",
@@ -387,9 +385,22 @@
         }
       },
       "reviews": {
+        "text": "Bewertung über GoodLabs Immunal hinterlassen",
+        "rating_text": "Bewerten Sie Ihre Erfahrung",
+        "label_1": "Schreiben Sie eine Bewertung",
+        "label_2": "Titel der Bewertung",
+        "label_3": "Ihr Name",
+        "label_4": "Telefon",
+        "label_5": "Email",
+        "add_file_text": "Produktfoto hinzufügen",
+        "checkbox": "Ich bin damit einverstanden, personenbezogene Daten zu verarbeiten und Informationen über Sonderangebote zu erhalten",
+        "btn_form": "Nachricht senden",
+        "success_ttl": "Danke für Ihre Bewertung!",
+        "success_rating": "Ihre Bewertung",
+        "success_desc": "Wir werden es auf Übereinstimmung mit den Anforderungen und Regeln überprüfen und es nach der Moderation der Website hinzufügen. Bei Fragen wenden Sie sich bitte an",
         "title": "Kommentare",
         "btn": "Ihren Kommentar hinzufügen",
-        "count": "128 Bewertungen über GoodLabs Immunal",
+        "count": "9 Bewertungen über GoodLabs Immunal",
         "desc": "Hat Ihnen GoodLabs Immunal gefallen? Helfen Sie uns, besser zu werden und Ihre Meinung über dieses Produkt zu bekommen",
         "sort_text": "Sortieren nach",
         "sort_item": "Datum",
@@ -480,10 +491,26 @@
       }
     },
     "multi": {
+      "popup": {
+        "text": "Geben Sie Ihren Namen und Ihre Telefonnummer ein. Unser Spezialist wird Sie anrufen, beraten und die Bestellung bestätigen.",
+        "desc": "Vitamins&Minerals",
+        "title": "Multi Vitamin bestellen",
+        "label_1": "1 Stück",
+        "label_2": "3 Stück",
+        "label_3": "5 Stück",
+        "safe": "Sie sparen",
+        "pl_name": "Ihr Name",
+        "pl_tel": "Ihr Telefon",
+        "pl_email": "Email ",
+        "pl_code": "Gutscheincode ",
+        "pl_opt": "(optional)",
+        "checkbox": "Ich stimme der Verarbeitung personenbezogener Daten zu",
+        "btn": "Jetzt kaufen"
+      },
       "promo": {
         "title": "Multi Vitamin",
-        "desc": "Vitamins & Minerals",
-        "comment": "280 Kommentare",
+        "desc": "Vitamine & Mineralien",
+        "comment": "12 Kommentare",
         "item_1": "Enthält mehr als 20 lebenswichtige Vitamine und Mineralstoffe",
         "item_2": "Optimale Menge an Wirkstoffen für die tägliche Einnahme",
         "item_3": "Angereichert mit Vitaminen (wie C, A und E) mit antioxidativer Wirkung",
@@ -612,8 +639,8 @@
       },
       "feedback": {
         "color": "green",
-        "text": "Die Einnahme eines Multivitamins ist der einfachste Weg, um sich um die Gesundheit zu kümmern. Sie enthalten die optimale Dosierung von Vitaminen und Mineralstoffen, die ein moderner Mensch für ein aktives Leben und Gesundheit benötigt.",
-        "info": "Experte <span>Dr. Andrew Sun</span> sagt"
+        "text": "Vitamine und Mineralien sind essentielle Mikronährstoffe.  Sie liefern keine Energie, sind jedoch für das ordnungsgemäße und normale Funktionieren des Körpers und die Aufrechterhaltung der allgemeinen Gesundheit von entscheidender Bedeutung.  In der modernen Welt sind ihre zusätzlichen Quellen nicht nur eine Empfehlung, sondern eine Notwendigkeit, insbesondere wenn Sie einen aktiven Lebensstil führen.",
+        "info": "<span>Johann Maier - </span>Trainer, Sporternährungsberater"
       },
       "technical": {
         "title": "Technische Details",
@@ -708,9 +735,22 @@
         }
       },
       "reviews": {
+        "text": "Bewertung über GoodLabs Multi Vitamin hinterlassen",
+        "rating_text": "Bewerten Sie Ihre Erfahrung",
+        "label_1": "Schreiben Sie eine Bewertung",
+        "label_2": "Titel der Bewertung",
+        "label_3": "Ihr Name",
+        "label_4": "Telefon",
+        "label_5": "Email",
+        "add_file_text": "Produktfoto hinzufügen",
+        "checkbox": "Ich bin damit einverstanden, personenbezogene Daten zu verarbeiten und Informationen über Sonderangebote zu erhalten",
+        "btn_form": "Nachricht senden",
+        "success_ttl": "Danke für Ihre Bewertung!",
+        "success_rating": "Ihre Bewertung",
+        "success_desc": "Wir werden es auf Übereinstimmung mit den Anforderungen und Regeln überprüfen und es nach der Moderation der Website hinzufügen. Bei Fragen wenden Sie sich bitte an",
         "title": "Kommentare",
         "btn": "Ihren Kommentar hinzufügen",
-        "count": "128 Bewertungen über GoodLabs Multivitamin",
+        "count": "12 Bewertungen über GoodLabs Multivitamin",
         "desc": "Hat Ihnen GoodLabs Multivitamin gefallen? Helfen Sie uns, besser zu werden und Ihre Meinung über dieses Produkt zu bekommen",
         "sort_text": "Sortieren nach",
         "sort_item": "Datum",
@@ -796,7 +836,7 @@
       "promo": {
         "title": "Anti–Stress",
         "desc": "With Rhodiola Rosea",
-        "comment": "280 Reviews",
+        "comment": "0 Reviews",
         "item_1": "Снижает уровень гормона стресса при многозадачности",
         "item_2": "Успокаивает нервную систему при воздействии сильных раздражителей",
         "item_3": "Защищает нервные клетки от разрушений",
@@ -828,7 +868,7 @@
       "feedback": {
         "color": "blue",
         "text": "Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью",
-        "info": "<span>Dr. Kenosha Gleaton</span> Medical Director"
+        "info": "<span>Julia Poradun</span> Medical Director"
       },
       "technical": {
         "title": "Technical Information",
@@ -987,7 +1027,7 @@
       "promo": {
         "title": "Vision",
         "desc": "With Rhodiola Rosea",
-        "comment": "280 Reviews",
+        "comment": "0 Reviews",
         "item_1": "Способствует восстановлению остроты зрения ",
         "item_2": "Снимает усталость глаз после работы за компьютером или других нагрузках на зрение",
         "item_3": "Противодействует возрастному снижению зрения",
@@ -1021,7 +1061,7 @@
       "feedback": {
         "color": "dark-blue",
         "text": "Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью",
-        "info": "<span>Dr. Kenosha Gleaton</span> Medical Director"
+        "info": "<span>Julia Poradun</span> Medical Director"
       },
       "technical": {
         "title": "Technical Information",
@@ -1180,6 +1220,9 @@
   "contacts": {
     "title": "Kostenlose Beratung bekommen",
     "descr": "Senden Sie Ihre Anfrage - und wir wählen eine individuelle Lösung, die Ihren Anforderungen am besten entspricht",
+    "ttl_1": "Hersteller",
+    "address_1": "Zeppelin Str. 35-1, 73760 Ostfildern, Germany",
+    "ttl_2": "Distributor",
     "placeholder": {
       "name": "Ihr Name",
       "phone": "Ihr Telefon",
@@ -1190,7 +1233,7 @@
     },
     "checkmark": "Ich bin damit einverstanden, personenbezogene Daten zu verarbeiten und Informationen über Sonderangebote zu erhalten",
     "btn": "Senden",
-    "address": "050912, Sector 5, Calea Rahovei Str. 266-268",
+    "address_2": "050912, Sektor 5, Calea Rahovei Str. 266-268, Bucharest, Romania",
     "city": "Bucharest, Romania",
     "select1": {
       "variant1": "Beratung"

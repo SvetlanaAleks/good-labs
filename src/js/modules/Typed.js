@@ -202,10 +202,10 @@ const Typed = (function () {
       if (document.documentElement.clientWidth > 768) {
         $("#typed").typed({
           stringsElement: $("#typed-strings"),
-          typeSpeed: 100,
+          typeSpeed: 200,
           backSpeed: 100,
           backDelay: 5000,
-          loop: true,
+          loop: false,
           contentType: "html",
           loopCount: false,
           onStringTyped: function () {
@@ -216,23 +216,13 @@ const Typed = (function () {
               el.before(newone);
               $(".promo-circle-animation" + ":last").remove();
             }, 1000);
-            setTimeout(function () {
-              $(".promo-circle").addClass("promo-circle-hidden");
-              $(".promo-prod__base").addClass("promo-circle-hidden");
-            }, 5000);
-          },
-          preStringTyped: function () {
-            $(".promo-prod__base").removeClass("promo-circle-hidden");
           },
         });
       } else {
-        $('#typed').html($('#typed-strings p:nth-child(1)').html());
-      };
+        $("#typed").html($("#typed-strings p:nth-child(1)").html());
+      }
     }
     $(document).ready(function () {
-      typedFunction();
-    });
-    $(window).on('resize', function () {
       typedFunction();
     });
   });

@@ -1,0 +1,82 @@
+.fixed-block
+	padding: 0 35px 40px
+	bottom: 0
+	left: 0
+	right: 0
+	position: fixed
+	z-index: 100
+	+r(1024)
+		padding: 0 25px 30px
+	+r(768)
+		padding-bottom: 20px
+		left: auto
+	+r(640)
+		padding: 0 20px 15px
+.arrow-top
+	width: 50px
+	height: 50px
+	border-radius: 50%
+	background: transparentize(#EEE3D3, .07)
+	display: flex
+	align-items: center
+	justify-content: center
+	cursor: pointer
+	margin-left: auto
+	.fico
+		color: $garkgrey
+		font-size: 22px
+	+r(640)
+		width: 36px
+		height: 36px
+		.fico
+			font-size: 17px
+
+.cookie-banner
+	margin-top: 20px
+	+r(640)
+		margin-top: 10px
+	&__wrap
+		background: transparentize(#EEE3D3, .07)
+		border-radius: 40px
+		display: flex
+		align-items: center
+		justify-content: space-between
+		color: $garkgrey
+		min-height: 50px
+		padding: 0 20px
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			top: 0
+			right: 115px
+			width: 1px
+			height: 100%
+			background: transparentize(#000, .9)
+		+r(640)
+			border-radius: 10px
+			padding: 0 13px
+			&::before
+				right: 35px
+	&__text
+		font-size: 14px
+		line-height: 160%
+		padding: 13px 0
+		max-width: 80%
+		+r(640)
+			font-size: 12px
+			padding: 17px 0
+	&__btn
+		font-weight: 600
+		cursor: pointer
+		padding-left: 20px
+		height: 100%
+		display: flex
+		align-items: center
+		+r(640)
+			transform: rotate(-90deg)
+			transform-origin: center
+			padding-left: 0
+			font-size: 12px
+			margin-right: -20px

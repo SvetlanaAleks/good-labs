@@ -32,23 +32,23 @@
 			max-width: 100%
 			margin-right: 0
 			margin-bottom: 90px
+		+r(480)
+			margin-bottom: 50px
 	&__title
 		margin-bottom: 44px
 		+r(1140)
 			margin-bottom: 30px
 		+r(1024)
 			margin-bottom: 20px
-		+r(480)
-			margin-bottom: 18px
 	&__stars
 		width: 180px
-		margin-bottom: 14px
+		margin-bottom: 17px
 
 	&__wrap
 		display: flex
 		align-items: flex-start
 		color: $garkgrey
-		padding-bottom: 40px
+		padding-bottom: 42px
 		margin-bottom: 40px
 		border-bottom: 2px solid $garkgrey
 		+r(1140)
@@ -62,6 +62,7 @@
 	&__count
 		line-height: 140%
 		font-size: 14px
+		width: 80%
 		+r(640)
 			max-width: 200px
 	&__desc
@@ -73,11 +74,11 @@
 		+r(480)
 			margin-bottom: 20px
 	&__btn
-		max-width: 200px
+		min-width: 200px
 	&__right
 		max-width: 840px
 		width: 100%
-		padding-top: 19px
+		padding-top: 7px
 		+r(1440)
 			max-width: 770px
 		+r(1300)
@@ -88,8 +89,8 @@
 		+r(890)
 			padding-top: 0
 			max-width: 100%
-		
 	&__sorting
+		margin-top: 40px
 		padding-bottom: 27px
 		border-bottom: 1px solid $garkgrey
 		+r(1140)
@@ -102,22 +103,302 @@
 			margin-bottom: 30px
 		+r(480)
 			margin-bottom: 25px
+	&__ttl
+		padding-bottom: 54px
+		margin-bottom: 49px
+		border-bottom: 2px solid $garkgrey
+		+r(1300)
+			padding-bottom: 44px
+			margin-bottom: 39px
+		+r(1024)
+			padding-bottom: 30px
+			margin-bottom: 30px
+.form-feedback
+	&__top
+		display: flex
+		align-items: center
+		min-height: 40px
+		margin-bottom: 33px
+		+r(480)
+			min-height: auto
+			flex-wrap: wrap
+#success-block
+	display: none
+.success-block
+	padding: 93px
+	text-align: center
+	border-top-left-radius: 100px
+	border-bottom-right-radius: 100px
+	&--yellow
+		background: #FFF6E8
+	&--green
+		background: #F4FAEE
+	+r(1300)
+		padding: 80px
+	+r(1140)
+		padding: 60px
+	+r(480)
+		padding: 20px
+		border-top-left-radius: 50px
+		border-bottom-right-radius: 50px
+	&__ttl
+		margin-bottom: 26px
+	&__rating
+		margin-bottom: 27px
+		display: flex
+		align-items: center
+		justify-content: center
+		+r(480)
+			flex-wrap: wrap
+	&__desc
+		color: #777777
+		line-height: 180%
+		a
+			text-decoration: none
+			color: $garkgrey
+			&:hover
+				text-decoration: underline
+		+r(480)
+			line-height: 160%
+
+
+.feedback-form
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+	&--green
+		.feedback-form__input, .feedback-form__textarea
+			&:hover
+				border-bottom: 1px solid $green
+			&:focus, &.active
+				border-bottom: 1px solid $green
+	&__wrap
+		margin-bottom: 39px
+		position: relative
+		max-width: 100%
+		width: 100%
+		&--med
+			max-width: 400px
+			width: 100%
+		+r(1440)
+			&--med
+				max-width: 370px
+		+r(1300)
+			margin-bottom: 30px
+			&--med
+				max-width: 330px
+		+r(1140)
+			&--med
+				max-width: 300px
+		+r(1024)
+			&--med
+				max-width: calc(50% - 10px)
+		+r(480)
+			margin-bottom: 20px
+			&--med
+				max-width: 100%
+	.has-error
+		.feedback-form__input
+			border-bottom: 1px solid red
+			&:focus, &.active
+				border-bottom: 1px solid red
+		.feedback-form__error
+			display: block
+	&__input
+		width: 100%
+		&:focus, &.active
+			border-bottom: 1px solid $orange
+			&~.feedback-form__label
+				font-size: 14px
+				color: #777
+				top: -15px
+	&__label
+		color: $garkgrey
+		position: absolute
+		left: 0
+		top: 10px
+		transition: all .3s
+		font-size: 16px
+		pointer-events: none
+		+r(480)
+			font-size: 14px
+	&__error
+		display: none
+		color: red
+		font-style: italic
+		font-size: 12px
+		margin-top: 5px
+	&__textarea
+		height: 42px
+		&:focus, &.active
+			border-bottom: 1px solid $orange
+			&~.feedback-form__label
+				font-size: 14px
+				color: #777
+				top: -15px
+	&__add-file
+		margin-bottom: 59px
+		+r(1300)
+			margin-bottom: 40px
+		+r(480)
+			margin-bottom: 30px
+	&__bottom
+		display: flex
+		align-items: flex-start
+		+r(640)
+			display: block
+	&__checkbox
+		margin-right: 40px
+		+r(1140)
+			margin-right: 20px
+		+r(640)
+			margin-right: 0
+			margin-bottom: 20px
+	&__btn
+		max-width: 290px
+		+r(1440)
+			max-width: 270px
+		+r(1300)
+			max-width: 240px
+		+r(1140)
+			max-width: 220px
+		+r(480)
+			max-width: 100%
+.rating
+	&__text
+		margin-right: 30px
+		color: $garkgrey
+		font-size: 16px
+		line-height: 180%
+		font-weight: 600
+		+r(1140)
+			margin-right: 20px
+		+r(480)
+			margin-right: 0
+			margin-bottom: 15px
+			width: 100%
+	&__stars
+		display: flex
+		align-items: center
+		cursor: pointer
+		margin-right: 30px
+		+r(1140)
+			margin-right: 20px
+	&__wrap-star
+		position: relative
+		font-size: 0
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			top: 0
+			bottom: 0
+			right: 0
+			left: 0
+			width: 34px
+			height: 32px
+			background: url('../img/svg/star_full.svg') no-repeat center
+			opacity: 0
+			transition: all .3s
+		&.selected, &.hover
+			&::before
+				opacity: 1
+		+nlt
+			margin-right: 15px
+		+r(1140)
+			+nlt
+				margin-right: 10px
+		+r(640)
+			width: 32px
+			&::before
+				width: 32px
+				height: 30px
+
+.add-file
+	&--orange
+		.fico
+			color: $orange
+	&--green
+		.fico
+			color: $green
+	input
+		display: none
+	label
+		position: relative
+		display: inline-block
+		color: $garkgrey
+		font-size: 16px
+		cursor: pointer
+		transition: all .2s
+		padding-left: 40px
+		.fico
+			font-size: 28px
+			left: 0
+			position: absolute
+			top: 50%
+			transform: translateY(-50%)
+	&__wrap-input
+		&~.add-file__wrap-input
+			label
+				display: none
+	&__item
+		position: relative
+		margin-top: 4px
+		display: flex
+		align-items: center
+	&__name
+		font-size: 16px
+		font-style: italic
+		line-height: 26px
+		white-space: nowrap
+		overflow: hidden
+		text-overflow: ellipsis
+		padding-right: 10px
+	&__btn
+		display: none
+		margin-left: 5px
+		width: 16px
+		min-width: 16px
+		height: 16px
+		line-height: 16px
+		border-radius: 3px
+		color: #fff
+		text-align: center
+		cursor: pointer
+		transition: all .2s
+		background-color: #177cca
+		&:hover, &:focus
+			background-color: #ca4a17
+
+
 
 .pagination
 	display: flex
 	align-items: center
 	&__item
-		display: flex
-		align-items: center
-		justify-content: center
-		font-size: 16px
-		border-radius: 50%
-		flex-shrink: 0
-		width: 36px
-		height: 36px
-		cursor: pointer
-		&.active
-			border: 1px solid transparentize( $garkgrey, .9)
+		li 
+			display: flex
+			align-items: center
+			justify-content: center
+			background-color: rgba(0,0,0,0) !important
+			width: 36px
+			height: 36px
+			&:before
+				top: 0px !important
+				bottom: 0px !important
+				left: 0px !important
+				right: 0px !important
+			&:not(:last-of-type)
+				margin-right: 0px !important
+		button
+			font-size: 16px
+			font-family: 'Inter', sans-serif
+			display: block !important
+			background-color: #fff
+			outline: 0
+			border: 0
+			padding: 0
+			margin: 0 auto
 
 
 .sorting
@@ -142,7 +423,7 @@
 			font-size: 7px
 
 .review
-	display: flex
+	display: flex !important
 	align-items: flex-start
 	padding: 40px 0
 	border-bottom: 1px solid transparentize($garkgrey, .8)
@@ -167,6 +448,7 @@
 			max-width: 100%
 			margin-right: 0
 			margin-bottom: 12px
+
 	&__wrap
 		margin-bottom: 21px
 		+r(640)
@@ -229,6 +511,7 @@
 			margin-top: 20px
 	&__likes
 		display: flex
+		min-width: 90px
 		+r(640)
 			width: 100%
 			margin-top: 20px
@@ -236,6 +519,7 @@
 		display: flex
 		align-items: center
 		color: $garkgrey
+		cursor: pointer
 		+nlt
 			margin-right: 21px
 		.fico

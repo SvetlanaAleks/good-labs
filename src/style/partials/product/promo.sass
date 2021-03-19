@@ -6,6 +6,8 @@
 	+r(1024)
 		padding-top: 50px
 		padding-bottom: 60px
+	+r(768)
+		padding-bottom: 40px
 	+r(480)
 		padding-bottom: 42px
 		padding-top: 40px
@@ -62,11 +64,12 @@
 	display: flex
 	align-items: center
 	width: calc(100%/7 - 5px)
-	+r(480)
-		width: 90px
+	
+	+r(1440)
+		width: auto
 		flex-shrink: 0
 		+nlt
-			margin-right: 10px
+			margin-right: 20px
 	&__wrap-ico
 		flex-shrink: 0
 		margin-right: 20px
@@ -100,7 +103,7 @@
 		margin-bottom: 23px
 		+r(1300)
 			margin-bottom: 17px
-		+r(1140)
+		+r(1440)
 			margin-bottom: 15px
 	&__raiting
 		padding-bottom: 26px

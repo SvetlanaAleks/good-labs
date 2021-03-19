@@ -7,17 +7,18 @@ include products-menu.pug
 		{
 			link: 'product-immunal.html',
 			img: 'img/product_1.png',
-			raiting: 'img/svg/raiting_review_1.svg',
+			stars: 'img/svg/raiting_review_1.svg'
+
 		},
 		{
 			link: 'product-multivitamin.html',
 			img: 'img/product_2.png',
-			raiting: 'img/svg/raiting_review_2.svg',
+			stars: 'img/svg/raiting_review_1.svg'
 		},
 		{
 			link: 'product-antistress.html',
 			img: 'img/product_3.png',
-			raiting: 'img/svg/raiting_review_1.svg',
+			stars: 'img/svg/raiting_review_0.svg'
 		}
 	];
 
@@ -25,4 +26,4 @@ include products-menu.pug
 	h2.products-menu__title.title.title--very-small!= SUBMENU.title
 	.products-menu__list
 		each product_item, key in SUBMENU.productItemArray
-			+product_item(productsInfo[key].link, product_item.isNotActive, productsInfo[key].img, product_item.product, product_item.descr, productsInfo[key].raiting, product_item.price)
+			+product_item(productsInfo[key].link, product_item.isNotActive, productsInfo[key].img, product_item.product, product_item.descr, productsInfo[key].stars, product_item.price, product_item.text)

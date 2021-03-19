@@ -112,8 +112,12 @@ a
 	transition: all .3s
 	&--orange
 		background: $orange
+		&:hover
+			background: #FFA800
 	&--green
 		background: $green
+		&:hover
+			background: #96C852
 	&--blue
 		background: $blue
 	&--dark-blue
@@ -381,3 +385,8 @@ a
 input:-webkit-autofill
 	-webkit-box-shadow: 0 0 0px 1000px #fffdfa inset
 
+
+.layout-prod
+	.footer__top
+		+r(640)
+			padding-bottom: 90px

@@ -1,6 +1,7 @@
-mixin article(link, photo, type, note, title)
-	a.article(href=link)
+mixin article(link, photo, type, note, title, index)
+	a(href=link, class="article article--" + (index+1))
 		picture
+			source(media="(max-width: 480px)", srcset="img/" + photo + "-mob.jpg")
 			source(srcset="img/" + photo + ".webp", type="image/webp")
 			img(class="article__photo article__photo--" + type, src="img/" + photo + ".jpg" alt="photo")
 		p.article__note.text--med!= note

@@ -56,7 +56,7 @@
 		max-width: 200px
 		margin: 15px auto auto
 	&__title
-		margin-bottom: 10px
+		margin-bottom: 18px
 		+r(374)
 			font-size: 24px
 	&__text
@@ -70,7 +70,7 @@
 		+r(640)
 			margin-bottom: 15px
 	&__info
-		margin-bottom: 44px
+		margin-bottom: 35px
 		max-width: 84%
 		+r(1024)
 			max-width: 100%
@@ -104,7 +104,7 @@
 
 .order-price
 	width: calc(100% / 3)
-	padding: 12px 30px
+	padding: 12px 20px
 	border: 2px solid rgba(0,0,0,0)
 	position: relative
 	z-index: 3
@@ -154,13 +154,33 @@
 		color: #777777
 		+r(640)
 			display: inline-block
+	&__old-wrap
+		display: flex
+		align-items: center
+		margin-bottom: 5px
+		.order-price__count
+			margin-right: 10px
+			padding-right: 10px
+			margin-bottom: 0
+			border-right: 1px solid #777777
+		+r(640)
+			margin-bottom: 0
+			margin-right: 20px
+			.order-price__count
+				margin-right: 5px
+				padding-right: 5px
 	&__count
 		display: block
 		margin-bottom: 5px
+		white-space: nowrap
 		+r(640)
 			margin-bottom: 0
-			width: 25%
 			font-size: 14px
+			margin-right: 10px
+	&__old-price
+		color: #777777
+		font-size: 14px
+		text-decoration: line-through
 	&__value
 		display: block
 		margin-bottom: 5px
@@ -200,13 +220,13 @@
 
 .order-popup__content:after
 	content: ''
-	width: 240px
+	width: 230px
 	height: 500px
 	background-size: contain, 1px 1px, 1px 1px
 	background-position: left top, center, center
 	background-repeat: no-repeat, no-repeat, no-repeat
 	position: absolute
-	top: 40px
+	top: 60px
 	left: 60px
 	+r(1024)
 		left: 40px
@@ -249,10 +269,11 @@
 					display: block
 					position: absolute
 					background: url('../img/svg/prod_immunal_decor.svg') no-repeat center
-					width: 365px
-					height: 347px
-					bottom: -55px
-					left: -135px
+					background-size: 100%
+					width: 405px
+					height: 417px
+					bottom: -52px
+					left: -115px
 					transform: scaleX(-1)
 					+r(1024)
 						display: none
@@ -263,6 +284,9 @@
 			background-color: #FFEECD
 			border: 2px solid #FF9900
 	&--multivitamin
+		.input
+			&:hover
+				border-bottom: 1px solid #6F9A34
 		.order-popup
 			&__content
 				&::before
@@ -279,10 +303,10 @@
 						display: none
 						background: none
 			&__price-wrap
-				background-color: #f9fff3
+				background: #EFF8E4
 		.order-price.price-active
-			background-color: #eafcd7
-			border: 2px solid #d1e7b9
+			background: rgba(111, 154, 52, 0.1)
+			border: 2px solid #6F9A34
 	&--antistress
 		.order-popup
 			&__content

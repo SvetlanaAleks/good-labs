@@ -8,6 +8,9 @@ import Controls from "./modules/Controls";
 import Sliders from "./modules/Sliders";
 import Popup from "./modules/Popup";
 import "bootstrap-validator/js/validator.js";
+import Reviews from "./modules/Reviews";
+
+window.Reviews = Reviews;
 $(function () {
   Datee;
   objectFitImages();
@@ -19,6 +22,7 @@ $(function () {
 
   layout.layoutHandler({
     afterResize: (layout) => {
+      // Sliders.initExpertsSlider();
       $(".js-select--product").select2({
         minimumResultsForSearch: Infinity,
         placeholder: $(".js-select--product").data("placeholder"),
@@ -54,4 +58,14 @@ $(function () {
     placeholder: "Your question",
   });
   $("#js-contacts-form").validator();
+  $(document).on("click", 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $("html, body").animate(
+      {
+        scrollTop: $($.attr(this, "href")).offset().top,
+      },
+      1000
+    );
+  });
 });

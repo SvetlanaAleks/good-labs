@@ -13,9 +13,9 @@ mixin review(name, date, stars, main, text, photos, likes, dislikes)
 					each photo in photos
 						img(src=photo, alt="photo")
 		.review__likes
-			.review__col
+			.review__col.js-like
 				i.fico.fico-likes
 				p.review__count!= likes
-			.review__col
+			.review__col.js-like
 				i.fico.fico-dislikes
 				p.review__count!= dislikes

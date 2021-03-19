@@ -29,7 +29,6 @@
 			margin-right: 20px
 		+r(640)
 			margin-right: 0
-			overflow: auto
 			&::before
 				border-bottom-right-radius: 0
 		.container
@@ -74,6 +73,7 @@
 			background-size: 570px
 			background-position: right -40px bottom
 			padding-bottom: 20px
+			background-image: url(../img/promo__img-mob.png)
 		+r(374)
 			background-size: 550px
 			background-position: right -50px bottom
@@ -262,12 +262,14 @@
 			right: -15px
 			bottom: -15px
 	+r(1024)
-		max-width: calc(100%/4 - 20px)
+		max-width: calc(100%/4 - 10px)
 	+r(890)
-		width: 210px
+		width: auto
 		max-width: initial
 		cursor: auto
 		flex-shrink: 0
+		+nlt
+			margin-right: 20px
 		&::after
 			display: none
 	+rm(891)
@@ -313,9 +315,6 @@
 		margin-right: 5px
 		+r(1300)
 			font-size: 16px
-		+r(768)
-			br
-				display: none
 	&__desc
 		line-height: 160%
 		color: #777777
@@ -324,7 +323,7 @@
 .promo-circle-animation path
 	stroke-dasharray: 1000
 	stroke-dashoffset: 1000
-	animation: dash 1s 1 linear forwards
+	animation: dash .7s 1 linear forwards
 
 @keyframes dash 
 	to 
@@ -339,6 +338,10 @@
 	transition: 0.3s
 	width: calc(100% + 40px)
 	height: auto
+	&.promo-circle-hidden
+		opacity: 0
+		+r(768)
+			opacity: 1
 	+r(1140)
 		width: 184px
 		height: 73px
@@ -346,3 +349,11 @@
 		height: 60px
 	+r(480)
 		height: 56px
+
+.promo-prod__base
+	opacity: 1
+	transition: 0.5s
+	&.promo-circle-hidden
+		opacity: 0
+		+r(768)
+			opacity: 1

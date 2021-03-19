@@ -20,4 +20,4 @@ section.knowledge
 		h2.knowledge__title.title.title--med!= KNOWLENGE.title
 		.knowledge__slider.slider-knowledge.js-knowledge-slider
 			each article, key in KNOWLENGE.articleArray
-				+article(articleLink[key], articlePhoto[key], article.type, article.note, article.title)
+				+article(articleLink[key], articlePhoto[key], article.type, article.note, article.title, key)

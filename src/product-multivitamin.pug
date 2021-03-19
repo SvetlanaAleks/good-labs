@@ -1,4 +1,4 @@
-extends templates/layout/layout.pug
+extends templates/layout/layout-prod.pug
 block head
 	title GoodLabs - Product Multi Vitamin
 block content
@@ -17,3 +17,6 @@ block content
 		.lines
 	include templates/product/multivitamin/faq
 	include templates/product/multivitamin/order-popup
+block scripts
+	script.
+		Reviews.init();

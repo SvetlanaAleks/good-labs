@@ -1,8 +1,8 @@
 .contacts-content
 	padding-top: 120px
-	padding-bottom: 116px
+	padding-bottom: 100px
 	background: url('../img/svg/waves_big.svg') no-repeat, url('../img/svg/waves_big.svg') no-repeat
-	background-position: calc(50% - 641px) calc(50% - 88px), calc(50% - -900px) calc(50% - 300px)
+	background-position: calc(50% - 641px) calc(50% - 128px),calc(50% - -900px) calc(50% - 340px)
 	+r(1300)
 		padding: 100px 0
 	+r(1024)
@@ -41,7 +41,7 @@
 			margin-bottom: 26px
 			text-align: center
 	&__wrap-map
-		margin-bottom: 32px
+		margin-bottom: 21px
 		padding-bottom: 30px
 		position: relative
 		&::before
@@ -54,7 +54,7 @@
 			background-size: contain
 			left: 50%
 			transform: translateX(-50%)
-			bottom: 274px
+			bottom: 246px
 		&::after
 			content: ''
 			display: block
@@ -62,43 +62,45 @@
 			left: 50%
 			bottom: 0
 			width: 1px
-			height: 260px
+			height: 234px
 			background-color: $orange
 			transform: translateX(-50%)
 		+r(1440)
 			&::after
-				height: 255px
+				height: 225px
 			&::before
-				bottom: 270px
+				bottom: 235px
 		+r(1300)
 			&::after
-				height: 235px
+				height: 200px
 			&::before
-				bottom: 250px
-		+r(1300)
+				bottom: 210px
+		+r(1140)
 			&::after
-				height: 215px
+				height: 185px
 			&::before
-				bottom: 225px
+				bottom: 195px
 		+r(1024)
 			&::after
-				height: 48%
+				height: 42%
 			&::before
-				bottom: 50%
+				bottom: 44%
 		+r(640)
 			max-width: 350px
 			width: 100%
 			margin: auto
 			margin-bottom: 19px
 	&__map
+		width: 100%
+		height: 100%
 		border-top-left-radius: 500px
 		border-top-right-radius: 500px
 	&__text
 		line-height: 160%
-		margin-bottom: 20px
-		font-size: 30px
+		margin-bottom: 9px
+		font-size: 25px
 		+r(480)
-			font-size: 25px
+			font-size: 20px
 			margin-bottom: 12px
 	&__desc
 		display: flex
@@ -106,15 +108,40 @@
 		justify-content: space-between
 		+r(1140)
 			display: block
+	&__address-m
+		line-height: 160%
+		color: $grey
+		padding-bottom: 30px
+		margin-bottom: 30px
+		position: relative
+		&::after
+			content: ''
+			display: block
+			position: absolute
+			bottom: 0
+			left: 0
+			height: 1px
+			width: 68px
+			background: $garkgrey
+		+r(1140)
+			padding-bottom: 20px
+			margin-bottom: 20px
+		+r(640)
+			&::after
+				left: 50%
+				transform: translateX(-50%)
 	&__address
 		max-width: 290px
 		width: 100%
 		margin-right: 40px
 		line-height: 160%
 		color: $grey
+		+r(1300)
+			margin-right: 10px
 		+r(1140)
 			margin-right: 0
 			margin-bottom: 18px
+			max-width: 100%
 		+r(640)
 			max-width: 100%
 	&__link
@@ -149,6 +176,7 @@
 			margin-bottom: 15px
 		+r(640)
 			font-size: 40px
+			line-height: 40px
 			&--mob
 				display: block
 			&--desc

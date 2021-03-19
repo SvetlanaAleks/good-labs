@@ -11,9 +11,13 @@ section.advantages
 			.advantages__photo.advantages__photo--1.advantages__photo--desc
 				img.advantages__img(src="img/advantages_immunal_1.jpg", alt="photo")
 			.advantages__photo.advantages__photo--2
-				img.advantages__img(src="img/advantages_immunal_2.jpg", alt="photo")
+				picture
+					source(media="(max-width: 480px)", srcset="img/advantages_immunal_2-mob.jpg")
+					img.advantages__img(src="img/advantages_immunal_2.jpg", alt="photo")
 			.advantages__photo.advantages__photo--3
-				img.advantages__img(src="img/advantages_immunal_3.jpg", alt="photo")
+				picture
+					source(media="(max-width: 480px)", srcset="img/advantages_immunal_3-mob.jpg")
+					img.advantages__img(src="img/advantages_immunal_3.jpg", alt="photo")
 		.advantages__bottom
 			.advantages__left
 				h2.advantages__ttl.title.title--med!= ADVANTAGES_IMMUNAL.ttl

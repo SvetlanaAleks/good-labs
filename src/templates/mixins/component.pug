@@ -1,5 +1,5 @@
 mixin component(src, title, text, target, link)
-	a.component(href=link, id=target)
+	.component(id=target)
 		.component__wrap
 			img.component__image(src=src, alt=title)
 		p.component__title.title.title--very-small!= title

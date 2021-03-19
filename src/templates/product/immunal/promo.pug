@@ -8,19 +8,19 @@ section.promo-product
 				.slider-prod__for
 					.slider-prod__wrap-img
 						picture
-							source(srcset="img/immunal_1.webp" type="image/webp")
+							source(srcset='img/immunal_1@2x.png 2x, img/immunal_1.webp 1x')
 							img.slider-prod__img(src="img/immunal_1.png", alt="immunal")
 					.slider-prod__wrap-img
 						picture
-							source(srcset="img/immunal_2.webp" type="image/webp")
+							source(srcset='img/immunal_2@2x.png 2x, img/immunal_2.webp 1x')
 							img.slider-prod__img(src="img/immunal_2.png", alt="immunal")
 					.slider-prod__wrap-img.slider-prod__wrap-img--border
 						picture
-							source(srcset="img/immunal_3.webp" type="image/webp")
+							source(srcset='img/immunal_3@2x.jpg 2x, img/immunal_3.webp 1x')
 							img.slider-prod__img(src="img/immunal_3.jpg", alt="immunal")
 					.slider-prod__wrap-img.slider-prod__wrap-img--border
 						picture
-							source(srcset="img/immunal_4.webp" type="image/webp")
+							source(srcset='img/immunal_4@2x.jpg 2x, img/immunal_4.webp 1x')
 							img.slider-prod__img(src="img/immunal_4.jpg", alt="immunal")
 				.slider-prod__nav
 					img.slider-prod__img(src="img/immunal_1_small.png", alt="immunal")
@@ -31,7 +31,7 @@ section.promo-product
 				h1.info-prod__title.title.title--main!= HEADER_PROD.title
 				p.info-prod__desc.text--med!= HEADER_PROD.desc
 				.info-prod__raiting.raiting-prod
-					img.raiting-prod__img(src="img/svg/raiting_review_1.svg", alt="stars")
+					img.raiting-prod__img(src='/img/svg/raiting_review_1.svg' alt='stars')
 					.raiting-prod__text.text--med!= HEADER_PROD.comment
 				ul.info-prod__list.list.list--orange.text--med
 					li.list__item!= HEADER_PROD.item_1
@@ -41,7 +41,7 @@ section.promo-product
 					li.list__item!= HEADER_PROD.item_5
 				.info-prod__bottom
 					.info-prod__order
-						p.info-prod__price.title.title--med €25.99
+						p.info-prod__price.title.title--med €22.99
 						button.info-prod__btn.btn.btn--orange.js-show-popup(data-target="#order-popup")!= HEADER_PROD_MAIN.btn
 					.info-prod__detals
 						p.info-prod__text.text--med!= HEADER_PROD_MAIN.text

@@ -1,3 +1,5 @@
+- var POPUP_IMMUNAL = LANG.products.immunal.popup;
+
 .order-popup.order-popup--immunal.js-popup.order-pack-bundle1#order-popup
 	.order-popup__wrap
 		.order-popup__close.js-close
@@ -6,39 +8,51 @@
 			.order-popup__top
 				.order-popup__img
 				.order-popup__info
-					h3.order-popup__title.title.title--med Order Immunal
-					p.order-popup__descr.text--med With Beta-Glucan
-					p.order-popup__text.text--med Text that we will call. Do not exceed the recommended daily dose. A food supplement is not intended to substitute for a healthy diet.
+					h3.order-popup__title.title.title--med!= POPUP_IMMUNAL.title
+					p.order-popup__descr.text--med!= POPUP_IMMUNAL.desc
+					p.order-popup__text.text--med!= POPUP_IMMUNAL.text
 			.order-popup__price-wrap
 				label.order-popup__price.order-price.js-price-label(for='bundle0')
-					b.order-price__count.text--small 1 pack
-					span.order-price__value.title.title--small €25.99
+					b.order-price__count.text--small!= POPUP_IMMUNAL.label_1
+					span.order-price__value.title.title--small €22.99
 				input#bundle0.order-popup__radio(type='radio' name='bundle' value='0')
 				label.order-popup__price.order-price.js-price-label.price-active(for='bundle1')
-					b.order-price__count.text--small 3 pack
-					span.order-price__value.title.title--small €47.99
-					span.order-price__comment.text--small Save 10%
+					p.order-price__old-wrap
+						b.order-price__count.text--small!= POPUP_IMMUNAL.label_2
+						span.order-price__old-price €68.97
+					span.order-price__value.title.title--small €61.99
+					span.order-price__comment.text--small
+						|#{POPUP_IMMUNAL.safe}
+						|  €6.98
 				input#bundle1.order-popup__radio(type='radio' name='bundle' value='1')
 				label.order-popup__price.order-price.js-price-label(for='bundle2')
-					b.order-price__count.text--small 5 pack
-					span.order-price__value.title.title--small €91.99
-					span.order-price__comment.text--small Save 20%
+					p.order-price__old-wrap
+						b.order-price__count.text--small!= POPUP_IMMUNAL.label_3
+						span.order-price__old-price €114.95
+					span.order-price__value.title.title--small €96.99
+					span.order-price__comment.text--small
+						|#{POPUP_IMMUNAL.safe}
+						|  €17.96
 				input#bundle2.order-popup__radio(type='radio' name='bundle' value='2')
 			form.order-form#js-order-form(action="/", method="post")
 					.order-form__wrap
 						.order-form__input-wrap
 							input.order-form__input.input.js-input(type="text", name="name" required)
-							label.order-form__label Your name
+							label.order-form__label!= POPUP_IMMUNAL.pl_name
 						.order-form__input-wrap
 							input.order-form__input.input.js-input(type="tel", name="phone"   required)
-							label.order-form__label Phone number
+							label.order-form__label!= POPUP_IMMUNAL.pl_tel
 						.order-form__input-wrap
 							input.order-form__input.input.js-input(type="email", name="email")
-							label.order-form__label Email 
-								span (optional)
+							label.order-form__label!= POPUP_IMMUNAL.pl_email
+								span!= POPUP_IMMUNAL.pl_opt
+						.order-form__input-wrap
+							input.order-form__input.input.js-input(type="text", name="code")
+							label.order-form__label!= POPUP_IMMUNAL.pl_code
+								span!= POPUP_IMMUNAL.pl_opt
 					.order-form__checkbox.checkbox
-						label.checkbox__label I consent to the processing of personal data
+						label.checkbox__label!= POPUP_IMMUNAL.checkbox
 							input.checkbox__input(type="checkbox" checked)
 							span.checkbox__checkmark
 								img.checkbox__ico(src="img/svg/check-order.svg", alt="check")
-					button.order-form__btn.btn.btn--orange(type="submit") Order Immunal
+					button.order-form__btn.btn.btn--orange(type="submit")!= POPUP_IMMUNAL.btn

@@ -1,5 +1,5 @@
-mixin product(href, img, name, text, stars, reviews, price, link)
-	a.product(href=href)
+mixin product(href, img, name, text, stars, reviews, price, link, active)
+	a(href=href class="product " + active)
 		img.product__img(src=img, alt="")
 		p.product__name.title.title--small!= name
 		p.product__desc.text--med!= text

@@ -1,9 +1,11 @@
-mixin product_item(link, isNotActive, img, product, descr, raiting, price)
+mixin product_item(link, isNotActive, img, product, descr, stars, price, text)
 	a(href=link, class="products-menu__item product_item " + isNotActive)
 			img.product_item__img(src=img, alt="")
 			.product_item__info
 				b.product_item__name.title!= product
 				span.product_item__descr!= descr
 				.product_item__stars
-					img(src=raiting, alt="raiting")
-				b.product_item__price.title!= price
+					img(src=stars, alt="stars")
+				.product_item__bottom
+					b.product_item__price.title!= price
+					p.product_item__text!= text

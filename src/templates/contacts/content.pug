@@ -7,14 +7,18 @@ section.contacts-content
 				h1.contacts-content__title.contacts-content__title--mob.title.title--big!= CONTACTS.title
 				p.contacts-content__text-form.contacts-content__text-form--mob.text--med!= CONTACTS.descr
 				.contacts-content__wrap-map
-					img.contacts-content__map(src="img/map.png", alt="map")
-				p.contacts-content__text.title!= CONTACTS.city
+					picture
+						source(srcset='img/map@2x.png 2x, img/map.webp 1x')
+						img.contacts-content__map(src='img/map.png' alt='map')
+				p.contacts-content__text.title!= CONTACTS.ttl_1
+				p.contacts-content__address-m.text--med!= CONTACTS.address_1
+				p.contacts-content__text.title!= CONTACTS.ttl_2
 				.contacts-content__desc
-					p.contacts-content__address.text--med!= CONTACTS.address
+					p.contacts-content__address.text--med!= CONTACTS.address_2
 					a.contacts-content__link.text--med.nowrap(href="mailto:support@glabs-nutrition.com") support@glabs-nutrition.com
 			.contacts-content__right
 				h1.contacts-content__title.contacts-content__title--desc.title.title--big!= CONTACTS.title
-				p.contacts-content__text-form.contacts-content__text-form--desc.text--med!= CONTACTS.descr 
+				p.contacts-content__text-form.contacts-content__text-form--desc.text--med!= CONTACTS.descr
 				form.contacts-form#js-contacts-form(action="/", method="post")
 					.contacts-form__wrap
 						.contacts-form__input-wrap.contacts-form__input-wrap--max.form-group

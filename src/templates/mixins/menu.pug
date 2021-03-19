@@ -22,7 +22,7 @@ mixin menu(page)
 				li.nav__item
 					a.nav__link(href="index.html", class=activeClass("index"))!= MENU.item1
 				li.nav__item.nav__item--products
-					a.nav__link(href="")!= MENU.item2
+					p.nav__link!= MENU.item2
 					.products-menu.products-menu--desktop
 						include submenu.pug
 				li.nav__item

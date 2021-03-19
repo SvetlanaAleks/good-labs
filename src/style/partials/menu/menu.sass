@@ -19,12 +19,12 @@
 			&--products
 				.nav__link
 					&::after
-						bottom: -35px
+						bottom: -62px
 				&:hover
 					.products-menu
-						top: 105px
+						top: 83px
 						+r(1024)
-							top: 97px
+							top: 67px
 		.menu
 			&__logo
 				&--fixed
@@ -38,6 +38,19 @@
 			padding: 15px 30px
 		+r(640)
 			padding: 13px 20px
+	&--banner-closed
+		.nav__item
+			&--products
+				.nav__link
+					&::after
+						bottom: -20px
+						+r(1024)
+							bottom: -5px
+				&:hover
+					.products-menu
+						top: 109px
+						+r(1024)
+							top: 72px
 	&__wrap
 		display: flex
 		align-items: center
@@ -86,21 +99,19 @@
 		cursor: pointer
 		&--products
 			.nav__link
-				padding-bottom: 40px
-				padding-top: 40px
 				&::after
 					content: ""
 					display: block
 					position: absolute
 					opacity: 0
-					transition: .5s
+					transition: 0s
 					left: 50%
 					transform: translateX(-50%) rotate(45deg)
 					width: 30px
 					height: 30px
 					border-top-left-radius: 2px
 					background-color: #fffdfa
-					bottom: -10px
+					bottom: -47px
 			&:hover
 				.nav__link
 					&::after

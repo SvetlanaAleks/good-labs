@@ -23,18 +23,78 @@ section.reviews.reviews--immunal
 					p.reviews__estimate.title.title--med 4.9/5
 					p.reviews__count!= REVIEWS_MULTI.count
 				p.reviews__desc.text--med!= REVIEWS_MULTI.desc
-				a.reviews__btn.btn-empty(href="#")!= REVIEWS_MULTI.btn
 			.reviews__right
-				.reviews__sorting.sorting
-					p.sorting__text!= REVIEWS_MULTI.sort_text
-					.sorting__list
-						p.sorting__item!= REVIEWS_MULTI.sort_item
-							i.fico.fico-arrow
-				.reviews__list
-					each review, key in REVIEWS_MULTI.reviewArray
-						+review(review.name, review.date, reviewStars[key], review.main, review.text, review.photos, review.likes, review.dislikes)
-				.reviews__pagination.pagination
-					.pagination__item.active 1
-					.pagination__item 2
-					.pagination__item 3
-					.pagination__item 4
+				#feedback-form
+					p.reviews__ttl.title.title--very-small!= REVIEWS_MULTI.text
+					.reviews__form.form-feedback
+						.form-feedback__top.rating
+							p.rating__text.text--med!= REVIEWS_MULTI.rating_text
+							.rating__stars
+								.rating__wrap-star.js-star(data-value="1")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+								.rating__wrap-star.js-star(data-value="2")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+								.rating__wrap-star.js-star(data-value="3")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+								.rating__wrap-star.js-star(data-value="4")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+								.rating__wrap-star.js-star(data-value="5")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+							p.rating__count.title.title--med.js-feedback-count
+						form.feedback-form.feedback-form--green(action="/" method="post")
+							.feedback-form__wrap.form-group
+								textarea.feedback-form__textarea.textarea.js-input(name="text", required)
+								label.feedback-form__label.js-label!= REVIEWS_MULTI.label_1
+							.feedback-form__wrap.form-group
+								input.feedback-form__input.input.js-input.form-control(type="text", name="title" required)
+								label.feedback-form__label.js-label!= REVIEWS_MULTI.label_2
+							.feedback-form__wrap.form-group
+								input.feedback-form__input.input.js-input.form-control(type="text", name="name" required)
+								label.feedback-form__label.js-label!= REVIEWS_MULTI.label_3
+							.feedback-form__wrap.feedback-form__wrap--med.form-group
+								input.feedback-form__input.input.js-input(type="tel", name="phone" required)
+								label.feedback-form__label.js-label!= REVIEWS_MULTI.label_4
+							.feedback-form__wrap.feedback-form__wrap--med.form-group
+								input.feedback-form__input.input.js-input(type="email", name="email" required)
+								label.feedback-form__label.js-label!= REVIEWS_MULTI.label_5
+							.feedback-form__add-file.add-file.add-file--green
+								.add-file__wrap-input
+									input#file-1(name='file-1' type='file' accept="image/*" mutiple)
+									label.add-file__label.text--med(for='file-1') 
+										span.js-label-add-file!= REVIEWS_MULTI.add_file_text
+										i.fico.fico-clip
+							.feedback-form__bottom
+								.feedback-form__checkbox.checkbox
+									label.checkbox__label!= REVIEWS_MULTI.checkbox
+										input.checkbox__input(type="checkbox" checked)
+										span.checkbox__checkmark.checkbox__checkmark--green
+											img.checkbox__ico(src="img/svg/check-order.svg", alt="check")
+								button.feedback-form__btn.btn.btn--green(type="submit")!= REVIEWS_MULTI.btn_form
+				#success-block
+					.reviews__success.success-block.success-block--green
+						p.success-block__ttl.title.title--med!= REVIEWS_MULTI.success_ttl
+						.success-block__rating.rating
+							p.rating__text.text--med!= REVIEWS_MULTI.success_rating
+							.rating__stars.js-rating
+								.rating__wrap-star.js-finish-star(data-value="1")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+								.rating__wrap-star.js-finish-star(data-value="2")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+								.rating__wrap-star.js-finish-star(data-value="3")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+								.rating__wrap-star.js-finish-star(data-value="4")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+								.rating__wrap-star.js-finish-star(data-value="5")
+									img.rating__star(src="img/svg/star_empty.svg", alt="star")
+							p.rating__count.title.title--med.js-feedback-count
+						.success-block__desc.text--med!= REVIEWS_MULTI.success_desc
+							a(href="mailto:support@glabs-nutrition.com")   support@glabs-nutrition.com
+					.reviews__sorting.sorting
+						p.sorting__text!= REVIEWS_MULTI.sort_text
+						.sorting__list
+							p.sorting__item!= REVIEWS_MULTI.sort_item
+								i.fico.fico-arrow
+					.reviews__list.js-reviews-list-product
+						each review, key in REVIEWS_MULTI.reviewArray
+							+review(review.name, review.date, reviewStars[key], review.main, review.text, review.photos, review.likes, review.dislikes)
+					.reviews__pagination.pagination.js-reviews-pagination-product

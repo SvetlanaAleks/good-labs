@@ -14,7 +14,7 @@
     "item10": "Cookie Policy",
     "item11": "Terms",
     "address": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania",
-    "desc": "Rated <span class=\"bold\">4.9 </span>/ 5 based on <span class=\"bold bold--line\">21 reviews</span>. Showing our 4 & 5 star reviews."
+    "desc": "Rated <span class=\"bold\">4.5 </span>/ 5 based on <span class=\"bold bold--line\">8 reviews</span>. Showing our 4 & 5 star reviews."
   },
   "submenu": {
     "title": "Smart formulas of formulas for your health",
@@ -22,20 +22,23 @@
       {
         "product": "Immunal",
         "descr": "With Beta-Glucan",
-        "price": "€25.99",
-        "isNotActive": ""
+        "price": "€22.99",
+        "isNotActive": "",
+        "text": ""
       },
       {
         "product": "Multi Vitamin",
         "descr": "Vitamins & Minerals",
-        "price": "€20.99",
-        "isNotActive": ""
+        "price": "€18.99",
+        "isNotActive": "",
+        "text": ""
       },
       {
         "product": "Anti Stress",
-        "descr": "With Maqui Berries",
+        "descr": "With Phodiola Rosea",
         "price": "€24.99",
-        "isNotActive": "product_item--not-active"
+        "isNotActive": "product_item--not-active",
+        "text": "Soon"
       }
     ]
   },
@@ -95,20 +98,20 @@
         {
           "name": "Immunal",
           "text": "With Beta-Glucan",
-          "reviews": "280 Reviews",
-          "price": "€25.99",
+          "reviews": "9 Reviews",
+          "price": "€22.99",
           "link": "<svg width='26' height='23' viewBox='0 0 26 23' fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 11.6351H25M25 11.6351C25 11.6351 21.071 8.55025 19 6.5C16.929 4.44975 14.3939 1.13513 14.3939 1.13513M25 11.6351C25 11.6351 21.1308 14.3647 19 16.5C16.9924 18.5119 14.3939 22.1351 14.3939 22.1351\" stroke=\"#202124\"/></svg>"
         },
         {
           "name": "Multi Vitamin",
           "text": "Vitamins & Minerals",
-          "reviews": "165 Reviews",
-          "price": "€20.99",
+          "reviews": "12 Reviews",
+          "price": "€18.99",
           "link": "<svg width='26' height='23' viewBox='0 0 26 23' fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 11.6351H25M25 11.6351C25 11.6351 21.071 8.55025 19 6.5C16.929 4.44975 14.3939 1.13513 14.3939 1.13513M25 11.6351C25 11.6351 21.1308 14.3647 19 16.5C16.9924 18.5119 14.3939 22.1351 14.3939 22.1351\" stroke=\"#202124\"/></svg>"
         },
         {
           "name": "Anti Stress",
-          "text": "With Maqui Berries",
+          "text": "With Phodiola Rosea",
           "reviews": "0 Reviews",
           "price": "€24.99",
           "link": "Coming soon"
@@ -116,55 +119,58 @@
       ]
     },
     "reviews": {
-      "title": "Reviews <span>4.9 / 5</span>",
-      "desc": "Rated <span class=\"bold\">4.9 </span>/ 5 based on <span class=\"bold bold--line\">21 reviews</span>. Showing our 4 & 5 star reviews.",
+      "title": "Reviews <span>4.5 / 5</span>",
+      "desc": "Rated <span class=\"bold\">4.5 </span>/ 5 based on <span class=\"bold bold--line\">8 reviews</span>. Showing our 4 & 5 star reviews.",
       "btn": "Add your review",
       "reviewArray": [
         {
           "product": "Service",
           "text": "I cannot put 5 stars, because I've been waiting for my Immune for almost a week. Next time I will order several packages at once. Why does it take so long for item... ",
           "name": "Sergio",
-          "date": " "
+          "date": "Feb 23"
         },
         {
           "product": "Immune",
-          "text": "I know that the brand is new, so I bought it with caution, started drinking Immune, and I'm satisfied. I feel a surge of energy. Thanks, GoodLabs ❤️. ",
+          "text": "I know that the brand is new, so I bought it with caution, started drinking Immune, and I'm satisfied. I feel a surge of energy. Thanks, GoodLabs <span style=\"color: red\">❤️</span>. ",
           "name": "Regina",
-          "date": " "
+          "date": "Mar 8"
         },
         {
           "product": "Multivitamin",
           "text": "I bought it because it was made in Germany and I liked the composition of multivitamin. I was satisfied. I'll order more. ",
           "name": "Melisa",
-          "date": " "
+          "date": "Mar 15"
         },
         {
           "product": "Multivitamin",
           "text": "Quite well. Vitamins, like vitamins. I cannot say anything bad. ",
           "name": "Sofia",
-          "date": " "
+          "date": "Feb 24"
         },
         {
           "product": "Immunal",
           "text": "When I saw it for the first time, I really liked the design. Also it was made in Germany. So far, I like everything. ",
           "name": "Lola",
-          "date": " "
+          "date": "Mar 16"
         },
         {
           "product": "Multivitamin",
           "text": "I decided to try new vitamins advised by my sister. So far, so good. ",
           "name": "Magda",
-          "date": " "
+          "date": "Mar, 10"
         }
       ]
     },
     "experts": {
-      "desc": "Our specialists have 25 years of experience",
+      "desc": "Leading experts in the field of nutrition are working with us",
       "expertArray": [
-        "Vitamins and minerals are essential micronutrients. They don't provide energy, they are vital for the proper and normal functioning of the body, maintaining good health in general. In today's world, additional sources of vitamins and minerals are not a mere recommendation, but a necessity especially if you conduct an active lifestyle.",
         "In vitamin complexes and dietary supplements, the most important thing is the correct dosage of active ingredients. Therefore, choose only proven products with professionally selected ingredients based on scientific research.",
-        "Taking a multivitamin is the easiest way to take care of your health. They contain the optimal dosage of vitamins and minerals that are necessary for a modern person to conduct an active lifestyle and maintain health."
-      ]
+        "Vitamins and minerals are essential micronutrients. They don't provide energy, they are vital for the proper and normal functioning of the body, maintaining good health in general. In today's world, additional sources of vitamins and minerals are not a mere recommendation, but a necessity especially if you conduct an active lifestyle."
+      ],
+      "name_1": "Julia Poradun",
+      "post_1": "Nutritionist",
+      "name_2": "Valerii Rud",
+      "post_2": "Trainer, Sports nutritionist"
     },
     "about": {
       "title": "In the wild",
@@ -215,10 +221,26 @@
       "text": "Join Us in Instagram @goodlabs_official"
     },
     "immunal": {
+      "popup": {
+        "text": "Enter your name and phone number. Our specialist will call you back for consultation and order confirmation.",
+        "desc": "With Beta-Glucan",
+        "title": "Order Immunal",
+        "label_1": "1 pack",
+        "label_2": "3 packs",
+        "label_3": "5 packs",
+        "safe": "Save",
+        "pl_name": "Your name",
+        "pl_tel": "Phone number",
+        "pl_email": "Email ",
+        "pl_code": "Promo code ",
+        "pl_opt": "(optional)",
+        "checkbox": "I consent to the processing of personal data",
+        "btn": "Shop now"
+      },
       "promo": {
         "title": "Immunal",
         "desc": "With Beta-Glucan",
-        "comment": "280 Reviews",
+        "comment": "9 Reviews",
         "item_1": "Supports and strengthens the immunity",
         "item_2": "Strengthens the body's defenses against viruses and bacteria",
         "item_3": "Has an antioxidant effect",
@@ -236,15 +258,15 @@
           },
           {
             "ttl": "Vitamin C and Zinc",
-            "text": "Promote healthy immune function and reduce oxidative stress. <span>They are effective in the fight</span> against colds and viral diseases, inhibit the growth and reproduction of pathogenic microorganisms, relieve inflammation."
+            "text": "<span>Promote healthy immune function and reduce oxidative stress.</span They are effective in the fight> against colds and viral diseases, inhibit the growth and reproduction of pathogenic microorganisms, relieve inflammation."
           },
           {
             "ttl": "Beta-glucan",
-            "text": "<span>Stimulates the functions of the immune system:</span> helps to reduce the risk of infectious diseases (viral, bacterial and parasitic origin). And as an antioxidant, it stimulates cells to bind oxygen radicals, which can prevent autoimmune diseases."
+            "text": "Stimulates the functions of the immune system:<span> helps to reduce the risk of infectious diseases (viral, bacterial and parasitic origin).</span> And as an antioxidant, it stimulates cells to bind oxygen radicals, which can prevent autoimmune diseases."
           },
           {
             "ttl": "Histidine",
-            "text": "Histidine is an essential amino acid that is also a precursor to several hormones as well as a precursor to a compound known as histamine. <span>It activates immune responses</span>, increases the rate of maturation of immune cells, increases their activity and significantly increases their lifespan."
+            "text": "Histidine is an essential amino acid that is also a precursor to several hormones as well as a precursor to a compound known as histamine. <span>It activates immune responses, increases the rate of maturation of immune cells, </span>increases their activity and significantly increases their lifespan."
           }
         ],
         "ingredientArray2": [
@@ -275,8 +297,8 @@
       },
       "feedback": {
         "color": "orange",
-        "text": "Vitamins and minerals are essential micronutrients. They don't provide energy, they are vital for the proper and normal functioning of the body, maintaining good health in general. In today's world, additional sources of vitamins and minerals are not a mere recommendation, but a necessity especially if you conduct an active lifestyle.",
-        "info": "Fertility expert <span>Dr. Kenosha Gleaton</span> says"
+        "text": "In vitamin complexes and dietary supplements, the most important thing is the correct dosage of active ingredients. Therefore, choose only proven products with professionally selected ingredients based on scientific research.",
+        "info": "<span>Julia Poradun -</span> nutritionist"
       },
       "technical": {
         "title": "Technical Information",
@@ -351,9 +373,22 @@
         }
       },
       "reviews": {
+        "text": "Leave your feedback about GoodLabs Immunal",
+        "rating_text": "Rate your experience",
+        "label_1": "Write your feedback",
+        "label_2": "Review title",
+        "label_3": "Your name",
+        "label_4": "Telephone",
+        "label_5": "Email",
+        "add_file_text": "Add product photo",
+        "checkbox": "I hereby consent to the processing of the personal data and to receive information about special offers",
+        "btn_form": "Send",
+        "success_ttl": "Thank you for your feedback!",
+        "success_rating": "Your rating",
+        "success_desc": "We will check it for compliance with the requirements and rules, and after moderation, it will be added to the website. If you have any questions, please contact",
         "title": "Reviews",
         "btn": "Add your review",
-        "count": "128 reviews for GoodLabs Immunal",
+        "count": "9 reviews for GoodLabs Immunal",
         "desc": "Did you like GoodLabs Immunal? Help us get better and let us know your opinion about this product.",
         "sort_text": "Sort by ",
         "sort_item": "Date",
@@ -401,6 +436,18 @@
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
+          },
+          {
+            "main": "Powerful composition and German production",
+            "text": "Because of the heavy workload, I felt that I had a weakened immune system. I decided it was time to buy some remedy for health support. I chose Immunal because it was made in Germany and the composition is strong. I trust German products.",
+            "name": "Linda Trapp",
+            "date": "Jan 12, 2019",
+            "photos": [
+              "img/immunal_review_1.jpg",
+              "img/immunal_review_2.jpg"
+            ],
+            "likes": "1",
+            "dislikes": "2"
           }
         ]
       },
@@ -444,10 +491,26 @@
       }
     },
     "multi": {
+      "popup": {
+        "text": "Enter your name and phone number. Our specialist will call you back for consultation and order confirmation.",
+        "desc": "Vitamins&Minerals",
+        "title": "Order Multi Vitamin",
+        "label_1": "1 pack",
+        "label_2": "3 packs",
+        "label_3": "5 packs",
+        "safe": "Save",
+        "pl_name": "Your name",
+        "pl_tel": "Phone number",
+        "pl_email": "Email ",
+        "pl_code": "Promo code ",
+        "pl_opt": "(optional)",
+        "checkbox": "I consent to the processing of personal data",
+        "btn": "Shop now"
+      },
       "promo": {
         "title": "Multi Vitamin",
         "desc": "Vitamins&Minerals",
-        "comment": "280 Reviews",
+        "comment": "12 Reviews",
         "item_1": "Contains over 20 vital vitamins and minerals",
         "item_2": "The optimal amount of active ingredients for daily use",
         "item_3": "Fortified with antioxidant vitamins (such as C, A and E)",
@@ -464,109 +527,109 @@
         "ingredientArray1": [
           {
             "ttl": "Vitamin B3",
-            "text": "Vitamin B3 is involved in the synthesis of hormones, and they in turn affect our well-being and vitality. It also stimulates enzymes and gastric juice involved in digestion, which results in the saturation of the body with energy and nutrients."
+            "text": "Vitamin B3 is involved in the synthesis of hormones, and they in turn affect our well-being and vitality. It also stimulates enzymes and gastric juice involved in digestion, <span>which results in the saturation of the body with energy and nutrients.</span>"
           },
           {
             "ttl": "Vitamin B12",
-            "text": "Along with other B vitamins, vitamin B12 helps convert food into energy. It also helps prevent a type of anemia that can make you weak and tired."
+            "text": "Along with other B vitamins, <span>vitamin B12 helps convert food into energy.</span> It also helps prevent a type of anemia that can make you weak and tired."
           },
           {
             "ttl": "Magnesium",
-            "text": "Promotes rapid recovery in case of strength loss, protects against increased fatigability. This element participates in the transmission of nerve impulses and in the contraction and relaxation of muscles, which is important for the cardiovascular system functioning."
+            "text": "Promotes rapid recovery in case of strength loss, protects against increased fatigability. This element participates in the <span>transmission of nerve impulses and in the contraction and relaxation of muscles,</span> which is important for the cardiovascular system functioning."
           },
           {
             "ttl": "Vitamin C",
-            "text": "Vitamin C is most often used to strengthen immunity, but it also has a positive effect on our well-being and energy levels. It is required for the synthesis of L-Carnitine, which helps the body burn fat for energy."
+            "text": "Vitamin C is most often used to strengthen immunity, but it also<span> has a positive effect on our well-being and energy levels.</span> It is required for the synthesis of L-Carnitine, which helps the body burn fat for energy."
           }
         ],
         "ingredientArray2": [
           {
             "ttl": "Vitamin C",
-            "text": "Vitamin C helps stimulate the production of white blood cells, known as lymphocytes and phagocytes, which help protect the body from infection."
+            "text": "Vitamin C helps stimulate the production of white blood cells, known as lymphocytes and phagocytes, <span>which help protect the body from infection.</span>"
           },
           {
             "ttl": "Vitamin D",
-            "text": "Vitamin D enhances the anti-pathogens effect of monocytes and macrophages, white blood cells that are an important part of the immune defense, and reduces inflammation, which improves an immune response."
+            "text": "Vitamin D enhances the anti-pathogens effect of monocytes and macrophages, white blood cells that are an <span>important part of the immune defense, and reduces inflammation,</span> which improves an immune response."
           },
           {
             "ttl": "Zinc",
-            "text": "Zinc is essential for the development and communication of immune cells and plays an important role in the inflammatory response. A deficiency in this nutrient leads to an increased risk of infections and diseases, including pneumonia."
+            "text": "Zinc is essential for the development and <span>communication of immune cells and plays an important role in the inflammatory response.</span> A deficiency in this nutrient leads to an increased risk of infections and diseases, including pneumonia."
           },
           {
             "ttl": "B vitamins",
-            "text": "B vitamins, including B12 and B6, have anti-inflammatory effect and influence the production of melatonin, which in turn improves the immune response."
+            "text": "B vitamins, including B12 and B6, <span>have anti-inflammatory effect and influence the production of melatonin,</span> which in turn improves the immune response."
           }
         ],
         "ingredientArray3": [
           {
             "ttl": "Magnesium",
-            "text": "Magnesium helps regulate neurotransmitters that send signals throughout the brain and nervous system. It plays a critical role in brain function and mood, and low levels are associated with an increased risk of depression."
+            "text": "Magnesium helps regulate neurotransmitters that send signals throughout the brain and nervous system. <span>It plays a critical role in brain function and mood,</span> and low levels are associated with an increased risk of depression."
           },
           {
             "ttl": "Manganese",
-            "text": "Manganese is essential for healthy brain function and is often used to treat certain nervous disorders. It speeds up the conduction of electrical impulses through the body, which in turn affects the speed of the brain's reaction."
+            "text": "<span>Manganese is essential for healthy brain function</span> and is often used to treat certain nervous disorders. It speeds up the conduction of electrical impulses through the body, which in turn affects the speed of the brain's reaction."
           },
           {
             "ttl": "Vitamin B12",
-            "text": "Getting enough vitamin B12 can improve memory and make learning easier. It has also been shown to help improve mood and reduce symptoms of depression and low mood."
+            "text": "Getting enough <span>vitamin B12 can improve memory and make learning easier.</span> It has also been shown to help improve mood and reduce symptoms of depression and low mood."
           },
           {
             "ttl": "Zinc",
-            "text": "Zinc is important for the areas of the brain responsible for concentration and memory. With a lack of zinc, the cerebral cortex begins to malfunction, which can be expressed in hallucinations, epileptic seizures, impaired sense of smell and loss of taste."
+            "text": "<span>Zinc is important for the areas of the brain responsible for concentration and memory.</span> With a lack of zinc, the cerebral cortex begins to malfunction, which can be expressed in hallucinations, epileptic seizures, impaired sense of smell and loss of taste."
           }
         ],
         "ingredientArray4": [
           {
             "ttl": "Inositol",
-            "text": "Inositol can help balance important brain chemicals, including those thought to affect mood, such as serotonin and dopamine."
+            "text": "<span>Inositol can help balance important brain chemicals,</span> including those thought to affect mood, such as serotonin and dopamine."
           },
           {
             "ttl": "Folic acid",
-            "text": "Folic acid, or vitamin B9, is also involved in the synthesis of serotonin. It also regulates the fission and growth of all cells in the body, including nerve cells, which, as we now know, are able to restore."
+            "text": "Folic acid, or vitamin B9, is also involved in the synthesis of serotonin. <span>It also regulates the fission and growth of all cells in the body,</span> including nerve cells, which, as we now know, are able to restore."
           },
           {
             "ttl": "Vitamin B6",
-            "text": "Vitamin B6 is necessary for the synthesis of gamma-aminobutyric acid, the most important \"calming\" substance in the central nervous system, as well as serotonin, the \"hormone of happiness\"."
+            "text": "Vitamin B6 is necessary for the synthesis of gamma-aminobutyric acid, <span>the most important \"calming\" substance in the central nervous system,</span> as well as serotonin, the \"hormone of happiness\"."
           },
           {
             "ttl": "Magnesium",
-            "text": "Magnesium is especially important among the microelements for the central nervous system. It regulates the process of conducting a nerve impulse, and therefore, is necessary for adequate sleep and maintaining a stable psycho-emotional state."
+            "text": "Magnesium is especially important among the microelements for the central nervous system. <span>It regulates the process of conducting a nerve impulse,</span> and therefore, is necessary for adequate sleep and maintaining a stable psycho-emotional state."
           }
         ],
         "ingredientArray5": [
           {
             "ttl": "Vitamin D3",
-            "text": "Lack of vitamin D3 affects the body's ability to regulate cyclic rhythms. When the body's clock is not working properly, it is unable to transmit signals to sleep hormones that are involved in falling asleep."
+            "text": "<span>Lack of vitamin D3 affects the body's ability to regulate cyclic rhythms.</span> When the body's clock is not working properly, it is unable to transmit signals to sleep hormones that are involved in falling asleep."
           },
           {
             "ttl": "Vitamin E",
-            "text": "Vitamin E deficiency has been linked to restless legs syndrome, which can greatly affect sleep quality. Vitamin E helps you fall asleep faster and prevents sleep interruption during the night."
+            "text": "Vitamin E deficiency has been linked to restless legs syndrome, which can greatly affect sleep quality. <span>Vitamin E helps you fall asleep faster and prevents sleep interruption</span> during the night."
           },
           {
             "ttl": "B vitamins",
-            "text": "B vitamins are essential for the proper functioning of the adrenal glands and thus help prevent the release of adrenaline at night when not needed."
+            "text": "B vitamins are essential for the proper functioning of the adrenal glands and thus <span>help prevent the release of adrenaline at night when not needed.</span>"
           },
           {
             "ttl": "Iron",
-            "text": "Iron deficiency is also thought to be the main cause of restless legs symptom, which in turn causes insomnia and anxiety disorders that make it difficult to fall asleep."
+            "text": "<span>Iron deficiency is also thought to be the main cause of restless legs symptom, </span>which in turn causes insomnia and anxiety disorders that make it difficult to fall asleep."
           }
         ],
         "ingredientArray6": [
           {
             "ttl": "Biotin",
-            "text": "Biotin promotes good skin health and is essential for the production of keratin, a protein that helps strengthen nails and hair. It is biotin that is one of the main elements that promotes the growth of healthy and thick hair."
+            "text": "Biotin promotes good skin health and is <span>essential for the production of keratin, a protein that helps strengthen nails and hair.</span> It is biotin that is one of the main elements that promotes the growth of healthy and thick hair."
           },
           {
             "ttl": "Vitamin C",
-            "text": "Vitamin C acts as an antioxidant in the body, helping to protect cells from damage caused by free radicals, thereby slowing down aging."
+            "text": "Vitamin C acts as an antioxidant in the body, <span>helping to protect cells from damage caused by free radicals,</span> thereby slowing down aging."
           },
           {
             "ttl": "Vitamin E",
-            "text": "It is responsible for the firmness, elasticity and hydration of the skin and hair. This natural antioxidant, as well as vitamin C, helps the body to prolong youth and has a positive effect on the endocrine profile, which directly affects the condition of our skin."
+            "text": "It is responsible for the firmness, elasticity and hydration of the skin and hair. This natural antioxidant, as well as vitamin C, <span>helps the body to prolong youth and has a positive effect on the endocrine profile,</span> which directly affects the condition of our skin."
           },
           {
             "ttl": "Vitamin A",
-            "text": "Vitamin A plays a very important role in the process of skin cell renewal, and also stimulates the functioning of fibroblasts, cells associated with the production of collagen and elastin."
+            "text": "Vitamin A plays a very <span>important role in the process of skin cell renewal,</span> and also stimulates the functioning of fibroblasts, cells associated with the production of collagen and elastin."
           }
         ]
       },
@@ -576,8 +639,8 @@
       },
       "feedback": {
         "color": "green",
-        "text": "Taking a multivitamin is the easiest way to take care of your health. They contain the optimal dosage of vitamins and minerals that are necessary for a modern person to conduct an active lifestyle and maintain health.",
-        "info": "Fertility expert <span>Dr. Andrew Sun</span> says"
+        "text": "Vitamins and minerals are essential micronutrients. They don't provide energy, they are vital for the proper and normal functioning of the body, maintaining good health in general. In today's world, additional sources of vitamins and minerals are not a mere recommendation, but a necessity especially if you conduct an active lifestyle.",
+        "info": "<span>Valerii Rud -</span> trainer, sports nutritionist"
       },
       "technical": {
         "title": "Technical Information",
@@ -672,9 +735,22 @@
         }
       },
       "reviews": {
+        "text": "Leave your feedback about GoodLabs Multi Vitamin",
+        "rating_text": "Rate your experience",
+        "label_1": "Write your feedback",
+        "label_2": "Review title",
+        "label_3": "Your name",
+        "label_4": "Telephone",
+        "label_5": "Email",
+        "add_file_text": "Add product photo",
+        "checkbox": "I hereby consent to the processing of the personal data and to receive information about special offers",
+        "btn_form": "Send",
+        "success_ttl": "Thank you for your feedback!",
+        "success_rating": "Your rating",
+        "success_desc": "We will check it for compliance with the requirements and rules, and after moderation, it will be added to the website. If you have any questions, please contact",
         "title": "Reviews",
         "btn": "Add your review",
-        "count": "128 reviews for GoodLabs Multivitamin",
+        "count": "12 reviews for GoodLabs Multivitamin",
         "desc": "Did you like GoodLabs Multivitamin? Help us get better and let us know your opinion about this product.",
         "sort_text": "Sort by ",
         "sort_item": "Date",
@@ -722,6 +798,18 @@
             "date": "Jan 12, 2019",
             "likes": "1",
             "dislikes": "2"
+          },
+          {
+            "main": "Everything in one capsule",
+            "text": "To be honest, I like to keep everything simple. They offered me Multivitamin as a product that has everything necessary in one capsule. That's why I bought it. I feel great.",
+            "name": "Anna Muler",
+            "date": "Jan 12, 2019",
+            "photos": [
+              "img/multi_review_1.jpg",
+              "img/multi_review_2.jpg"
+            ],
+            "likes": "1",
+            "dislikes": "2"
           }
         ]
       },
@@ -760,7 +848,7 @@
       "promo": {
         "title": "Anti–Stress",
         "desc": "With Rhodiola Rosea",
-        "comment": "280 Reviews",
+        "comment": "0 Reviews",
         "item_1": "Снижает уровень гормона стресса при многозадачности",
         "item_2": "Успокаивает нервную систему при воздействии сильных раздражителей",
         "item_3": "Защищает нервные клетки от разрушений",
@@ -792,7 +880,7 @@
       "feedback": {
         "color": "blue",
         "text": "Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью",
-        "info": "<span>Dr. Kenosha Gleaton</span> Medical Director"
+        "info": "<span>Julia Poradun</span> Nutritionist"
       },
       "technical": {
         "title": "Technical Information",
@@ -951,7 +1039,7 @@
       "promo": {
         "title": "Vision",
         "desc": "With Rhodiola Rosea",
-        "comment": "280 Reviews",
+        "comment": "0 Reviews",
         "item_1": "Способствует восстановлению остроты зрения ",
         "item_2": "Снимает усталость глаз после работы за компьютером или других нагрузках на зрение",
         "item_3": "Противодействует возрастному снижению зрения",
@@ -985,7 +1073,7 @@
       "feedback": {
         "color": "dark-blue",
         "text": "Основа здоровья человека – достаточное количество витаминов и минералов в организме. Продукты GoodLabs созданы, чтобы укрепить эту основу и помочь вам жить полноценной жизнью",
-        "info": "<span>Dr. Kenosha Gleaton</span> Medical Director"
+        "info": "<span>Julia Poradun</span> Nutritionist"
       },
       "technical": {
         "title": "Technical Information",
@@ -1144,6 +1232,9 @@
   "contacts": {
     "title": "Get your free consultation",
     "descr": "Send your request, and we will find an individual solution that suits your needs best",
+    "ttl_1": "Manufacturer",
+    "address_1": "Zeppelin Str. 35-1, 73760 Ostfildern, Germany",
+    "ttl_2": "Distributor",
     "placeholder": {
       "name": "Your name",
       "phone": "Phone number",
@@ -1154,7 +1245,7 @@
     },
     "checkmark": "I consent to the processing of personal data and to receive information about special offers ",
     "btn": "Send",
-    "address": "050912, Sector 5, Calea Rahovei Str. 266-268",
+    "address_2": "050912, Sector 5, Calea Rahovei Str. 266-268, Bucharest, Romania",
     "city": "Bucharest, Romania",
     "select1": {
       "variant1": "Consultation"

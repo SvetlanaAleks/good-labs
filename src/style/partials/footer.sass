@@ -7,8 +7,8 @@
 		.container
 			padding-left: 20px
 	&__top
-		padding-top: 100px
-		padding-bottom: 84px
+		padding-top: 90px
+		padding-bottom: 70px
 		position: relative
 		overflow: hidden
 		&::before
@@ -23,10 +23,13 @@
 			pointer-events: none
 			border-top-left-radius: 90px
 			background: #3D6060
-		+r(1300)
-			padding: 80px 0
+		+r(1440)
 			&::before
-				left: 25px
+				left: 20px
+		+r(1300)
+			padding: 70px 0
+			&::before
+				left: 15px
 		+r(1024)
 			padding-top: 60px
 			padding-bottom: 50px
@@ -79,9 +82,9 @@
 	&__wrapper-top
 		display: flex
 		align-items: flex-start
-		margin-bottom: 126px
+		margin-bottom: 155px
 		+r(1300)
-			margin-bottom: 146px
+			margin-bottom: 130px
 		+r(1024)
 			margin-bottom: 76px
 		+r(768)
@@ -111,7 +114,7 @@
 		&--mob
 			display: none
 		+r(1024)
-			width: 18%
+			width: 15%
 		+r(890)
 			br
 				display: none
@@ -202,7 +205,7 @@
 	&__address
 		color: #D5D5D5
 		line-height: 160%
-		margin-bottom: 51px
+		margin-bottom: 45px
 		+r(1140)
 			margin-bottom: 40px
 		+r(1024)
@@ -212,7 +215,7 @@
 			br
 				display: none
 	&__social
-		margin-bottom: 46px
+		margin-bottom: 45px
 		+r(1140)
 			margin-bottom: 36px
 		+r(1024)
@@ -223,13 +226,11 @@
 		color: white
 		text-decoration: none
 		white-space: nowrap
-		margin-bottom: 68px
+		margin-bottom: 45px
 		display: block
 		&:hover
 			text-decoration: underline
 		+r(1300)
-			margin-bottom: 60px
-		+r(1024)
 			margin-bottom: 40px
 		+r(768)
 			margin-bottom: 30px
@@ -270,6 +271,7 @@
 		+r(1024)
 			margin-top: 10px
 			width: 100%
+			max-width: 87%
 		+r(890)
 			max-width: 75%
 		+r(768)

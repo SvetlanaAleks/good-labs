@@ -292,3 +292,40 @@
     }
   }
 }
+
+
+.solutions__title--1 {
+  position: relative;
+  span {
+    position: relative;
+    z-index: 3;
+  }
+  &::before {
+    content: url(../img/svg/od.svg);
+    position: absolute;
+    left: 0;
+    top: -150px;
+    z-index: 2;
+    @include r(1024) {
+      content: none;
+    }
+  }
+}
+
+.solutions__title--2 {
+  position: relative;
+  span {
+    position: relative;
+    z-index: 3;
+  }
+  &::before {
+    content: url(../img/svg/la.svg);
+    position: absolute;
+    left: 0;
+    top: -150px;
+    z-index: 2;
+    @include r(1024) {
+      content: none;
+    }
+  }
+}

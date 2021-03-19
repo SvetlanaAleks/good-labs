@@ -5,8 +5,8 @@ include ../../mixins/about
 	const photos = [
 		{
 			src: 'about_slider_multi-vitamin_2',
-			photo: 'img/review_photo_9.png',
-			name: 'Karolinajunior'
+			photo: 'img/review_photo_base.png',
+			name: 'goodlabs_official'
 		},
 		{
 			src: 'about_slider_multi-vitamin_3',
@@ -15,8 +15,8 @@ include ../../mixins/about
 		},
 		{
 			src: 'about_slider_multi-vitamin_7',
-			photo: 'img/review_photo_3.png',
-			name: 'Lucy_25'
+			photo: 'img/review_photo_base.png',
+			name: 'goodlabs_official'
 		},
 		{
 			src: 'about_slider_multi-vitamin_4',
@@ -39,10 +39,10 @@ section.about-big
 		h2.about-big__title.title.title--med!= ABOUT.title
 		.about-big__right
 			span.about-big__text.text--med!= ABOUT.text
-			a.about-big__link(href="#")
+			a.about-big__link(href="https://www.instagram.com/goodlabs_official/" target="_black")
 				img(src="img/svg/insta.svg", alt="insta")
 	.about-big__slider-wrap
-		.about-big__slider.slider-about-big.js-about-slider2
+		.about-big__slider.slider-about-big.js-about-slider3
 			each item in photos
 				+about(item.src, item.photo, item.name)
 

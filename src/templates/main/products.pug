@@ -8,16 +8,19 @@ include ../mixins/product
 			href: 'product-immunal.html',
 			img: 'img/product_1.png',
 			stars: 'img/svg/raiting_review_1.svg',
+			active: ""
 		},
 		{
 			href: 'product-multivitamin.html',
 			img: 'img/product_2.png',
-			stars: 'img/svg/raiting_review_2.svg',
+			stars: 'img/svg/raiting_review_1.svg',
+			active: ""
 		},
 		{
 			href: 'product-antistress.html',
 			img: 'img/product_3.png',
-			stars: 'img/svg/raiting_review_1.svg',
+			stars: 'img/svg/raiting_review_0.svg',
+			active: "no-active"
 		}
 	];
 
@@ -26,9 +29,9 @@ section.products
 		.container.products__info-container
 			h2.products__title.title.title--med!= PRODUCTS.title
 			p.products__descr.text--med!= PRODUCTS.desc
-	.products__list
+	.products__list#products-info
 		.container.products__list-container
 			.products__list-slider.slider-products
 				each product, key in PRODUCTS.productsArray
-					+product(productsInfo[key].href, productsInfo[key].img, product.name, product.text, productsInfo[key].stars, product.reviews, product.price, product.link)
+					+product(productsInfo[key].href, productsInfo[key].img, product.name, product.text, productsInfo[key].stars, product.reviews, product.price, product.link, productsInfo[key].active)
 	

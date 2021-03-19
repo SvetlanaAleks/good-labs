@@ -6,8 +6,8 @@ include ../mixins/expert
 -
 	const expertPhoto = [
 		'feedback_main_1',
-		'feedback_main_1',
-		'feedback_main_1',
+		'feedback_main_2'
+		//- 'feedback_main_3',
 	];
 
 section.experts
@@ -20,22 +20,15 @@ section.experts
 				.experts__item.item-expert
 					.item-expert__wrap
 						.item-expert__photo
-							img(src="img/expert-small-1.png", alt="Dr. Kenosha Gleaton")
+							img(src="img/expert-small-1.jpg", alt=EXPERTS.name_1)
 						.item-expert__desc
-							p.item-expert__name Dr. Kenosha Gleaton
-							p.item-expert__post Medical Director
+							p.item-expert__name!= EXPERTS.name_1
+							p.item-expert__post!= EXPERTS.post_1
 				.experts__item.item-expert
 					.item-expert__wrap
 						.item-expert__photo
-							img(src="img/expert-small-2.png", alt="Dr. Kenosha Gleaton")
+							img(src="img/expert-small-2.jpg", alt=EXPERTS.name_2)
 						.item-expert__desc
-							p.item-expert__name Dr. Naz Homaifar
-							p.item-expert__post Medical Advisor
-				.experts__item.item-expert
-					.item-expert__wrap
-						.item-expert__photo
-							img(src="img/expert-small-3.png", alt="Dr. Kenosha Gleaton")
-						.item-expert__desc
-							p.item-expert__name Dr. Andrew Sun
-							p.item-expert__post Medical Advisor
+							p.item-expert__name!= EXPERTS.name_2
+							p.item-expert__post!= EXPERTS.post_2
 			p.experts__text.text--big!= EXPERTS.desc
