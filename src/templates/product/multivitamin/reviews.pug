@@ -89,12 +89,12 @@ section.reviews.reviews--immunal
 							p.rating__count.title.title--med.js-feedback-count
 						.success-block__desc.text--med!= REVIEWS_MULTI.success_desc
 							a(href="mailto:support@glabs-nutrition.com")   support@glabs-nutrition.com
-					.reviews__sorting.sorting
-						p.sorting__text!= REVIEWS_MULTI.sort_text
-						.sorting__list
-							p.sorting__item!= REVIEWS_MULTI.sort_item
-								i.fico.fico-arrow
-					.reviews__list.js-reviews-list-product
-						each review, key in REVIEWS_MULTI.reviewArray
-							+review(review.name, review.date, reviewStars[key], review.main, review.text, review.photos, review.likes, review.dislikes)
-					.reviews__pagination.pagination.js-reviews-pagination-product
+				.reviews__sorting.sorting
+					p.sorting__text!= REVIEWS_MULTI.sort_text
+					.sorting__list
+						p.sorting__item!= REVIEWS_MULTI.sort_item
+							i.fico.fico-arrow
+				.reviews__list.js-reviews-list-product
+					each review, key in REVIEWS_MULTI.reviewArray
+						+review(review.name, review.date, reviewStars[key], review.main, review.text, review.photos, review.likes, review.dislikes)
+				.reviews__pagination.pagination.js-reviews-pagination-product
