@@ -126,60 +126,57 @@
             </div>
           </div>
           <div class="contacts-content__right">
-            <h1 class="contacts-content__title contacts-content__title--desc title title--big">Get your free consultation</h1>
-            <p class="contacts-content__text-form contacts-content__text-form--desc text--med">Send your request, and we will find an individual solution that suits your needs best</p>
-            <form class="contacts-form" id="js-contacts-form" action="/" method="post">
-              <div class="contacts-form__wrap">
-                <div class="contacts-form__input-wrap contacts-form__input-wrap--max form-group">
-                  <input class="contacts-form__input input js-input form-control" type="text" name="name" required="required"/>
-                  <label class="contacts-form__label js-label">Your name</label>
-                  <p class="contacts-form__error">Введите имя</p>
+            <div id="js-contacts-form">
+              <h1 class="contacts-content__title contacts-content__title--desc title title--big">Get your free consultation</h1>
+              <p class="contacts-content__text-form contacts-content__text-form--desc text--med">Send your request, and we will find an individual solution that suits your needs best</p>
+              <form class="contacts-form" action="/" method="post">
+                <div class="contacts-form__wrap">
+                  <div class="contacts-form__input-wrap contacts-form__input-wrap--max">
+                    <input class="contacts-form__input input js-input form-control" type="text" name="name" required="required"/>
+                    <label class="contacts-form__label js-label">Your name</label>
+                    <p class="contacts-form__error">Введите имя</p>
+                  </div>
+                  <div class="contacts-form__input-wrap contacts-form__input-wrap--med">
+                    <input class="contacts-form__input input js-input" type="tel" name="phone" required="required"/>
+                    <label class="contacts-form__label js-label">Phone number</label>
+                    <p class="contacts-form__error">Введите телефон</p>
+                  </div>
+                  <div class="contacts-form__input-wrap contacts-form__input-wrap--med">
+                    <input class="contacts-form__input input js-input" type="email" name="email" required="required"/>
+                    <label class="contacts-form__label js-label">Email</label>
+                    <p class="contacts-form__error">Введите email</p>
+                  </div>
+                  <select class="select contacts-form__select js-select--type" data-placeholder="Your question">
+                    <option value="">&nbsp;</option>
+                    <option value="Consultation">Consultation</option>
+                  </select>
+                  <select class="select contacts-form__select js-select--product" data-placeholder="Product">
+                    <option value="">&nbsp;</option>
+                    <option value="Immunal">Immunal</option>
+                    <option value="Multi-Vitamin">Multi Vitamin</option>
+                    <option value="Anti-Stress">Anti Stress</option>
+                  </select>
+                  <div class="contacts-form__input-wrap contacts-form__input-wrap--textarea">
+                    <textarea class="contacts-form__textarea textarea js-input" name="text" required="required"></textarea>
+                    <label class="contacts-form__label js-label">Message</label>
+                  </div>
                 </div>
-                <div class="contacts-form__input-wrap contacts-form__input-wrap--med form-group">
-                  <input class="contacts-form__input input js-input" type="tel" name="phone" required="required"/>
-                  <label class="contacts-form__label js-label">Phone number</label>
-                  <p class="contacts-form__error">Введите телефон</p>
+                <div class="contacts-form__checkbox checkbox">
+                  <label class="checkbox__label">I consent to the processing of personal data and to receive information about special offers 
+                    <input class="checkbox__input" type="checkbox" checked="checked"/><span class="checkbox__checkmark"><img class="checkbox__ico" src="/img/svg/check-order.svg" alt="check"/></span>
+                  </label>
                 </div>
-                <div class="contacts-form__input-wrap contacts-form__input-wrap--med form-group">
-                  <input class="contacts-form__input input js-input" type="email" name="email" required="required"/>
-                  <label class="contacts-form__label js-label">Email</label>
-                  <p class="contacts-form__error">Введите email</p>
-                </div>
-                <select class="select contacts-form__select js-select--type" data-placeholder="Your question">
-                  <option value="">&nbsp;</option>
-                  <option value="Consultation">Consultation</option>
-                </select>
-                <select class="select contacts-form__select js-select--product" data-placeholder="Product">
-                  <option value="">&nbsp;</option>
-                  <option value="Immunal">Immunal</option>
-                  <option value="Multi-Vitamin">Multi Vitamin</option>
-                  <option value="Anti-Stress">Anti Stress</option>
-                </select>
-                <div class="contacts-form__input-wrap contacts-form__input-wrap--textarea">
-                  <textarea class="contacts-form__textarea textarea js-input" name="text" required="required"></textarea>
-                  <label class="contacts-form__label js-label">Message</label>
-                </div>
-              </div>
-              <div class="contacts-form__checkbox checkbox">
-                <label class="checkbox__label">I consent to the processing of personal data and to receive information about special offers 
-                  <input class="checkbox__input" type="checkbox"/><span class="checkbox__checkmark"><img class="checkbox__ico" src="/img/svg/check-order.svg" alt="check"/></span>
-                </label>
-              </div>
-              <button class="contacts-form__btn btn btn--orange" type="submit">Send</button>
-            </form>
+                <button class="contacts-form__btn btn btn--orange" type="submit">Send</button>
+              </form>
+            </div>
+            <div class="popup-success" id="popup-success">
+              <h2 class="popup-success__title title title--med">Thank you for your message!</h2>
+              <p class="popup-success__desc text--med">Our experts will get acquainted with your request and provide an answer. If you have any further questions, please feel free to contact <a href="mailto:support@glabs-nutrition.com"> support@glabs-nutrition.com</a></p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <div class="popup-success js-popup" id="popup-success">
-      <div class="popup-success__wrap">
-        <div class="popup-success__close js-close"><img src="/img/svg/close.svg" alt="close"/></div>
-        <div class="popup-success__content">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, nobis.</p>
-          <button class="popup-success__btn btn btn--orange js-btn-popup-success">Ok</button>
-        </div>
-      </div>
-    </div>
     <footer class="footer">
       <div class="footer__top">
         <div class="container">

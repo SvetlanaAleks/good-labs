@@ -1,7 +1,6 @@
-.popup-success.js-popup#popup-success
-	.popup-success__wrap
-		.popup-success__close.js-close
-			img(src="img/svg/close.svg", alt="close")
-		.popup-success__content
-			p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, nobis.
-			button.popup-success__btn.btn.btn--orange.js-btn-popup-success Ok
+- var CONTACTS_POPUP = LANG.contacts.popup;
+
+.popup-success#popup-success
+	h2.popup-success__title.title.title--med!= CONTACTS_POPUP.ttl
+	p.popup-success__desc.text--med!= CONTACTS_POPUP.desc
+		a(href="mailto:support@glabs-nutrition.com")  support@glabs-nutrition.com

@@ -1,58 +1,28 @@
 .popup-success
-	overflow-x: hidden
-	overflow-y: auto
-	top: 0
-	bottom: 0
-	left: 0
-	right: 0
-	position: fixed
-	z-index: 10
+	padding: 93px
+	text-align: center
+	border-top-left-radius: 100px
+	border-bottom-right-radius: 100px
+	background: #FFF6E8
 	display: none
-	&.active
-		display: flex
-	&__close
-		position: absolute
-		top: 40px
-		right: 40px
-		width: 20px
-		height: 20px
-		cursor: pointer
-		z-index: 1
-		+r(890)
-			right: 20px
-			top: 20px
-	&__wrap
-		position: relative
-		max-width: 700px
-		margin: auto
-		width: auto
-		+r(890)
-			max-width: 90%
-	&__content
-		text-align: center
+	+r(1300)
+		padding: 80px
+	+r(1140)
+		padding: 60px
+	+r(480)
+		padding: 20px
 		border-top-left-radius: 50px
 		border-bottom-right-radius: 50px
-		background: #FFFDFA
-		padding: 115px 85px 90px
-		box-shadow: 0px 30px 90px rgba(0, 0, 0, 0.1)
-		position: relative
-		overflow: hidden
-		&::before
-			content: ''
-			display: block
-			position: absolute
-			background: url('../img/svg/prod_immunal_decor.svg') no-repeat center
-			width: 365px
-			height: 347px
-			top: -30px
-			left: -90px
-			transform: scaleX(-1)
-		+r(768)
-			padding: 60px 40px 40px
+	&__title
+		margin-bottom: 26px
+	&__desc
+		color: #777777
+		line-height: 180%
+		a
+			text-decoration: none
+			color: $garkgrey
+			white-space: nowrap
+			&:hover
+				text-decoration: underline
 		+r(480)
-			&::before
-				background: none
-				display: none
-	&__btn
-		max-width: 200px
-		margin: 15px auto auto
+			line-height: 160%

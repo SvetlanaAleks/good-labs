@@ -1218,6 +1218,10 @@
     }
   },
   "contacts": {
+    "popup": {
+      "ttl": "Vielen Dank für Ihre Anfrage!",
+      "desc": "Unsere Experten werden sich mit Ihrer Anfrage vertraut machen und danach eine Antwort geben. Bei weiteren Fragen wenden Sie sich bitte an "
+    },
     "title": "Kostenlose Beratung bekommen",
     "descr": "Senden Sie Ihre Anfrage - und wir wählen eine individuelle Lösung, die Ihren Anforderungen am besten entspricht",
     "ttl_1": "Hersteller",

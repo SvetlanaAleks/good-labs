@@ -17,6 +17,13 @@ const Controls = (function () {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
   }
   return {
+    submitFormContacts: function () {
+      $("#js-contacts-form").submit(function (e) {
+        e.preventDefault();
+        $("#js-contacts-form").hide();
+        $("#popup-success").show();
+      });
+    },
     scrollToTop: function () {
       $(".js-scroll-top").click(function (e) {
         e.preventDefault();
@@ -89,6 +96,7 @@ const Controls = (function () {
       });
     },
     init: function () {
+      Controls.submitFormContacts();
       Controls.scrollToTop();
       Controls.closeCookieBanner();
       Controls.labelFormActive();

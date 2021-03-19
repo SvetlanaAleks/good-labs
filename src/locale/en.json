@@ -1230,6 +1230,10 @@
     }
   },
   "contacts": {
+    "popup": {
+      "ttl": "Thank you for your message!",
+      "desc": "Our experts will get acquainted with your request and provide an answer. If you have any further questions, please feel free to contact "
+    },
     "title": "Get your free consultation",
     "descr": "Send your request, and we will find an individual solution that suits your needs best",
     "ttl_1": "Manufacturer",
